@@ -1,0 +1,33 @@
+# Runsheet Sesi 11 · Filter, Margin, Desain, dan Storytelling
+
+**Rabu, 2 Desember 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-11-dashboard-2](../materi/sesi-11-dashboard-2/)
+
+## Persiapan
+
+- [ ] Dua versi dashboard untuk demo "sebelum vs sesudah": versi sesi 10 apa adanya, dan versi final yang rapi dengan headline dan rekomendasi.
+- [ ] Hitung Margin % per kategori. Apakah urutannya berbeda dari urutan pendapatan? Siapkan contoh untuk diskusi.
+- [ ] Baca ulang [template README](../template-portofolio/thelook-analysis/README.md) dan siapkan contoh yang sudah terisi (README portofoliomu sendiri) untuk ditunjukkan.
+
+## Runsheet
+
+| Waktu | Bagian | Poin utama |
+| --- | --- | --- |
+| 20.00 | Recap PR sesi 10 | 2 peserta menunjukkan grafik tambahan |
+| 20.10 | Filter | Tanggal (rentang) dan kategori (dropdown); berlaku untuk semua visual; letakkan di atas |
+| 20.30 | Margin | Margin dan Margin %; tooltip; pendapatan besar ≠ margin besar |
+| 20.45 | Desain | Sebelum vs sesudah; 7 prinsip di README |
+| 20.55 | Storytelling | Headline → bukti → rekomendasi. Contoh headline baik vs lemah |
+| 21.05 | Giliran kamu | Tulis headline; 2–3 peserta membacakan |
+| 21.15 | Tanya jawab + pertanyaan mandiri | Jelaskan sesi 12; tunjukkan daftar ide pertanyaan; minta pertanyaan dikirim **sebelum Kamis siang** |
+| 21.35 | Penutup | PR: dashboard final, pertanyaan mandiri, draf README |
+
+## Poin penting
+
+- Satu sesi ke sesi 12 hanya satu hari. Pertanyaan mandiri **harus** dikirim sebelum Kamis siang supaya kamu bisa memberi masukan singkat lewat chat sebelum kelas.
+- Headline yang lemah: "Dashboard Penjualan TheLook". Headline yang baik berisi kesimpulan dan angka.
+
+## Persiapan untuk sesi 12 (Kamis siang)
+
+- [ ] Baca semua pertanyaan peserta. Kelompokkan: (a) siap dikerjakan, (b) terlalu luas → sarankan dipersempit, (c) tidak bisa dijawab dengan data TheLook → sarankan alternatif.
+- [ ] Balas setiap peserta dengan 1–2 kalimat masukan.
+- [ ] Pilih 2 contoh (baik dan perlu diperbaiki, tanpa nama) untuk recap sesi 12.
