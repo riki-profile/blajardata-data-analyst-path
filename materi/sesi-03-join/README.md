@@ -1,6 +1,6 @@
 # Sesi 3 · JOIN: Menggabungkan Tabel
 
-**Kamis, 12 November 2026 · 20.00–21.40 WIB**
+**Sabtu, 14 November 2026 · 14.00–15.40 WIB**
 
 File kerja: [`03_joins.sql`](03_joins.sql)
 
@@ -17,12 +17,12 @@ Setelah sesi ini kamu bisa:
 
 | Waktu (WIB) | Bagian |
 | --- | --- |
-| 20.00–20.15 | Recap PR sesi 2 (top 10 brand) |
-| 20.15–20.30 | Konsep: key, relasi tabel, jenis JOIN |
-| 20.30–21.05 | Demo JOIN |
-| 21.05–21.15 | Giliran kamu |
-| 21.15–21.35 | Tanya jawab |
-| 21.35–21.40 | Penutup dan PR |
+| 14.00–14.15 | Recap PR sesi 2 (top 10 brand) |
+| 14.15–14.30 | Konsep: key, relasi tabel, jenis JOIN |
+| 14.30–15.05 | Demo JOIN |
+| 15.05–15.15 | Giliran kamu |
+| 15.15–15.35 | Tanya jawab |
+| 15.35–15.40 | Penutup dan PR |
 
 ## 1. Kenapa data dipisah ke beberapa tabel?
 
@@ -102,4 +102,4 @@ Buka [`03_joins.sql`](03_joins.sql) dan jalankan bersama instruktur.
 - Pakai alias tabel (`oi`, `p`, `u`, `o`) dan tulis `alias.kolom`.
 - Hitung pesanan dengan `COUNT(DISTINCT order_id)` setelah JOIN ke `order_items`.
 
-**Sesi berikutnya:** Senin, 16 November 2026, 20.00 WIB. Tanggal, CASE WHEN, CTE, dan pembersihan data dasar.
+**Sesi berikutnya:** Selasa, 17 November 2026, 20.00 WIB. Tanggal, CASE WHEN, CTE, dan pembersihan data dasar.

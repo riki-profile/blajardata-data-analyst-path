@@ -1,6 +1,6 @@
 # Sesi 2 · Agregasi dan Membuat Portofolio di GitHub
 
-**Rabu, 11 November 2026 · 20.00–21.40 WIB**
+**Kamis, 12 November 2026 · 20.00–21.40 WIB**
 
 File kerja: [`02_aggregation.sql`](02_aggregation.sql)
 
@@ -149,4 +149,4 @@ Di bagian **GILIRAN KAMU** di `02_aggregation.sql`:
 - `WHERE` memfilter baris sebelum dikelompokkan; `HAVING` memfilter kelompok sesudahnya.
 - Repo portofolio sudah jadi. Mulai sekarang, **unggah file setiap selesai sesi**.
 
-**Sesi berikutnya:** Kamis, 12 November 2026, 20.00 WIB. JOIN: menggabungkan pesanan, produk, dan pelanggan.
+**Sesi berikutnya:** Sabtu, 14 November 2026, 14.00 WIB. JOIN: menggabungkan pesanan, produk, dan pelanggan.

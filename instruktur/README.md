@@ -6,39 +6,41 @@ Folder ini berisi runsheet per sesi, poin mengajar, error yang sering muncul, da
 
 ## Daftar runsheet
 
-| # | Tanggal | Runsheet |
+| # | Tanggal & jam (WIB) | Runsheet |
 | --- | --- | --- |
-| 1 | Sen, 9 Nov 2026 *(2 jam)* | [sesi-01.md](sesi-01.md) |
-| 2 | Rab, 11 Nov 2026 | [sesi-02.md](sesi-02.md) |
-| 3 | Kam, 12 Nov 2026 | [sesi-03.md](sesi-03.md) |
-| 4 | Sen, 16 Nov 2026 | [sesi-04.md](sesi-04.md) |
-| 5 | Rab, 18 Nov 2026 | [sesi-05.md](sesi-05.md) |
-| 6 | Kam, 19 Nov 2026 | [sesi-06.md](sesi-06.md) |
-| 7 | Sen, 23 Nov 2026 | [sesi-07.md](sesi-07.md) |
-| 8 | Rab, 25 Nov 2026 *(2 jam)* | [sesi-08.md](sesi-08.md) |
-| 9 | Kam, 26 Nov 2026 | [sesi-09.md](sesi-09.md) |
-| 10 | Sen, 30 Nov 2026 | [sesi-10.md](sesi-10.md) |
-| 11 | Rab, 2 Des 2026 | [sesi-11.md](sesi-11.md) |
-| 12 | Kam, 3 Des 2026 | [sesi-12.md](sesi-12.md) |
-| 13 | Sen, 7 Des 2026 | [sesi-13.md](sesi-13.md) |
+| 1 | Sel, 10 Nov 2026, 20.00 *(2 jam)* | [sesi-01.md](sesi-01.md) |
+| 2 | Kam, 12 Nov 2026, 20.00 | [sesi-02.md](sesi-02.md) |
+| 3 | Sab, 14 Nov 2026, 14.00 | [sesi-03.md](sesi-03.md) |
+| 4 | Sel, 17 Nov 2026, 20.00 | [sesi-04.md](sesi-04.md) |
+| 5 | Kam, 19 Nov 2026, 20.00 | [sesi-05.md](sesi-05.md) |
+| 6 | Sab, 21 Nov 2026, 14.00 | [sesi-06.md](sesi-06.md) |
+| 7 | Sel, 24 Nov 2026, 20.00 | [sesi-07.md](sesi-07.md) |
+| 8 | Kam, 26 Nov 2026, 20.00 *(2 jam)* | [sesi-08.md](sesi-08.md) |
+| 9 | Sab, 28 Nov 2026, 14.00 | [sesi-09.md](sesi-09.md) |
+| 10 | Sel, 1 Des 2026, 20.00 | [sesi-10.md](sesi-10.md) |
+| 11 | Kam, 3 Des 2026, 20.00 | [sesi-11.md](sesi-11.md) |
+| 12 | Sab, 5 Des 2026, 14.00 | [sesi-12.md](sesi-12.md) |
+| 13 | Sel, 8 Des 2026, 20.00 | [sesi-13.md](sesi-13.md) |
 
-Semua sesi pukul 20.00 WIB. Sesi 1 dan 8 berakhir 22.00; sesi lainnya ±21.40.
+Selasa dan Kamis pukul **20.00 WIB**, Sabtu pukul **14.00 WIB**. Sesi 1 dan 8 (keduanya malam) berakhir 22.00; sesi malam lainnya ±21.40, sesi Sabtu ±15.40.
 
-**Catatan jadwal:** sesi 2–3, 5–6, 8–9, dan 11–12 berjarak **hanya satu hari** (Rabu → Kamis). Waktu PR peserta di antara sesi-sesi ini sempit, jadi:
+**Catatan jadwal:** pola Selasa → Kamis → Sabtu memberi peserta **satu hari** untuk PR sebelum sesi Kamis dan Sabtu, dan **dua hari** (Minggu–Senin) sebelum sesi Selasa. Jadi:
 
-- Recap hari Kamis sebaiknya ringan: bahas 1–2 contoh PR, bukan memeriksa semua.
-- Tegaskan bahwa PR boleh diselesaikan sampai sesi berikutnya setelahnya (Senin), asal file sesi itu sudah diunggah walaupun belum sempurna.
+- Recap sesi Kamis dan Sabtu sebaiknya ringan: bahas 1–2 contoh PR, bukan memeriksa semua.
+- PR yang paling berat sudah jatuh sebelum sesi Selasa: tabel analisis (sesi 4 → 7), tiga temuan (sesi 9 → 10), dan analisis mandiri (sesi 12 → 13).
+- Sesi Kamis malam → Sabtu siang hanya berjarak ±40 jam. Tegaskan bahwa PR boleh disempurnakan sampai Selasa berikutnya, asal file sesi itu sudah diunggah.
+- Sesi Sabtu siang cocok untuk kegiatan yang butuh energi: JOIN (sesi 3), RFM (sesi 9), dan konsultasi satu-satu (sesi 12). Perhatikan peserta yang mungkin bekerja atau punya acara keluarga di Sabtu siang; rekaman sangat penting untuk sesi ini.
 
 ## Timeline persiapan sebelum kelas
 
 | Kapan | Yang dilakukan |
 | --- | --- |
 | Sekarang | Pastikan akun Zoom **berbayar (Pro atau lebih)**. Akun gratis dibatasi **40 menit** per meeting. Tetapkan kanal tanya jawab (grup WhatsApp/Telegram/Discord) |
-| Sen, 2 Nov (H-7) | Kirim pengumuman pembukaan + link [PERSIAPAN.md](../PERSIAPAN.md) + link Zoom berulang (*recurring*) |
-| Kam, 5 Nov (H-4) | Pengingat: minta peserta mengirim screenshot hasil query uji ke grup |
-| Sab, 7 Nov (H-2) | Cek siapa yang belum mengirim screenshot; hubungi pribadi |
-| Sen, 9 Nov, siang | Jalankan semua query sesi 1 dari awal (dataset diperbarui berkala). Kirim pengingat kelas |
-| Sebelum sesi 10 | Konfirmasi tools dashboard kelas (**Power BI** atau **Tableau**). Kirim pengingat instalasi pada Kamis, 26 Nov (setelah sesi 9) |
+| Sel, 3 Nov (H-7) | Kirim pengumuman pembukaan + link [PERSIAPAN.md](../PERSIAPAN.md) + link Zoom berulang (*recurring*) |
+| Jum, 6 Nov (H-4) | Pengingat: minta peserta mengirim screenshot hasil query uji ke grup |
+| Min, 8 Nov (H-2) | Cek siapa yang belum mengirim screenshot; hubungi pribadi |
+| Sel, 10 Nov, siang | Jalankan semua query sesi 1 dari awal (dataset diperbarui berkala). Kirim pengingat kelas |
+| Sebelum sesi 10 | Konfirmasi tools dashboard kelas (**Power BI** atau **Tableau**). Kirim pengingat instalasi pada Sabtu, 28 Nov (setelah sesi 9) |
 
 **Memilih Power BI atau Tableau:** tanyakan di sesi 1 (polling Zoom) berapa peserta yang memakai Mac. Kalau ada pengguna Mac, pilih **Tableau Public** untuk seluruh kelas, karena Power BI Desktop hanya jalan di Windows. Tableau juga memberi link publik yang praktis untuk portofolio. Panduan kedua tools tersedia di materi sesi 10–11, jadi peserta yang ingin memakai tools lain tetap bisa mengikuti.
 
@@ -46,9 +48,9 @@ Semua sesi pukul 20.00 WIB. Sesi 1 dan 8 berakhir 22.00; sesi lainnya ±21.40.
 
 **Meeting**
 
-- Satu meeting berulang (*recurring*, Senin/Rabu/Kamis 20.00) supaya link tidak berubah.
+- Satu meeting berulang supaya link tidak berubah. Karena jamnya berbeda (Selasa/Kamis 20.00, Sabtu 14.00), pilih **Recurrence: No Fixed Time** di pengaturan Zoom. Satu link untuk semua sesi; jadwalnya diumumkan di grup.
 - Aktifkan **Waiting Room** atau passcode; nyalakan **Cloud recording** (atau *local recording*) otomatis.
-- Buka meeting 10–15 menit lebih awal (19.45) untuk peserta yang ingin bertanya soal setup.
+- Buka meeting 10–15 menit lebih awal (19.45, atau 13.45 di hari Sabtu) untuk peserta yang ingin bertanya soal setup.
 - Kalau ada asisten, jadikan **co-host** untuk memantau chat dan membantu di *breakout room*.
 
 **Berbagi layar**
@@ -106,16 +108,16 @@ Rubrik dari silabus, dengan panduan skor:
 
 > Halo semuanya! 👋 Selamat datang di kelas **Data Analysis dengan BigQuery, Python & BI**.
 >
-> 📅 Mulai **Senin, 9 November 2026**, setiap **Senin, Rabu, Kamis pukul 20.00 WIB** via Zoom (13 sesi, sampai 7 Desember).
+> 📅 Mulai **Selasa, 10 November 2026**, setiap **Selasa & Kamis pukul 20.00 WIB** dan **Sabtu pukul 14.00 WIB** via Zoom (13 sesi, sampai 8 Desember).
 > 🔗 Link Zoom: <link>
 > 📚 Materi: <link repo>
 >
 > **Sebelum sesi 1, mohon selesaikan checklist persiapan** (±30 menit): <link PERSIAPAN.md>
-> Setelah selesai, kirim screenshot hasil query uji ke grup ini ya. Kalau ada kendala, tanya di sini, kita bantu sebelum hari Senin.
+> Setelah selesai, kirim screenshot hasil query uji ke grup ini ya. Kalau ada kendala, tanya di sini, kita bantu sebelum hari Selasa.
 
 **Pengingat hari-H**
 
-> Pengingat: **Sesi <n>, malam ini pukul 20.00 WIB.** <Topik>.
+> Pengingat: **Sesi <n>, hari ini pukul <20.00 / 14.00> WIB.** <Topik>.
 > 📝 Jangan lupa unggah PR sesi <n-1> ke portofolio GitHub kalian.
 > 📂 Materi: <link folder sesi>
 > 🔗 Zoom: <link>

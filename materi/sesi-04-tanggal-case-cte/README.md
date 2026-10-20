@@ -1,6 +1,6 @@
 # Sesi 4 · Tanggal, CASE WHEN, CTE, dan Pembersihan Dasar
 
-**Senin, 16 November 2026 · 20.00–21.40 WIB**
+**Selasa, 17 November 2026 · 20.00–21.40 WIB**
 
 File kerja: [`04_dates_case_cte.sql`](04_dates_case_cte.sql)
 
@@ -140,4 +140,4 @@ Kerangka awalnya ada di bagian **F** file kerja. Unggah sebagai `sql/04_dates_ca
 - Cek NULL, teks yang tidak seragam, dan duplikat sebelum menganalisis.
 - Modul SQL selesai. Mulai sesi 5 kita pindah ke Python.
 
-**Sesi berikutnya:** Rabu, 18 November 2026, 20.00 WIB. Dasar Python I di Google Colab.
+**Sesi berikutnya:** Kamis, 19 November 2026, 20.00 WIB. Dasar Python I di Google Colab.

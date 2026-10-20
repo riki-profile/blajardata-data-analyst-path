@@ -1,10 +1,10 @@
 # Runsheet Sesi 12 · Analisis Mandiri
 
-**Kamis, 3 Desember 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-12-analisis-mandiri](../materi/sesi-12-analisis-mandiri/)
+**Sabtu, 5 Desember 2026 · 14.00–15.40 WIB** · Materi: [materi/sesi-12-analisis-mandiri](../materi/sesi-12-analisis-mandiri/)
 
 ## Persiapan
 
-- [ ] Daftar peserta + pertanyaan masing-masing + catatan masukanmu (dari Kamis siang).
+- [ ] Daftar peserta + pertanyaan masing-masing + catatan masukanmu (dari Jumat malam).
 - [ ] Siapkan *breakout room*: satu ruang "Konsultasi" (kamu masuk ke sana) dan ruang utama untuk kerja mandiri. Atau: semua tetap di ruang utama, dan kamu memanggil peserta satu per satu ke ruang Konsultasi.
 - [ ] Jadwal konsultasi ±5 menit per peserta. Untuk kelas lebih dari 12 orang, minta asisten ikut berkonsultasi, atau lanjutkan konsultasi lewat chat setelah kelas.
 
@@ -12,11 +12,11 @@
 
 | Waktu | Bagian | Poin utama |
 | --- | --- | --- |
-| 20.00 | Recap | Pertanyaan baik vs perlu diperbaiki |
-| 20.10 | Alur kerja | Template SQL dan notebook; urutan kerja; "satu grafik utama" |
-| 20.20 | Kerja + konsultasi | Umumkan urutan konsultasi di chat. Setiap konsultasi: (1) pertanyaan, (2) progres, (3) satu masalah → beri 1 saran konkret |
-| 21.20 | Berbagi progres | 2–3 sukarelawan, masing-masing 3–4 menit |
-| 21.35 | Penutup | PR: selesaikan analisis + temuan README. Sesi 13 = review portofolio |
+| 14.00 | Recap | Pertanyaan baik vs perlu diperbaiki |
+| 14.10 | Alur kerja | Template SQL dan notebook; urutan kerja; "satu grafik utama" |
+| 14.20 | Kerja + konsultasi | Umumkan urutan konsultasi di chat. Setiap konsultasi: (1) pertanyaan, (2) progres, (3) satu masalah → beri 1 saran konkret |
+| 15.20 | Berbagi progres | 2–3 sukarelawan, masing-masing 3–4 menit |
+| 15.35 | Penutup | PR: selesaikan analisis + temuan README. Sesi 13 = review portofolio |
 
 ## Panduan konsultasi
 

@@ -3,7 +3,7 @@
 -- Kursus  : Data Analysis dengan BigQuery, Python & BI
 -- Dataset : bigquery-public-data.thelook_ecommerce
 -- Nama    : <tulis namamu>
--- Tanggal : 9 November 2026
+-- Tanggal : 10 November 2026
 --
 -- Cara pakai: salin isi file ini ke editor BigQuery. Untuk menjalankan
 -- satu query, blok query tersebut lalu klik Run (Ctrl/Cmd + Enter).

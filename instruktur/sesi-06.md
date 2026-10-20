@@ -1,6 +1,6 @@
 # Runsheet Sesi 6 · Dasar Python II
 
-**Kamis, 19 November 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-06-python-dasar-2](../materi/sesi-06-python-dasar-2/)
+**Sabtu, 21 November 2026 · 14.00–15.40 WIB** · Materi: [materi/sesi-06-python-dasar-2](../materi/sesi-06-python-dasar-2/)
 
 ## Persiapan
 
@@ -11,14 +11,14 @@
 
 | Waktu | Bagian | Poin utama |
 | --- | --- | --- |
-| 20.00 | Recap PR sesi 5 | Ringan (hanya 1 hari). PR3 → jembatan ke loop |
-| 20.10 | Demo 1–2 | `==` vs `=`; if/elif/else; **indentasi**. Hubungkan dengan CASE WHEN |
-| 20.25 | Demo 3 | Loop for; akumulator (gambarkan tabel nilai `total` di setiap putaran); menghitung per kelompok = GROUP BY |
-| 20.45 | Demo 4 | Function: definisi vs pemanggilan; parameter; return vs print; default |
-| 20.55 | Demo 5 | Studi kasus label ukuran pesanan. **Uji nilai batas** (50, 150), kebiasaan penting seorang analis |
-| 21.05 | Giliran kamu | G1–G2 |
-| 21.15 | Tanya jawab | Bahas bagian 6 (cara membaca error) jika belum |
-| 21.35 | Penutup | PR; siapkan Project ID |
+| 14.00 | Recap PR sesi 5 | Ringan (hanya 1 hari). PR3 → jembatan ke loop |
+| 14.10 | Demo 1–2 | `==` vs `=`; if/elif/else; **indentasi**. Hubungkan dengan CASE WHEN |
+| 14.25 | Demo 3 | Loop for; akumulator (gambarkan tabel nilai `total` di setiap putaran); menghitung per kelompok = GROUP BY |
+| 14.45 | Demo 4 | Function: definisi vs pemanggilan; parameter; return vs print; default |
+| 14.55 | Demo 5 | Studi kasus label ukuran pesanan. **Uji nilai batas** (50, 150), kebiasaan penting seorang analis |
+| 15.05 | Giliran kamu | G1–G2 |
+| 15.15 | Tanya jawab | Bahas bagian 6 (cara membaca error) jika belum |
+| 15.35 | Penutup | PR; siapkan Project ID |
 
 ## Poin penting
 

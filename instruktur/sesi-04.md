@@ -1,6 +1,6 @@
 # Runsheet Sesi 4 · Tanggal, CASE WHEN, CTE, dan Pembersihan Dasar
 
-**Senin, 16 November 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-04-tanggal-case-cte](../materi/sesi-04-tanggal-case-cte/)
+**Selasa, 17 November 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-04-tanggal-case-cte](../materi/sesi-04-tanggal-case-cte/)
 
 ## Persiapan
 

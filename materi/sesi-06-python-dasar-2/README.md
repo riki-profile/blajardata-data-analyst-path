@@ -1,6 +1,6 @@
 # Sesi 6 · Dasar Python II: if/else, Loop, dan Function
 
-**Kamis, 19 November 2026 · 20.00–21.40 WIB**
+**Sabtu, 21 November 2026 · 14.00–15.40 WIB**
 
 Notebook: [`06_functions.ipynb`](06_functions.ipynb) · [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/riki-profile/blajardata-data-analyst-path/blob/main/materi/sesi-06-python-dasar-2/06_functions.ipynb)
 
@@ -17,13 +17,13 @@ Setelah sesi ini kamu bisa:
 
 | Waktu (WIB) | Bagian |
 | --- | --- |
-| 20.00–20.15 | Recap PR sesi 5 |
-| 20.15–20.30 | Demo: perbandingan dan if/elif/else |
-| 20.30–20.45 | Demo: loop for, akumulator, menghitung per kelompok |
-| 20.45–21.05 | Demo: function dan studi kasus label ukuran pesanan |
-| 21.05–21.15 | Giliran kamu |
-| 21.15–21.35 | Tanya jawab |
-| 21.35–21.40 | Penutup dan PR |
+| 14.00–14.15 | Recap PR sesi 5 |
+| 14.15–14.30 | Demo: perbandingan dan if/elif/else |
+| 14.30–14.45 | Demo: loop for, akumulator, menghitung per kelompok |
+| 14.45–15.05 | Demo: function dan studi kasus label ukuran pesanan |
+| 15.05–15.15 | Giliran kamu |
+| 15.15–15.35 | Tanya jawab |
+| 15.35–15.40 | Penutup dan PR |
 
 ## Hubungannya dengan SQL
 
@@ -90,4 +90,4 @@ Unggah sebagai `notebooks/06_functions.ipynb`.
 - Function = langkah yang dibungkus dan diberi nama; `return` mengembalikan hasilnya.
 - Baca baris terakhir pesan error lebih dulu.
 
-**Sesi berikutnya:** Senin, 23 November 2026, 20.00 WIB. pandas dan memuat data BigQuery ke Colab. **Siapkan Project ID BigQuery-mu.**
+**Sesi berikutnya:** Selasa, 24 November 2026, 20.00 WIB. pandas dan memuat data BigQuery ke Colab. **Siapkan Project ID BigQuery-mu.**

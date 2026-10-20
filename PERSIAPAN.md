@@ -1,8 +1,8 @@
 # Persiapan Sebelum Kelas
 
-Semua tools di kursus ini gratis. Selesaikan checklist di bawah **sebelum sesi 1 (Senin, 9 November 2026)**, supaya waktu kelas dipakai untuk belajar, bukan untuk login. Total waktunya sekitar 20–30 menit.
+Semua tools di kursus ini gratis. Selesaikan checklist di bawah **sebelum sesi 1 (Selasa, 10 November 2026)**, supaya waktu kelas dipakai untuk belajar, bukan untuk login. Total waktunya sekitar 20–30 menit.
 
-Kalau ada langkah yang gagal, kirim screenshot pesan error-nya ke grup kelas sebelum hari Senin.
+Kalau ada langkah yang gagal, kirim screenshot pesan error-nya ke grup kelas sebelum hari Selasa.
 
 | Tool | Dipakai untuk | Sesi |
 | --- | --- | --- |

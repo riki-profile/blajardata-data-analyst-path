@@ -1,6 +1,6 @@
 # Runsheet Sesi 10 · Dashboard Pertama
 
-**Senin, 30 November 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-10-dashboard-1](../materi/sesi-10-dashboard-1/)
+**Selasa, 1 Desember 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-10-dashboard-1](../materi/sesi-10-dashboard-1/)
 
 ## Persiapan
 

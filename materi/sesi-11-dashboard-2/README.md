@@ -1,6 +1,6 @@
 # Sesi 11 · Filter, Calculated Field, Desain, dan Storytelling
 
-**Rabu, 2 Desember 2026 · 20.00–21.40 WIB**
+**Kamis, 3 Desember 2026 · 20.00–21.40 WIB**
 
 | File | Fungsi |
 | --- | --- |
@@ -79,7 +79,7 @@ Tulis **headline** dashboard-mu (satu kalimat kesimpulan) dan tempatkan di bagia
 
 1. **Selesaikan dashboard:** filter tanggal dan kategori, kartu Margin %, headline, kotak rekomendasi.
 2. Simpan versi final (Tableau Public / `.pbix` + PDF) dan screenshot ke `images/dashboard_final.png`.
-3. **Pilih pertanyaan analisis mandirimu** untuk sesi 12. Lihat [daftar ide di sesi 12](../sesi-12-analisis-mandiri/README.md#ide-pertanyaan). Kirim pertanyaanmu ke grup kelas **sebelum Kamis siang** supaya instruktur bisa memberi masukan.
+3. **Pilih pertanyaan analisis mandirimu** untuk sesi 12. Lihat [daftar ide di sesi 12](../sesi-12-analisis-mandiri/README.md#ide-pertanyaan). Kirim pertanyaanmu ke grup kelas **paling lambat Jumat, 4 Desember pukul 20.00 WIB** supaya instruktur bisa memberi masukan.
 4. **Draf README portofolio:** salin [template README](../../template-portofolio/thelook-analysis/README.md) ke `README.md` repo `thelook-analysis`-mu, lalu isi bagian Ringkasan, Pertanyaan bisnis, Data & metode, dan Dashboard. Bagian Temuan boleh memakai draf PR sesi 9.
 
 ## Ringkasan
@@ -89,4 +89,4 @@ Tulis **headline** dashboard-mu (satu kalimat kesimpulan) dan tempatkan di bagia
 - Judul berisi kesimpulan; satu warna sorotan; pesan utama terbaca dalam 5 detik.
 - Cerita satu halaman: headline → bukti → rekomendasi.
 
-**Sesi berikutnya:** Kamis, 3 Desember 2026, 20.00 WIB. Analisis mandiri dengan konsultasi satu-satu. **Bawa pertanyaanmu.**
+**Sesi berikutnya:** Sabtu, 5 Desember 2026, 14.00 WIB. Analisis mandiri dengan konsultasi satu-satu. **Bawa pertanyaanmu.**

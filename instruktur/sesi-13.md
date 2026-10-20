@@ -1,6 +1,6 @@
 # Runsheet Sesi 13 · Merapikan dan Menerbitkan Portofolio
 
-**Senin, 7 Desember 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-13-publikasi](../materi/sesi-13-publikasi/)
+**Selasa, 8 Desember 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-13-publikasi](../materi/sesi-13-publikasi/)
 
 ## Persiapan
 
@@ -28,4 +28,4 @@
 
 ## Penilaian akhir
 
-Nilai portofolio dengan rubrik di [README instruktur](README.md#penilaian), sebaiknya maksimal 1 minggu setelah sesi 13. Beri waktu perbaikan, misalnya sampai Senin, 14 Desember 2026, sebelum penilaian final.
+Nilai portofolio dengan rubrik di [README instruktur](README.md#penilaian), sebaiknya maksimal 1 minggu setelah sesi 13. Beri waktu perbaikan, misalnya sampai Selasa, 15 Desember 2026, sebelum penilaian final.

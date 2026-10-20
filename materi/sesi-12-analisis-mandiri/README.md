@@ -1,6 +1,6 @@
 # Sesi 12 · Analisis Mandiri: Menjawab Pertanyaanmu Sendiri
 
-**Kamis, 3 Desember 2026 · 20.00–21.40 WIB**
+**Sabtu, 5 Desember 2026 · 14.00–15.40 WIB**
 
 | File | Fungsi |
 | --- | --- |
@@ -21,11 +21,11 @@ Sesi ini adalah **sesi kerja**: kamu mengerjakan analisismu sendiri, sementara i
 
 | Waktu (WIB) | Bagian |
 | --- | --- |
-| 20.00–20.10 | Recap: contoh pertanyaan yang baik vs kurang baik (dari pertanyaan yang dikirim peserta) |
-| 20.10–20.20 | Alur kerja analisis mandiri dan cara memakai template |
-| 20.20–21.20 | **Kerja mandiri + konsultasi satu-satu** (±5 menit per peserta di *breakout room*) |
-| 21.20–21.35 | 2–3 peserta berbagi progres (sukarela) |
-| 21.35–21.40 | Penutup dan PR |
+| 14.00–14.10 | Recap: contoh pertanyaan yang baik vs kurang baik (dari pertanyaan yang dikirim peserta) |
+| 14.10–14.20 | Alur kerja analisis mandiri dan cara memakai template |
+| 14.20–15.20 | **Kerja mandiri + konsultasi satu-satu** (±5 menit per peserta di *breakout room*) |
+| 15.20–15.35 | 2–3 peserta berbagi progres (sukarela) |
+| 15.35–15.40 | Penutup dan PR |
 
 **Saat konsultasi, siapkan:** (1) pertanyaanmu dalam satu kalimat, (2) query atau grafik yang sudah ada, (3) satu hal yang membuatmu bingung.
 
@@ -77,4 +77,4 @@ Boleh dipakai langsung atau dimodifikasi. Pertanyaan buatanmu sendiri tetap lebi
 2. Lengkapi bagian **Temuan** dan **Rekomendasi** di README portofolio, termasuk hasil analisis mandirimu.
 3. Bawa README-mu ke sesi 13 untuk *review*.
 
-**Sesi berikutnya:** Senin, 7 Desember 2026, 20.00 WIB. Merapikan dan menerbitkan portofolio (sesi terakhir!).
+**Sesi berikutnya:** Selasa, 8 Desember 2026, 20.00 WIB. Merapikan dan menerbitkan portofolio (sesi terakhir!).

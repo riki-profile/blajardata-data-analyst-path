@@ -1,6 +1,6 @@
 # Runsheet Sesi 2 · Agregasi dan Membuat Portofolio di GitHub
 
-**Rabu, 11 November 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-02-agregasi](../materi/sesi-02-agregasi/)
+**Kamis, 12 November 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-02-agregasi](../materi/sesi-02-agregasi/)
 
 ## Persiapan
 

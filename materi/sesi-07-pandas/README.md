@@ -1,6 +1,6 @@
 # Sesi 7 · Dasar pandas: Memuat Data BigQuery ke Colab
 
-**Senin, 23 November 2026 · 20.00–21.40 WIB**
+**Selasa, 24 November 2026 · 20.00–21.40 WIB**
 
 Notebook: [`07_pandas_exploration.ipynb`](07_pandas_exploration.ipynb) · [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/riki-profile/blajardata-data-analyst-path/blob/main/materi/sesi-07-pandas/07_pandas_exploration.ipynb)
 
@@ -83,4 +83,4 @@ Unggah sebagai `notebooks/07_pandas_exploration.ipynb`.
 - Filter dengan beberapa kondisi: `&`/`|` dan setiap kondisi diberi kurung.
 - `groupby` + `agg` = `GROUP BY` dengan banyak ringkasan sekaligus.
 
-**Sesi berikutnya:** Rabu, 25 November 2026, 20.00–22.00 WIB (**2 jam**). Pembersihan data dan visualisasi.
+**Sesi berikutnya:** Kamis, 26 November 2026, 20.00–22.00 WIB (**2 jam**). Pembersihan data dan visualisasi.

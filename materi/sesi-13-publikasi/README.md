@@ -1,6 +1,6 @@
 # Sesi 13 · Merapikan dan Menerbitkan Portofolio
 
-**Senin, 7 Desember 2026 · 20.00–21.40 WIB** · Sesi terakhir
+**Selasa, 8 Desember 2026 · 20.00–21.40 WIB** · Sesi terakhir
 
 ## Tujuan sesi
 

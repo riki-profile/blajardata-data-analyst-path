@@ -1,6 +1,6 @@
 # Sesi 10 · Dashboard Pertama
 
-**Senin, 30 November 2026 · 20.00–21.40 WIB**
+**Selasa, 1 Desember 2026 · 20.00–21.40 WIB**
 
 **Wajib sebelum kelas:** Power BI Desktop (Windows) atau Tableau Public (Mac/Windows) sudah terinstall. Lihat [PERSIAPAN.md](../../PERSIAPAN.md#sebelum-sesi-10).
 
@@ -113,4 +113,4 @@ Ubah judul kedua grafik menjadi **kalimat kesimpulan**, seperti di sesi 8. Conto
 - Pesanan dihitung dengan **distinct count** `order_id`, sama seperti `COUNT(DISTINCT)` di SQL.
 - Selalu cocokkan angka KPI dengan sumber lain.
 
-**Sesi berikutnya:** Rabu, 2 Desember 2026, 20.00 WIB. Filter, margin, desain, dan storytelling.
+**Sesi berikutnya:** Kamis, 3 Desember 2026, 20.00 WIB. Filter, margin, desain, dan storytelling.

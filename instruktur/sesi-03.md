@@ -1,6 +1,6 @@
 # Runsheet Sesi 3 · JOIN
 
-**Kamis, 12 November 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-03-join](../materi/sesi-03-join/)
+**Sabtu, 14 November 2026 · 14.00–15.40 WIB** · Materi: [materi/sesi-03-join](../materi/sesi-03-join/)
 
 ## Persiapan
 
@@ -11,16 +11,16 @@
 
 | Waktu | Bagian | Poin utama |
 | --- | --- | --- |
-| 20.00 | Recap PR sesi 2 | Recap ringan (hanya 1 hari sejak sesi 2). Tampilkan 1 repo peserta yang rapi |
-| 20.10 | Konsep | Kenapa data dipisah; primary/foreign key; diagram relasi. Analogi: KTP (users) dan struk belanja (orders) dihubungkan oleh NIK |
-| 20.20 | INNER vs LEFT | Contoh kecil di whiteboard: 3 pelanggan, 2 punya pesanan → INNER = 2, LEFT = 3 |
-| 20.30 | Demo A | JOIN pertama + **cek jumlah baris** (kebiasaan baik) |
-| 20.38 | Demo B | Pendapatan per kategori versi tepat. Diskusikan perbedaan dengan sesi 2: sesi 2 menghitung barang yang Cancelled/Returned juga, dan memakai harga katalog |
-| 20.45 | Demo C–D | JOIN pesanan + pelanggan; JOIN tiga tabel; AOV |
-| 20.55 | Demo E–F | LEFT JOIN untuk "yang tidak punya"; jebakan fan-out (F1 vs F2) |
-| 21.05 | Giliran kamu | G1–G2 |
-| 21.15 | Tanya jawab | |
-| 21.35 | Penutup | PR: umur × gender. Jelaskan trik `FLOOR(age/10)*10` dengan contoh 23 → 20 |
+| 14.00 | Recap PR sesi 2 | Recap ringan (hanya 1 hari sejak sesi 2). Tampilkan 1 repo peserta yang rapi |
+| 14.10 | Konsep | Kenapa data dipisah; primary/foreign key; diagram relasi. Analogi: KTP (users) dan struk belanja (orders) dihubungkan oleh NIK |
+| 14.20 | INNER vs LEFT | Contoh kecil di whiteboard: 3 pelanggan, 2 punya pesanan → INNER = 2, LEFT = 3 |
+| 14.30 | Demo A | JOIN pertama + **cek jumlah baris** (kebiasaan baik) |
+| 14.38 | Demo B | Pendapatan per kategori versi tepat. Diskusikan perbedaan dengan sesi 2: sesi 2 menghitung barang yang Cancelled/Returned juga, dan memakai harga katalog |
+| 14.45 | Demo C–D | JOIN pesanan + pelanggan; JOIN tiga tabel; AOV |
+| 14.55 | Demo E–F | LEFT JOIN untuk "yang tidak punya"; jebakan fan-out (F1 vs F2) |
+| 15.05 | Giliran kamu | G1–G2 |
+| 15.15 | Tanya jawab | |
+| 15.35 | Penutup | PR: umur × gender. Jelaskan trik `FLOOR(age/10)*10` dengan contoh 23 → 20 |
 
 ## Poin penting
 

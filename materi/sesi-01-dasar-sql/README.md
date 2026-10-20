@@ -1,6 +1,6 @@
 # Sesi 1 · Mengenal Analisis Data dan Dasar SQL
 
-**Senin, 9 November 2026 · 20.00–22.00 WIB (2 jam)**
+**Selasa, 10 November 2026 · 20.00–22.00 WIB (2 jam)**
 
 File kerja: [`01_basics.sql`](01_basics.sql)
 
@@ -165,4 +165,4 @@ Simpan file sebagai `01_basics.sql` di laptopmu (Notepad di Windows, atau TextEd
 - Teks pakai `'kutip tunggal'`, nama tabel pakai `` `backtick` ``, komentar pakai `--`.
 - Biaya BigQuery dihitung dari data yang dibaca, bukan dari `LIMIT`.
 
-**Sesi berikutnya:** Rabu, 11 November 2026, 20.00 WIB. Agregasi (`COUNT`, `SUM`, `GROUP BY`) dan membuat repository portofolio di GitHub.
+**Sesi berikutnya:** Kamis, 12 November 2026, 20.00 WIB. Agregasi (`COUNT`, `SUM`, `GROUP BY`) dan membuat repository portofolio di GitHub.

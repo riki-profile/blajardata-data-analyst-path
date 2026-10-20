@@ -3,7 +3,7 @@
 -- Kursus  : Data Analysis dengan BigQuery, Python & BI
 -- Dataset : bigquery-public-data.thelook_ecommerce
 -- Nama    : <tulis namamu>
--- Tanggal : 11 November 2026
+-- Tanggal : 12 November 2026
 -- =====================================================================
 
 

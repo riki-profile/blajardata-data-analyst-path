@@ -1,6 +1,6 @@
 # Runsheet Sesi 9 · Statistik Deskriptif dan Analisis Pelanggan
 
-**Kamis, 26 November 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-09-analisis-pelanggan](../materi/sesi-09-analisis-pelanggan/)
+**Sabtu, 28 November 2026 · 14.00–15.40 WIB** · Materi: [materi/sesi-09-analisis-pelanggan](../materi/sesi-09-analisis-pelanggan/)
 
 ## Persiapan
 
@@ -12,14 +12,14 @@
 
 | Waktu | Bagian | Poin utama |
 | --- | --- | --- |
-| 20.00 | Recap PR sesi 8 | Ringan (1 hari). 2 grafik peserta |
-| 20.15 | Bagian A | Mean vs median; histogram miring ke kanan; analogi gaji: kalau satu miliarder masuk ruangan, rata-rata gaji naik, median tidak |
-| 20.30 | Bagian B | Repeat-purchase rate; trik `.mean()` pada True/False |
-| 20.40 | Bagian C1–C2 | R, F, M; tanggal acuan; `qcut` dan alasan F memakai aturan tetap |
-| 20.50 | Bagian C3–C5 | Segmen = tindakan. Grafik porsi pelanggan vs pendapatan; `merge` = JOIN |
-| 21.05 | Giliran kamu | G1–G2 |
-| 21.15 | Tanya jawab | Contoh temuan baik vs lemah (format apa → kenapa penting → bukti) |
-| 21.35 | Penutup | PR 3 temuan; **install tools dashboard** |
+| 14.00 | Recap PR sesi 8 | Ringan (1 hari). 2 grafik peserta |
+| 14.15 | Bagian A | Mean vs median; histogram miring ke kanan; analogi gaji: kalau satu miliarder masuk ruangan, rata-rata gaji naik, median tidak |
+| 14.30 | Bagian B | Repeat-purchase rate; trik `.mean()` pada True/False |
+| 14.40 | Bagian C1–C2 | R, F, M; tanggal acuan; `qcut` dan alasan F memakai aturan tetap |
+| 14.50 | Bagian C3–C5 | Segmen = tindakan. Grafik porsi pelanggan vs pendapatan; `merge` = JOIN |
+| 15.05 | Giliran kamu | G1–G2 |
+| 15.15 | Tanya jawab | Contoh temuan baik vs lemah (format apa → kenapa penting → bukti) |
+| 15.35 | Penutup | PR 3 temuan; **install tools dashboard** |
 
 ## Poin penting
 

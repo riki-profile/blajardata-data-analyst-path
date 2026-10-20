@@ -1,6 +1,6 @@
 # Runsheet Sesi 5 · Dasar Python I
 
-**Rabu, 18 November 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-05-python-dasar-1](../materi/sesi-05-python-dasar-1/)
+**Kamis, 19 November 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-05-python-dasar-1](../materi/sesi-05-python-dasar-1/)
 
 ## Persiapan
 

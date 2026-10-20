@@ -1,6 +1,6 @@
 # Runsheet Sesi 1 · Mengenal Analisis Data dan Dasar SQL
 
-**Senin, 9 November 2026 · 20.00–22.00 WIB (2 jam)** · Materi: [materi/sesi-01-dasar-sql](../materi/sesi-01-dasar-sql/)
+**Selasa, 10 November 2026 · 20.00–22.00 WIB (2 jam)** · Materi: [materi/sesi-01-dasar-sql](../materi/sesi-01-dasar-sql/)
 
 ## Persiapan
 

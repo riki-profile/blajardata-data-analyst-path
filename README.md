@@ -15,8 +15,8 @@ Sepanjang kursus kamu berperan sebagai analis baru di **TheLook**, toko pakaian 
 
 | | |
 | --- | --- |
-| Mulai | Senin, 9 November 2026 |
-| Jadwal | Setiap **Senin, Rabu, dan Kamis pukul 20.00 WIB** |
+| Mulai | Selasa, 10 November 2026 |
+| Jadwal | **Selasa & Kamis pukul 20.00 WIB**, **Sabtu pukul 14.00 WIB** |
 | Durasi | 13 sesi, 1,5–2 jam (sesi 1 dan 8 berlangsung penuh 2 jam) |
 | Tempat | Zoom (link dibagikan di grup kelas) |
 | Bahasa | Bahasa Indonesia |
@@ -28,21 +28,21 @@ Sepanjang kursus kamu berperan sebagai analis baru di **TheLook**, toko pakaian 
 
 ## Jadwal
 
-| # | Tanggal (20.00 WIB) | Modul | Topik | Materi | File portofolio |
+| # | Tanggal & jam (WIB) | Modul | Topik | Materi | File portofolio |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Sen, 9 Nov 2026 *(2 jam)* | Dasar + SQL | Apa itu analisis data; SELECT, WHERE, ORDER BY, LIMIT | [Sesi 1](materi/sesi-01-dasar-sql/) | `01_basics.sql` |
-| 2 | Rab, 11 Nov 2026 | SQL | Agregasi: COUNT, SUM, AVG, GROUP BY, HAVING; membuat portofolio di GitHub | [Sesi 2](materi/sesi-02-agregasi/) | repo + `01_basics.sql`, `02_aggregation.sql` |
-| 3 | Kam, 12 Nov 2026 | SQL | JOIN | [Sesi 3](materi/sesi-03-join/) | `03_joins.sql` |
-| 4 | Sen, 16 Nov 2026 | SQL | Tanggal, CASE WHEN, CTE, pembersihan dasar | [Sesi 4](materi/sesi-04-tanggal-case-cte/) | `04_dates_case_cte.sql` |
-| 5 | Rab, 18 Nov 2026 | Python | Dasar Python I: variabel, tipe data, list, dictionary | [Sesi 5](materi/sesi-05-python-dasar-1/) | `05_python_basics.ipynb` |
-| 6 | Kam, 19 Nov 2026 | Python | Dasar Python II: if/else, loop, function | [Sesi 6](materi/sesi-06-python-dasar-2/) | `06_functions.ipynb` |
-| 7 | Sen, 23 Nov 2026 | Python | Dasar pandas; memuat data BigQuery ke Colab | [Sesi 7](materi/sesi-07-pandas/) | `07_pandas_exploration.ipynb` |
-| 8 | Rab, 25 Nov 2026 *(2 jam)* | Python | Pembersihan data dan visualisasi | [Sesi 8](materi/sesi-08-cleaning-visualisasi/) | `08_cleaning_and_charts.ipynb` + gambar grafik |
-| 9 | Kam, 26 Nov 2026 | Python | Statistik deskriptif dan analisis pelanggan | [Sesi 9](materi/sesi-09-analisis-pelanggan/) | `09_customer_analysis.ipynb` |
-| 10 | Sen, 30 Nov 2026 | Dashboard | Dashboard pertama: koneksi data, relasi, grafik, kartu KPI | [Sesi 10](materi/sesi-10-dashboard-1/) | link/file dashboard + screenshot |
-| 11 | Rab, 2 Des 2026 | Dashboard | Filter, calculated field, desain, dan storytelling | [Sesi 11](materi/sesi-11-dashboard-2/) | dashboard final + draf README |
-| 12 | Kam, 3 Des 2026 | Portofolio | Analisis mandiri: menjawab pertanyaan pilihanmu | [Sesi 12](materi/sesi-12-analisis-mandiri/) | folder `my_question/` + temuan di README |
-| 13 | Sen, 7 Des 2026 | Portofolio | Merapikan dan menerbitkan portofolio | [Sesi 13](materi/sesi-13-publikasi/) | portofolio terbit |
+| 1 | Sel, 10 Nov 2026, 20.00 *(2 jam)* | Dasar + SQL | Apa itu analisis data; SELECT, WHERE, ORDER BY, LIMIT | [Sesi 1](materi/sesi-01-dasar-sql/) | `01_basics.sql` |
+| 2 | Kam, 12 Nov 2026, 20.00 | SQL | Agregasi: COUNT, SUM, AVG, GROUP BY, HAVING; membuat portofolio di GitHub | [Sesi 2](materi/sesi-02-agregasi/) | repo + `01_basics.sql`, `02_aggregation.sql` |
+| 3 | Sab, 14 Nov 2026, 14.00 | SQL | JOIN | [Sesi 3](materi/sesi-03-join/) | `03_joins.sql` |
+| 4 | Sel, 17 Nov 2026, 20.00 | SQL | Tanggal, CASE WHEN, CTE, pembersihan dasar | [Sesi 4](materi/sesi-04-tanggal-case-cte/) | `04_dates_case_cte.sql` |
+| 5 | Kam, 19 Nov 2026, 20.00 | Python | Dasar Python I: variabel, tipe data, list, dictionary | [Sesi 5](materi/sesi-05-python-dasar-1/) | `05_python_basics.ipynb` |
+| 6 | Sab, 21 Nov 2026, 14.00 | Python | Dasar Python II: if/else, loop, function | [Sesi 6](materi/sesi-06-python-dasar-2/) | `06_functions.ipynb` |
+| 7 | Sel, 24 Nov 2026, 20.00 | Python | Dasar pandas; memuat data BigQuery ke Colab | [Sesi 7](materi/sesi-07-pandas/) | `07_pandas_exploration.ipynb` |
+| 8 | Kam, 26 Nov 2026, 20.00 *(2 jam)* | Python | Pembersihan data dan visualisasi | [Sesi 8](materi/sesi-08-cleaning-visualisasi/) | `08_cleaning_and_charts.ipynb` + gambar grafik |
+| 9 | Sab, 28 Nov 2026, 14.00 | Python | Statistik deskriptif dan analisis pelanggan | [Sesi 9](materi/sesi-09-analisis-pelanggan/) | `09_customer_analysis.ipynb` |
+| 10 | Sel, 1 Des 2026, 20.00 | Dashboard | Dashboard pertama: koneksi data, relasi, grafik, kartu KPI | [Sesi 10](materi/sesi-10-dashboard-1/) | link/file dashboard + screenshot |
+| 11 | Kam, 3 Des 2026, 20.00 | Dashboard | Filter, calculated field, desain, dan storytelling | [Sesi 11](materi/sesi-11-dashboard-2/) | dashboard final + draf README |
+| 12 | Sab, 5 Des 2026, 14.00 | Portofolio | Analisis mandiri: menjawab pertanyaan pilihanmu | [Sesi 12](materi/sesi-12-analisis-mandiri/) | folder `my_question/` + temuan di README |
+| 13 | Sel, 8 Des 2026, 20.00 | Portofolio | Merapikan dan menerbitkan portofolio | [Sesi 13](materi/sesi-13-publikasi/) | portofolio terbit |
 
 Sebelum sesi 10, install **Power BI Desktop** (Windows) atau **Tableau Public** (Mac/Windows), sesuai yang dipakai kelas. Lihat [PERSIAPAN.md](PERSIAPAN.md#sebelum-sesi-10).
 

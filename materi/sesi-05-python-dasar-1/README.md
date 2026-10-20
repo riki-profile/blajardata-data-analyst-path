@@ -1,6 +1,6 @@
 # Sesi 5 · Dasar Python I: Variabel, Tipe Data, List, Dictionary
 
-**Rabu, 18 November 2026 · 20.00–21.40 WIB**
+**Kamis, 19 November 2026 · 20.00–21.40 WIB**
 
 Notebook: [`05_python_basics.ipynb`](05_python_basics.ipynb) · [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/riki-profile/blajardata-data-analyst-path/blob/main/materi/sesi-05-python-dasar-1/05_python_basics.ipynb)
 
@@ -87,4 +87,4 @@ Lalu buat folder `notebooks/` di repo portofoliomu dan unggah notebook sebagai `
 - List `[ ]` = kumpulan berurutan, indeks mulai dari 0. Dictionary `{ }` = pasangan key: value.
 - List berisi dictionary = tabel sederhana, cikal bakal DataFrame.
 
-**Sesi berikutnya:** Kamis, 19 November 2026, 20.00 WIB. if/else, loop, dan function.
+**Sesi berikutnya:** Sabtu, 21 November 2026, 14.00 WIB. if/else, loop, dan function.

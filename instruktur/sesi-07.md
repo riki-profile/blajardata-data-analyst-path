@@ -1,6 +1,6 @@
 # Runsheet Sesi 7 · pandas dan Memuat Data BigQuery
 
-**Senin, 23 November 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-07-pandas](../materi/sesi-07-pandas/)
+**Selasa, 24 November 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-07-pandas](../materi/sesi-07-pandas/)
 
 ## Persiapan
 

@@ -1,6 +1,6 @@
 # Runsheet Sesi 8 · Pembersihan Data dan Visualisasi
 
-**Rabu, 25 November 2026 · 20.00–22.00 WIB (2 jam)** · Materi: [materi/sesi-08-cleaning-visualisasi](../materi/sesi-08-cleaning-visualisasi/)
+**Kamis, 26 November 2026 · 20.00–22.00 WIB (2 jam)** · Materi: [materi/sesi-08-cleaning-visualisasi](../materi/sesi-08-cleaning-visualisasi/)
 
 ## Persiapan
 

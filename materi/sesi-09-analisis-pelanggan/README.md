@@ -1,6 +1,6 @@
 # Sesi 9 · Statistik Deskriptif dan Analisis Pelanggan
 
-**Kamis, 26 November 2026 · 20.00–21.40 WIB**
+**Sabtu, 28 November 2026 · 14.00–15.40 WIB**
 
 Notebook: [`09_customer_analysis.ipynb`](09_customer_analysis.ipynb) · [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/riki-profile/blajardata-data-analyst-path/blob/main/materi/sesi-09-analisis-pelanggan/09_customer_analysis.ipynb)
 
@@ -17,13 +17,13 @@ Setelah sesi ini kamu bisa:
 
 | Waktu (WIB) | Bagian |
 | --- | --- |
-| 20.00–20.15 | Recap PR sesi 8 (outlier dan 3 grafik) |
-| 20.15–20.30 | **Bagian A**: statistik deskriptif nilai pesanan |
-| 20.30–20.40 | **Bagian B**: repeat-purchase rate |
-| 20.40–21.05 | **Bagian C**: segmentasi RFM |
-| 21.05–21.15 | Giliran kamu |
-| 21.15–21.35 | Tanya jawab + cara menulis temuan |
-| 21.35–21.40 | Penutup dan PR |
+| 14.00–14.15 | Recap PR sesi 8 (outlier dan 3 grafik) |
+| 14.15–14.30 | **Bagian A**: statistik deskriptif nilai pesanan |
+| 14.30–14.40 | **Bagian B**: repeat-purchase rate |
+| 14.40–15.05 | **Bagian C**: segmentasi RFM |
+| 15.05–15.15 | Giliran kamu |
+| 15.15–15.35 | Tanya jawab + cara menulis temuan |
+| 15.35–15.40 | Penutup dan PR |
 
 ## Konsep kunci
 
@@ -71,4 +71,4 @@ Temuan ini menjadi bahan README portofolio di sesi 11. Unggah `notebooks/09_cust
 - Temuan yang baik: apa → kenapa penting → bukti.
 - Modul Python selesai. **Install Power BI Desktop atau Tableau Public sebelum sesi 10.**
 
-**Sesi berikutnya:** Senin, 30 November 2026, 20.00 WIB. Dashboard pertama.
+**Sesi berikutnya:** Selasa, 1 Desember 2026, 20.00 WIB. Dashboard pertama.

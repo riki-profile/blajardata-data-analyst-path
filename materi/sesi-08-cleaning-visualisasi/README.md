@@ -1,6 +1,6 @@
 # Sesi 8 · Pembersihan Data dan Visualisasi
 
-**Rabu, 25 November 2026 · 20.00–22.00 WIB (2 jam)**
+**Kamis, 26 November 2026 · 20.00–22.00 WIB (2 jam)**
 
 Notebook: [`08_cleaning_and_charts.ipynb`](08_cleaning_and_charts.ipynb) · [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/riki-profile/blajardata-data-analyst-path/blob/main/materi/sesi-08-cleaning-visualisasi/08_cleaning_and_charts.ipynb)
 
@@ -70,4 +70,4 @@ Hindari: diagram pie dengan banyak irisan, grafik 3D, dua sumbu Y dalam satu gra
 - Satu grafik, satu pesan; judul berupa kesimpulan; satu warna sorotan.
 - File di Colab hilang saat sesi ditutup. Unduh gambarmu.
 
-**Sesi berikutnya:** Kamis, 26 November 2026, 20.00 WIB. Statistik deskriptif dan analisis pelanggan (RFM).
+**Sesi berikutnya:** Sabtu, 28 November 2026, 14.00 WIB. Statistik deskriptif dan analisis pelanggan (RFM).
