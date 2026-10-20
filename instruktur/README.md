@@ -27,9 +27,9 @@ Selasa dan Kamis pukul **20.00 WIB**, Sabtu pukul **14.00 WIB**. Sesi 1 dan 8 (k
 **Catatan jadwal:** pola Selasa → Kamis → Sabtu memberi peserta **satu hari** untuk PR sebelum sesi Kamis dan Sabtu, dan **dua hari** (Minggu–Senin) sebelum sesi Selasa. Jadi:
 
 - Recap sesi Kamis dan Sabtu sebaiknya ringan: bahas 1–2 contoh PR, bukan memeriksa semua.
-- PR yang paling berat sudah jatuh sebelum sesi Selasa: tabel analisis (sesi 4 → 7), tiga temuan (sesi 9 → 10), dan analisis mandiri (sesi 12 → 13).
+- PR yang paling berat sudah jatuh sebelum sesi Selasa: tabel analisis (sesi 4 → 7), tiga temuan (sesi 9 → 10), dan bagian studi kasus di README (sesi 12 → 13).
 - Sesi Kamis malam → Sabtu siang hanya berjarak ±40 jam. Tegaskan bahwa PR boleh disempurnakan sampai Selasa berikutnya, asal file sesi itu sudah diunggah.
-- Sesi Sabtu siang cocok untuk kegiatan yang butuh energi: JOIN (sesi 3), RFM (sesi 9), dan konsultasi satu-satu (sesi 12). Perhatikan peserta yang mungkin bekerja atau punya acara keluarga di Sabtu siang; rekaman sangat penting untuk sesi ini.
+- Sesi Sabtu siang cocok untuk kegiatan yang butuh energi: JOIN (sesi 3), RFM (sesi 9), dan studi kasus terpandu (sesi 12). Perhatikan peserta yang mungkin bekerja atau punya acara keluarga di Sabtu siang; rekaman sangat penting untuk sesi ini.
 
 ## Timeline persiapan sebelum kelas
 
@@ -70,7 +70,7 @@ Selasa dan Kamis pukul **20.00 WIB**, Sabtu pukul **14.00 WIB**. Sesi 1 dan 8 (k
 
 Setelah setiap langkah demo yang penting, minta "ketik 1 kalau sudah berhasil". Tunggu sampai sebagian besar peserta mengetik 1 sebelum lanjut. Peserta yang mengetik `2` diminta berbagi layar sebentar, atau dibantu asisten di *breakout room*.
 
-**Breakout room** dipakai di sesi 12 (konsultasi satu-satu) dan sesi 13 (review berpasangan). Siapkan dengan opsi **Let participants choose room** atau atur manual.
+**Breakout room** dipakai di sesi 13 (review berpasangan). Siapkan dengan opsi **Let participants choose room** atau atur manual.
 
 ## Ritme setiap sesi
 
@@ -99,7 +99,7 @@ Rubrik dari silabus, dengan panduan skor:
 | Notebook | 20% | 5 notebook dijalankan (output terlihat), pembersihan didokumentasikan, grafik berjudul kesimpulan | Lengkap, sebagian output/penjelasan hilang | Notebook kosong atau kurang |
 | Dashboard | 20% | KPI benar, filter berfungsi, headline + rekomendasi, rapi | Lengkap tanpa storytelling | KPI salah atau tidak ada filter |
 | README | 20% | 3 temuan dengan angka + 1 rekomendasi konkret, kata-kata sendiri | Temuan tanpa angka atau rekomendasi umum | Hanya daftar file |
-| Analisis mandiri | 10% | Pertanyaan spesifik, SQL + Python, jawaban + rekomendasi | Pertanyaan terjawab sebagian | Tidak ada |
+| Studi kasus | 10% | Fokus dipilih, semua sel dijalankan, jawaban + rekomendasi dengan kata-kata sendiri + keterbatasan | Draf otomatis disalin tanpa diubah | Tidak ada |
 | Kerapian | 10% | Struktur folder sesuai, nama file konsisten, semua link/gambar berfungsi | Ada 1–3 link rusak atau nama file acak | Berantakan |
 
 ## Template pesan

@@ -92,7 +92,7 @@ WHERE traffic_source = 'Facebook'
 LIMIT 20;
 ```
 
-**Lima pertanyaan bisnis:** nilai berdasarkan kriteria spesifik, bisa diukur, dan berguna. Simpan contoh pertanyaan yang bagus. Pertanyaan-pertanyaan ini bisa menjadi bahan analisis mandiri di sesi 12.
+**Lima pertanyaan bisnis:** nilai berdasarkan kriteria spesifik, bisa diukur, dan berguna. Simpan contoh pertanyaan yang bagus. Pertanyaan-pertanyaan ini bisa dipakai sebagai contoh di sesi 12 dan sebagai ide proyek lanjutan setelah kursus.
 
 ## Untuk recap sesi 2
 

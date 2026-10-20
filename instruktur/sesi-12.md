@@ -1,73 +1,116 @@
-# Runsheet Sesi 12 · Analisis Mandiri
+# Runsheet Sesi 12 · Studi Kasus Terpandu
 
-**Sabtu, 5 Desember 2026 · 14.00–15.40 WIB** · Materi: [materi/sesi-12-analisis-mandiri](../materi/sesi-12-analisis-mandiri/)
+**Sabtu, 5 Desember 2026 · 14.00–15.40 WIB** · Materi: [materi/sesi-12-studi-kasus](../materi/sesi-12-studi-kasus/)
 
-## Persiapan
+## Konsep sesi
 
-- [ ] Daftar peserta + pertanyaan masing-masing + catatan masukanmu (dari Jumat malam).
-- [ ] Siapkan *breakout room*: satu ruang "Konsultasi" (kamu masuk ke sana) dan ruang utama untuk kerja mandiri. Atau: semua tetap di ruang utama, dan kamu memanggil peserta satu per satu ke ruang Konsultasi.
-- [ ] Jadwal konsultasi ±5 menit per peserta. Untuk kelas lebih dari 12 orang, minta asisten ikut berkonsultasi, atau lanjutkan konsultasi lewat chat setelah kelas.
+Sesi ini **dipimpin penuh oleh instruktur**: kamu berbagi layar dan menjalankan setiap langkah, dan peserta mengikuti dengan fokus pilihannya sendiri (department + opsional negara). Tidak ada kerja mandiri yang panjang, jadi tidak ada "dead air".
 
-## Runsheet
+Interaksi dijaga dengan **pertanyaan pemandu** di setiap langkah (lihat di bawah). Ajukan pertanyaannya, beri waktu 20–30 detik untuk menjawab di chat, lalu bacakan atau berikan jawabannya. Kalau tidak ada yang menjawab, tunjuk nama atau langsung berikan jawabannya. Jangan menunggu terlalu lama.
 
-| Waktu | Bagian | Poin utama |
-| --- | --- | --- |
-| 14.00 | Recap | Pertanyaan baik vs perlu diperbaiki |
-| 14.10 | Alur kerja | Template SQL dan notebook; urutan kerja; "satu grafik utama" |
-| 14.20 | Kerja + konsultasi | Umumkan urutan konsultasi di chat. Setiap konsultasi: (1) pertanyaan, (2) progres, (3) satu masalah → beri 1 saran konkret |
-| 15.20 | Berbagi progres | 2–3 sukarelawan, masing-masing 3–4 menit |
-| 15.35 | Penutup | PR: selesaikan analisis + temuan README. Sesi 13 = review portofolio |
+## Persiapan (Jumat malam / Sabtu pagi)
 
-## Panduan konsultasi
+- [ ] Jalankan `10_my_question.sql` dan notebook untuk **Women** dan **Men**, semua negara. Isi tabel "Hasil hari ini" di bawah.
+- [ ] Baca judul kedua grafik dan draf jawaban. Pastikan kalimatnya sesuai dengan grafiknya.
+- [ ] Siapkan 2–3 kombinasi negara (misalnya Men di China, Women di United States) untuk ditunjukkan bahwa rekomendasinya bisa berbeda.
+- [ ] Ingatkan di grup (Jumat malam): "Besok jam 14.00 studi kasus. Siapkan login BigQuery + Colab dan pilih fokus: Women atau Men (opsional: satu negara)."
 
-| Masalah yang sering muncul | Saran |
+**Hasil hari ini** (isi sebelum kelas):
+
+| Fokus | Kategori Andalan | Bintang Baru | Rekomendasi | Pertumbuhan | Margin % | Retur % |
+| --- | --- | --- | --- | --- | --- | --- |
+| Women, semua negara | | | | | | |
+| Men, semua negara | | | | | | |
+
+## Runsheet dan pertanyaan pemandu
+
+### 14.00 · Pembukaan (10 menit)
+
+Ceritakan kasusnya: anggaran promosi terbatas, hanya satu kategori. Tampilkan tabel 4 ukuran dan matriks prioritas di README sesi.
+
+Minta semua peserta menulis fokusnya di chat, misalnya `Women - China`. Kalau ada yang bingung, sarankan `Women` atau `Men` saja tanpa negara.
+
+**Pertanyaan pemandu**
+
+| Tanya | Jawaban |
 | --- | --- |
-| Pertanyaan terlalu luas | "Pilih satu metrik dan satu dimensi. Misalnya: margin % per kategori, 12 bulan terakhir" |
-| Tidak tahu harus mulai dari tabel mana | Buka diagram di KAMUS_DATA; mulai dari `order_items` |
-| Hasilnya "tidak ada perbedaan" | Itu temuan yang sah. Tulis dengan jujur dan sarankan apa yang perlu dicek berikutnya |
-| Query `events` lambat/besar | Batasi periode (`WHERE created_at >= ...`) dan pilih kolom yang perlu saja |
-| Terlalu banyak grafik | Pilih satu yang paling menjawab pertanyaan; sisanya opsional |
+| "Kalau kalian manajer, apakah cukup melihat kategori dengan pendapatan terbesar?" | Tidak. Kategori terbesar mungkin sudah jenuh (tumbuh lambat), atau marginnya tipis. Kita butuh beberapa sudut pandang: besar, tumbuh, untung, dan risiko retur. |
+| "Sebelum melihat data, kategori apa yang kalian tebak akan terpilih?" | Tidak ada jawaban benar. Catat 2–3 tebakan di chat, lalu bandingkan di akhir sesi. Ini membuat peserta ikut terlibat. |
 
-## Contoh query untuk pertanyaan populer
+### 14.10 · Langkah 1–2: SQL di BigQuery (20 menit)
 
-```sql
--- Tingkat pengembalian per kategori
-SELECT
-  p.category,
-  COUNT(*) AS barang,
-  COUNTIF(oi.status = 'Returned') AS dikembalikan,
-  ROUND(100 * COUNTIF(oi.status = 'Returned') / COUNT(*), 1) AS persen_kembali
-FROM `bigquery-public-data.thelook_ecommerce.order_items` AS oi
-JOIN `bigquery-public-data.thelook_ecommerce.products` AS p ON oi.product_id = p.id
-GROUP BY p.category
-ORDER BY persen_kembali DESC;
+Buka `10_my_question.sql`. Ganti `'Women'` dengan fokusmu (demo dengan Women). Jalankan 1a, 1b, 1c, lalu query final.
 
--- Funnel website per traffic source (tabel events)
-SELECT
-  traffic_source,
-  COUNT(DISTINCT session_id) AS sesi,
-  COUNT(DISTINCT IF(event_type = 'cart', session_id, NULL)) AS sesi_cart,
-  COUNT(DISTINCT IF(event_type = 'purchase', session_id, NULL)) AS sesi_purchase,
-  ROUND(100 * COUNT(DISTINCT IF(event_type = 'purchase', session_id, NULL))
-        / COUNT(DISTINCT session_id), 1) AS konversi_persen
-FROM `bigquery-public-data.thelook_ecommerce.events`
-GROUP BY traffic_source
-ORDER BY konversi_persen DESC;
+| Tanya | Jawaban |
+| --- | --- |
+| (1b) "Kenapa periodenya 12 bulan **lengkap**, bukan sampai hari ini?" | Bulan berjalan belum selesai. Kalau ikut dihitung, periode terakhir selalu terlihat lebih kecil. |
+| "Kenapa membandingkan 12 bulan dengan 12 bulan, bukan bulan ini dengan bulan lalu?" | Penjualan pakaian musiman (misalnya Swim naik di musim panas, Outerwear di musim dingin). Periode 12 bulan penuh menghilangkan efek musim. |
+| (query final) "Kenapa `Cancelled` dibuang, tapi `Returned` tidak?" | Barang Cancelled tidak pernah dikirim, jadi bukan penjualan. Barang Returned sempat terjual lalu dikembalikan; kita butuh untuk menghitung tingkat retur. Di kolom pendapatan, Returned dikeluarkan lewat `CASE WHEN`. |
+| "Apa fungsi `CASE WHEN` di dalam `SUM`?" | Menjumlahkan hanya baris yang memenuhi syarat. Satu query bisa menghitung pendapatan dua periode sekaligus, seperti beberapa filter kecil, satu per kolom. |
 
--- Jarak hari antara pesanan pertama dan kedua
-WITH urutan AS (
-  SELECT
-    user_id,
-    created_at,
-    ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY created_at) AS ke
-  FROM `bigquery-public-data.thelook_ecommerce.orders`
-  WHERE status NOT IN ('Cancelled', 'Returned')
-)
-SELECT
-  ROUND(AVG(DATE_DIFF(DATE(b.created_at), DATE(a.created_at), DAY)), 1) AS rata_hari,
-  APPROX_QUANTILES(DATE_DIFF(DATE(b.created_at), DATE(a.created_at), DAY), 2)[OFFSET(1)] AS median_hari
-FROM urutan AS a
-JOIN urutan AS b ON a.user_id = b.user_id AND a.ke = 1 AND b.ke = 2;
-```
+Pastikan semua peserta mendapat hasil query final ("ketik 1"). Peserta yang error biasanya lupa mengganti department di **semua** tempat, atau salah ketik `'women'` (huruf kecil).
 
-Query ketiga memakai window function (`ROW_NUMBER`) yang di luar materi. Berikan hanya kepada peserta yang memilih pertanyaan ini, dan jelaskan polanya.
+### 14.30 · Langkah 3–4: muat dan cek data (10 menit)
+
+Notebook bagian 2–4. Isi `FOKUS_DEPARTMENT` dan `FOKUS_NEGARA`, lalu `PROJECT_ID`.
+
+| Tanya | Jawaban |
+| --- | --- |
+| "Bagaimana fokus kita masuk ke dalam SQL?" | Lewat f-string: `{FOKUS_DEPARTMENT}` diganti dengan nilai variabelnya sebelum query dikirim ke BigQuery. |
+| "Total pendapatan 12 bulan terakhir lebih besar atau lebih kecil dari 12 bulan sebelumnya? Apa artinya?" | Biasanya lebih besar, karena data TheLook tumbuh dari tahun ke tahun. Artinya hampir semua kategori akan terlihat tumbuh, sehingga kita membandingkan **relatif** terhadap median, bukan "tumbuh atau tidak". |
+
+### 14.40 · Langkah 5–6: 4 ukuran dan matriks prioritas (15 menit)
+
+| Tanya | Jawaban |
+| --- | --- |
+| "Kenapa kategori dengan porsi < 1% dipisahkan?" | Angka pertumbuhannya tidak stabil. Naik dari 100 ke 300 USD = 200%, padahal nilainya kecil. Mereka bisa "menang" hanya karena kebetulan. |
+| "Kenapa batasnya median, bukan rata-rata?" | Median membagi kategori tepat setengah-setengah dan tidak terpengaruh satu kategori yang ekstrem (ingat sesi 9). |
+| "Kategori di kuadran **Mesin Uang**, apakah buruk?" | Tidak. Mereka penyumbang pendapatan besar dan tetap harus dijaga. Hanya saja, menambah anggaran promosi di sana kemungkinan memberi tambahan kecil, karena pertumbuhannya sudah lambat. |
+| "Apa bedanya **Bintang Baru** dan **Andalan**?" | Sama-sama tumbuh cepat. Bintang Baru masih kecil, jadi ruang tumbuhnya lebih besar dan anggaran promosi lebih terasa dampaknya. Andalan sudah besar dan sudah jalan sendiri. |
+
+### 14.55 · Langkah 7–9: rekomendasi dan grafik (15 menit)
+
+| Tanya | Jawaban |
+| --- | --- |
+| "Kenapa aturan keputusannya ditulis eksplisit?" | Supaya bisa diperiksa dan diulang orang lain. Rekomendasi tanpa aturan terlihat seperti selera pribadi. |
+| "Kenapa memilih margin tertinggi di antara kandidat?" | Dengan anggaran yang sama, kategori bermargin tinggi menghasilkan **keuntungan** lebih besar per dolar penjualan tambahan. |
+| "Rekomendasiku tingkat returnya di atas median. Batalkan?" | Tidak harus. Catat sebagai risiko dan sarankan langkah pendamping, misalnya memperbaiki panduan ukuran atau foto produk. Analis menyebutkan risiko, bukan menyembunyikannya. |
+| "Siapa yang rekomendasinya berbeda dengan instruktur?" | Minta 2–3 peserta dengan fokus berbeda menyebutkan hasilnya di chat. Tunjukkan bahwa fokus mengubah jawaban, itulah yang membuat portofolio masing-masing unik. |
+
+### 15.10 · Langkah 10–11: menulis jawaban (15 menit)
+
+Jalankan sel draf jawaban. Beri **7 menit** untuk menulis ulang bagian 11 dengan kata-kata sendiri, lalu minta 3–4 peserta membacakannya (tunjuk kalau tidak ada sukarelawan).
+
+Kriteria jawaban yang baik:
+
+- Menyebut fokus dan periode.
+- Menyebut angka (porsi, pertumbuhan, margin).
+- Rekomendasi berupa **tindakan** ("fokuskan promosi kuartal depan pada ...") plus cara mengukur keberhasilannya.
+- Menyebut minimal satu keterbatasan.
+
+**Contoh jawaban yang baik** (ganti nama kategori dan angka dengan hasil hari itu):
+
+> Untuk produk Women, saya merekomendasikan TheLook memprioritaskan **[Kategori]** pada kuartal depan. Kategori ini baru menyumbang [X]% pendapatan, tetapi tumbuh [Y]% dalam 12 bulan terakhir, di atas median semua kategori ([Z]%), dan marginnya [M]%, termasuk yang tertinggi. Promosi di kategori yang sedang naik dan menguntungkan ini kemungkinan memberi hasil lebih besar daripada di kategori besar yang pertumbuhannya sudah melambat. Keberhasilan diukur dari pertumbuhan pendapatan [Kategori] kuartal depan dibanding kuartal yang sama tahun lalu. Keterbatasan: data TheLook sintetis, dan analisis ini belum memperhitungkan biaya promosi.
+
+Tutup langkah ini dengan kembali ke tebakan di awal sesi: "Siapa yang tebakannya benar?"
+
+### 15.25 · Unggah ke portofolio (10 menit)
+
+Demo cepat: buat folder `my_question/` (Create new file `my_question/README.md`), unggah `.sql` dan `.ipynb`, unggah 2 gambar ke `images/`.
+
+### 15.35 · Penutup
+
+PR: jawaban dengan kata-kata sendiri + bagian Studi kasus di README. Sesi 13 = review dan publikasi portofolio.
+
+## Kalau waktu kurang
+
+Urutan yang boleh dipotong: (1) query eksplorasi 1a–1c (cukup jalankan query final), (2) grafik 2 (margin), (3) membacakan jawaban. **Jangan potong** langkah 10–11 (menulis jawaban), karena itu inti nilai portofolionya.
+
+## Masalah yang sering muncul
+
+| Masalah | Solusi |
+| --- | --- |
+| Hasil query kosong | `'women'` huruf kecil, atau nama negara salah eja (`'Brazil'` vs `'Brasil'`). Cek dengan `SELECT DISTINCT country` |
+| Error (`ValueError`) di bagian 7 | Fokus negara terlalu sempit sehingga hampir semua kategori < 1% dan terbuang. Pilih negara yang lebih besar atau hapus fokus negara |
+| `ZeroDivisionError` / angka `inf` | Kategori tanpa penjualan di periode sebelumnya; sudah dipisahkan di bagian 5. Pastikan sel itu dijalankan |
+| Label grafik bertumpuk | Biasanya tetap terbaca. Kalau sangat parah, perbesar `figsize` di `plt.rcParams` menjadi `(12, 7)` |

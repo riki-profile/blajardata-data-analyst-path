@@ -41,7 +41,7 @@ Sepanjang kursus kamu berperan sebagai analis baru di **TheLook**, toko pakaian 
 | 9 | Sab, 28 Nov 2026, 14.00 | Python | Statistik deskriptif dan analisis pelanggan | [Sesi 9](materi/sesi-09-analisis-pelanggan/) | `09_customer_analysis.ipynb` |
 | 10 | Sel, 1 Des 2026, 20.00 | Dashboard | Dashboard pertama: koneksi data, relasi, grafik, kartu KPI | [Sesi 10](materi/sesi-10-dashboard-1/) | link/file dashboard + screenshot |
 | 11 | Kam, 3 Des 2026, 20.00 | Dashboard | Filter, calculated field, desain, dan storytelling | [Sesi 11](materi/sesi-11-dashboard-2/) | dashboard final + draf README |
-| 12 | Sab, 5 Des 2026, 14.00 | Portofolio | Analisis mandiri: menjawab pertanyaan pilihanmu | [Sesi 12](materi/sesi-12-analisis-mandiri/) | folder `my_question/` + temuan di README |
+| 12 | Sab, 5 Des 2026, 14.00 | Portofolio | Studi kasus terpandu: kategori mana yang diprioritaskan? | [Sesi 12](materi/sesi-12-studi-kasus/) | folder `my_question/` + bagian studi kasus di README |
 | 13 | Sel, 8 Des 2026, 20.00 | Portofolio | Merapikan dan menerbitkan portofolio | [Sesi 13](materi/sesi-13-publikasi/) | portofolio terbit |
 
 Sebelum sesi 10, install **Power BI Desktop** (Windows) atau **Tableau Public** (Mac/Windows), sesuai yang dipakai kelas. Lihat [PERSIAPAN.md](PERSIAPAN.md#sebelum-sesi-10).
@@ -86,7 +86,7 @@ Hasil akhir kursus adalah repository GitHub publik bernama `thelook-analysis` ya
 2. File SQL dari sesi 1–4.
 3. Notebook Colab dari sesi 5–9.
 4. Dashboard: link Tableau Public, atau file Power BI beserta screenshot.
-5. Satu analisis dari pertanyaan yang kamu pilih sendiri (sesi 11–12).
+5. Satu studi kasus lengkap, dari pertanyaan bisnis sampai rekomendasi, dengan fokus pilihanmu sendiri (sesi 12).
 
 ```
 thelook-analysis/
@@ -94,7 +94,7 @@ thelook-analysis/
 ├── sql/             ← satu file .sql per sesi, sesi 1–4
 ├── notebooks/       ← notebook Colab, sesi 5–9
 ├── dashboard/       ← link atau file dashboard, sesi 10–11
-├── my_question/     ← analisis mandirimu, sesi 12
+├── my_question/     ← studi kasus, sesi 12
 └── images/          ← screenshot grafik dan dashboard
 ```
 
@@ -106,10 +106,10 @@ Kerangka dan template README-nya ada di [template-portofolio/](template-portofol
 | Notebook: pembersihan, analisis, dan grafik | 20% |
 | Kejelasan dashboard | 20% |
 | README: temuan dan rekomendasi dengan kata-katamu sendiri | 20% |
-| Pertanyaan dan analisis mandiri | 10% |
+| Studi kasus: fokus pilihanmu dan kesimpulan dengan kata-katamu sendiri | 10% |
 | Kerapian: struktur folder, nama file, link yang berfungsi | 10% |
 
-Semua orang memulai dari dataset yang sama, jadi pertanyaan pilihanmu dan temuan yang kamu tulis dengan kata-katamu sendiri itulah yang membuat portofolio ini milikmu.
+Semua orang memulai dari dataset yang sama, jadi fokus pilihanmu dan temuan yang kamu tulis dengan kata-katamu sendiri itulah yang membuat portofolio ini milikmu.
 
 ## Supaya kursus ini berhasil
 

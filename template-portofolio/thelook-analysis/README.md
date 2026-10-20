@@ -64,14 +64,16 @@ Langkah analisis:
 
 <Satu rekomendasi yang konkret: apa yang sebaiknya dilakukan, untuk siapa, dan bagaimana mengukur keberhasilannya. Contoh: "Kirim voucher pembelian kedua kepada segmen Pelanggan Baru dalam 30 hari setelah pembelian pertama. Ukur keberhasilannya dari kenaikan repeat-purchase rate dari X% ke Y%.">
 
-## Analisis mandiri: <pertanyaanmu>
+## Studi kasus: kategori mana yang sebaiknya diprioritaskan?
 
-- **Pertanyaan:** <...>
-- **Jawaban:** <1–2 kalimat dengan angka>
+- **Pertanyaan:** Dengan anggaran promosi terbatas, kategori produk mana yang sebaiknya diprioritaskan untuk kuartal depan?
+- **Fokus:** <Women/Men, dan negara jika ada>
+- **Metode:** membandingkan porsi pendapatan, pertumbuhan 12 bulan, margin %, dan tingkat retur setiap kategori, lalu mengelompokkannya ke matriks prioritas (Andalan, Mesin Uang, Bintang Baru, Perlu Ditinjau)
+- **Jawaban:** <2–3 kalimat dengan angka, dengan kata-katamu sendiri>
 - **Rekomendasi:** <...>
 - **File:** [`my_question/`](my_question/)
 
-![<grafik utama analisis mandiri>](images/<nama_file>.png)
+![Matriks prioritas kategori](images/12_matriks_prioritas_<women atau men>.png)
 
 ## Keterbatasan
 
@@ -86,7 +88,7 @@ thelook-analysis/
 ├── sql/            ← query BigQuery (sesi 1–4)
 ├── notebooks/      ← notebook Colab (sesi 5–9)
 ├── dashboard/      ← dashboard Tableau/Power BI
-├── my_question/    ← analisis mandiri
+├── my_question/    ← studi kasus
 └── images/         ← grafik dan screenshot dashboard
 ```
 

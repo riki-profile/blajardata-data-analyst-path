@@ -12,7 +12,7 @@
 
 | Waktu | Bagian | Poin utama |
 | --- | --- | --- |
-| 20.00 | Recap | 2 hasil analisis mandiri terbaik |
+| 20.00 | Recap | 2 jawaban studi kasus terbaik, idealnya dengan fokus berbeda |
 | 20.10 | Mata perekrut | Buka 1 repo contoh (milikmu atau peserta, dengan izin), "scroll" seperti perekrut selama 30 detik, lalu tanya: apa yang kalian ingat? |
 | 20.25 | Review berpasangan | *Breakout room* 2 orang, 15 menit: saling buka repo dan jalankan checklist dari README sesi 13. Lalu 15 menit memperbaiki |
 | 20.55 | Pin + profil | Demo pin repo, About + topics, edit profil |

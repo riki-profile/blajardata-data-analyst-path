@@ -11,7 +11,7 @@ Folder [`thelook-analysis/`](thelook-analysis/) adalah kerangka repository porto
 | 5–9 | `notebooks/05_...` sampai `notebooks/09_...`; gambar grafik di `images/` |
 | 10–11 | `dashboard/` (link atau file) dan screenshot di `images/` |
 | 11 | `README.md`: salin dari [template README](thelook-analysis/README.md), lalu isi |
-| 12 | `my_question/10_my_question.sql` dan `.ipynb` |
+| 12 | `my_question/10_my_question.sql` dan `.ipynb` (studi kasus terpandu) |
 | 13 | Merapikan semuanya |
 
 Gunakan file `README.md` di setiap subfolder sebagai contoh isi singkat untuk folder itu (opsional).

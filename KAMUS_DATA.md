@@ -91,7 +91,7 @@ Cara membacanya: satu `user` bisa punya banyak `orders`, satu `order` bisa beris
 ### Tabel lain
 
 - `distribution_centers`: lokasi gudang.
-- `events`: aktivitas pengunjung di website (melihat halaman, menambah ke keranjang, dan sebagainya). Cocok untuk analisis mandiri di sesi 12.
+- `events`: aktivitas pengunjung di website (melihat halaman, menambah ke keranjang, dan sebagainya). Cocok untuk latihan lanjutan setelah kursus, misalnya analisis funnel kunjungan → keranjang → pembelian.
 
 ## Definisi metrik yang dipakai di kursus
 

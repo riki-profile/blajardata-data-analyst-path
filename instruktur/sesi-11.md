@@ -18,16 +18,14 @@
 | 20.45 | Desain | Sebelum vs sesudah; 7 prinsip di README |
 | 20.55 | Storytelling | Headline → bukti → rekomendasi. Contoh headline baik vs lemah |
 | 21.05 | Giliran kamu | Tulis headline; 2–3 peserta membacakan |
-| 21.15 | Tanya jawab + pertanyaan mandiri | Jelaskan sesi 12; tunjukkan daftar ide pertanyaan; minta pertanyaan dikirim **paling lambat Jumat, 4 Des pukul 20.00** |
-| 21.35 | Penutup | PR: dashboard final, pertanyaan mandiri, draf README |
+| 21.15 | Tanya jawab + studi kasus | Perkenalkan kasus sesi 12 dalam 2 menit; minta peserta memilih fokus (Women/Men, opsional negara) |
+| 21.35 | Penutup | PR: dashboard final, pilih fokus studi kasus, draf README |
 
 ## Poin penting
 
-- Sesi 12 hari Sabtu siang, hanya ±40 jam setelah sesi 11. Pertanyaan mandiri **harus** dikirim paling lambat Jumat malam supaya kamu bisa memberi masukan singkat lewat chat sebelum kelas.
+- Sesi 12 adalah studi kasus yang **kamu pimpin**. Peserta tidak perlu menyiapkan pertanyaan, cukup memilih fokus.
 - Headline yang lemah: "Dashboard Penjualan TheLook". Headline yang baik berisi kesimpulan dan angka.
 
-## Persiapan untuk sesi 12 (Jumat malam – Sabtu pagi)
+## Persiapan untuk sesi 12
 
-- [ ] Baca semua pertanyaan peserta. Kelompokkan: (a) siap dikerjakan, (b) terlalu luas → sarankan dipersempit, (c) tidak bisa dijawab dengan data TheLook → sarankan alternatif.
-- [ ] Balas setiap peserta dengan 1–2 kalimat masukan.
-- [ ] Pilih 2 contoh (baik dan perlu diperbaiki, tanpa nama) untuk recap sesi 12.
+Lihat bagian Persiapan di [runsheet sesi 12](sesi-12.md): jalankan studi kasus untuk Women dan Men, lalu isi tabel "Hasil hari ini".

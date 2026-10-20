@@ -15,7 +15,7 @@ Setelah sesi ini kamu bisa:
 
 | Waktu (WIB) | Bagian |
 | --- | --- |
-| 20.00–20.10 | Recap: progres analisis mandiri |
+| 20.00–20.10 | Recap: hasil studi kasus |
 | 20.10–20.25 | "Mata perekrut": apa yang dilihat orang dalam 30 detik pertama di repo-mu |
 | 20.25–20.55 | Kerja: jalankan checklist, saling review berpasangan di *breakout room* |
 | 20.55–21.10 | Pin repository, profil GitHub, (opsional) posting LinkedIn |
@@ -44,7 +44,7 @@ Perekrut atau *hiring manager* biasanya hanya membaca **README** dan melihat **g
 - [ ] **1 rekomendasi** yang konkret
 - [ ] Screenshot dashboard tampil (bukan link rusak)
 - [ ] Link dashboard Tableau Public berfungsi, **atau** PDF Power BI tersedia
-- [ ] Bagian analisis mandiri: pertanyaan, jawaban, grafik utama
+- [ ] Bagian studi kasus: pertanyaan, fokus, jawaban dengan kata-katamu sendiri, grafik matriks prioritas
 - [ ] Daftar isi repo / struktur folder
 - [ ] Keterbatasan (misalnya data sintetis)
 - [ ] Tidak ada typo yang mencolok; bahasa konsisten (pilih Indonesia **atau** Inggris)

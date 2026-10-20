@@ -16,7 +16,7 @@ Setelah sesi ini kamu bisa:
 2. Membuat calculated field **margin** dan **margin %**.
 3. Merapikan dashboard dengan prinsip desain: hierarki, keselarasan, satu warna sorotan.
 4. Mengubah dashboard menjadi **cerita satu halaman**: kesimpulan → bukti → rekomendasi.
-5. Memilih pertanyaan analisis mandiri dan membuat draf README portofolio.
+5. Membuat draf README portofolio.
 
 ## Agenda
 
@@ -27,7 +27,7 @@ Setelah sesi ini kamu bisa:
 | 20.30–20.45 | Demo: calculated field margin dan margin % |
 | 20.45–21.05 | Desain dan storytelling: sebelum vs sesudah |
 | 21.05–21.15 | Giliran kamu |
-| 21.15–21.35 | Tanya jawab + memilih pertanyaan analisis mandiri |
+| 21.15–21.35 | Tanya jawab + pengenalan studi kasus sesi 12 |
 | 21.35–21.40 | Penutup dan PR |
 
 ## 1. Filter
@@ -79,7 +79,7 @@ Tulis **headline** dashboard-mu (satu kalimat kesimpulan) dan tempatkan di bagia
 
 1. **Selesaikan dashboard:** filter tanggal dan kategori, kartu Margin %, headline, kotak rekomendasi.
 2. Simpan versi final (Tableau Public / `.pbix` + PDF) dan screenshot ke `images/dashboard_final.png`.
-3. **Pilih pertanyaan analisis mandirimu** untuk sesi 12. Lihat [daftar ide di sesi 12](../sesi-12-analisis-mandiri/README.md#ide-pertanyaan). Kirim pertanyaanmu ke grup kelas **paling lambat Jumat, 4 Desember pukul 20.00 WIB** supaya instruktur bisa memberi masukan.
+3. **Pilih fokus untuk studi kasus sesi 12:** department `Women` atau `Men`, dan (opsional) satu negara. Baca sekilas [kasusnya](../sesi-12-studi-kasus/README.md#kasusnya).
 4. **Draf README portofolio:** salin [template README](../../template-portofolio/thelook-analysis/README.md) ke `README.md` repo `thelook-analysis`-mu, lalu isi bagian Ringkasan, Pertanyaan bisnis, Data & metode, dan Dashboard. Bagian Temuan boleh memakai draf PR sesi 9.
 
 ## Ringkasan
@@ -89,4 +89,4 @@ Tulis **headline** dashboard-mu (satu kalimat kesimpulan) dan tempatkan di bagia
 - Judul berisi kesimpulan; satu warna sorotan; pesan utama terbaca dalam 5 detik.
 - Cerita satu halaman: headline → bukti → rekomendasi.
 
-**Sesi berikutnya:** Sabtu, 5 Desember 2026, 14.00 WIB. Analisis mandiri dengan konsultasi satu-satu. **Bawa pertanyaanmu.**
+**Sesi berikutnya:** Sabtu, 5 Desember 2026, 14.00 WIB. Studi kasus terpandu: kategori mana yang diprioritaskan? **Siapkan login BigQuery dan Colab.**
