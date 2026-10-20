@@ -40,6 +40,8 @@
 
 ## Kunci jawaban
 
+Versi lengkap (file kerja yang sudah terisi semua): [`kunci-jawaban/04_dates_case_cte.sql`](kunci-jawaban/04_dates_case_cte.sql). Ringkasannya:
+
 ```sql
 -- G1. Pendapatan per tahun (tahun lengkap saja)
 SELECT

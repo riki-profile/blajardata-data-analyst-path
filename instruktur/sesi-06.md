@@ -28,6 +28,8 @@
 
 ## Kunci jawaban
 
+Versi lengkap (file kerja yang sudah terisi semua): [`kunci-jawaban/06_functions.ipynb`](kunci-jawaban/06_functions.ipynb). Ringkasannya:
+
 ```python
 # G1
 def perlu_follow_up(status):

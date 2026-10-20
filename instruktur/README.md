@@ -2,6 +2,13 @@
 
 Folder ini berisi runsheet per sesi, poin mengajar, error yang sering muncul, dan **kunci jawaban** latihan serta PR.
 
+Setiap file kerja punya **dua versi**:
+
+| Versi | Lokasi | Isi |
+| --- | --- | --- |
+| Peserta | `materi/sesi-XX/` | Demo lengkap; latihan dan PR **kosong** |
+| Instruktur | [`instruktur/kunci-jawaban/`](kunci-jawaban/) | File yang sama, latihan dan PR **sudah terisi** |
+
 > **Kunci jawaban ada di folder ini.** Kalau repository ini dibagikan ke peserta dalam keadaan publik, kunci jawaban ikut terlihat. Pilihannya: (a) pindahkan folder `instruktur/` ke repository privat terpisah, (b) jadikan repository ini privat dan bagikan materi lewat cara lain, atau (c) biarkan terbuka dan minta peserta mencoba dulu sebelum melihat kunci. Pilihan (a) paling rapi.
 
 ## Daftar runsheet

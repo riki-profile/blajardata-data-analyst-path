@@ -43,6 +43,8 @@
 
 ## Kunci jawaban
 
+Versi lengkap (file kerja yang sudah terisi semua): [`kunci-jawaban/08_cleaning_and_charts.ipynb`](kunci-jawaban/08_cleaning_and_charts.ipynb). Ringkasannya:
+
 ```python
 # G1. Pesanan per status
 per_status = orders_bersih["status"].value_counts().sort_values()

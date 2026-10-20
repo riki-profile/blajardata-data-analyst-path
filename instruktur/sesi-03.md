@@ -39,6 +39,8 @@
 
 ## Kunci jawaban
 
+Versi lengkap (file kerja yang sudah terisi semua): [`kunci-jawaban/03_joins.sql`](kunci-jawaban/03_joins.sql). Ringkasannya:
+
 ```sql
 -- G1. Pendapatan per negara dan department
 SELECT

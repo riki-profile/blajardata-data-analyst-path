@@ -42,6 +42,8 @@
 
 ## Kunci jawaban
 
+Versi lengkap (file kerja yang sudah terisi semua): [`kunci-jawaban/05_python_basics.ipynb`](kunci-jawaban/05_python_basics.ipynb). Ringkasannya:
+
 ```python
 # G1
 nama_produk = "Levi's 501"

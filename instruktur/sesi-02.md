@@ -40,6 +40,8 @@
 
 ## Kunci jawaban
 
+Versi lengkap (file kerja yang sudah terisi semua): [`kunci-jawaban/02_aggregation.sql`](kunci-jawaban/02_aggregation.sql). Ringkasannya:
+
 ```sql
 -- G1. Produk per department
 SELECT

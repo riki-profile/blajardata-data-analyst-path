@@ -10,6 +10,9 @@ Interaksi dijaga dengan **pertanyaan pemandu** di setiap langkah (lihat di bawah
 
 ## Persiapan (Jumat malam / Sabtu pagi)
 
+File kunci: [`kunci-jawaban/10_my_question.sql`](kunci-jawaban/10_my_question.sql) dan [`kunci-jawaban/10_my_question.ipynb`](kunci-jawaban/10_my_question.ipynb) (bagian 11 sudah berisi contoh jawaban).
+
+
 - [ ] Jalankan `10_my_question.sql` dan notebook untuk **Women** dan **Men**, semua negara. Isi tabel "Hasil hari ini" di bawah.
 - [ ] Baca judul kedua grafik dan draf jawaban. Pastikan kalimatnya sesuai dengan grafiknya.
 - [ ] Siapkan 2–3 kombinasi negara (misalnya Men di China, Women di United States) untuk ditunjukkan bahwa rekomendasinya bisa berbeda.

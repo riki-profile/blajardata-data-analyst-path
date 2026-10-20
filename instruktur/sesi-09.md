@@ -30,6 +30,8 @@
 
 ## Kunci jawaban
 
+Versi lengkap (file kerja yang sudah terisi semua): [`kunci-jawaban/09_customer_analysis.ipynb`](kunci-jawaban/09_customer_analysis.ipynb). Ringkasannya:
+
 ```python
 # G1. Repeat rate per negara (5 negara terbesar)
 pp = pesanan.groupby("user_id").agg(jumlah_pesanan=("order_id", "nunique"),

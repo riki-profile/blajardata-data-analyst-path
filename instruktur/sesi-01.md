@@ -44,6 +44,8 @@
 
 ## Kunci jawaban
 
+Versi lengkap (file kerja yang sudah terisi semua): [`kunci-jawaban/01_basics.sql`](kunci-jawaban/01_basics.sql). Ringkasannya:
+
 ```sql
 -- G1. 5 dress termurah
 SELECT name, brand, retail_price

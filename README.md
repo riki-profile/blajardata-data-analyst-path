@@ -68,7 +68,8 @@ Sebelum sesi 10, install **Power BI Desktop** (Windows) atau **Tableau Public** 
 │   ├── ...
 │   └── sesi-13-publikasi/
 ├── template-portofolio/    ← kerangka repo portofolio "thelook-analysis"
-└── instruktur/             ← panduan mengajar, runsheet per sesi, kunci jawaban
+└── instruktur/             ← panduan mengajar, runsheet per sesi
+    └── kunci-jawaban/      ← versi file kerja yang sudah terisi (khusus instruktur)
 ```
 
 Di setiap folder sesi:

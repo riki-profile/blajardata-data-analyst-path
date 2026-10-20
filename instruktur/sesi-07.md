@@ -46,6 +46,8 @@ Tidak ada yang menghalangi. Notebook sesi 7 sudah berisi query tabel analisis ve
 
 ## Kunci jawaban
 
+Versi lengkap (file kerja yang sudah terisi semua): [`kunci-jawaban/07_pandas_exploration.ipynb`](kunci-jawaban/07_pandas_exploration.ipynb). Ringkasannya:
+
 ```python
 # G1
 df.groupby("gender")["user_id"].nunique()
