@@ -75,6 +75,7 @@ Di setiap folder sesi:
 
 - `README.md` berisi materi sesi: tujuan, konsep, langkah demo, latihan "Giliran kamu", dan PR.
 - File kerja (`.sql` atau `.ipynb`) dengan nama yang sama seperti file portofoliomu. Unduh, jalankan sambil mengikuti demo, kerjakan latihan dan PR di file yang sama, lalu unggah ke portofoliomu.
+- `slides.md` berisi slide presentasi sesi itu dalam format [Marp](https://marp.app). Di GitHub tampil sebagai teks biasa; untuk melihatnya sebagai slide, lihat [panduan instruktur](instruktur/README.md#slide-presentasi-marp).
 
 Notebook bisa dibuka langsung di Colab lewat tombol **Open in Colab** di README setiap sesi Python.
 

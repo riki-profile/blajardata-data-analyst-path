@@ -72,6 +72,30 @@ Setelah setiap langkah demo yang penting, minta "ketik 1 kalau sudah berhasil". 
 
 **Breakout room** dipakai di sesi 13 (review berpasangan). Siapkan dengan opsi **Let participants choose room** atau atur manual.
 
+## Slide presentasi (Marp)
+
+Setiap folder sesi berisi `slides.md`: 12–19 slide yang mengikuti agenda sesi (judul, agenda, konsep, langkah demo, giliran kamu, PR, ringkasan). Slide ditulis dalam Markdown dengan [Marp](https://marp.app), jadi mudah diubah seperti file teks biasa.
+
+**Menampilkan dan mempresentasikan**
+
+1. Install [VS Code](https://code.visualstudio.com) dan ekstensi **Marp for VS Code**.
+2. Buka `slides.md` → klik ikon **Open Preview to the Side** (kanan atas) untuk melihat slide.
+3. Untuk presentasi di Zoom: ikon **Marp** → **Export Slide Deck** → pilih **HTML** (buka di browser, tekan **F** untuk layar penuh) atau **PDF**. Format **PPTX** juga tersedia jika ingin diedit di PowerPoint/Google Slides.
+
+Atau lewat command line (butuh Node.js):
+
+```bash
+npx @marp-team/marp-cli@latest materi/sesi-01-dasar-sql/slides.md --pdf
+npx @marp-team/marp-cli@latest materi/sesi-01-dasar-sql/slides.md --pptx
+```
+
+**Catatan**
+
+- Semua deck memakai gaya yang sama (blok `style:` di bagian atas file). Untuk mengganti warna atau ukuran huruf, ubah blok itu di setiap file.
+- Slide sengaja tidak memakai HTML atau emoji, supaya tampil sama di VS Code, ekspor PDF, dan tanpa koneksi internet.
+- Slide **pertanyaan pemandu** di sesi 12 hanya menampilkan pertanyaan. Jawabannya ada di **catatan presenter** (komentar `<!-- ... -->` di bawah slide), yang terlihat di *presenter view* ekspor HTML (tekan **P**) tetapi tidak di layar peserta.
+- Tanggal dan jam di slide mengikuti jadwal saat ini. Kalau jadwal berubah, perbarui slide judul dan slide ringkasan ("Sesi berikutnya").
+
 ## Ritme setiap sesi
 
 | Bagian | Durasi | Tips |
