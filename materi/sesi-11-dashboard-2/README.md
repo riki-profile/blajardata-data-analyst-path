@@ -8,6 +8,8 @@
 | [panduan-tableau.md](panduan-tableau.md) | Filter, margin, dan desain di Tableau |
 | [Template README portofolio](../../template-portofolio/thelook-analysis/README.md) | Untuk PR: draf README |
 
+> **Tidak punya dashboard sesi 10?** Unduh dashboard cadangan dari grup kelas sebelum sesi dimulai. Tableau: buka file `.twbx` dengan **File → Open**. Power BI: buka `thelook_dashboard_cadangan.pbix`. Lalu ikuti sesi ini seperti biasa.
+
 ## Tujuan sesi
 
 Setelah sesi ini kamu bisa:

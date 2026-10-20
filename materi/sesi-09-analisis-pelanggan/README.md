@@ -22,8 +22,9 @@ Setelah sesi ini kamu bisa:
 | 14.30–14.40 | **Bagian B**: repeat-purchase rate |
 | 14.40–15.05 | **Bagian C**: segmentasi RFM |
 | 15.05–15.15 | Giliran kamu |
-| 15.15–15.35 | Tanya jawab + cara menulis temuan |
-| 15.35–15.40 | Penutup dan PR |
+| 15.15–15.25 | Cara menulis temuan + **tulis temuan pertamamu** (di kelas) |
+| 15.25–15.37 | Tanya jawab |
+| 15.37–15.40 | Penutup dan PR |
 
 ## Konsep kunci
 
@@ -53,9 +54,9 @@ Aturan segmen ini sengaja dibuat sederhana. Di perusahaan, aturannya disesuaikan
 1. Repeat-purchase rate untuk 5 negara dengan pelanggan terbanyak.
 2. Perbandingan median `monetary` Champions vs Pelanggan Baru.
 
-## PR (30–60 menit): tiga temuan untuk manajemen
+## Tiga temuan untuk manajemen (temuan 1 di kelas, temuan 2–3 sebagai PR)
 
-Tulis 3 temuan dari sesi 7–9. Setiap temuan berisi:
+Di akhir kelas kita menulis **temuan pertama** bersama-sama (5 menit). Temuan 2 dan 3 dikerjakan di rumah. Tulis temuan dari sesi 7–9. Setiap temuan berisi:
 
 1. **Apa**: temuannya, dengan angka.
 2. **Kenapa penting**: dampaknya bagi bisnis.

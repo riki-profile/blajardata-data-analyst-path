@@ -7,6 +7,9 @@
 - [ ] Tools kelas sudah diputuskan (lihat [README instruktur](README.md#timeline-persiapan-sebelum-kelas)) dan diumumkan.
 - [ ] Jalankan `10_export_dashboard_data.ipynb`, simpan ketiga CSV, catat angka "Cek cepat".
 - [ ] Buat dashboard lengkap sesi 10 sebagai cadangan, lalu mulai dari file kosong saat demo.
+- [ ] **Siapkan dashboard cadangan untuk peserta** (dibagikan setelah kelas, untuk yang dashboard-nya hilang):
+  - Tableau: publikasikan di Tableau Public, lalu di halaman dashboard aktifkan izin unduh workbook (**Settings → Allow access → Workbook downloads**). Peserta mengunduh `.twbx` lewat tombol **Download**, membukanya dengan **File → Open**, lalu menyimpannya ke akun Tableau Public mereka sendiri.
+  - Power BI: `thelook_dashboard_cadangan.pbix`. Data CSV ikut tersimpan di dalam file `.pbix`, jadi file ini langsung bisa dibuka.
 - [ ] **Power BI:** coba sekali di Windows berbahasa/berformat Indonesia untuk memastikan Langkah 0 (locale) cukup.
 - [ ] Siapkan ketiga CSV di Google Drive sebagai cadangan, untuk peserta yang notebook ekspornya gagal.
 
@@ -23,7 +26,8 @@
 | 21.00 | Judul | Ubah judul menjadi kesimpulan |
 | 21.05 | Giliran kamu | |
 | 21.15 | Tanya jawab | Sediakan waktu untuk berbagi layar masalah instalasi/data |
-| 21.35 | Penutup | PR: 2 grafik tambahan, simpan, screenshot, unggah |
+| 21.30 | **Simpan bersama** | Demo menyimpan, semua peserta menyimpan. **Jangan tutup Zoom** sampai mayoritas mengetik 1. Ini satu-satunya ketergantungan keras antar sesi di kursus ini |
+| 21.37 | Penutup | PR: 2 grafik tambahan, simpan lagi, screenshot, unggah. Bagikan link/file dashboard cadangan di grup |
 
 ## Poin penting
 

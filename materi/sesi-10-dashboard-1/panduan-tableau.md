@@ -70,7 +70,7 @@ Atur format angka: di panel **Data**, klik kanan field → **Default Properties 
 4. Seret objek **Text** (panel kiri bawah, **Objects**) ke paling atas untuk judul: "TheLook: Ringkasan Penjualan".
 5. Ganti judul setiap sheet menjadi kalimat kesimpulan: klik dua kali judul sheet → ketik.
 
-## Langkah 8. Simpan ke Tableau Public
+## Langkah 8. Simpan ke Tableau Public (dilakukan bersama di akhir kelas)
 
 1. **File → Save to Tableau Public As...** → login (buat akun gratis jika belum).
 2. Beri nama `TheLook Dashboard` → **Save**. Browser akan membuka dashboard-mu.

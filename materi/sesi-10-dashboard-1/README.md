@@ -28,8 +28,9 @@ Setelah sesi ini kamu bisa:
 | 20.20–20.35 | Demo: memuat data, mengecek tipe data, membuat relasi |
 | 20.35–21.05 | Demo: measure, kartu KPI, grafik tren bulanan, grafik kategori |
 | 21.05–21.15 | Giliran kamu |
-| 21.15–21.35 | Tanya jawab (berbagi layar untuk masalah instalasi/data) |
-| 21.35–21.40 | Penutup dan PR |
+| 21.15–21.30 | Tanya jawab (berbagi layar untuk masalah instalasi/data) |
+| 21.30–21.37 | **Simpan dashboard bersama-sama** (wajib, di kelas) |
+| 21.37–21.40 | Penutup dan PR |
 
 ## 1. Apa itu dashboard?
 
@@ -95,12 +96,21 @@ Ikuti panduan sesuai tools kelas:
 
 Ubah judul kedua grafik menjadi **kalimat kesimpulan**, seperti di sesi 8. Contoh: "Pendapatan naik 9% dalam 12 bulan terakhir".
 
-## 6. PR (30–60 menit)
+## 6. Simpan dashboard (di kelas, sebelum Zoom ditutup)
+
+Sesi 11 melanjutkan dashboard ini. **Kalau tidak disimpan, kamu harus mulai dari nol.** Kita simpan bersama-sama di akhir kelas:
+
+- **Tableau:** **File → Save to Tableau Public As...** → login → beri nama `TheLook Dashboard`. Salin link dashboard-mu. Tableau Public **tidak** bisa menyimpan ke laptop; kalau aplikasinya ditutup tanpa disimpan, dashboard hilang.
+- **Power BI:** **File → Save as** → `thelook_dashboard.pbix`, di folder yang sama dengan 3 file CSV.
+
+Ketik `1` di chat Zoom setelah berhasil menyimpan.
+
+> **Dashboard hilang atau rusak?** Instruktur membagikan dashboard cadangan di grup kelas. Unduh dan lanjutkan dari situ di sesi 11.
+
+## 7. PR (30–60 menit)
 
 1. Tambahkan **2 grafik lagi** ke dashboard. Ide: pendapatan per negara, per kelompok umur, per traffic source, atau perbandingan department Men vs Women.
-2. Simpan:
-   - **Tableau:** **File → Save to Tableau Public As...** Salin link dashboard-mu.
-   - **Power BI:** simpan file `.pbix`, lalu **File → Export → Export to PDF**.
+2. **Simpan lagi** setelah menambah grafik (Tableau: **File → Save to Tableau Public**; Power BI: **Ctrl + S**). Power BI: ekspor juga ke PDF (**File → Export → Export to PDF**).
 3. Ambil **screenshot** dashboard (Windows: **Win + Shift + S**; Mac: **Cmd + Shift + 4**).
 4. Unggah ke portofolio:
    - `dashboard/README.md` berisi link Tableau Public, **atau** `dashboard/thelook_dashboard.pbix` + PDF-nya

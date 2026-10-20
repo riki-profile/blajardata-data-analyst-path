@@ -29,3 +29,12 @@
 ## Persiapan untuk sesi 12
 
 Lihat bagian Persiapan di [runsheet sesi 12](sesi-12.md): jalankan studi kasus untuk Women dan Men, lalu isi tabel "Hasil hari ini".
+
+## Kalau peserta tidak mengerjakan PR sebelumnya
+
+| Situasi | Yang dilakukan |
+| --- | --- |
+| Dashboard sesi 10 hilang / tidak tersimpan | Unduh dashboard cadangan (link/file di grup), buka, lanjutkan. Kalau tidak sempat, tonton demo dulu dan kerjakan di rumah dengan dashboard cadangan |
+| 2 grafik tambahan (PR sesi 10) belum ada | Tidak menghalangi. Filter dan margin bisa ditambahkan ke dashboard berisi KPI + 2 grafik dari kelas |
+| Temuan 2–3 sesi 9 belum ada (untuk draf README) | Minimal ada temuan 1 dari kelas sesi 9. Tunjukkan bahwa grafik dashboard sendiri bisa menjadi temuan kedua ("Kategori X menyumbang Y% pendapatan") |
+| Belum memilih fokus studi kasus | Tidak masalah; dipilih di menit pertama sesi 12 |

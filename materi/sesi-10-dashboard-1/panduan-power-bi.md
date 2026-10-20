@@ -93,7 +93,7 @@ Lalu di **Column tools**, ubah **Format** menjadi `mmm yyyy`.
 2. Tambahkan judul halaman: **Insert → Text box** → "TheLook: Ringkasan Penjualan".
 3. Pakai satu warna untuk semua batang/garis: **Format visual → Visual → Bars/Lines → Colors**.
 
-## Langkah 8. Simpan
+## Langkah 8. Simpan (dilakukan bersama di akhir kelas)
 
 - **File → Save as** → `thelook_dashboard.pbix`.
 - **File → Export → Export to PDF** untuk portofolio.

@@ -37,6 +37,13 @@
 | `KeyError: 'Category'` | Nama kolom salah (huruf besar-kecil) |
 | `AttributeError: Can only use .dt accessor with datetimelike values` | Kolom tanggal belum diubah dengan `pd.to_datetime` |
 
+## Kalau peserta tidak mengerjakan PR sebelumnya
+
+Tidak ada yang menghalangi. Notebook sesi 7 sudah berisi query tabel analisis versi instruktur, jadi PR sesi 4 (tabel analisis) dan sesi 6 tidak dibutuhkan untuk mengikuti kelas.
+
+- **Belum tahu Project ID:** tunjukkan caranya di menit pertama (console BigQuery → nama project di bagian atas → kolom **ID**). Minta peserta menyiapkannya sambil recap.
+- **PR sesi 4 belum dikerjakan:** sampaikan bahwa mereka boleh memakai query di notebook ini sebagai jawaban, asal mereka membaca dan memberi komentar di setiap bagiannya sebelum diunggah ke `sql/04_dates_case_cte.sql`.
+
 ## Kunci jawaban
 
 ```python
