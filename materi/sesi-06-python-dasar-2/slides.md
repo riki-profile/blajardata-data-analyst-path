@@ -53,13 +53,14 @@ Sabtu, 21 November 2026 · 14.00–15.40 WIB
 
 | Waktu | Bagian |
 | --- | --- |
-| 14.00 | Recap PR sesi 5 |
-| 14.10 | Perbandingan & if/elif/else |
-| 14.25 | Loop for, akumulator, menghitung per kelompok |
-| 14.45 | Function & studi kasus: label ukuran pesanan |
-| 15.05 | Giliran kamu |
-| 15.15 | Tanya jawab |
-| 15.35 | Penutup & PR |
+| 14.00 | Recap sesi 5 |
+| 14.05 | Perbandingan & if/elif/else |
+| 14.20 | Loop for, akumulator, menghitung per kelompok |
+| 14.35 | Function & studi kasus: label ukuran pesanan |
+| 14.55 | **Kerjakan bersama** |
+| 15.10 | **Unggah bersama** `06_functions.ipynb` |
+| 15.20 | Tanya jawab |
+| 15.37 | Penutup |
 
 Notebook: `06_functions.ipynb`
 
@@ -229,22 +230,22 @@ df["ukuran"] = df["total"].apply(label_ukuran_pesanan)
 
 <!-- _class: lead -->
 
-# Giliran kamu · 10 menit
+# Kerjakan bersama · 15 menit
 
-**G1.** `perlu_follow_up(status)`: `True` untuk Processing / Shipped
+**B1.** `perlu_follow_up(status)`: `True` untuk Processing / Shipped
 
-**G2.** Loop: total nilai pesanan yang **Cancelled**
+**B2.** Loop: total nilai pesanan yang **Cancelled**
+
+Instruktur memandu langkah demi langkah · kamu mengetik bersamaan
 
 ---
 
-## PR sesi 6
+## Unggah bersama & latihan mandiri
 
-1. `kelompok_umur(umur)`: label **sama persis** dengan CASE WHEN sesi 4
-2. `persen_margin(harga_jual, biaya)`: aman kalau harga jual 0
-3. Loop: **pendapatan per negara** (pesanan sah saja)
-4. `label_ukuran_pesanan_v2(total, batas_sedang=50, batas_besar=150)`
+**Unggah bersama sekarang:** Colab → Download .ipynb → repo `thelook-python-analysis` → `notebooks/` → `06_functions.ipynb`
 
-Unggah ke `notebooks/06_functions.ipynb`
+**Latihan mandiri (opsional):** tidak wajib, tidak dinilai; jawaban dibagikan setelah kelas (bagian 8 notebook):
+- L1 `kelompok_umur()` · L2 `persen_margin()` · L3 pendapatan per negara · L4 `label_ukuran_pesanan_v2()`
 
 ---
 

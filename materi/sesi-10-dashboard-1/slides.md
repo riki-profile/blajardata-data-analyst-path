@@ -72,10 +72,11 @@ Selasa, 1 Desember 2026 · 20.00–21.40 WIB
 | 20.10 | Apa itu dashboard; unduh 3 file CSV |
 | 20.20 | Memuat data, tipe data, relasi |
 | 20.35 | Measure DAX, kartu KPI, 2 grafik |
-| 21.05 | Giliran kamu |
-| 21.15 | Tanya jawab |
-| 21.30 | **Simpan dashboard bersama-sama** |
-| 21.37 | Penutup & PR |
+| 21.05 | **Kerjakan bersama**: judul + grafik ketiga |
+| 21.15 | **Simpan bersama**: `.pbix`, PDF, screenshot |
+| 21.22 | **Unggah bersama**: repo `thelook-powerbi-dashboard` |
+| 21.32 | Tanya jawab |
+| 21.38 | Penutup |
 
 Panduan langkah demi langkah: `panduan-power-bi.md`
 
@@ -100,7 +101,7 @@ Satu halaman, dibaca dari atas ke bawah:
 | Atas | Judul berisi kesimpulan utama · filter tanggal & kategori |
 | Baris KPI | Pendapatan · Jumlah pesanan · AOV · Margin % |
 | Tengah | Tren pendapatan bulanan (garis) |
-| Bawah | Pendapatan per kategori · grafik tambahan (PR) |
+| Bawah | Pendapatan per kategori · pendapatan per negara (dibuat bersama) |
 
 Hari ini: KPI + 2 grafik. Sesi 11: filter, margin, desain.
 
@@ -182,11 +183,12 @@ Judul = **kesimpulan**, bukan nama grafik
 
 <!-- _class: lead -->
 
-# Giliran kamu · 10 menit
+# Kerjakan bersama · 10 menit
 
-Ubah judul kedua grafik menjadi **kalimat kesimpulan**
+1. Ubah judul kedua grafik menjadi **kalimat kesimpulan**
+2. Tambahkan **grafik ketiga**: pendapatan per negara (batang, diurutkan)
 
-Contoh: *"Pendapatan naik 9% dalam 12 bulan terakhir"*
+Instruktur memandu langkah demi langkah · kamu mengetik bersamaan
 
 ---
 
@@ -202,15 +204,15 @@ Ketik `1` setelah tersimpan. Sesi 11 melanjutkan dashboard ini.
 
 ---
 
-## PR sesi 10
+## Unggah bersama & latihan mandiri
 
-1. Tambahkan **2 grafik lagi**: per negara, kelompok umur, traffic source, atau Men vs Women
-2. **Simpan lagi** (Ctrl + S) + **Export to PDF**
-3. Screenshot dashboard (Win + Shift + S)
-4. Buat repo **`thelook-powerbi-dashboard`** (`PANDUAN_GITHUB.md`), unggah:
-   `dashboard/thelook_dashboard.pbix` + PDF, `images/dashboard_v1.png`
+**Unggah bersama sekarang:** buat repo **`thelook-powerbi-dashboard`** (`PANDUAN_GITHUB.md`), unggah:
+- `dashboard/thelook_dashboard.pbix` + `thelook_dashboard.pdf`
+- `images/dashboard_v1.png`
 
 Dashboard hilang? Unduh **dashboard cadangan** dari grup kelas.
+
+**Latihan mandiri (opsional):** tidak wajib, tidak dinilai; jawaban dibagikan setelah kelas: grafik lain (kelompok umur, traffic source, Men vs Women)
 
 ---
 

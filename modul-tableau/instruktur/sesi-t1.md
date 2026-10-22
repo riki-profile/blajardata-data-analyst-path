@@ -19,10 +19,11 @@ Materi: [sesi-t1-dashboard-pertama](../sesi-t1-dashboard-pertama/) · Durasi ±1
 | 35 | Calculated field + KPI | Pendapatan, Jumlah Pesanan (`COUNTD`!), AOV. **Cocokkan dengan `cek_cepat.txt`**: ketik 1 kalau sama |
 | 45 | Grafik | Tren bulanan (Month continuous, pil hijau); per kategori (sort descending) |
 | 55 | Dashboard | New Dashboard, ukuran, susun sheet, objek Text untuk judul |
-| 65 | Giliran kamu | Judul = kesimpulan |
-| 75 | Tanya jawab | Masalah instalasi/data dengan berbagi layar |
-| 90 | **Simpan bersama** | Save to Tableau Public As... **Jangan tutup Zoom** sampai mayoritas mengetik 1 |
-| 97 | Penutup | PR: 2 grafik, simpan lagi, screenshot, repo `thelook-tableau-dashboard`. Bagikan link dashboard cadangan |
+| 65 | **Kerjakan bersama** | Judul = kesimpulan; grafik ketiga (pendapatan per negara) langkah demi langkah |
+| 75 | **Simpan bersama** | Save to Tableau Public As... + screenshot. **Jangan lanjut** sampai mayoritas mengetik 1 |
+| 82 | **Unggah bersama** | Repo `thelook-tableau-dashboard`: screenshot + link di README |
+| 92 | Tanya jawab | Masalah instalasi/data dengan berbagi layar |
+| 98 | Penutup | Bagikan link dashboard cadangan; latihan mandiri (opsional) |
 
 ## Poin penting
 

@@ -51,13 +51,14 @@ Selasa, 17 November 2026 · 20.00–21.40 WIB
 
 | Waktu | Bagian |
 | --- | --- |
-| 20.00 | Recap PR sesi 3 (umur & gender) |
-| 20.10 | Fungsi tanggal & tren bulanan |
-| 20.25 | CASE WHEN & kelompok umur |
-| 20.37 | CTE (+ sekilas pembersihan) |
-| 20.50 | **Proyek SQL**: 3 query → 3 temuan → README |
-| 21.25 | Tanya jawab |
-| 21.37 | Penutup & PR |
+| 20.00 | Recap sesi 3 |
+| 20.05 | Fungsi tanggal & tren bulanan |
+| 20.18 | CASE WHEN & kelompok umur |
+| 20.28 | CTE (+ sekilas pembersihan) |
+| 20.40 | **Proyek SQL bersama**: P1–P3 → 3 temuan + rekomendasi |
+| 21.00 | **Unggah bersama**: README + `04_...sql` |
+| 21.15 | Tanya jawab |
+| 21.35 | Penutup |
 
 File kerja: `04_dates_case_cte.sql`
 
@@ -176,7 +177,7 @@ Beberapa CTE dipisahkan **koma**: `WITH a AS (...), b AS (...) SELECT ...`
 | Duplikat | `COUNT(*)` vs `COUNT(DISTINCT id)` | `DISTINCT` / perbaiki JOIN |
 | Bagi nol | | `SAFE_DIVIDE(a, b)` |
 
-Di kelas hanya sekilas: jalankan bagian **E** sendiri di rumah. Pembersihan lengkap → Python, sesi 8
+Di kelas hanya sekilas; bagian **E** boleh dijalankan sendiri (opsional). Pembersihan lengkap → Python, sesi 8
 
 ---
 
@@ -209,7 +210,7 @@ Ketik `1` kalau P3 sudah keluar hasilnya
 
 > Pendapatan 12 bulan terakhir naik X% dibanding 12 bulan sebelumnya. Kenaikannya datang dari jumlah pesanan, sedangkan AOV hampir sama: bisnis tumbuh karena makin banyak orang berbelanja.
 
-Kita tulis **temuan 1 bersama-sama** sekarang. Lihat hasil P1:
+Kita tulis **temuan 1–3 + rekomendasi bersama-sama**. Mulai dari hasil P1:
 - Naik atau turun? Berapa persen?
 - Karena jumlah pesanan, atau karena AOV?
 
@@ -227,16 +228,19 @@ Repo **`thelook-sql-analysis`** → edit `README.md` → tempel **template READM
 | Rekomendasi | 1 tindakan konkret |
 | File | Daftar `sql/01_...` sampai `sql/04_...` |
 
-Hari ini: Ringkasan + temuan 1. Sisanya PR.
+Semua diisi **bersama di kelas** hari ini.
 
 ---
 
-## PR sesi 4
+## Unggah bersama & latihan mandiri
 
-1. **Wajib:** temuan 2, temuan 3, rekomendasi → README `thelook-sql-analysis` lengkap
-2. **Wajib:** unggah `sql/04_dates_case_cte.sql` (cek `01`–`03` juga sudah ada)
-3. Latihan G1–G2: pendapatan per tahun, kelompok harga produk
-4. *(Bonus)* **Tabel analisis** untuk yang lanjut ke modul Python
+**Unggah bersama sekarang**, di repo `thelook-sql-analysis`:
+1. `README.md` → tempel template SQL → isi Ringkasan, 3 temuan, rekomendasi
+2. Unggah `sql/04_dates_case_cte.sql` (cek `01`–`03` sudah ada)
+
+**Portofolio modul SQL selesai!**
+
+**Latihan mandiri (opsional):** tidak wajib, tidak dinilai; jawaban dibagikan setelah kelas: L1–L2 (pendapatan per tahun, kelompok harga), bonus tabel analisis
 
 ---
 

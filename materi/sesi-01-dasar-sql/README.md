@@ -19,9 +19,9 @@ Setelah sesi ini kamu bisa:
 | 20.00–20.15 | Perkenalan, aturan main kelas, cek persiapan |
 | 20.15–20.35 | Apa itu analisis data; alur kerja analis; kenalan dengan TheLook |
 | 20.35–21.25 | Demo: tur tabel, SELECT, WHERE, ORDER BY, LIMIT |
-| 21.25–21.40 | Giliran kamu |
+| 21.25–21.40 | **Kerjakan bersama** + menyimpan `01_basics.sql` di laptop |
 | 21.40–21.55 | Tanya jawab |
-| 21.55–22.00 | Penutup dan PR |
+| 21.55–22.00 | Penutup |
 
 ## 1. Apa itu analisis data?
 
@@ -140,23 +140,23 @@ Buka [`01_basics.sql`](01_basics.sql), salin isinya ke editor BigQuery, dan jala
 | C. WHERE | Produk apa saja di kategori tertentu, rentang harga tertentu, atau nama tertentu? |
 | D. Menghitung | Berapa pesanan untuk setiap status? |
 
-## 6. Giliran kamu (±10 menit)
+## 6. Kerjakan bersama (±15 menit)
 
-Kerjakan di bagian **GILIRAN KAMU** di `01_basics.sql`:
+Instruktur mengerjakannya langkah demi langkah di layar, dan kamu mengetik bersamaan di file kerjamu. Tidak perlu menebak jawabannya sendiri dulu. Bagian **KERJAKAN BERSAMA** di `01_basics.sql`:
 
 1. Tampilkan 5 produk **termurah** di department `Women`, kategori `Dresses`. Tampilkan nama, brand, dan harga.
 2. Ada berapa pesanan dengan status `Returned`?
 
-## 7. PR (30–60 menit)
-
-Kerjakan di bagian **PR** di `01_basics.sql`:
-
-1. **Lima query filter.** Setiap query wajib diberi komentar: pertanyaan apa yang dijawab.
-2. **Lima pertanyaan bisnis** untuk TheLook yang ingin kamu jawab di kursus ini. Tulis sebagai komentar di bagian bawah file.
-
-Simpan file sebagai `01_basics.sql` di laptopmu (Notepad di Windows, atau TextEdit dalam mode *Plain Text* di Mac). Kita unggah ke GitHub bersama di sesi 2.
+Lalu, bersama-sama, simpan file sebagai `01_basics.sql` di laptopmu (Notepad di Windows, atau TextEdit dalam mode *Plain Text* di Mac). Kita unggah ke GitHub bersama di sesi 2.
 
 > **Cara mengunduh file dari repo ini:** buka `01_basics.sql` di GitHub → tombol **Download raw file** (ikon panah ke bawah di kanan atas file).
+
+## 7. Latihan mandiri (opsional)
+
+Tidak wajib dan tidak dinilai. Untuk yang ingin berlatih lebih, kerjakan bagian **LATIHAN MANDIRI** di file kerja; jawabannya dibagikan instruktur setelah kelas.
+
+1. **Lima query filter**, masing-masing dengan komentar: pertanyaan apa yang dijawab.
+2. **Lima pertanyaan bisnis** untuk TheLook, ditulis sebagai komentar di bagian bawah file.
 
 ## Ringkasan
 

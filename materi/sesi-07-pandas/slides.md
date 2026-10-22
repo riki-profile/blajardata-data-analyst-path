@@ -53,12 +53,13 @@ Selasa, 24 November 2026 · 20.00–21.40 WIB
 
 | Waktu | Bagian |
 | --- | --- |
-| 20.00 | Recap PR sesi 6 |
-| 20.10 | Menghubungkan Colab ke BigQuery (**semua sampai berhasil**) |
-| 20.25 | Tabel analisis → DataFrame; eksplorasi, filter, groupby |
-| 21.05 | Giliran kamu |
-| 21.15 | Tanya jawab |
-| 21.35 | Penutup & PR |
+| 20.00 | Recap sesi 6 |
+| 20.05 | Menghubungkan Colab ke BigQuery (**semua sampai berhasil**) |
+| 20.20 | Tabel analisis → DataFrame; eksplorasi, filter, groupby |
+| 21.00 | **Kerjakan bersama** |
+| 21.10 | **Unggah bersama** `07_pandas_exploration.ipynb` |
+| 21.20 | Tanya jawab |
+| 21.37 | Penutup |
 
 Notebook: `07_pandas_exploration.ipynb` · **Siapkan Project ID**
 
@@ -110,7 +111,7 @@ Ketik `1` kalau muncul "Terhubung ke BigQuery!"
 
 ## Langkah 2 · Memuat tabel analisis
 
-Query = versi instruktur dari **PR sesi 4** (satu baris per barang terjual).
+Query = versi instruktur dari **tabel analisis** (satu baris per barang terjual).
 
 ```python
 SQL_TABEL_ANALISIS = """
@@ -191,23 +192,24 @@ df["label_harga"] = df["sale_price"].apply(label_harga)   # function sesi 6!
 
 <!-- _class: lead -->
 
-# Giliran kamu · 10 menit
+# Kerjakan bersama · 10 menit
 
-**G1.** Pelanggan unik (`user_id`) per `gender`
+**B1.** Pelanggan unik (`user_id`) per `gender`
 
-**G2.** Pendapatan & pesanan unik per `age_band`
+**B2.** Pendapatan & pesanan unik per `age_band`
+
+Instruktur memandu langkah demi langkah · kamu mengetik bersamaan
 
 ---
 
-## PR sesi 7 · Jelajahi tabel users
+## Unggah bersama & latihan mandiri
 
-1. Jumlah baris & kolom? Kolom mana yang kosong?
-2. Umur rata-rata, median, termuda, tertua?
-3. 5 negara dengan pelanggan terbanyak + persentasenya
-4. `traffic_source` terbanyak? Beda antara pria & wanita?
-5. Tahun berapa paling banyak pelanggan mendaftar?
+**Unggah bersama sekarang:**
+1. Ganti `PROJECT_ID` dengan `"isi-project-id-kamu"`
+2. Download .ipynb → `notebooks/07_pandas_exploration.ipynb`
 
-Setiap jawaban: **1 kalimat** di sel teks. Unggah `notebooks/07_pandas_exploration.ipynb`
+**Latihan mandiri (opsional):** tidak wajib, tidak dinilai; jawaban dibagikan setelah kelas (bagian 10 notebook):
+- Jelajahi tabel `users`: 5 pertanyaan, jawaban 1 kalimat
 
 ---
 

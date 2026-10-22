@@ -12,15 +12,15 @@
 
 | Waktu | Bagian | Poin utama |
 | --- | --- | --- |
-| 20.00 | Recap PR sesi 1 | 2 contoh pertanyaan bisnis; kesalahan umum |
-| 20.15 | Demo A | Fungsi agregasi; `COUNT(*)` vs `COUNT(kolom)` vs `COUNT(DISTINCT)`. A5 adalah momen "aha" soal NULL |
-| 20.22 | Demo B | GROUP BY dengan analogi keranjang. Sengaja picu error "neither grouped nor aggregated" dengan menambah `city` di SELECT B2 |
-| 20.32 | Demo C | Jelaskan kenapa memakai `inventory_items` hari ini (JOIN belum dipelajari), dan bahwa ini **perkiraan** |
-| 20.38 | Demo D | WHERE vs HAVING. Tunjukkan error kalau `AVG()` ditaruh di WHERE |
-| 20.45 | Demo GitHub | Buat repo dari nol (6a), **Create new file** `sql/01_basics.sql` (6b), commit. Lalu edit file (6c). Minta semua peserta mengikuti; "ketik 1 kalau repo sudah jadi" |
-| 21.05 | Giliran kamu | G1–G2 |
+| 20.00 | Recap sesi 1 | 5 menit: SELECT → FROM → WHERE → ORDER BY → LIMIT; kutip vs backtick |
+| 20.05 | Demo A | Fungsi agregasi; `COUNT(*)` vs `COUNT(kolom)` vs `COUNT(DISTINCT)`. A5 adalah momen "aha" soal NULL |
+| 20.13 | Demo B | GROUP BY dengan analogi keranjang. Sengaja picu error "neither grouped nor aggregated" dengan menambah `city` di SELECT B2 |
+| 20.24 | Demo C | Jelaskan kenapa memakai `inventory_items` hari ini (JOIN belum dipelajari), dan bahwa ini **perkiraan** |
+| 20.32 | Demo D | WHERE vs HAVING. Tunjukkan error kalau `AVG()` ditaruh di WHERE |
+| 20.40 | **Kerjakan bersama** | B1–B2, dipandu langkah demi langkah |
+| 20.50 | **Unggah bersama** | Buat repo `thelook-sql-analysis` dari nol (6a), **Create new file** `sql/01_basics.sql` (6b), lalu unggah `02_aggregation.sql`. "Ketik 1 kalau kedua file sudah ada". Peserta menempel link repo di chat |
 | 21.15 | Tanya jawab | Banyak pertanyaan GitHub biasanya muncul di sini |
-| 21.35 | Penutup | PR: top 10 brand + 2 file di repo + kirim link repo ke grup |
+| 21.35 | Penutup | Ringkasan; latihan mandiri L1 (top 10 brand, opsional) |
 
 ## Poin penting
 
@@ -43,7 +43,7 @@
 Versi lengkap (file kerja yang sudah terisi semua): [`kunci-jawaban/02_aggregation.sql`](kunci-jawaban/02_aggregation.sql). Ringkasannya:
 
 ```sql
--- G1. Produk per department
+-- B1. Produk per department
 SELECT
   department,
   COUNT(*) AS jumlah_produk,
@@ -51,7 +51,7 @@ SELECT
 FROM `bigquery-public-data.thelook_ecommerce.products`
 GROUP BY department;
 
--- G2. Pelanggan per traffic_source
+-- B2. Pelanggan per traffic_source
 SELECT
   traffic_source,
   COUNT(*) AS jumlah_pelanggan
@@ -59,7 +59,7 @@ FROM `bigquery-public-data.thelook_ecommerce.users`
 GROUP BY traffic_source
 ORDER BY jumlah_pelanggan DESC;
 
--- PR1. Top 10 brand berdasarkan pendapatan (perkiraan)
+-- L1. Top 10 brand berdasarkan pendapatan (perkiraan)
 SELECT
   product_brand AS brand,
   COUNT(*) AS barang_terjual,
@@ -74,7 +74,7 @@ LIMIT 10;
 
 Contoh temuan yang baik: "Brand dengan pendapatan terbesar bukan yang paling banyak terjual. Brand X unggul karena harga rata-ratanya 2–3 kali lipat brand lain." Sesuaikan dengan hasil hari itu.
 
-## Untuk recap sesi 3
+## Untuk recap sesi 3 (5 menit)
 
-- Kumpulkan link repo peserta. Buka 2–3 secara acak dan tunjukkan struktur yang benar.
-- Bahas temuan top 10 brand: apakah brand teratas unggul karena **volume** atau **harga**?
+- Buka 1–2 repo peserta dari link di chat sesi 2 dan tunjukkan struktur yang benar.
+- Ulangi aturan emas GROUP BY dan WHERE vs HAVING.

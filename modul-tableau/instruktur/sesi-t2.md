@@ -12,14 +12,14 @@ Materi: [sesi-t2-filter-storytelling](../sesi-t2-filter-storytelling/) · Durasi
 
 | Menit | Bagian | Poin utama |
 | --- | --- | --- |
-| 0 | Recap | 2 peserta menunjukkan grafik tambahan (1 menit masing-masing) |
-| 10 | Filter | Range of dates + Multiple values (dropdown); **Apply to Worksheets → All Using This Data Source**; letakkan di atas |
-| 30 | Margin | Margin dan Margin %; format persen; Margin % di Tooltip; pendapatan besar ≠ margin besar |
-| 45 | Desain + storytelling | Sebelum vs sesudah; 7 prinsip; headline → bukti → rekomendasi |
-| 65 | Giliran kamu | Tulis headline; 2–3 peserta membacakan |
-| 75 | README | Demo: repo `thelook-tableau-dashboard` → README → tempel template → isi headline + link Tableau Public |
+| 0 | Recap | 5 menit: relationship, `COUNTD`, judul kesimpulan |
+| 5 | Filter | Range of dates + Multiple values (dropdown); **Apply to Worksheets → All Using This Data Source**; letakkan di atas |
+| 25 | Margin | Margin dan Margin %; format persen; Margin % di Tooltip; pendapatan besar ≠ margin besar |
+| 40 | Desain + storytelling | Sebelum vs sesudah; 7 prinsip; headline → bukti → rekomendasi |
+| 60 | **Kerjakan bersama** | Headline + kotak rekomendasi; 2–3 peserta membacakan headline |
+| 70 | **Unggah bersama** | Save to Tableau Public, Edit Details, screenshot final, README lengkap (headline, link, isi, temuan, rekomendasi). **Modul Tableau selesai** |
 | 85 | Tanya jawab | |
-| 95 | Penutup | PR: dashboard final, Edit Details di Tableau Public, README lengkap. **Modul Tableau selesai** |
+| 95 | Penutup | Latihan mandiri (opsional) |
 
 ## Poin penting
 
@@ -27,9 +27,8 @@ Materi: [sesi-t2-filter-storytelling](../sesi-t2-filter-storytelling/) · Durasi
 - Headline yang lemah: "Dashboard Penjualan TheLook". Headline yang baik berisi kesimpulan dan angka.
 - Link Tableau Public adalah nilai jual utama portofolio Tableau. Pastikan link di README bisa dibuka di jendela incognito.
 
-## Kalau peserta tidak mengerjakan PR sebelumnya
+## Kalau peserta absen atau tertinggal
 
 | Situasi | Yang dilakukan |
 | --- | --- |
 | Dashboard sesi 1 hilang | Unduh `.twbx` cadangan dari link instruktur, buka, simpan ke akun sendiri, lanjutkan |
-| 2 grafik tambahan belum ada | Tidak menghalangi; filter dan margin bisa ditambahkan ke dashboard KPI + 2 grafik dari kelas |

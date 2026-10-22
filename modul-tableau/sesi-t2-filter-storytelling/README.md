@@ -23,14 +23,14 @@ Setelah sesi ini kamu bisa:
 
 | Menit | Bagian |
 | --- | --- |
-| 0–10 | Recap PR sesi 1: tunjukkan 2 grafik tambahanmu |
-| 10–30 | Demo: filter tanggal dan kategori |
-| 30–45 | Demo: calculated field margin dan margin % |
-| 45–65 | Desain dan storytelling: sebelum vs sesudah |
-| 65–75 | Giliran kamu: headline |
-| 75–85 | README `thelook-tableau-dashboard`: tempel template, isi headline + link |
+| 0–5 | Recap sesi 1 |
+| 5–25 | Demo: filter tanggal dan kategori |
+| 25–40 | Demo: calculated field margin dan margin % |
+| 40–60 | Desain dan storytelling: sebelum vs sesudah |
+| 60–70 | **Kerjakan bersama**: headline + kotak rekomendasi |
+| 70–85 | **Unggah bersama**: dashboard final + README `thelook-tableau-dashboard` |
 | 85–95 | Tanya jawab |
-| 95–100 | Penutup dan PR |
+| 95–100 | Penutup |
 
 ## 1. Filter
 
@@ -70,16 +70,26 @@ Kategori dengan pendapatan terbesar belum tentu yang paling **menguntungkan**. T
 | **Bukti** | 3–4 visual yang mendukung headline | KPI, tren, kategori |
 | **So what?** | Objek Text berisi rekomendasi | "Prioritaskan promosi kategori bermargin tinggi" |
 
-## 5. Giliran kamu (±10 menit)
+## 5. Kerjakan bersama (±10 menit)
 
-Tulis **headline** dashboard-mu (satu kalimat kesimpulan dengan angka) dan letakkan di paling atas.
+Instruktur mengerjakannya langkah demi langkah di layar, dan kamu mengikuti di dashboard-mu:
 
-## 6. PR (30–60 menit)
+1. Tulis **headline** (satu kalimat kesimpulan dengan angka) dan letakkan di paling atas.
+2. Tambahkan objek **Text** berisi rekomendasi (1–2 kalimat).
 
-1. **Selesaikan dashboard:** filter, kartu Margin %, headline, kotak rekomendasi. **File → Save to Tableau Public** (link tetap sama).
-2. Di halaman Tableau Public-mu: **Edit Details** → tulis deskripsi singkat dashboard.
-3. Screenshot `images/dashboard_final.png`, unggah ke repo `thelook-tableau-dashboard`.
-4. **Lengkapi README** dengan [template README Tableau](../template-portofolio/README.md): headline, link dashboard, isi dashboard, temuan, rekomendasi. README ini adalah hasil akhir modul Tableau.
+## 6. Unggah bersama (di kelas)
+
+Bersama instruktur:
+
+1. **File → Save to Tableau Public** (link tetap sama). Di halaman Tableau Public-mu: **Edit Details** → tulis deskripsi singkat.
+2. Screenshot → unggah `images/dashboard_final.png` ke repo `thelook-tableau-dashboard`.
+3. `README.md` → tempel [template README Tableau](../template-portofolio/README.md) → isi headline, link dashboard, isi dashboard, temuan, rekomendasi.
+
+Di akhir sesi, **portofolio modul Tableau-mu selesai**.
+
+## 7. Latihan mandiri (opsional)
+
+Tidak wajib dan tidak dinilai: rapikan desain lebih jauh (font, warna, perataan), atau buat dashboard kedua untuk analisis pelanggan.
 
 ## Ringkasan
 

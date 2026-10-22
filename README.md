@@ -22,7 +22,7 @@ Sepanjang kursus kamu berperan sebagai analis baru di **TheLook**, toko pakaian 
 | Durasi | 13 sesi, 1,5–2 jam (sesi 1 dan 8 berlangsung penuh 2 jam) |
 | Tempat | Zoom (link dibagikan di grup kelas) |
 | Bahasa | Bahasa Indonesia |
-| PR | 30–60 menit setelah setiap sesi, termasuk update portofolio |
+| PR | **Tidak ada PR wajib.** Semua latihan dan unggah portofolio dikerjakan bersama di kelas. Latihan mandiri tersedia untuk yang ingin berlatih lebih (opsional) |
 | Prasyarat | Tidak ada. Terbiasa dengan spreadsheet akan membantu; tidak perlu pengalaman coding |
 | Yang perlu disiapkan | Laptop dan akun Google. Power BI Desktop butuh Windows; pengguna Mac memakai Windows virtual lewat Parallels (panduan di [PERSIAPAN.md](PERSIAPAN.md#sebelum-sesi-10)) |
 
@@ -65,11 +65,14 @@ Studi kasus (sesi 12) dan publikasi portofolio (sesi 13) khusus jalur penuh, kar
 
 | Bagian | Durasi | Isi |
 | --- | --- | --- |
-| Recap | 10–15 menit | Membahas PR sesi sebelumnya |
+| Recap | ±5 menit | Mengingat kembali sesi sebelumnya |
 | Konsep & demo | 40–50 menit | Instruktur menjalankan query/notebook. Kamu memegang file yang sama dan ikut mengetik |
-| Giliran kamu | ±10 menit | Latihan singkat (jika waktu cukup) |
-| Tanya jawab | 15–20 menit | Pertanyaan apa saja, termasuk soal PR |
-| Penutup | 5–10 menit | Ringkasan dan PR berikutnya |
+| Kerjakan bersama | 10–15 menit | Latihan dipandu instruktur langkah demi langkah; kamu mengetik bersamaan |
+| Unggah bersama | ±10 menit | File sesi itu diunggah ke repo portofolio bersama-sama (mulai sesi 2) |
+| Tanya jawab | 10–20 menit | Pertanyaan apa saja |
+| Penutup | ±5 menit | Ringkasan dan latihan mandiri (opsional) |
+
+**Tidak ada PR wajib.** Setiap sesi selesai dengan file yang sudah diunggah ke portofolio. Bagian **Latihan mandiri (opsional)** di file kerja untuk yang ingin berlatih lebih; tidak dinilai, dan jawabannya dibagikan setelah kelas.
 
 ## Isi repository ini
 
@@ -92,8 +95,8 @@ Studi kasus (sesi 12) dan publikasi portofolio (sesi 13) khusus jalur penuh, kar
 
 Di setiap folder sesi:
 
-- `README.md` berisi materi sesi: tujuan, konsep, langkah demo, latihan "Giliran kamu", dan PR.
-- File kerja (`.sql` atau `.ipynb`) dengan nama yang sama seperti file portofoliomu. Unduh, jalankan sambil mengikuti demo, kerjakan latihan dan PR di file yang sama, lalu unggah ke portofoliomu.
+- `README.md` berisi materi sesi: tujuan, agenda, konsep, langkah demo, latihan "Kerjakan bersama", unggah bersama, dan latihan mandiri (opsional).
+- File kerja (`.sql` atau `.ipynb`) dengan nama yang sama seperti file portofoliomu. Unduh, jalankan sambil mengikuti demo, kerjakan latihannya bersama di file yang sama, lalu unggah ke portofoliomu di akhir sesi.
 - `slides.md` berisi slide presentasi sesi itu dalam format [Marp](https://marp.app). Di GitHub tampil sebagai teks biasa; untuk melihatnya sebagai slide, lihat [panduan instruktur](instruktur/README.md#slide-presentasi-marp).
 
 Notebook bisa dibuka langsung di Colab lewat tombol **Open in Colab** di README setiap sesi Python.
@@ -135,10 +138,10 @@ Semua orang memulai dari dataset yang sama, jadi fokus pilihanmu dan temuan yang
 
 Kebiasaan paling penting: **ketik dan jalankan sendiri kodenya.** Menonton demo saja tidak cukup.
 
-- **Kerjakan PR.** Sebagian besar latihan terjadi di antara sesi, dan setiap sesi dibangun di atas sesi sebelumnya.
-- **Update portofolio setiap selesai sesi.** Unggah file sesi itu sebelum kelas berikutnya. Mengejar banyak file di akhir jauh lebih berat.
-- **Jalankan ulang file demo.** Setelah sesi, buka file yang dibagikan dan jalankan baris demi baris.
-- **Coba latihan "Giliran kamu"** di kelas, walaupun hanya selesai setengah.
-- **Bertanya sejak awal.** Manfaatkan sesi tanya jawab, dan bawa masalah PR ke recap sesi berikutnya.
+- **Hadir dan ikut mengetik.** Semua latihan dan unggah portofolio terjadi di kelas. Kalau absen, tonton rekamannya sebelum sesi berikutnya dan ikuti langkahnya.
+- **Ikut unggah bersama di akhir sesi.** Portofoliomu terbangun sedikit demi sedikit di kelas, jadi tidak ada yang menumpuk di akhir.
+- *(Opsional)* **Jalankan ulang file demo** atau kerjakan latihan mandiri kalau ingin berlatih lebih.
+- **Ikuti "Kerjakan bersama"** sampai selesai. Kalau tertinggal, ketik `2` di chat.
+- **Bertanya sejak awal.** Manfaatkan sesi tanya jawab dan grup kelas.
 
 Pertanyaan di luar jam kelas: lewat grup kelas (kanal akan dikonfirmasi oleh instruktur).

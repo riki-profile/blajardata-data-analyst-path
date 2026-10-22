@@ -1,6 +1,6 @@
 # Kunci Jawaban
 
-Versi **instruktur** dari setiap file kerja peserta: semua latihan "Giliran kamu" dan PR sudah terisi. Nama file sama persis dengan file peserta di `materi/`, jadi mudah dibandingkan.
+Versi **instruktur** dari setiap file kerja peserta: semua latihan "Kerjakan bersama" (B1, B2, ...) dan latihan mandiri (L1, L2, ...) sudah terisi. Nama file sama persis dengan file peserta di `materi/`, jadi mudah dibandingkan.
 
 > **Jangan dibagikan ke peserta.** Kalau repository ini dibuka untuk peserta, pindahkan folder `instruktur/` ke repository privat (lihat [README instruktur](../README.md)).
 
@@ -24,6 +24,6 @@ Sesi 10, 11, dan 13 tidak punya file SQL/notebook latihan; langkah dashboard dan
 1. **Sehari sebelum sesi**, jalankan file kunci dari awal sampai akhir (BigQuery atau Colab). Dataset TheLook diperbarui berkala, jadi angka hari itu bisa berbeda dari sebelumnya.
 2. Jawaban teks (temuan, insight, keputusan) ditulis sebagai **contoh**. Angkanya ditandai `[...]`: isi dari output yang kamu dapat, lalu cek apakah kalimatnya masih sesuai dengan data.
 3. Di kelas, buka file **peserta** (yang kosong) untuk demo mengetik ulang, dan simpan file kunci di layar kedua sebagai contekan.
-4. Kunci ini satu jawaban yang benar, **bukan satu-satunya**. Jawaban peserta dengan cara berbeda tetap benar selama hasilnya sama. Contoh: PR3 sesi 6 boleh memakai `if/else` atau `.get(key, 0)`.
+4. Kunci ini satu jawaban yang benar, **bukan satu-satunya**. Jawaban peserta dengan cara berbeda tetap benar selama hasilnya sama. Contoh: L3 sesi 6 boleh memakai `if/else` atau `.get(key, 0)`.
 
 Notebook kunci sudah diuji berjalan dari awal sampai akhir tanpa error. Outputnya sengaja kosong; jalankan sendiri di Colab untuk melihat hasilnya.

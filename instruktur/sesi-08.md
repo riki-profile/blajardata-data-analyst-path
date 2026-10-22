@@ -11,19 +11,20 @@
 
 | Waktu | Bagian | Poin utama |
 | --- | --- | --- |
-| 20.00 | Recap PR sesi 7 | Nilai kosong di `users` → jembatan ke checklist |
-| 20.15 | A1 checklist | 5 cek. Missing yang **bermakna**: tabel % kosong per status adalah inti bagian ini |
-| 20.30 | A1 lanjutan | Duplikat, tipe data (UTC), nilai kategori, logika bisnis |
-| 20.40 | A2–A4 | Kolom baru; buang bulan berjalan; **catatan pembersihan**: kebiasaan yang membedakan analis yang baik |
-| 20.55 | Istirahat | 5 menit |
-| 21.00 | B1 prinsip | Grafik buruk vs baik; tabel memilih bentuk grafik; "judul = kesimpulan" |
-| 21.10 | B2 grafik garis | Kenapa sumbu Y mulai dari 0; anotasi titik terakhir; sumber data |
-| 21.20 | B3 batang | Horizontal + diurutkan; satu warna sorotan |
-| 21.28 | B4 histogram | Bin; garis median; diskusi judul |
-| 21.35 | B5 simpan | `savefig` + unduh + unggah ke `images/` + cara menampilkan di README |
-| 21.40 | Giliran kamu | G1–G2 |
+| 20.00 | Recap sesi 7 | 5 menit: 5 perintah pertama; `isna().sum()` → jembatan ke checklist |
+| 20.05 | A1 checklist | 5 cek. Missing yang **bermakna**: tabel % kosong per status adalah inti bagian ini |
+| 20.18 | A1 lanjutan | Duplikat, tipe data (UTC), nilai kategori, logika bisnis |
+| 20.30 | A2–A4 | Kolom baru; buang bulan berjalan; **catatan pembersihan**: kebiasaan yang membedakan analis yang baik |
+| 20.45 | Istirahat | 5 menit |
+| 20.50 | B1 prinsip | Grafik buruk vs baik; tabel memilih bentuk grafik; "judul = kesimpulan" |
+| 21.00 | B2 grafik garis | Kenapa sumbu Y mulai dari 0; anotasi titik terakhir; sumber data |
+| 21.10 | B3 batang | Horizontal + diurutkan; satu warna sorotan |
+| 21.18 | B4 histogram | Bin; garis median; diskusi judul |
+| 21.25 | B5 simpan | `savefig` + unduh gambar |
+| 21.30 | **Kerjakan bersama** | B1–B2, dipandu langkah demi langkah |
+| 21.40 | **Unggah bersama** | Notebook ke `notebooks/`, 3 gambar ke `images/` (buat foldernya dengan `images/README.md`) |
 | 21.50 | Tanya jawab | |
-| 21.58 | Penutup | PR |
+| 21.57 | Penutup | Ringkasan; latihan mandiri L1–L2 (opsional) |
 
 ## Poin penting
 
@@ -46,7 +47,7 @@
 Versi lengkap (file kerja yang sudah terisi semua): [`kunci-jawaban/08_cleaning_and_charts.ipynb`](kunci-jawaban/08_cleaning_and_charts.ipynb). Ringkasannya:
 
 ```python
-# G1. Pesanan per status
+# B1. Pesanan per status
 per_status = orders_bersih["status"].value_counts().sort_values()
 fig, ax = plt.subplots()
 ax.barh(per_status.index, per_status.values, color=WARNA_UTAMA)
@@ -56,7 +57,7 @@ ax.set_xlabel("Jumlah pesanan")
 ax.grid(axis="y", visible=False)
 plt.show()
 
-# G2. Rata-rata lama pengiriman 12 bulan terakhir
+# B2. Rata-rata lama pengiriman 12 bulan terakhir
 hari_bulanan = orders_bersih.groupby("order_month")["hari_sampai"].mean().tail(12)
 fig, ax = plt.subplots()
 ax.plot(hari_bulanan.index, hari_bulanan.values, color=WARNA_UTAMA, linewidth=2)
@@ -65,26 +66,26 @@ ax.set_title(f"Rata-rata pengiriman {hari_bulanan.mean():.1f} hari, relatif stab
 ax.set_ylabel("Hari")
 plt.show()
 
-# PR1a
+# L1a
 iqr = q3 - q1
 batas_bawah = q1 - 1.5 * iqr
 batas_atas = q3 + 1.5 * iqr
 print(q1, q3, iqr, batas_bawah, batas_atas)
 
-# PR1b
+# L1b
 outlier = products[(products["retail_price"] < batas_bawah) | (products["retail_price"] > batas_atas)]
 print(len(outlier), "produk outlier")
 outlier["category"].value_counts().head()
 
-# PR1c
+# L1c
 print(products[["name", "brand"]].isna().sum())
 products["brand"] = products["brand"].fillna("Tidak diketahui")
 ```
 
 Keputusan outlier yang diharapkan: **dibiarkan** (atau dianalisis terpisah), karena harga tinggi kemungkinan besar produk premium yang sah (misalnya mantel, jas), bukan kesalahan input. Hargai jawaban yang memberi alasan dari kategori produknya.
 
-Judul G1 dan G2 dalam kunci ini harus disesuaikan setelah melihat grafiknya (misalnya "relatif stabil").
+Judul B1 dan B2 dalam kunci ini harus disesuaikan setelah melihat grafiknya (misalnya "relatif stabil").
 
-## Untuk recap sesi 9
+## Untuk recap sesi 9 (5 menit)
 
-- Tampilkan 2–3 grafik PR peserta. Diskusikan: apakah judulnya kesimpulan? Apakah grafiknya mendukung judul?
+- Tampilkan 1 grafik dari sesi 8 dan tanyakan: apakah judulnya kesimpulan? Apakah grafiknya mendukung judul?

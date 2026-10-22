@@ -23,14 +23,14 @@ Setelah sesi ini kamu bisa:
 
 | Waktu (WIB) | Bagian |
 | --- | --- |
-| 20.00–20.10 | Recap PR sesi 10: tunjukkan 2 grafik tambahanmu |
-| 20.10–20.30 | Demo: filter tanggal dan kategori |
-| 20.30–20.45 | Demo: measure margin dan margin % |
-| 20.45–21.05 | Desain dan storytelling: sebelum vs sesudah |
-| 21.05–21.15 | Giliran kamu |
-| 21.15–21.25 | README `thelook-powerbi-dashboard`: tempel template, isi headline |
+| 20.00–20.05 | Recap sesi 10 |
+| 20.05–20.25 | Demo: filter tanggal dan kategori |
+| 20.25–20.40 | Demo: measure margin dan margin % |
+| 20.40–21.00 | Desain dan storytelling: sebelum vs sesudah |
+| 21.00–21.10 | **Kerjakan bersama**: headline + kotak rekomendasi |
+| 21.10–21.25 | **Unggah bersama**: dashboard final + README `thelook-powerbi-dashboard` |
 | 21.25–21.35 | Tanya jawab + pengenalan studi kasus sesi 12 (jalur penuh) |
-| 21.35–21.40 | Penutup dan PR |
+| 21.35–21.40 | Penutup |
 
 ## 1. Filter
 
@@ -73,16 +73,30 @@ Ubah dashboard dari "kumpulan grafik" menjadi **cerita**:
 | **Bukti** | 3–4 visual yang mendukung headline | KPI, tren, kategori, segmen |
 | **So what?** | Kotak teks rekomendasi | "Fokus ke program pembelian kedua untuk pelanggan baru" |
 
-## 5. Giliran kamu (±10 menit)
+## 5. Kerjakan bersama (±10 menit)
 
-Tulis **headline** dashboard-mu (satu kalimat kesimpulan) dan tempatkan di bagian paling atas. Bacakan di Zoom jika diminta.
+Instruktur mengerjakannya langkah demi langkah di layar, dan kamu mengikuti di dashboard-mu:
 
-## 6. PR (30–60 menit)
+1. Tulis **headline** dashboard (satu kalimat kesimpulan dengan angka) dan tempatkan di bagian paling atas.
+2. Tambahkan **kotak rekomendasi** (1–2 kalimat) di bawah atau di samping grafik.
 
-1. **Selesaikan dashboard:** filter tanggal dan kategori, kartu Margin %, headline, kotak rekomendasi.
-2. Simpan versi final (`.pbix` + PDF) dan screenshot `images/dashboard_final.png`, lalu unggah ke repo `thelook-powerbi-dashboard`.
-3. **Lengkapi README** repo `thelook-powerbi-dashboard` dengan [template README Power BI](../../template-portofolio/thelook-powerbi-dashboard/README.md): headline, isi dashboard, temuan, dan rekomendasi. README ini adalah hasil akhir modul Power BI.
-4. *(Jalur penuh)* **Pilih fokus untuk studi kasus sesi 12:** department `Women` atau `Men`, dan (opsional) satu negara. Baca sekilas [kasusnya](../sesi-12-studi-kasus/README.md#kasusnya).
+2–3 peserta membacakan headline-nya di Zoom.
+
+## 6. Unggah bersama (di kelas)
+
+Bersama instruktur, di repo `thelook-powerbi-dashboard`:
+
+1. **Ctrl + S**, lalu **File → Export → Export to PDF**. Unggah ulang `dashboard/thelook_dashboard.pbix` dan `dashboard/thelook_dashboard.pdf` (nama sama, menimpa versi sesi 10).
+2. Screenshot → unggah `images/dashboard_final.png`.
+3. `README.md` → tempel [template README Power BI](../../template-portofolio/thelook-powerbi-dashboard/README.md) → isi headline, isi dashboard, 2 temuan dari dashboard, dan rekomendasi → **Commit changes**.
+
+Di akhir sesi, **portofolio modul Power BI-mu selesai**.
+
+*(Jalur penuh)* Pilih fokus untuk studi kasus sesi 12: department `Women` atau `Men`, dan (opsional) satu negara. Lihat [kasusnya](../sesi-12-studi-kasus/README.md#kasusnya).
+
+## 7. Latihan mandiri (opsional)
+
+Tidak wajib dan tidak dinilai. Rapikan desain lebih jauh (tema warna, perataan, tooltip), atau tambahkan halaman kedua untuk analisis pelanggan (kelompok umur, traffic source).
 
 ## Ringkasan
 

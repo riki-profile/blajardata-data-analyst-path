@@ -15,9 +15,9 @@ Setelah sesi ini kamu bisa:
 
 | Waktu (WIB) | Bagian |
 | --- | --- |
-| 20.00–20.10 | Recap: hasil studi kasus |
-| 20.10–20.25 | "Mata perekrut": apa yang dilihat orang dalam 30 detik pertama di repo-mu |
-| 20.25–20.55 | Kerja: jalankan checklist, saling review berpasangan di *breakout room* |
+| 20.00–20.05 | Recap: hasil studi kasus |
+| 20.05–20.20 | "Mata perekrut": apa yang dilihat orang dalam 30 detik pertama di repo-mu |
+| 20.20–20.55 | **Checklist bersama**: instruktur memeriksa repo contoh langkah demi langkah, kamu memperbaiki repo-mu bersamaan |
 | 20.55–21.10 | README profil GitHub, pin 3 repo, (opsional) posting LinkedIn |
 | 21.10–21.30 | Presentasi 1 menit (sukarela) + tanya jawab |
 | 21.30–21.40 | Penutup kursus, langkah belajar berikutnya |

@@ -149,10 +149,10 @@ ORDER BY rata_harga DESC;
 
 
 -- =====================================================================
--- GILIRAN KAMU (di kelas, ±10 menit)
+-- KERJAKAN BERSAMA (di kelas, dipandu instruktur)
 -- =====================================================================
 
--- G1. Jumlah produk dan rata-rata harga untuk setiap department (Men/Women).
+-- B1. Jumlah produk dan rata-rata harga untuk setiap department (Men/Women).
 SELECT
   department,
   COUNT(*) AS jumlah_produk,
@@ -161,7 +161,7 @@ FROM `bigquery-public-data.thelook_ecommerce.products`
 GROUP BY department;
 
 
--- G2. Jumlah pelanggan untuk setiap traffic_source, dari yang terbanyak.
+-- B2. Jumlah pelanggan untuk setiap traffic_source, dari yang terbanyak.
 SELECT
   traffic_source,
   COUNT(*) AS jumlah_pelanggan
@@ -171,10 +171,11 @@ ORDER BY jumlah_pelanggan DESC;
 
 
 -- =====================================================================
--- PR SESI 2
+-- LATIHAN MANDIRI (OPSIONAL)
+-- Tidak wajib dan tidak dinilai. Jawabannya dibagikan instruktur setelah kelas.
 -- =====================================================================
 
--- PR1. Top 10 brand berdasarkan pendapatan (perkiraan, pakai inventory_items).
+-- L1. Top 10 brand berdasarkan pendapatan (perkiraan, pakai inventory_items).
 --      Tampilkan: brand, jumlah barang terjual, total pendapatan,
 --      rata-rata harga per barang. Urutkan dari pendapatan terbesar.
 SELECT

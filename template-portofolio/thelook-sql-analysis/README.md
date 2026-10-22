@@ -3,7 +3,7 @@
 <!--
 CARA MEMAKAI TEMPLATE INI
 - Ganti semua teks dalam <...> dengan isimu sendiri, lalu hapus komentar ini.
-- Temuan diambil dari Proyek SQL di sesi 4 (query P1, P2, P3).
+- Temuan diambil dari Proyek SQL yang dikerjakan bersama di sesi 4 (query P1, P2, P3).
 - Tulis dengan kata-katamu sendiri, dan pilih satu bahasa (Indonesia atau Inggris).
 -->
 

@@ -146,42 +146,43 @@ WHERE status = 'Cancelled';
 
 
 -- =====================================================================
--- GILIRAN KAMU (di kelas, ±10 menit)
+-- KERJAKAN BERSAMA (di kelas, dipandu instruktur)
 -- =====================================================================
 
--- G1. Tampilkan 5 produk TERMURAH di department Women, kategori Dresses.
+-- B1. Tampilkan 5 produk TERMURAH di department Women, kategori Dresses.
 --     Kolom: name, brand, retail_price
 
 
 
--- G2. Ada berapa pesanan dengan status Returned?
+-- B2. Ada berapa pesanan dengan status Returned?
 
 
 
 -- =====================================================================
--- PR SESI 1
+-- LATIHAN MANDIRI (OPSIONAL)
+-- Tidak wajib dan tidak dinilai. Jawabannya dibagikan instruktur setelah kelas.
 -- Tulis komentar di atas setiap query: pertanyaan apa yang dijawab.
 -- =====================================================================
 
--- PR1. Semua produk dari satu brand pilihanmu, urut dari harga tertinggi.
+-- L1. Semua produk dari satu brand pilihanmu, urut dari harga tertinggi.
 --      (Cari dulu nama brand-nya dengan SELECT DISTINCT brand ...)
 
 
 
--- PR2. Pelanggan dari Brasil yang berumur di bawah 25 tahun.
+-- L2. Pelanggan dari Brasil yang berumur di bawah 25 tahun.
 --      (Petunjuk: di dataset ini Brasil ditulis 'Brasil')
 
 
 
--- PR3. 10 pesanan Returned yang paling baru (urutkan berdasarkan created_at).
+-- L3. 10 pesanan Returned yang paling baru (urutkan berdasarkan created_at).
 
 
 
--- PR4. Produk kategori Sweaters dengan harga 50 sampai 100 USD.
+-- L4. Produk kategori Sweaters dengan harga 50 sampai 100 USD.
 
 
 
--- PR5. Pelanggan yang datang dari Facebook (kolom traffic_source)
+-- L5. Pelanggan yang datang dari Facebook (kolom traffic_source)
 --      dan tinggal di United States. Tampilkan 20 baris.
 
 

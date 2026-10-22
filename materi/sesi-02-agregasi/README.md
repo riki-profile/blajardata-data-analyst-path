@@ -16,12 +16,12 @@ Setelah sesi ini kamu bisa:
 
 | Waktu (WIB) | Bagian |
 | --- | --- |
-| 20.00–20.15 | Recap PR sesi 1 |
-| 20.15–20.45 | Konsep & demo: fungsi agregasi, GROUP BY, HAVING |
-| 20.45–21.05 | Demo GitHub: buat repo, folder, unggah `01_basics.sql` |
-| 21.05–21.15 | Giliran kamu |
+| 20.00–20.05 | Recap sesi 1 |
+| 20.05–20.40 | Konsep & demo: fungsi agregasi, GROUP BY, HAVING |
+| 20.40–20.50 | **Kerjakan bersama** |
+| 20.50–21.15 | **Unggah bersama**: buat repo `thelook-sql-analysis`, unggah `01_basics.sql` dan `02_aggregation.sql` |
 | 21.15–21.35 | Tanya jawab |
-| 21.35–21.40 | Penutup dan PR |
+| 21.35–21.40 | Penutup |
 
 ## 1. Fungsi agregasi
 
@@ -113,7 +113,7 @@ GitHub tidak bisa membuat folder kosong. Folder otomatis terbentuk saat kamu mem
 
 Buka file di GitHub → ikon **pensil** (Edit this file) → ubah → **Commit changes**.
 
-> **Commit** = menyimpan perubahan beserta catatan apa yang diubah. Tulis pesan commit yang jelas, misalnya `Tambah PR sesi 2: top 10 brand`, bukan `update`.
+> **Commit** = menyimpan perubahan beserta catatan apa yang diubah. Tulis pesan commit yang jelas, misalnya `Tambah query agregasi sesi 2`, bukan `update`.
 
 Struktur akhir repo SQL:
 
@@ -125,20 +125,27 @@ thelook-sql-analysis/
 
 Setiap modul punya repo portofolionya sendiri: modul Python membuat `thelook-python-analysis` (sesi 5), modul Power BI membuat `thelook-powerbi-dashboard` (sesi 10).
 
-## 7. Giliran kamu (±10 menit)
+## 7. Kerjakan bersama (±10 menit)
 
-Di bagian **GILIRAN KAMU** di `02_aggregation.sql`:
+Instruktur mengerjakannya langkah demi langkah di layar, dan kamu mengetik bersamaan di file kerjamu. Tidak perlu menebak jawabannya sendiri dulu. Bagian **KERJAKAN BERSAMA** di `02_aggregation.sql`:
 
 1. Berapa jumlah produk dan rata-rata harga **untuk setiap department** (`Men`/`Women`)?
 2. Berapa jumlah pelanggan untuk setiap `traffic_source`? Urutkan dari yang terbanyak.
 
-## 8. PR (30–60 menit)
+## 8. Unggah bersama (di kelas)
 
-1. **Top 10 brand berdasarkan pendapatan** (perkiraan, memakai `inventory_items`). Tampilkan juga jumlah barang terjual dan rata-rata harga per brand. Tulis satu kalimat temuan sebagai komentar.
-2. Pastikan repo `thelook-sql-analysis` berisi:
-   - `sql/01_basics.sql` (lengkap dengan PR sesi 1)
-   - `sql/02_aggregation.sql` (lengkap dengan PR sesi 2)
-3. Kirim link repo-mu ke grup kelas, contohnya `https://github.com/username/thelook-sql-analysis`.
+Ikuti demo GitHub di bagian 6 bersama instruktur. Di akhir sesi, repo `thelook-sql-analysis` sudah berisi:
+
+- `sql/01_basics.sql`
+- `sql/02_aggregation.sql`
+
+Kirim link repo-mu ke chat Zoom, contohnya `https://github.com/username/thelook-sql-analysis`.
+
+## 9. Latihan mandiri (opsional)
+
+Tidak wajib dan tidak dinilai. Untuk yang ingin berlatih lebih, kerjakan bagian **LATIHAN MANDIRI** di file kerja; jawabannya dibagikan instruktur setelah kelas.
+
+- **Top 10 brand berdasarkan pendapatan** (perkiraan, memakai `inventory_items`): jumlah barang terjual, pendapatan, dan rata-rata harga per brand, plus satu kalimat temuan.
 
 ## Ringkasan
 

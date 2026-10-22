@@ -19,12 +19,13 @@ Setelah sesi ini kamu bisa:
 
 | Waktu (WIB) | Bagian |
 | --- | --- |
-| 20.00–20.10 | Recap PR sesi 6 |
-| 20.10–20.25 | Menghubungkan Colab ke BigQuery (semua peserta sampai berhasil) |
-| 20.25–21.05 | Demo: tabel analisis sesi 4 → DataFrame; eksplorasi, filter, groupby, kolom baru |
-| 21.05–21.15 | Giliran kamu |
-| 21.15–21.35 | Tanya jawab |
-| 21.35–21.40 | Penutup dan PR |
+| 20.00–20.05 | Recap sesi 6 |
+| 20.05–20.20 | Menghubungkan Colab ke BigQuery (semua peserta sampai berhasil) |
+| 20.20–21.00 | Demo: tabel analisis → DataFrame; eksplorasi, filter, groupby, kolom baru |
+| 21.00–21.10 | **Kerjakan bersama** |
+| 21.10–21.20 | **Unggah bersama** `07_pandas_exploration.ipynb` |
+| 21.20–21.37 | Tanya jawab |
+| 21.37–21.40 | Penutup |
 
 ## Dari SQL ke pandas
 
@@ -46,14 +47,14 @@ Setelah sesi ini kamu bisa:
 | Bagian | Isi |
 | --- | --- |
 | 1 | Login dan koneksi ke BigQuery; function `jalankan_query()` |
-| 2 | Memuat tabel analisis (versi instruktur dari PR sesi 4) |
+| 2 | Memuat tabel analisis (versi instruktur, satu baris per barang terjual) |
 | 3 | `head`, `shape`, `columns`, `info`, `describe` |
 | 4–5 | Memilih kolom dan memfilter baris |
 | 6 | `sort_values`, `value_counts`, `nunique`, `groupby` + `agg` |
 | 7 | Kolom baru, tanggal (`pd.to_datetime`, `.dt.year`), `.apply()` |
 | 8 | Sekilas grafik dengan `.plot()` |
-| 9 | Giliran kamu |
-| 10 | PR: jelajahi tabel `users` |
+| 9 | Kerjakan bersama |
+| 10 | Latihan mandiri (opsional): jelajahi tabel `users` |
 
 ## Masalah koneksi yang sering terjadi
 
@@ -64,17 +65,17 @@ Setelah sesi ini kamu bisa:
 | `NameError: name 'client' is not defined` | Sel koneksi belum dijalankan. **Runtime → Run before** |
 | Login muncul lagi setelah lama tidak dipakai | Runtime Colab berhenti setelah idle. Jalankan ulang dari atas |
 
-## Giliran kamu (±10 menit)
+## Kerjakan bersama (±10 menit)
 
-Bagian 9 di notebook: pelanggan unik per gender, dan pendapatan per kelompok umur.
+Instruktur mengerjakannya langkah demi langkah di layar, dan kamu mengetik bersamaan di file kerjamu. Tidak perlu menebak jawabannya sendiri dulu. Bagian 9 di notebook: pelanggan unik per gender, dan pendapatan per kelompok umur.
 
-## PR (30–60 menit)
+## Unggah bersama (di kelas)
 
-Bagian 10 di notebook: muat tabel `users` dan jawab 5 pertanyaan eksplorasi, masing-masing dengan satu kalimat jawaban.
+Bersama instruktur: ganti `PROJECT_ID` dengan teks `"isi-project-id-kamu"` (supaya Project ID-mu tidak terlihat publik), lalu unduh notebook dan unggah ke `notebooks/07_pandas_exploration.ipynb` di repo `thelook-python-analysis`.
 
-Unggah sebagai `notebooks/07_pandas_exploration.ipynb`.
+## Latihan mandiri (opsional)
 
-> **Sebelum mengunggah:** ganti `PROJECT_ID` dengan teks `"isi-project-id-kamu"` kalau kamu tidak ingin Project ID-mu terlihat publik. Project ID bukan password, jadi tidak berbahaya, tapi lebih rapi kalau disembunyikan.
+Tidak wajib dan tidak dinilai. Untuk yang ingin berlatih lebih, kerjakan bagian **LATIHAN MANDIRI** di file kerja; jawabannya dibagikan instruktur setelah kelas. Bagian 10 di notebook: muat tabel `users` dan jawab 5 pertanyaan eksplorasi.
 
 ## Ringkasan
 

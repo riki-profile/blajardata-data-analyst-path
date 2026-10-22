@@ -17,12 +17,13 @@ Setelah sesi ini kamu bisa:
 
 | Waktu (WIB) | Bagian |
 | --- | --- |
-| 14.00–14.15 | Recap PR sesi 2 (top 10 brand) |
-| 14.15–14.30 | Konsep: key, relasi tabel, jenis JOIN |
-| 14.30–15.05 | Demo JOIN |
-| 15.05–15.15 | Giliran kamu |
-| 15.15–15.35 | Tanya jawab |
-| 15.35–15.40 | Penutup dan PR |
+| 14.00–14.05 | Recap sesi 2 |
+| 14.05–14.20 | Konsep: key, relasi tabel, jenis JOIN |
+| 14.20–14.55 | Demo JOIN |
+| 14.55–15.10 | **Kerjakan bersama** |
+| 15.10–15.20 | **Unggah bersama** `03_joins.sql` |
+| 15.20–15.37 | Tanya jawab |
+| 15.37–15.40 | Penutup |
 
 ## 1. Kenapa data dipisah ke beberapa tabel?
 
@@ -84,16 +85,22 @@ Buka [`03_joins.sql`](03_joins.sql) dan jalankan bersama instruktur.
 | E. LEFT JOIN | Berapa pelanggan yang belum pernah memesan? |
 | F. Jebakan fan-out | Kenapa angka bisa membengkak? |
 
-## 5. Giliran kamu (±10 menit)
+## 5. Kerjakan bersama (±15 menit)
+
+Instruktur mengerjakannya langkah demi langkah di layar, dan kamu mengetik bersamaan di file kerjamu. Tidak perlu menebak jawabannya sendiri dulu.
 
 1. Pendapatan per **department** (`Men`/`Women`) untuk setiap **negara**. Tampilkan 10 baris teratas.
 2. Rata-rata nilai pesanan (AOV) per negara, khusus pelanggan perempuan (`gender = 'F'`). AOV = total pendapatan ÷ jumlah pesanan unik.
 
-## 6. PR (30–60 menit)
+## 6. Unggah bersama (di kelas)
 
-1. **Pendapatan per kelompok umur dan gender.** Kelompok umur per 10 tahun bisa dibuat dengan `FLOOR(u.age / 10) * 10` (umur 23 → 20, umur 37 → 30). Tampilkan kelompok umur, gender, jumlah pelanggan unik, jumlah pesanan unik, dan pendapatan.
-2. Tulis **2 kalimat temuan** sebagai komentar: kelompok mana yang paling besar, dan apakah ada perbedaan antara gender?
-3. Unggah `sql/03_joins.sql` ke repo portofoliomu.
+Bersama instruktur: repo `thelook-sql-analysis` → folder `sql` → **Add file → Upload files** → `03_joins.sql` → **Commit changes**.
+
+## 7. Latihan mandiri (opsional)
+
+Tidak wajib dan tidak dinilai. Untuk yang ingin berlatih lebih, kerjakan bagian **LATIHAN MANDIRI** di file kerja; jawabannya dibagikan instruktur setelah kelas.
+
+- **Pendapatan per kelompok umur dan gender.** Kelompok umur per 10 tahun: `FLOOR(u.age / 10) * 10` (umur 23 → 20, umur 37 → 30). Tampilkan kelompok umur, gender, pelanggan unik, pesanan unik, dan pendapatan, plus 2 kalimat temuan.
 
 ## Ringkasan
 

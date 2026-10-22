@@ -51,15 +51,15 @@ Sabtu, 28 November 2026 · 14.00–15.40 WIB
 
 | Waktu | Bagian |
 | --- | --- |
-| 14.00 | Recap PR sesi 8 |
-| 14.15 | **A**: statistik deskriptif |
-| 14.30 | **B**: repeat-purchase rate |
-| 14.40 | **C**: segmentasi RFM |
-| 15.05 | Giliran kamu |
-| 15.15 | Cara menulis temuan + **tulis temuan pertamamu** |
-| 15.25 | README `thelook-python-analysis` |
-| 15.32 | Tanya jawab |
-| 15.37 | Penutup & PR |
+| 14.00 | Recap sesi 8 |
+| 14.05 | **A**: statistik deskriptif |
+| 14.20 | **B**: repeat-purchase rate |
+| 14.30 | **C**: segmentasi RFM |
+| 14.50 | **Kerjakan bersama** |
+| 15.00 | **3 temuan + rekomendasi**, ditulis bersama |
+| 15.15 | **Unggah bersama**: README `thelook-python-analysis` |
+| 15.30 | Tanya jawab |
+| 15.37 | Penutup |
 
 Notebook: `09_customer_analysis.ipynb`
 
@@ -165,11 +165,13 @@ Grafik: **% pelanggan vs % pendapatan** per segmen. Segmen kecil, pendapatan bes
 
 <!-- _class: lead -->
 
-# Giliran kamu · 10 menit
+# Kerjakan bersama · 10 menit
 
-**G1.** Repeat-purchase rate untuk 5 negara terbesar
+**B1.** Repeat-purchase rate untuk 5 negara terbesar
 
-**G2.** Median `monetary` Champions vs Pelanggan Baru: berapa kali lipat?
+**B2.** Median `monetary` Champions vs Pelanggan Baru: berapa kali lipat?
+
+Instruktur memandu langkah demi langkah · kamu mengetik bersamaan
 
 ---
 
@@ -185,13 +187,13 @@ Grafik: **% pelanggan vs % pendapatan** per segmen. Segmen kecil, pendapatan bes
 
 ---
 
-## PR sesi 9
+## Unggah bersama
 
-- Temuan 1 sudah ditulis di kelas
-- Tulis **temuan 2 dan 3** dari sesi 7–9 + **1 rekomendasi**
-- Lengkapi **README `thelook-python-analysis`** (template README Python)
+Di repo `thelook-python-analysis`:
+1. `README.md` → tempel template Python → Ringkasan, 3 temuan, rekomendasi
+2. Unggah `notebooks/09_customer_analysis.ipynb` + `images/04_segmen_rfm.png`
 
-Unggah `notebooks/09_customer_analysis.ipynb` + `images/04_segmen_rfm.png`
+**Portofolio modul Python selesai!**
 
 Jalur penuh: **install Power BI Desktop sebelum sesi 10** (Mac: panduan Parallels, mulai Minggu 29 Nov)
 

@@ -3,7 +3,7 @@
 <!--
 CARA MEMAKAI TEMPLATE INI
 - Ganti semua teks dalam <...> dengan isimu sendiri, lalu hapus komentar ini.
-- Temuan diambil dari notebook sesi 8-9 (temuan 1 ditulis di kelas sesi 9).
+- Temuan dan rekomendasi ditulis bersama di kelas sesi 9.
 - Bagian "Studi kasus" hanya untuk peserta jalur penuh (sesi 12); hapus kalau tidak ikut.
 - Tulis dengan kata-katamu sendiri, dan pilih satu bahasa (Indonesia atau Inggris).
 -->

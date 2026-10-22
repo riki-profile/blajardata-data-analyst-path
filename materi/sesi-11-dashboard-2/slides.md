@@ -51,14 +51,14 @@ Kamis, 3 Desember 2026 · 20.00–21.40 WIB
 
 | Waktu | Bagian |
 | --- | --- |
-| 20.00 | Recap PR sesi 10: grafik tambahanmu |
-| 20.10 | Filter tanggal & kategori |
-| 20.30 | Measure DAX: margin & margin % |
-| 20.45 | Desain & storytelling: sebelum vs sesudah |
-| 21.05 | Giliran kamu: headline |
-| 21.15 | README `thelook-powerbi-dashboard` |
+| 20.00 | Recap sesi 10 |
+| 20.05 | Filter tanggal & kategori |
+| 20.25 | Measure DAX: margin & margin % |
+| 20.40 | Desain & storytelling: sebelum vs sesudah |
+| 21.00 | **Kerjakan bersama**: headline + rekomendasi |
+| 21.10 | **Unggah bersama**: dashboard final + README |
 | 21.25 | Tanya jawab + studi kasus sesi 12 (jalur penuh) |
-| 21.35 | Penutup & PR |
+| 21.35 | Penutup |
 
 Dashboard sesi 10 hilang? Buka **`thelook_dashboard_cadangan.pbix`** dari grup kelas.
 
@@ -136,11 +136,14 @@ Dari **kumpulan grafik** menjadi **cerita**: kesimpulan → bukti → rekomendas
 
 <!-- _class: lead -->
 
-# Giliran kamu · 10 menit
+# Kerjakan bersama · 10 menit
 
-Tulis **headline** dashboard-mu: satu kalimat kesimpulan dengan angka
+1. Tulis **headline**: satu kalimat kesimpulan dengan angka, di paling atas
+2. Tambahkan **kotak rekomendasi** (1–2 kalimat)
 
-Letakkan di paling atas. Siapa yang mau membacakan?
+Siapa yang mau membacakan headline-nya?
+
+Instruktur memandu langkah demi langkah · kamu mengetik bersamaan
 
 ---
 
@@ -155,7 +158,7 @@ Template README Power BI → tempel di `README.md` repo-mu
 | Data & model | Fakta + dimensi, measure DAX |
 | Temuan & rekomendasi | Dari dashboard-mu sendiri |
 
-Hari ini: isi headline. Sisanya PR.
+Diisi **bersama di kelas** hari ini.
 
 ---
 
@@ -171,11 +174,16 @@ Siapkan login BigQuery & Colab.
 
 ---
 
-## PR sesi 11
+## Unggah bersama & latihan mandiri
 
-1. **Selesaikan dashboard**: filter, kartu Margin %, headline, kotak rekomendasi → simpan + PDF + `images/dashboard_final.png`
-2. **Lengkapi README** `thelook-powerbi-dashboard` = hasil akhir modul Power BI
-3. *(Jalur penuh)* **Pilih fokus** studi kasus sesi 12
+Di repo `thelook-powerbi-dashboard`:
+1. Ctrl + S → Export to PDF → unggah ulang `.pbix` + PDF
+2. Screenshot → `images/dashboard_final.png`
+3. README lengkap: headline, isi dashboard, 2 temuan, rekomendasi
+
+**Portofolio modul Power BI selesai!** · Jalur penuh: pilih fokus studi kasus sesi 12
+
+**Latihan mandiri (opsional):** tidak wajib, tidak dinilai; jawaban dibagikan setelah kelas: rapikan desain, atau halaman kedua untuk analisis pelanggan
 
 ---
 

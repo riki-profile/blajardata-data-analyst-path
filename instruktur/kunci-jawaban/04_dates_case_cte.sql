@@ -167,8 +167,8 @@ LIMIT 12;
 
 
 -- ---------------------------------------------------------------------
--- E. PEMBERSIHAN DASAR (di kelas hanya ditunjukkan sekilas, jalankan
---    sendiri di rumah)
+-- E. PEMBERSIHAN DASAR (di kelas hanya ditunjukkan sekilas, boleh
+--    dijalankan sendiri kapan saja, opsional)
 -- ---------------------------------------------------------------------
 
 -- E1. Berapa nilai kosong (NULL) di tabel products?
@@ -216,7 +216,8 @@ LIMIT 20;
 -- =====================================================================
 -- PROYEK SQL: KONDISI BISNIS THELOOK
 -- Tiga query di bawah menjawab tiga pertanyaan besar manajemen.
--- Jalankan satu per satu, baca hasilnya, lalu tulis TEMUAN di bawah
+-- Dikerjakan BERSAMA di kelas: jalankan satu per satu, baca hasilnya,
+-- lalu tulis TEMUAN di bawah
 -- setiap query. Temuan ini masuk ke README repo thelook-sql-analysis.
 -- =====================================================================
 
@@ -315,10 +316,11 @@ ORDER BY frekuensi_belanja;
 
 
 -- =====================================================================
--- LATIHAN TAMBAHAN (PR)
+-- LATIHAN MANDIRI (OPSIONAL)
+-- Tidak wajib dan tidak dinilai. Jawabannya dibagikan instruktur setelah kelas.
 -- =====================================================================
 
--- G1. Pendapatan per tahun, hanya untuk tahun yang sudah lengkap.
+-- L1. Pendapatan per tahun, hanya untuk tahun yang sudah lengkap.
 --     Petunjuk: DATE(created_at) < DATE_TRUNC(CURRENT_DATE(), YEAR)
 SELECT
   EXTRACT(YEAR FROM created_at) AS tahun,
@@ -330,7 +332,7 @@ GROUP BY tahun
 ORDER BY tahun;
 
 
--- G2. Kelompokkan produk: Murah (< 25), Sedang (25-75), Mahal (> 75).
+-- L2. Kelompokkan produk: Murah (< 25), Sedang (25-75), Mahal (> 75).
 --     Berapa jumlah produk di setiap kelompok?
 SELECT
   CASE

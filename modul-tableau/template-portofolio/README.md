@@ -3,7 +3,7 @@
 <!--
 CARA MEMAKAI TEMPLATE INI
 - Ganti semua teks dalam <...> dengan isimu sendiri, lalu hapus komentar ini.
-- Draf ditulis di sesi T2. Headline dan rekomendasi sama dengan yang ada di dashboard-mu.
+- Diisi bersama di kelas sesi T2. Headline dan rekomendasi sama dengan yang ada di dashboard-mu.
 - Tulis dengan kata-katamu sendiri, dan pilih satu bahasa (Indonesia atau Inggris).
 -->
 

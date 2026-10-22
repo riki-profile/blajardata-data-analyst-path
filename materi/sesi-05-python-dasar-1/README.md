@@ -20,12 +20,13 @@ Setelah sesi ini kamu bisa:
 
 | Waktu (WIB) | Bagian |
 | --- | --- |
-| 20.00–20.15 | Recap Proyek SQL sesi 4, penutupan modul SQL, sambutan peserta baru modul Python |
-| 20.15–20.25 | Kenapa Python setelah SQL? Tur Google Colab |
-| 20.25–21.00 | Demo: variabel, tipe data, list, dictionary |
-| 21.00–21.10 | Giliran kamu + membuat repo `thelook-python-analysis` dan menyimpan notebook |
-| 21.10–21.35 | Tanya jawab |
-| 21.35–21.40 | Penutup dan PR |
+| 20.00–20.10 | Recap modul SQL, sambutan peserta baru modul Python |
+| 20.10–20.20 | Kenapa Python setelah SQL? Tur Google Colab |
+| 20.20–20.55 | Demo: variabel, tipe data, list, dictionary |
+| 20.55–21.05 | **Kerjakan bersama** |
+| 21.05–21.20 | **Unggah bersama**: buat repo `thelook-python-analysis`, unggah notebook |
+| 21.20–21.37 | Tanya jawab |
+| 21.37–21.40 | Penutup |
 
 ## Kenapa Python, kalau sudah bisa SQL?
 
@@ -51,9 +52,9 @@ Di dunia kerja keduanya dipakai bersama: **SQL untuk mengambil, Python untuk men
 | 4 | List: indeks, slicing, `len`/`sum`/`max`/`min`, `append`, `sorted` |
 | 5 | Dictionary: key/value, mengubah dan menambah data |
 | 6 | List berisi dictionary: "tabel kecil" pesanan TheLook |
-| 7 | Giliran kamu |
+| 7 | Kerjakan bersama |
 | 8 | Menyimpan notebook ke GitHub |
-| 9 | PR |
+| 9 | Latihan mandiri (opsional) |
 
 ## Cheat sheet
 
@@ -72,15 +73,17 @@ pesanan["total"]                               # ambil nilai
 pesanan["status"] = "Complete"                 # tambah/ubah
 ```
 
-## Giliran kamu (±10 menit)
+## Kerjakan bersama (±10 menit)
 
-Bagian 7 di notebook: membuat variabel produk dan menghitung ringkasan ongkir dari sebuah list.
+Instruktur mengerjakannya langkah demi langkah di layar, dan kamu mengetik bersamaan di file kerjamu. Tidak perlu menebak jawabannya sendiri dulu. Bagian 7 di notebook: membuat variabel produk dan menghitung ringkasan ongkir dari sebuah list.
 
-## PR (30–60 menit)
+## Unggah bersama (di kelas)
 
-Bagian 9 di notebook: 4 latihan list dan dictionary dengan data pesanan dan produk.
+Bersama instruktur: buat repo **`thelook-python-analysis`** (langkahnya di [PANDUAN_GITHUB.md](../../PANDUAN_GITHUB.md)), buat folder `notebooks/`, dan unggah notebook sebagai `notebooks/05_python_basics.ipynb`. Langkah lengkapnya ada di bagian 8 notebook.
 
-Lalu buat repo **`thelook-python-analysis`** (langkahnya di [PANDUAN_GITHUB.md](../../PANDUAN_GITHUB.md)), buat folder `notebooks/`, dan unggah notebook sebagai `notebooks/05_python_basics.ipynb`. Langkah lengkapnya ada di bagian 8 notebook.
+## Latihan mandiri (opsional)
+
+Tidak wajib dan tidak dinilai. Untuk yang ingin berlatih lebih, kerjakan bagian **LATIHAN MANDIRI** di file kerja; jawabannya dibagikan instruktur setelah kelas. Bagian 9 di notebook: 4 latihan list dan dictionary.
 
 ## Ringkasan
 

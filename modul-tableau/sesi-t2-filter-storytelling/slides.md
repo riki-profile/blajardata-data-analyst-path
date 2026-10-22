@@ -51,14 +51,14 @@ Filter, margin, desain & storytelling
 
 | Menit | Bagian |
 | --- | --- |
-| 0 | Recap PR sesi 1: grafik tambahanmu |
-| 10 | Filter tanggal & kategori |
-| 30 | Calculated field: margin & margin % |
-| 45 | Desain & storytelling: sebelum vs sesudah |
-| 65 | Giliran kamu: headline |
-| 75 | README `thelook-tableau-dashboard` |
+| 0 | Recap sesi 1 |
+| 5 | Filter tanggal & kategori |
+| 25 | Calculated field: margin & margin % |
+| 40 | Desain & storytelling: sebelum vs sesudah |
+| 60 | **Kerjakan bersama**: headline + rekomendasi |
+| 70 | **Unggah bersama**: dashboard final + README |
 | 85 | Tanya jawab |
-| 95 | Penutup & PR |
+| 95 | Penutup |
 
 Dashboard sesi 1 hilang? Buka **dashboard cadangan** (`.twbx`) dari link instruktur.
 
@@ -136,11 +136,12 @@ Dari **kumpulan grafik** menjadi **cerita**: kesimpulan → bukti → rekomendas
 
 <!-- _class: lead -->
 
-# Giliran kamu · 10 menit
+# Kerjakan bersama · 10 menit
 
-Tulis **headline** dashboard-mu: satu kalimat kesimpulan dengan angka
+1. Tulis **headline**: satu kalimat kesimpulan dengan angka, di paling atas
+2. Tambahkan objek **Text** berisi rekomendasi
 
-Letakkan di paling atas. Siapa yang mau membacakan?
+Siapa yang mau membacakan headline-nya?
 
 ---
 
@@ -155,16 +156,19 @@ Template README Tableau → tempel di `README.md` repo-mu
 | Data & model | Fakta + dimensi, calculated field |
 | Temuan & rekomendasi | Dari dashboard-mu sendiri |
 
-Hari ini: headline + link. Sisanya PR.
+Diisi **bersama di kelas** hari ini.
 
 ---
 
-## PR sesi 2
+## Unggah bersama & latihan mandiri
 
-1. **Selesaikan dashboard**: filter, kartu Margin %, headline, kotak rekomendasi → Save to Tableau Public
-2. Tableau Public → **Edit Details**: deskripsi singkat
-3. Screenshot `images/dashboard_final.png` → repo
-4. **Lengkapi README** `thelook-tableau-dashboard` = hasil akhir modul
+1. Save to Tableau Public → **Edit Details**: deskripsi singkat
+2. Screenshot `images/dashboard_final.png` → repo
+3. **README lengkap** `thelook-tableau-dashboard`
+
+**Portofolio modul Tableau selesai!**
+
+**Latihan mandiri (opsional):** rapikan desain, atau dashboard kedua untuk analisis pelanggan
 
 ---
 

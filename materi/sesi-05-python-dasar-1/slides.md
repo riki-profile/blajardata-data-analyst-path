@@ -53,12 +53,13 @@ Kamis, 19 November 2026 · 20.00–21.40 WIB
 
 | Waktu | Bagian |
 | --- | --- |
-| 20.00 | Recap Proyek SQL & penutupan modul SQL · selamat datang peserta modul Python |
-| 20.15 | Kenapa Python? Tur Google Colab |
-| 20.25 | Demo: variabel, tipe data, list, dictionary |
-| 21.00 | Giliran kamu + repo `thelook-python-analysis` |
-| 21.10 | Tanya jawab |
-| 21.35 | Penutup & PR |
+| 20.00 | Recap modul SQL · selamat datang peserta modul Python |
+| 20.10 | Kenapa Python? Tur Google Colab |
+| 20.20 | Demo: variabel, tipe data, list, dictionary |
+| 20.55 | **Kerjakan bersama** |
+| 21.05 | **Unggah bersama**: repo `thelook-python-analysis` |
+| 21.20 | Tanya jawab |
+| 21.37 | Penutup |
 
 Notebook: `05_python_basics.ipynb` (tombol **Open in Colab** di README sesi)
 
@@ -179,11 +180,13 @@ Menjumlahkan semua total satu per satu itu merepotkan → **loop** di sesi 6.
 
 <!-- _class: lead -->
 
-# Giliran kamu · 10 menit
+# Kerjakan bersama · 10 menit
 
-**G1.** Variabel produk → cetak: `Produk Levi's 501 harganya 59.50 USD, stok 12`
+**B1.** Variabel produk → cetak: `Produk Levi's 501 harganya 59.50 USD, stok 12`
 
-**G2.** `ongkir = [5.0, 7.5, 5.0, 12.0, 9.5]`: total, rata-rata, termahal
+**B2.** `ongkir = [5.0, 7.5, 5.0, 12.0, 9.5]`: total, rata-rata, termahal
+
+Instruktur memandu langkah demi langkah · kamu mengetik bersamaan
 
 ---
 
@@ -197,16 +200,15 @@ Menjumlahkan semua total satu per satu itu merepotkan → **loop** di sesi 6.
 
 ---
 
-## PR sesi 5
+## Latihan mandiri (opsional)
+
+Tidak wajib, tidak dinilai; jawaban dibagikan setelah kelas.
 
 Bagian 9 notebook:
-
 1. List harga 3 barang → total, rata-rata, tertinggi
-2. Dictionary satu produk TheLook → hitung margin & persen margin
-3. Pelanggan per negara → total, negara terbanyak, persentasenya
+2. Dictionary satu produk → margin & persen margin
+3. Pelanggan per negara → total, terbanyak, persentase
 4. List berisi 3 dictionary pesanan
-
-Unggah ke `notebooks/05_python_basics.ipynb`
 
 ---
 

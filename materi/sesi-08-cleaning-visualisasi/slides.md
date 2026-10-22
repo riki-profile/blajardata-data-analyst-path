@@ -51,13 +51,14 @@ Kamis, 26 November 2026 · 20.00–22.00 WIB (2 jam)
 
 | Waktu | Bagian |
 | --- | --- |
-| 20.00 | Recap PR sesi 7 |
-| 20.15 | **Bagian A**: membersihkan tabel `orders` |
-| 20.55 | Istirahat 5 menit |
-| 21.00 | **Bagian B**: prinsip grafik + 3 grafik + menyimpan gambar |
-| 21.40 | Giliran kamu |
+| 20.00 | Recap sesi 7 |
+| 20.05 | **Bagian A**: membersihkan tabel `orders` |
+| 20.45 | Istirahat 5 menit |
+| 20.50 | **Bagian B**: prinsip grafik + 3 grafik + menyimpan gambar |
+| 21.30 | **Kerjakan bersama** |
+| 21.40 | **Unggah bersama**: notebook + 3 gambar |
 | 21.50 | Tanya jawab |
-| 21.58 | Penutup & PR |
+| 21.57 | Penutup |
 
 Notebook: `08_cleaning_and_charts.ipynb`
 
@@ -194,22 +195,25 @@ Di README: `![Pendapatan bulanan](images/01_pendapatan_bulanan.png)`
 
 <!-- _class: lead -->
 
-# Giliran kamu · 10 menit
+# Kerjakan bersama · 10 menit
 
-**G1.** Batang horizontal: jumlah pesanan per status, judul berupa kesimpulan
+**B1.** Batang horizontal: jumlah pesanan per status, judul berupa kesimpulan
 
-**G2.** Rata-rata `hari_sampai` per bulan, 12 bulan terakhir: makin cepat atau lambat?
+**B2.** Rata-rata `hari_sampai` per bulan, 12 bulan terakhir: makin cepat atau lambat?
+
+Instruktur memandu langkah demi langkah · kamu mengetik bersamaan
 
 ---
 
-## PR sesi 8
+## Unggah bersama & latihan mandiri
 
-1. **Outlier harga** di `products`
-   - IQR = Q3 − Q1 · batas = Q1 − 1,5×IQR dan Q3 + 1,5×IQR
-   - Berapa produk outlier? Kategori apa?
-   - Keputusan: dibuang, dibiarkan, atau dianalisis terpisah? **Kenapa?**
-2. **3 grafik baru**, judul = kesimpulan, 1 kalimat insight per grafik
-3. Unggah notebook + semua PNG ke `images/`
+**Unggah bersama sekarang**, ke repo `thelook-python-analysis`:
+- `notebooks/08_cleaning_and_charts.ipynb`
+- 3 gambar ke `images/`
+
+**Latihan mandiri (opsional):** tidak wajib, tidak dinilai; jawaban dibagikan setelah kelas:
+- L1: outlier harga di `products` (IQR + boxplot)
+- L2: 3 grafik baru, judul = kesimpulan, 1 kalimat insight
 
 ---
 

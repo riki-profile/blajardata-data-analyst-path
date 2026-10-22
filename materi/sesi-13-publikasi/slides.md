@@ -52,9 +52,9 @@ Selasa, 8 Desember 2026 · 20.00–21.40 WIB · Sesi terakhir
 | Waktu | Bagian |
 | --- | --- |
 | 20.00 | Recap: hasil studi kasus |
-| 20.10 | "Mata perekrut": 30 detik pertama di repo-mu |
-| 20.25 | Checklist + review berpasangan |
-| 20.55 | Pin repository & profil GitHub; LinkedIn (opsional) |
+| 20.05 | "Mata perekrut": 30 detik pertama di repo-mu |
+| 20.20 | **Checklist bersama**: instruktur memeriksa, kamu memperbaiki |
+| 20.55 | README profil GitHub, pin 3 repo; LinkedIn (opsional) |
 | 21.10 | Presentasi 1 menit |
 | 21.30 | Penutup kursus |
 

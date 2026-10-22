@@ -27,10 +27,11 @@ Setelah sesi ini kamu bisa:
 | 10–20 | Apa itu dashboard; unduh 3 file CSV |
 | 20–35 | Demo: memuat data, tipe data, relationship |
 | 35–65 | Demo: calculated field, kartu KPI, grafik tren bulanan, grafik kategori, dashboard |
-| 65–75 | Giliran kamu |
-| 75–90 | Tanya jawab |
-| 90–97 | **Simpan ke Tableau Public bersama-sama** (wajib, di kelas) |
-| 97–100 | Penutup dan PR |
+| 65–75 | **Kerjakan bersama**: judul kesimpulan + grafik ketiga |
+| 75–82 | **Simpan ke Tableau Public bersama-sama** (wajib, di kelas) |
+| 82–92 | **Unggah bersama**: repo `thelook-tableau-dashboard` |
+| 92–98 | Tanya jawab |
+| 98–100 | Penutup |
 
 ## 1. Apa itu dashboard?
 
@@ -43,7 +44,7 @@ Dashboard yang kita bangun di sesi 1–2, dibaca dari atas ke bawah:
 | Atas | Judul berisi kesimpulan utama · filter tanggal dan kategori |
 | Baris KPI | Pendapatan · Jumlah pesanan · AOV · Margin % |
 | Tengah | Tren pendapatan bulanan (garis) |
-| Bawah | Pendapatan per kategori (batang horizontal) · grafik tambahan (PR) |
+| Bawah | Pendapatan per kategori (batang horizontal) · pendapatan per negara (dibuat bersama) |
 
 ## 2. Data: 3 file CSV
 
@@ -76,25 +77,30 @@ produk (1) ───< penjualan >─── (1) pelanggan
 
 Ikuti [panduan Tableau Public](panduan-tableau.md) langkah demi langkah bersama instruktur.
 
-## 5. Giliran kamu (±10 menit)
+## 5. Kerjakan bersama (±10 menit)
 
-Ubah judul kedua grafik menjadi **kalimat kesimpulan**. Contoh: "Pendapatan naik 9% dalam 12 bulan terakhir".
+Instruktur mengerjakannya langkah demi langkah di layar, dan kamu mengikuti di Tableau-mu:
 
-## 6. Simpan ke Tableau Public (di kelas, sebelum Zoom ditutup)
+1. Ubah judul kedua grafik menjadi **kalimat kesimpulan**. Contoh: "Pendapatan naik 9% dalam 12 bulan terakhir".
+2. Tambahkan **grafik ketiga**: pendapatan per negara (batang horizontal, diurutkan), lalu masukkan ke dashboard.
+
+## 6. Simpan ke Tableau Public bersama (di kelas, sebelum Zoom ditutup)
 
 Tableau Public **tidak bisa menyimpan ke laptop**. Kalau aplikasinya ditutup tanpa disimpan, dashboard hilang. Kita simpan bersama-sama:
 
-**File → Save to Tableau Public As...** → login → nama `TheLook Dashboard` → **Save**. Browser membuka dashboard-mu; salin link-nya.
+**File → Save to Tableau Public As...** → login → nama `TheLook Dashboard` → **Save**. Browser membuka dashboard-mu; salin link-nya. Lalu ambil **screenshot** dashboard (Windows: **Win + Shift + S**; Mac: **Cmd + Shift + 4**).
 
 Ketik `1` di chat Zoom setelah berhasil. Sesi 2 melanjutkan dashboard ini (**File → Open from Tableau Public**).
 
 > **Dashboard hilang?** Instruktur membagikan dashboard cadangan (`.twbx`) di grup kelas.
 
-## 7. PR (30–60 menit)
+## 7. Unggah bersama (di kelas)
 
-1. Tambahkan **2 grafik lagi**: per negara, per kelompok umur, per traffic source, atau Men vs Women. **Simpan lagi** ke Tableau Public.
-2. Ambil **screenshot** dashboard (Windows: **Win + Shift + S**; Mac: **Cmd + Shift + 4**).
-3. Buat repo **`thelook-tableau-dashboard`** ([PANDUAN_GITHUB.md](../../PANDUAN_GITHUB.md)), unggah `images/dashboard_v1.png`, dan tulis link Tableau Public di `README.md`.
+Bersama instruktur: buat repo **`thelook-tableau-dashboard`** ([PANDUAN_GITHUB.md](../../PANDUAN_GITHUB.md)), unggah `images/dashboard_v1.png`, dan tulis link Tableau Public di `README.md`.
+
+## 8. Latihan mandiri (opsional)
+
+Tidak wajib dan tidak dinilai: tambahkan grafik lain, misalnya per kelompok umur, per traffic source, atau Men vs Women, lalu simpan lagi ke Tableau Public.
 
 ## Ringkasan
 

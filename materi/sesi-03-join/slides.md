@@ -51,12 +51,13 @@ Sabtu, 14 November 2026 · 14.00–15.40 WIB
 
 | Waktu | Bagian |
 | --- | --- |
-| 14.00 | Recap PR sesi 2 (top 10 brand) |
-| 14.10 | Key, relasi tabel, jenis JOIN |
-| 14.30 | Demo JOIN |
-| 15.05 | Giliran kamu |
-| 15.15 | Tanya jawab |
-| 15.35 | Penutup & PR |
+| 14.00 | Recap sesi 2 |
+| 14.05 | Key, relasi tabel, jenis JOIN |
+| 14.20 | Demo JOIN |
+| 14.55 | **Kerjakan bersama** |
+| 15.10 | **Unggah bersama** `03_joins.sql` |
+| 15.20 | Tanya jawab |
+| 15.37 | Penutup |
 
 File kerja: `03_joins.sql`
 
@@ -188,21 +189,23 @@ Setelah `orders` di-JOIN ke `order_items`, setiap pesanan muncul **sekali per ba
 
 <!-- _class: lead -->
 
-# Giliran kamu · 10 menit
+# Kerjakan bersama · 15 menit
 
-**G1.** Pendapatan per **department** untuk setiap **negara** (10 teratas)
+**B1.** Pendapatan per **department** untuk setiap **negara** (10 teratas)
 
-**G2.** AOV per negara, khusus pelanggan perempuan (`gender = 'F'`)
+**B2.** AOV per negara, khusus pelanggan perempuan (`gender = 'F'`)
+
+Instruktur memandu langkah demi langkah · kamu mengetik bersamaan
 
 ---
 
-## PR sesi 3
+## Unggah bersama & latihan mandiri
 
-1. **Pendapatan per kelompok umur & gender**
-   Kelompok umur per 10 tahun: `FLOOR(u.age / 10) * 10` (23 → 20, 37 → 30)
-   Kolom: kelompok umur, gender, pelanggan unik, pesanan unik, pendapatan
-2. **2 kalimat temuan**: kelompok mana yang terbesar? Ada beda antar gender?
-3. Unggah `sql/03_joins.sql`
+**Unggah bersama sekarang:** repo `thelook-sql-analysis` → folder `sql` → Upload files → `03_joins.sql`
+
+**Latihan mandiri (opsional):** tidak wajib, tidak dinilai; jawaban dibagikan setelah kelas:
+- L1: pendapatan per kelompok umur & gender
+  `FLOOR(u.age / 10) * 10` (23 → 20, 37 → 30) + 2 kalimat temuan
 
 ---
 

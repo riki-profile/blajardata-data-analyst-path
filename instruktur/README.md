@@ -1,13 +1,13 @@
 # Panduan Instruktur
 
-Folder ini berisi runsheet per sesi, poin mengajar, error yang sering muncul, dan **kunci jawaban** latihan serta PR.
+Folder ini berisi runsheet per sesi, poin mengajar, error yang sering muncul, dan **kunci jawaban** semua latihan (kerjakan bersama dan latihan mandiri).
 
 Setiap file kerja punya **dua versi**:
 
 | Versi | Lokasi | Isi |
 | --- | --- | --- |
-| Peserta | `materi/sesi-XX/` | Demo lengkap; latihan dan PR **kosong** |
-| Instruktur | [`instruktur/kunci-jawaban/`](kunci-jawaban/) | File yang sama, latihan dan PR **sudah terisi** |
+| Peserta | `materi/sesi-XX/` | Demo lengkap; latihan **kosong** |
+| Instruktur | [`instruktur/kunci-jawaban/`](kunci-jawaban/) | File yang sama, semua latihan **sudah terisi** (dipakai untuk memandu "Kerjakan bersama") |
 
 > **Kunci jawaban ada di folder ini.** Kalau repository ini dibagikan ke peserta dalam keadaan publik, kunci jawaban ikut terlihat. Pilihannya: (a) pindahkan folder `instruktur/` ke repository privat terpisah, (b) jadikan repository ini privat dan bagikan materi lewat cara lain, atau (c) biarkan terbuka dan minta peserta mencoba dulu sebelum melihat kunci. Pilihan (a) paling rapi.
 
@@ -31,11 +31,12 @@ Setiap file kerja punya **dua versi**:
 
 Selasa dan Kamis pukul **20.00 WIB**, Sabtu pukul **14.00 WIB**. Sesi 1 dan 8 (keduanya malam) berakhir 22.00; sesi malam lainnya ±21.40, sesi Sabtu ±15.40.
 
-**Catatan jadwal:** pola Selasa → Kamis → Sabtu memberi peserta **satu hari** untuk PR sebelum sesi Kamis dan Sabtu, dan **dua hari** (Minggu–Senin) sebelum sesi Selasa. Jadi:
+**Tanpa PR wajib.** Kelas ini dirancang untuk peserta yang sibuk dan cenderung pasif: semua latihan dipandu instruktur ("Kerjakan bersama"), semua file portofolio diunggah bersama di akhir sesi, dan temuan serta README ditulis bersama di sesi 4, 9, 11, dan 12. Latihan mandiri di setiap file bersifat **opsional dan tidak dinilai**; bagikan jawabannya (dari [kunci-jawaban/](kunci-jawaban/)) di grup setelah kelas.
 
-- Recap sesi Kamis dan Sabtu sebaiknya ringan: bahas 1–2 contoh PR, bukan memeriksa semua.
-- PR yang paling berat sudah jatuh sebelum sesi Selasa: tabel analisis (sesi 4 → 7), tiga temuan (sesi 9 → 10), dan bagian studi kasus di README (sesi 12 → 13).
-- Sesi Kamis malam → Sabtu siang hanya berjarak ±40 jam. Tegaskan bahwa PR boleh disempurnakan sampai Selasa berikutnya, asal file sesi itu sudah diunggah.
+**Catatan jadwal:**
+
+- Karena tidak ada PR, recap cukup ±5 menit: ingatkan konsep kunci sesi sebelumnya. Waktu yang tersisa dipakai untuk unggah bersama.
+- Peserta yang absen menyusul lewat rekaman. Ingatkan di grup: "tonton rekaman dan unggah file sesi itu sebelum sesi berikutnya".
 - Sesi Sabtu siang cocok untuk kegiatan yang butuh energi: JOIN (sesi 3), RFM (sesi 9), dan studi kasus terpandu (sesi 12). Perhatikan peserta yang mungkin bekerja atau punya acara keluarga di Sabtu siang; rekaman sangat penting untuk sesi ini.
 
 ## Timeline persiapan sebelum kelas
@@ -95,7 +96,7 @@ Setelah setiap langkah demo yang penting, minta "ketik 1 kalau sudah berhasil". 
 
 ## Slide presentasi (Marp)
 
-Setiap folder sesi berisi `slides.md`: 12–19 slide yang mengikuti agenda sesi (judul, agenda, konsep, langkah demo, giliran kamu, PR, ringkasan). Slide ditulis dalam Markdown dengan [Marp](https://marp.app), jadi mudah diubah seperti file teks biasa.
+Setiap folder sesi berisi `slides.md`: 12–19 slide yang mengikuti agenda sesi (judul, agenda, konsep, langkah demo, kerjakan bersama, unggah bersama, ringkasan). Slide ditulis dalam Markdown dengan [Marp](https://marp.app), jadi mudah diubah seperti file teks biasa.
 
 **Menampilkan dan mempresentasikan**
 
@@ -121,11 +122,12 @@ npx @marp-team/marp-cli@latest materi/sesi-01-dasar-sql/slides.md --pptx
 
 | Bagian | Durasi | Tips |
 | --- | --- | --- |
-| Recap | 10–15 menit | Tampilkan 1–2 jawaban PR peserta (minta izin dulu). Bahas kesalahan umum tanpa menyebut nama |
+| Recap | ±5 menit | Ingatkan 2–3 konsep kunci sesi sebelumnya; tunjukkan 1 hasil peserta kalau ada |
 | Konsep & demo | 40–50 menit | **Ketik ulang** kode secara langsung, jangan hanya menjalankan yang sudah jadi. Kesalahan ketik yang terjadi saat demo adalah materi belajar yang berharga |
-| Giliran kamu | ±10 menit | Beri waktu yang jelas ("5 menit"), lalu tampilkan jawabannya. Kalau waktu sempit, jadikan PR tambahan |
-| Tanya jawab | 15–20 menit | Kalau tidak ada pertanyaan, tanyakan balik: "Bagian mana yang paling membingungkan hari ini?" |
-| Penutup | 5–10 menit | Ringkasan 3 poin, PR, file yang harus diunggah, tanggal sesi berikutnya |
+| Kerjakan bersama | 10–15 menit | Pakai file kunci sebagai contekan. Bacakan soalnya, tanya di chat "kolom/fungsi apa yang kita perlukan?", beri 20–30 detik, lalu **ketik jawabannya di layar** pelan-pelan sementara peserta mengikuti. "Ketik 1 kalau hasilnya sama" |
+| Unggah bersama | ±10 menit | Demo unggah file sesi itu ke repo portofolio; tunggu sampai mayoritas mengetik 1. Jangan dipotong walaupun waktu sempit: potong tanya jawab |
+| Tanya jawab | 10–20 menit | Kalau tidak ada pertanyaan, tanyakan balik: "Bagian mana yang paling membingungkan hari ini?" |
+| Penutup | ±5 menit | Ringkasan 3 poin, sebutkan latihan mandiri (opsional), tanggal sesi berikutnya |
 
 ## Sebelum setiap sesi
 
@@ -163,7 +165,7 @@ Setiap modul dinilai dari repo portofolionya sendiri; jalur penuh memakai rubrik
 **Pengingat hari-H**
 
 > Pengingat: **Sesi <n>, hari ini pukul <20.00 / 14.00> WIB.** <Topik>.
-> 📝 Jangan lupa unggah PR sesi <n-1> ke portofolio GitHub kalian.
+> 🎥 Belum sempat ikut sesi <n-1>? Tonton rekamannya dan unggah file sesi itu sebelum kelas.
 > 📂 Materi: <link folder sesi>
 > 🔗 Zoom: <link>
 
@@ -171,5 +173,5 @@ Setiap modul dinilai dari repo portofolionya sendiri; jalur penuh memakai rubrik
 
 > Terima kasih untuk sesi <n> malam ini! 🙏
 > 🎥 Rekaman: <link>
-> 📝 PR: <ringkasan PR>. Unggah ke `<path file>` sebelum sesi berikutnya (<hari, tanggal>).
+> 📝 Tidak ada PR. Latihan mandiri (opsional) + jawabannya: <link>. Sesi berikutnya: <hari, tanggal, jam>.
 > ❓ Ada kendala? Tanya di grup ini.

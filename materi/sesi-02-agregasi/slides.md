@@ -53,12 +53,12 @@ Kamis, 12 November 2026 · 20.00–21.40 WIB
 
 | Waktu | Bagian |
 | --- | --- |
-| 20.00 | Recap PR sesi 1 |
-| 20.15 | Fungsi agregasi, GROUP BY, HAVING |
-| 20.45 | GitHub: membuat repo portofolio |
-| 21.05 | Giliran kamu |
+| 20.00 | Recap sesi 1 |
+| 20.05 | Fungsi agregasi, GROUP BY, HAVING |
+| 20.40 | **Kerjakan bersama** |
+| 20.50 | **Unggah bersama**: repo `thelook-sql-analysis` |
 | 21.15 | Tanya jawab |
-| 21.35 | Penutup & PR |
+| 21.35 | Penutup |
 
 File kerja: `02_aggregation.sql`
 
@@ -195,7 +195,7 @@ GitHub tidak bisa membuat folder kosong. Folder terbentuk saat file dibuat di da
 
 **Edit**: buka file → ikon → ubah → **Commit changes**
 
-> Pesan commit yang jelas: `Tambah PR sesi 2: top 10 brand`, bukan `update`
+> Pesan commit yang jelas: `Tambah query agregasi sesi 2`, bukan `update`
 
 ---
 
@@ -219,21 +219,26 @@ Mulai sekarang: **unggah file setiap selesai sesi.**
 
 <!-- _class: lead -->
 
-# Giliran kamu 10 menit
+# Kerjakan bersama · 10 menit
 
-**G1.** Jumlah produk & rata-rata harga per **department**
+**B1.** Jumlah produk & rata-rata harga per **department**
 
-**G2.** Jumlah pelanggan per **traffic_source**, dari terbanyak
+**B2.** Jumlah pelanggan per **traffic_source**, dari terbanyak
+
+Instruktur memandu langkah demi langkah · kamu mengetik bersamaan
 
 ---
 
-## PR sesi 2
+## Unggah bersama & latihan mandiri
 
-1. **Top 10 brand berdasarkan pendapatan** (perkiraan, `inventory_items`): brand, barang terjual, pendapatan, rata-rata harga + **1 kalimat temuan**
-2. Repo `thelook-sql-analysis` berisi:
-   - `sql/01_basics.sql`
-   - `sql/02_aggregation.sql`
-3. Kirim link repo ke grup: `https://github.com/username/thelook-sql-analysis`
+**Di akhir sesi ini**, repo `thelook-sql-analysis` berisi:
+- `sql/01_basics.sql`
+- `sql/02_aggregation.sql`
+
+Kirim link repo-mu ke chat Zoom
+
+**Latihan mandiri (opsional):** tidak wajib, tidak dinilai; jawaban dibagikan setelah kelas:
+- L1: top 10 brand berdasarkan pendapatan + 1 kalimat temuan
 
 ---
 

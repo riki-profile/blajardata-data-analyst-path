@@ -12,14 +12,15 @@
 
 | Waktu | Bagian | Poin utama |
 | --- | --- | --- |
-| 20.00 | Recap PR sesi 6 | `kelompok_umur()` = CASE WHEN |
-| 20.10 | Koneksi BigQuery | Semua peserta menjalankan sel login dan uji koneksi. **Jangan lanjut** sampai mayoritas mengetik 1. Yang gagal → *breakout room* dengan asisten |
-| 20.25 | Demo 2–3 | Muat tabel analisis; 5 perintah pertama; cara membaca `info()` dan `describe()`. Diskusi mean vs median `sale_price` (jembatan ke sesi 9) |
-| 20.40 | Demo 4–6 | Memilih kolom, filter (`&`, kurung), `sort_values`, `value_counts`, `groupby` + `agg`. Tampilkan tabel SQL ↔ pandas di README |
-| 20.55 | Demo 7–8 | Kolom baru, `pd.to_datetime`, `.apply()` dengan function sesi 6; teaser grafik |
-| 21.05 | Giliran kamu | G1–G2 |
-| 21.15 | Tanya jawab | |
-| 21.35 | Penutup | PR: eksplorasi `users`. Sesi 8 = **2 jam** |
+| 20.00 | Recap sesi 6 | 5 menit: function = CASE WHEN dalam Python |
+| 20.05 | Koneksi BigQuery | Semua peserta menjalankan sel login dan uji koneksi. **Jangan lanjut** sampai mayoritas mengetik 1. Yang gagal → *breakout room* dengan asisten |
+| 20.20 | Demo 2–3 | Muat tabel analisis; 5 perintah pertama; cara membaca `info()` dan `describe()`. Diskusi mean vs median `sale_price` (jembatan ke sesi 9) |
+| 20.33 | Demo 4–6 | Memilih kolom, filter (`&`, kurung), `sort_values`, `value_counts`, `groupby` + `agg`. Tampilkan tabel SQL ↔ pandas di README |
+| 20.50 | Demo 7–8 | Kolom baru, `pd.to_datetime`, `.apply()` dengan function sesi 6; teaser grafik |
+| 21.00 | **Kerjakan bersama** | B1–B2, dipandu langkah demi langkah |
+| 21.10 | **Unggah bersama** | Ganti `PROJECT_ID` dengan placeholder, unduh, unggah `07_pandas_exploration.ipynb` |
+| 21.20 | Tanya jawab | |
+| 21.37 | Penutup | Ringkasan; latihan mandiri bagian 10 (opsional). Sesi 8 = **2 jam** |
 
 ## Poin penting
 
@@ -37,43 +38,42 @@
 | `KeyError: 'Category'` | Nama kolom salah (huruf besar-kecil) |
 | `AttributeError: Can only use .dt accessor with datetimelike values` | Kolom tanggal belum diubah dengan `pd.to_datetime` |
 
-## Kalau peserta tidak mengerjakan PR sebelumnya
+## Kalau peserta absen atau baru bergabung
 
-Tidak ada yang menghalangi. Notebook sesi 7 sudah berisi query tabel analisis versi instruktur, jadi PR sesi 4 (tabel analisis) dan sesi 6 tidak dibutuhkan untuk mengikuti kelas.
+Tidak ada yang menghalangi. Notebook sesi 7 sudah berisi query tabel analisis versi instruktur, jadi tidak bergantung pada sesi sebelumnya.
 
 - **Belum tahu Project ID:** tunjukkan caranya di menit pertama (console BigQuery → nama project di bagian atas → kolom **ID**). Minta peserta menyiapkannya sambil recap.
-- **PR sesi 4 belum dikerjakan:** sampaikan bahwa mereka boleh memakai query di notebook ini sebagai jawaban, asal mereka membaca dan memberi komentar di setiap bagiannya sebelum diunggah ke `sql/04_dates_case_cte.sql`.
 
 ## Kunci jawaban
 
 Versi lengkap (file kerja yang sudah terisi semua): [`kunci-jawaban/07_pandas_exploration.ipynb`](kunci-jawaban/07_pandas_exploration.ipynb). Ringkasannya:
 
 ```python
-# G1
+# B1
 df.groupby("gender")["user_id"].nunique()
 
-# G2
+# B2
 (df.groupby("age_band")
    .agg(pendapatan=("sale_price", "sum"), pesanan=("order_id", "nunique"))
    .sort_values("pendapatan", ascending=False))
 
-# PR1
+# L1
 print(users.shape)
 users.isna().sum()
 
-# PR2
+# L2
 users["age"].agg(["mean", "median", "min", "max"])
 
-# PR3
+# L3
 top5 = users["country"].value_counts().head(5)
 porsi5 = users["country"].value_counts(normalize=True).head(5) * 100
 pd.DataFrame({"pelanggan": top5, "persen": porsi5.round(1)})
 
-# PR4
+# L4
 print(users["traffic_source"].value_counts())
 users.groupby(["gender", "traffic_source"]).size().unstack()
 
-# PR5
+# L5
 users["tahun_daftar"] = pd.to_datetime(users["created_at"]).dt.year
 users["tahun_daftar"].value_counts().sort_index()
 ```

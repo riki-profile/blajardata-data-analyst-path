@@ -30,10 +30,11 @@ Setelah sesi ini kamu bisa:
 | 20.10–20.20 | Apa itu dashboard; unduh 3 file CSV |
 | 20.20–20.35 | Demo: memuat data, mengecek tipe data, membuat relasi |
 | 20.35–21.05 | Demo: measure, kartu KPI, grafik tren bulanan, grafik kategori |
-| 21.05–21.15 | Giliran kamu |
-| 21.15–21.30 | Tanya jawab (berbagi layar untuk masalah instalasi/data) |
-| 21.30–21.37 | **Simpan dashboard bersama-sama** (wajib, di kelas) |
-| 21.37–21.40 | Penutup dan PR |
+| 21.05–21.15 | **Kerjakan bersama**: judul kesimpulan + grafik ketiga (pendapatan per negara) |
+| 21.15–21.22 | **Simpan bersama**: `.pbix`, PDF, screenshot |
+| 21.22–21.32 | **Unggah bersama**: buat repo `thelook-powerbi-dashboard`, unggah file |
+| 21.32–21.38 | Tanya jawab |
+| 21.38–21.40 | Penutup |
 
 ## 1. Apa itu dashboard?
 
@@ -46,7 +47,7 @@ Dashboard yang kita bangun di sesi 10–11, dibaca dari atas ke bawah:
 | Atas | Judul berisi kesimpulan utama · filter tanggal dan kategori |
 | Baris KPI | Pendapatan · Jumlah pesanan · AOV · Margin % |
 | Tengah | Tren pendapatan bulanan (garis) |
-| Bawah | Pendapatan per kategori (batang horizontal) · grafik tambahan (PR) |
+| Bawah | Pendapatan per kategori (batang horizontal) · pendapatan per negara (dibuat bersama) |
 
 ## 2. Data: 3 file CSV
 
@@ -85,28 +86,35 @@ Satu produk bisa terjual berkali-kali (*one-to-many*). Ini sama dengan JOIN di S
 
 Ikuti [panduan Power BI Desktop](panduan-power-bi.md) langkah demi langkah bersama instruktur.
 
-## 5. Giliran kamu (±10 menit)
+## 5. Kerjakan bersama (±10 menit)
 
-Ubah judul kedua grafik menjadi **kalimat kesimpulan**. Contoh: "Pendapatan naik 9% dalam 12 bulan terakhir".
+Instruktur mengerjakannya langkah demi langkah di layar, dan kamu mengikuti di Power BI-mu:
 
-## 6. Simpan dashboard (di kelas, sebelum Zoom ditutup)
+1. Ubah judul kedua grafik menjadi **kalimat kesimpulan**. Contoh: "Pendapatan naik 9% dalam 12 bulan terakhir".
+2. Tambahkan **grafik ketiga**: pendapatan per negara (batang horizontal, diurutkan), dengan judul berupa kesimpulan.
 
-Sesi 11 melanjutkan dashboard ini. **Kalau tidak disimpan, kamu harus mulai dari nol.** Kita simpan bersama-sama di akhir kelas:
+## 6. Simpan bersama (di kelas, sebelum Zoom ditutup)
 
-**File → Save as** → `thelook_dashboard.pbix`, di folder yang sama dengan 3 file CSV.
+Sesi 11 melanjutkan dashboard ini. **Kalau tidak disimpan, kamu harus mulai dari nol.** Kita lakukan bersama-sama:
 
-Ketik `1` di chat Zoom setelah berhasil menyimpan.
+1. **File → Save as** → `thelook_dashboard.pbix`, di folder yang sama dengan 3 file CSV.
+2. **File → Export → Export to PDF** → `thelook_dashboard.pdf`.
+3. Screenshot dashboard (**Win + Shift + S**) → simpan sebagai `dashboard_v1.png`.
+
+Ketik `1` di chat Zoom setelah berhasil.
 
 > **Dashboard hilang atau rusak?** Instruktur membagikan dashboard cadangan (`.pbix`) di grup kelas. Unduh dan lanjutkan dari situ di sesi 11.
 
-## 7. PR (30–60 menit)
+## 7. Unggah bersama (di kelas)
 
-1. Tambahkan **2 grafik lagi** ke dashboard. Ide: pendapatan per negara, per kelompok umur, per traffic source, atau perbandingan department Men vs Women.
-2. **Simpan lagi** (**Ctrl + S**), lalu ekspor ke PDF: **File → Export → Export to PDF**.
-3. Ambil **screenshot** dashboard (**Win + Shift + S**).
-4. Buat repo **`thelook-powerbi-dashboard`** (langkahnya di [PANDUAN_GITHUB.md](../../PANDUAN_GITHUB.md)), lalu unggah:
-   - `dashboard/thelook_dashboard.pbix` dan `dashboard/thelook_dashboard.pdf`
-   - `images/dashboard_v1.png`
+Bersama instruktur: buat repo **`thelook-powerbi-dashboard`** ([PANDUAN_GITHUB.md](../../PANDUAN_GITHUB.md)), lalu unggah:
+
+- `dashboard/thelook_dashboard.pbix` dan `dashboard/thelook_dashboard.pdf`
+- `images/dashboard_v1.png`
+
+## 8. Latihan mandiri (opsional)
+
+Tidak wajib dan tidak dinilai. Tambahkan grafik lain ke dashboard, misalnya pendapatan per kelompok umur, per traffic source, atau Men vs Women.
 
 ## Ringkasan
 

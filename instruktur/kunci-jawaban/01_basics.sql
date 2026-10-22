@@ -146,10 +146,10 @@ WHERE status = 'Cancelled';
 
 
 -- =====================================================================
--- GILIRAN KAMU (di kelas, ±10 menit)
+-- KERJAKAN BERSAMA (di kelas, dipandu instruktur)
 -- =====================================================================
 
--- G1. Tampilkan 5 produk TERMURAH di department Women, kategori Dresses.
+-- B1. Tampilkan 5 produk TERMURAH di department Women, kategori Dresses.
 --     Kolom: name, brand, retail_price
 SELECT name, brand, retail_price
 FROM `bigquery-public-data.thelook_ecommerce.products`
@@ -159,18 +159,19 @@ ORDER BY retail_price ASC
 LIMIT 5;
 
 
--- G2. Ada berapa pesanan dengan status Returned?
+-- B2. Ada berapa pesanan dengan status Returned?
 SELECT COUNT(*) AS jumlah_pesanan
 FROM `bigquery-public-data.thelook_ecommerce.orders`
 WHERE status = 'Returned';
 
 
 -- =====================================================================
--- PR SESI 1
+-- LATIHAN MANDIRI (OPSIONAL)
+-- Tidak wajib dan tidak dinilai. Jawabannya dibagikan instruktur setelah kelas.
 -- Tulis komentar di atas setiap query: pertanyaan apa yang dijawab.
 -- =====================================================================
 
--- PR1. Semua produk dari satu brand pilihanmu, urut dari harga tertinggi.
+-- L1. Semua produk dari satu brand pilihanmu, urut dari harga tertinggi.
 --      (Cari dulu nama brand-nya dengan SELECT DISTINCT brand ...)
 -- Produk apa saja yang dijual brand Calvin Klein, dari yang termahal?
 SELECT name, category, retail_price
@@ -179,7 +180,7 @@ WHERE brand = 'Calvin Klein'
 ORDER BY retail_price DESC;
 
 
--- PR2. Pelanggan dari Brasil yang berumur di bawah 25 tahun.
+-- L2. Pelanggan dari Brasil yang berumur di bawah 25 tahun.
 --      (Petunjuk: di dataset ini Brasil ditulis 'Brasil')
 -- Siapa saja pelanggan muda (di bawah 25 tahun) dari Brasil?
 SELECT first_name, last_name, age, city
@@ -188,7 +189,7 @@ WHERE country = 'Brasil'
   AND age < 25;
 
 
--- PR3. 10 pesanan Returned yang paling baru (urutkan berdasarkan created_at).
+-- L3. 10 pesanan Returned yang paling baru (urutkan berdasarkan created_at).
 -- Pesanan mana saja yang terakhir dikembalikan pelanggan?
 SELECT order_id, user_id, created_at, returned_at
 FROM `bigquery-public-data.thelook_ecommerce.orders`
@@ -197,7 +198,7 @@ ORDER BY created_at DESC
 LIMIT 10;
 
 
--- PR4. Produk kategori Sweaters dengan harga 50 sampai 100 USD.
+-- L4. Produk kategori Sweaters dengan harga 50 sampai 100 USD.
 -- Sweater apa saja yang ada di rentang harga menengah (50-100 USD)?
 SELECT name, brand, retail_price
 FROM `bigquery-public-data.thelook_ecommerce.products`
@@ -206,7 +207,7 @@ WHERE category = 'Sweaters'
 ORDER BY retail_price;
 
 
--- PR5. Pelanggan yang datang dari Facebook (kolom traffic_source)
+-- L5. Pelanggan yang datang dari Facebook (kolom traffic_source)
 --      dan tinggal di United States. Tampilkan 20 baris.
 -- Seperti apa pelanggan AS yang datang dari iklan Facebook?
 SELECT first_name, last_name, age, city

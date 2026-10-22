@@ -17,15 +17,15 @@ Setelah sesi ini kamu bisa:
 
 | Waktu (WIB) | Bagian |
 | --- | --- |
-| 14.00–14.15 | Recap PR sesi 8 (outlier dan 3 grafik) |
-| 14.15–14.30 | **Bagian A**: statistik deskriptif nilai pesanan |
-| 14.30–14.40 | **Bagian B**: repeat-purchase rate |
-| 14.40–15.05 | **Bagian C**: segmentasi RFM |
-| 15.05–15.15 | Giliran kamu |
-| 15.15–15.25 | Cara menulis temuan + **tulis temuan pertamamu** (di kelas) |
-| 15.25–15.32 | README repo `thelook-python-analysis`: tempel template, isi temuan 1 |
-| 15.32–15.37 | Tanya jawab |
-| 15.37–15.40 | Penutup dan PR |
+| 14.00–14.05 | Recap sesi 8 |
+| 14.05–14.20 | **Bagian A**: statistik deskriptif nilai pesanan |
+| 14.20–14.30 | **Bagian B**: repeat-purchase rate |
+| 14.30–14.50 | **Bagian C**: segmentasi RFM |
+| 14.50–15.00 | **Kerjakan bersama** |
+| 15.00–15.15 | **Tiga temuan + rekomendasi**, ditulis bersama |
+| 15.15–15.30 | **Unggah bersama**: README `thelook-python-analysis` + notebook + grafik |
+| 15.30–15.37 | Tanya jawab |
+| 15.37–15.40 | Penutup |
 
 ## Konsep kunci
 
@@ -50,22 +50,35 @@ Setelah sesi ini kamu bisa:
 
 Aturan segmen ini sengaja dibuat sederhana. Di perusahaan, aturannya disesuaikan dengan kebutuhan bisnis, dan itu sah, asal ditulis dengan jelas.
 
-## Giliran kamu (±10 menit)
+## Kerjakan bersama (±10 menit)
+
+Instruktur mengerjakannya langkah demi langkah di layar, dan kamu mengetik bersamaan di notebook-mu.
 
 1. Repeat-purchase rate untuk 5 negara dengan pelanggan terbanyak.
 2. Perbandingan median `monetary` Champions vs Pelanggan Baru.
 
-## Tiga temuan untuk manajemen (temuan 1 di kelas, temuan 2–3 sebagai PR)
+## Tiga temuan untuk manajemen (bersama di kelas)
 
-Di akhir kelas kita menulis **temuan pertama** bersama-sama (5 menit). Temuan 2 dan 3 dikerjakan di rumah. Tulis temuan dari sesi 7–9. Setiap temuan berisi:
+Kita menulis **tiga temuan dan satu rekomendasi** bersama-sama dari hasil sesi 7–9. Instruktur menunjukkan angkanya dan mengajukan pertanyaan pemandu; kamu menuliskannya dengan kata-katamu sendiri di bagian akhir notebook. Setiap temuan berisi:
 
 1. **Apa**: temuannya, dengan angka.
 2. **Kenapa penting**: dampaknya bagi bisnis.
 3. **Bukti**: grafik atau tabel di notebook-mu.
 
-Lalu tulis ketiga temuan dan **1 rekomendasi** di `README.md` repo **`thelook-python-analysis`**, memakai [template README Python](../../template-portofolio/thelook-python-analysis/README.md). README ini adalah hasil akhir modul Python.
+Saran urutan: (1) repeat-purchase rate, (2) porsi pendapatan segmen Champions, (3) median vs rata-rata nilai pesanan.
 
-Unggah juga `notebooks/09_customer_analysis.ipynb` dan `images/04_segmen_rfm.png`.
+## Unggah bersama (di kelas)
+
+Bersama instruktur, di repo `thelook-python-analysis`:
+
+1. `README.md` → tempel [template README Python](../../template-portofolio/thelook-python-analysis/README.md) → isi Ringkasan, 3 temuan, dan rekomendasi → **Commit changes**.
+2. Unggah `notebooks/09_customer_analysis.ipynb` dan `images/04_segmen_rfm.png`.
+
+Di akhir sesi, **portofolio modul Python-mu selesai**.
+
+## Latihan mandiri (opsional)
+
+Tidak wajib dan tidak dinilai: tambahkan analisis pendukung di sel terakhir notebook, misalnya repeat-purchase rate per `traffic_source` atau per kelompok umur.
 
 ## Ringkasan
 

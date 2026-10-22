@@ -59,7 +59,7 @@ Sabtu, 5 Desember 2026 · 14.00–15.40 WIB
 | 14.40 | **Langkah 5–6**: 4 ukuran & matriks prioritas |
 | 14.55 | **Langkah 7–9**: rekomendasi & grafik |
 | 15.10 | **Langkah 10–11**: tulis jawaban |
-| 15.25 | Unggah ke portofolio |
+| 15.25 | **Unggah bersama** + bagian Studi kasus di README |
 | 15.35 | Penutup |
 
 File: `10_my_question.sql` · `10_my_question.ipynb`
@@ -210,7 +210,7 @@ Jawaban yang baik:
 
 ---
 
-## Unggah ke repo `thelook-python-analysis`
+## Unggah bersama ke repo `thelook-python-analysis`
 
 | File | Lokasi |
 | --- | --- |
@@ -222,11 +222,12 @@ Buat folder: **Add file → Create new file** → `my_question/README.md`
 
 ---
 
-## PR sesi 12
+## Selesai hari ini
 
-1. Bagian 11 notebook: jawaban dengan **kata-katamu sendiri**
-2. Bagian **Studi kasus** di README `thelook-python-analysis`: pertanyaan, fokus, jawaban, rekomendasi, grafik matriks
-3. *(Opsional)* Jalankan ulang dengan fokus lain. Rekomendasinya sama?
+- Bagian 11 notebook: jawaban dengan **kata-katamu sendiri** (ditulis di langkah 10–11)
+- Bagian **Studi kasus** di README `thelook-python-analysis` (diisi saat unggah bersama)
+
+**Latihan mandiri (opsional):** jalankan ulang dengan fokus lain. Rekomendasinya sama?
 
 **Sesi berikutnya:** Selasa, 8 Desember 2026, 20.00 WIB
 Merapikan & menerbitkan portofolio (**sesi terakhir!**)

@@ -69,7 +69,7 @@ Selasa, 10 November 2026 · 20.00–22.00 WIB
 - Kamera dianjurkan, mikrofon mute kecuali bicara
 - Setiap sesi direkam dan dibagikan di grup
 - ⌨**Ketik dan jalankan sendiri**, jangan hanya menonton
-- PR 30–60 menit + update portofolio setiap sesi
+- **Tanpa PR wajib**: latihan dikerjakan bersama, portofolio diunggah bersama di kelas
 
 ### Kode chat Zoom
 
@@ -88,9 +88,9 @@ Selasa, 10 November 2026 · 20.00–22.00 WIB
 | 20.00 | Perkenalan & aturan main |
 | 20.15 | Apa itu analisis data? Alur kerja analis |
 | 20.35 | Demo: tur tabel, SELECT, WHERE, ORDER BY, LIMIT |
-| 21.25 | Giliran kamu |
+| 21.25 | **Kerjakan bersama** + simpan `01_basics.sql` |
 | 21.40 | Tanya jawab |
-| 21.55 | Penutup & PR |
+| 21.55 | Penutup |
 
 ---
 
@@ -262,25 +262,24 @@ WHERE status = 'Complete';
 
 <!-- _class: lead -->
 
-# Giliran kamu 10 menit
+# Kerjakan bersama · 15 menit
 
-**G1.** 5 produk **termurah** di department `Women`, kategori `Dresses` (name, brand, retail_price)
+**B1.** 5 produk **termurah** di department `Women`, kategori `Dresses` (name, brand, retail_price)
 
-**G2.** Ada berapa pesanan dengan status `Returned`?
+**B2.** Ada berapa pesanan dengan status `Returned`?
 
-Ketik `1` di chat kalau sudah selesai
+Instruktur memandu langkah demi langkah · kamu mengetik bersamaan
 
 ---
 
-## PR sesi 1
+## Simpan bersama & latihan mandiri
 
-Kerjakan di bagian **PR** di `01_basics.sql`:
-
-1. **5 query filter**, masing-masing dengan komentar: pertanyaan apa yang dijawab
-2. **5 pertanyaan bisnis** untuk TheLook, ditulis sebagai komentar
-
-Simpan sebagai `01_basics.sql` di laptop (Notepad / TextEdit mode *Plain Text*).
+**Simpan bersama sekarang:** salin isi file ke Notepad / TextEdit (*Plain Text*) → simpan sebagai `01_basics.sql`
 Kita unggah ke GitHub bersama di sesi 2.
+
+**Latihan mandiri (opsional):** tidak wajib, tidak dinilai; jawaban dibagikan setelah kelas:
+- L1–L5: lima query filter, masing-masing dengan komentar
+- Lima pertanyaan bisnis untuk TheLook
 
 ---
 

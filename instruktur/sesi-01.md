@@ -13,7 +13,7 @@
 | Waktu | Bagian | Poin utama |
 | --- | --- | --- |
 | 20.00 | Pembukaan | Perkenalan instruktur; peserta perkenalan singkat di chat (nama, pekerjaan, alasan ikut). Jelaskan ritme sesi dan **konvensi chat 1/2/?** |
-| 20.08 | Aturan main | Kamera opsional tapi dianjurkan; rekaman dibagikan; PR + portofolio setiap sesi; "ketik sendiri, jangan hanya menonton". Jalankan polling OS |
+| 20.08 | Aturan main | Kamera opsional tapi dianjurkan; rekaman dibagikan; **tanpa PR wajib**: semua latihan dan unggah portofolio dikerjakan bersama di kelas; "ketik sendiri, jangan hanya menonton". Jalankan polling OS |
 | 20.15 | Apa itu analisis data | Bahas tabel "bukan pertanyaan vs pertanyaan yang baik". Minta 2–3 peserta menulis satu pertanyaan bisnis di chat |
 | 20.25 | Alur kerja analis | Petakan 5 langkah ke tools dan sesi. Tunjukkan contoh portofolio jadi (kalau ada) supaya peserta melihat tujuan akhirnya |
 | 20.30 | TheLook | Cerita perannya: analis baru, 3 pertanyaan besar manajemen. Buka [KAMUS_DATA.md](../KAMUS_DATA.md) dan jelaskan diagram relasinya sekilas |
@@ -21,9 +21,9 @@
 | 20.45 | Demo A–B | Tur 5 tabel → SELECT kolom → ORDER BY + LIMIT (produk termahal) → alias → DISTINCT |
 | 21.05 | Demo C | WHERE: `=`, `AND`, `IN`, `BETWEEN`, `LIKE`, `IS NULL`. Sengaja buat kesalahan: `'jeans'` huruf kecil (0 hasil), lalu `= NULL` (0 hasil) |
 | 21.18 | Demo D | DISTINCT status → COUNT(*) per status satu per satu → "repot ya? sesi 2 kita pakai GROUP BY" |
-| 21.25 | Giliran kamu | G1–G2, 10 menit. Tampilkan jawaban |
+| 21.25 | **Kerjakan bersama** | B1–B2: tulis query di layar sambil bertanya "kolom apa? filter apa?", peserta mengetik bersamaan. Lalu simpan `01_basics.sql` di laptop bersama-sama (Notepad/TextEdit *Plain Text*) |
 | 21.40 | Tanya jawab | |
-| 21.55 | Penutup | 3 poin ringkasan; PR; cara mengunduh `01_basics.sql` dan menyimpannya di laptop |
+| 21.55 | Penutup | 3 poin ringkasan; sebutkan latihan mandiri L1–L5 (opsional) |
 
 ## Poin penting dan miskonsepsi
 
@@ -47,7 +47,7 @@
 Versi lengkap (file kerja yang sudah terisi semua): [`kunci-jawaban/01_basics.sql`](kunci-jawaban/01_basics.sql). Ringkasannya:
 
 ```sql
--- G1. 5 dress termurah
+-- B1. 5 dress termurah
 SELECT name, brand, retail_price
 FROM `bigquery-public-data.thelook_ecommerce.products`
 WHERE department = 'Women'
@@ -55,38 +55,38 @@ WHERE department = 'Women'
 ORDER BY retail_price ASC
 LIMIT 5;
 
--- G2. Jumlah pesanan Returned
+-- B2. Jumlah pesanan Returned
 SELECT COUNT(*) AS jumlah_pesanan
 FROM `bigquery-public-data.thelook_ecommerce.orders`
 WHERE status = 'Returned';
 
--- PR1. Produk satu brand (contoh: Calvin Klein)
+-- L1. Produk satu brand (contoh: Calvin Klein)
 SELECT name, category, retail_price
 FROM `bigquery-public-data.thelook_ecommerce.products`
 WHERE brand = 'Calvin Klein'
 ORDER BY retail_price DESC;
 
--- PR2. Pelanggan Brasil di bawah 25 tahun
+-- L2. Pelanggan Brasil di bawah 25 tahun
 SELECT first_name, last_name, age, city
 FROM `bigquery-public-data.thelook_ecommerce.users`
 WHERE country = 'Brasil'
   AND age < 25;
 
--- PR3. 10 pesanan Returned terbaru
+-- L3. 10 pesanan Returned terbaru
 SELECT order_id, user_id, created_at, returned_at
 FROM `bigquery-public-data.thelook_ecommerce.orders`
 WHERE status = 'Returned'
 ORDER BY created_at DESC
 LIMIT 10;
 
--- PR4. Sweaters 50-100 USD
+-- L4. Sweaters 50-100 USD
 SELECT name, brand, retail_price
 FROM `bigquery-public-data.thelook_ecommerce.products`
 WHERE category = 'Sweaters'
   AND retail_price BETWEEN 50 AND 100
 ORDER BY retail_price;
 
--- PR5. Pelanggan Facebook dari United States
+-- L5. Pelanggan Facebook dari United States
 SELECT first_name, last_name, age, city
 FROM `bigquery-public-data.thelook_ecommerce.users`
 WHERE traffic_source = 'Facebook'
@@ -96,7 +96,7 @@ LIMIT 20;
 
 **Lima pertanyaan bisnis:** nilai berdasarkan kriteria spesifik, bisa diukur, dan berguna. Simpan contoh pertanyaan yang bagus. Pertanyaan-pertanyaan ini bisa dipakai sebagai contoh di sesi 12 dan sebagai ide proyek lanjutan setelah kursus.
 
-## Untuk recap sesi 2
+## Untuk recap sesi 2 (5 menit)
 
-- Tampilkan 2 contoh pertanyaan bisnis yang bagus dari peserta, dan 1 yang bisa diperbaiki (tanpa nama).
-- Kesalahan PR yang umum: lupa komentar, `'brasil'` huruf kecil, PR3 tanpa `ORDER BY ... DESC`.
+- Tampilkan 2 contoh pertanyaan bisnis yang bagus dari chat sesi 1, dan 1 yang bisa diperbaiki (tanpa nama).
+- Ulangi 3 jebakan: kutip vs backtick, huruf besar-kecil, `IS NULL`.

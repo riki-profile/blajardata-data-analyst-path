@@ -11,16 +11,17 @@
 
 | Waktu | Bagian | Poin utama |
 | --- | --- | --- |
-| 14.00 | Recap PR sesi 2 | Recap ringan (hanya 1 hari sejak sesi 2). Tampilkan 1 repo peserta yang rapi |
-| 14.10 | Konsep | Kenapa data dipisah; primary/foreign key; diagram relasi. Analogi: KTP (users) dan struk belanja (orders) dihubungkan oleh NIK |
-| 14.20 | INNER vs LEFT | Contoh kecil di whiteboard: 3 pelanggan, 2 punya pesanan → INNER = 2, LEFT = 3 |
-| 14.30 | Demo A | JOIN pertama + **cek jumlah baris** (kebiasaan baik) |
-| 14.38 | Demo B | Pendapatan per kategori versi tepat. Diskusikan perbedaan dengan sesi 2: sesi 2 menghitung barang yang Cancelled/Returned juga, dan memakai harga katalog |
-| 14.45 | Demo C–D | JOIN pesanan + pelanggan; JOIN tiga tabel; AOV |
-| 14.55 | Demo E–F | LEFT JOIN untuk "yang tidak punya"; jebakan fan-out (F1 vs F2) |
-| 15.05 | Giliran kamu | G1–G2 |
-| 15.15 | Tanya jawab | |
-| 15.35 | Penutup | PR: umur × gender. Jelaskan trik `FLOOR(age/10)*10` dengan contoh 23 → 20 |
+| 14.00 | Recap sesi 2 | 5 menit: GROUP BY, WHERE vs HAVING; tunjukkan 1 repo peserta yang rapi |
+| 14.05 | Konsep | Kenapa data dipisah; primary/foreign key; diagram relasi. Analogi: KTP (users) dan struk belanja (orders) dihubungkan oleh NIK |
+| 14.12 | INNER vs LEFT | Contoh kecil di whiteboard: 3 pelanggan, 2 punya pesanan → INNER = 2, LEFT = 3 |
+| 14.20 | Demo A | JOIN pertama + **cek jumlah baris** (kebiasaan baik) |
+| 14.27 | Demo B | Pendapatan per kategori versi tepat. Diskusikan perbedaan dengan sesi 2: sesi 2 menghitung barang yang Cancelled/Returned juga, dan memakai harga katalog |
+| 14.35 | Demo C–D | JOIN pesanan + pelanggan; JOIN tiga tabel; AOV |
+| 14.45 | Demo E–F | LEFT JOIN untuk "yang tidak punya"; jebakan fan-out (F1 vs F2) |
+| 14.55 | **Kerjakan bersama** | B1–B2: bangun query JOIN tiga tabel langkah demi langkah, peserta mengetik bersamaan |
+| 15.10 | **Unggah bersama** | `03_joins.sql` ke folder `sql` repo `thelook-sql-analysis` |
+| 15.20 | Tanya jawab | |
+| 15.37 | Penutup | Ringkasan; latihan mandiri L1 (umur × gender, opsional) |
 
 ## Poin penting
 
@@ -42,7 +43,7 @@
 Versi lengkap (file kerja yang sudah terisi semua): [`kunci-jawaban/03_joins.sql`](kunci-jawaban/03_joins.sql). Ringkasannya:
 
 ```sql
--- G1. Pendapatan per negara dan department
+-- B1. Pendapatan per negara dan department
 SELECT
   u.country,
   p.department,
@@ -57,7 +58,7 @@ GROUP BY u.country, p.department
 ORDER BY pendapatan_usd DESC
 LIMIT 10;
 
--- G2. AOV per negara, pelanggan perempuan
+-- B2. AOV per negara, pelanggan perempuan
 SELECT
   u.country,
   ROUND(SUM(oi.sale_price) / COUNT(DISTINCT oi.order_id), 2) AS aov_usd,
@@ -70,7 +71,7 @@ WHERE oi.status NOT IN ('Cancelled', 'Returned')
 GROUP BY u.country
 ORDER BY jumlah_pesanan DESC;
 
--- PR1. Pendapatan per kelompok umur dan gender
+-- L1. Pendapatan per kelompok umur dan gender
 SELECT
   CAST(FLOOR(u.age / 10) * 10 AS INT64) AS kelompok_umur,
   u.gender,
@@ -89,6 +90,7 @@ Catatan: tanpa `CAST(... AS INT64)`, hasilnya tetap benar tapi tampil sebagai `2
 
 Hasil yang diharapkan: data TheLook sintetis, jadi perbedaan antar kelompok umur dan gender biasanya **kecil**. Ini bahan diskusi yang bagus: "tidak ada perbedaan" juga sebuah temuan yang sah.
 
-## Untuk recap sesi 4
+## Untuk recap sesi 4 (5 menit)
 
-- Tampilkan hasil PR1 dan tanyakan: "kelompok umur 10 tahun ini kasar ya, bagaimana kalau kita ingin kelompok 18–24, 25–34?" → jembatan ke CASE WHEN.
+- Ulangi pola JOIN + alias + `COUNT(DISTINCT order_id)`.
+- Jembatan ke CASE WHEN: "kalau kita ingin kelompok umur 18–24, 25–34, bagaimana?"

@@ -18,13 +18,14 @@ Setelah sesi ini kamu bisa:
 
 | Waktu (WIB) | Bagian |
 | --- | --- |
-| 20.00–20.10 | Recap PR sesi 3 (umur & gender) |
-| 20.10–20.25 | Demo: fungsi tanggal dan tren pendapatan bulanan |
-| 20.25–20.37 | Demo: CASE WHEN dan kelompok umur |
-| 20.37–20.50 | Demo: CTE (+ sekilas pembersihan dasar) |
-| 20.50–21.25 | **Proyek SQL**: 3 query → 3 temuan → README (temuan 1 ditulis bersama) |
-| 21.25–21.37 | Tanya jawab |
-| 21.37–21.40 | Penutup dan PR |
+| 20.00–20.05 | Recap sesi 3 |
+| 20.05–20.18 | Demo: fungsi tanggal dan tren pendapatan bulanan |
+| 20.18–20.28 | Demo: CASE WHEN dan kelompok umur |
+| 20.28–20.40 | Demo: CTE (+ sekilas pembersihan dasar) |
+| 20.40–21.00 | **Proyek SQL bersama**: jalankan P1–P3, tulis 3 temuan + rekomendasi |
+| 21.00–21.15 | **Unggah bersama**: README `thelook-sql-analysis` + `04_dates_case_cte.sql` |
+| 21.15–21.35 | Tanya jawab |
+| 21.35–21.40 | Penutup |
 
 ## 1. Bekerja dengan tanggal dan waktu
 
@@ -91,7 +92,7 @@ Anggap CTE sebagai **tabel sementara** yang hanya hidup selama query itu berjala
 | Baris duplikat | `COUNT(*)` vs `COUNT(DISTINCT id)` | `SELECT DISTINCT` atau perbaiki JOIN |
 | Pembagian dengan nol | | `SAFE_DIVIDE(a, b)` menghasilkan NULL, bukan error |
 
-Di kelas bagian ini hanya ditunjukkan sekilas; jalankan query bagian **E** sendiri di rumah. Pembersihan yang lebih lengkap ada di modul Python, sesi 8.
+Di kelas bagian ini hanya ditunjukkan sekilas; query bagian **E** boleh dijalankan sendiri kapan saja (opsional). Pembersihan yang lebih lengkap ada di modul Python, sesi 8.
 
 ## 5. Demo
 
@@ -103,7 +104,7 @@ Di kelas bagian ini hanya ditunjukkan sekilas; jalankan query bagian **E** sendi
 | D. CTE | Berapa banyak pelanggan yang memesan lebih dari sekali? |
 | E. Pembersihan | Ada data kosong atau duplikat? *(dibaca sendiri)* |
 
-## 6. Proyek SQL: Kondisi Bisnis TheLook (di kelas, ±35 menit)
+## 6. Proyek SQL: Kondisi Bisnis TheLook (bersama di kelas, ±35 menit)
 
 Modul SQL ditutup dengan proyek kecil yang masuk portofolio: menjawab **tiga pertanyaan besar manajemen** dari sesi 1 dengan SQL.
 
@@ -122,18 +123,27 @@ Ketiga query sudah ditulis di bagian **PROYEK SQL** file kerja; semuanya memakai
 3. Tulis **1 rekomendasi** untuk manajemen berdasarkan ketiga temuan.
 4. Salin temuan dan rekomendasi ke `README.md` repo `thelook-sql-analysis`, memakai [template README SQL](../../template-portofolio/thelook-sql-analysis/README.md).
 
-Di kelas kita menulis **temuan 1 bersama-sama**. Temuan 2, 3, dan rekomendasi dilanjutkan di rumah.
+Semua langkah dikerjakan **bersama di kelas**: instruktur membacakan hasil setiap query, mengajukan pertanyaan pemandu, lalu kita menulis temuannya bersama. Kamu boleh memakai kata-katamu sendiri; yang penting ada angka dan alasan kenapa temuan itu penting.
 
 **Contoh temuan yang baik:**
 
 > Pendapatan 12 bulan terakhir naik X% dibanding 12 bulan sebelumnya, dari A menjadi B USD. Kenaikannya datang dari jumlah pesanan, sedangkan AOV hampir tidak berubah, jadi bisnis tumbuh karena makin banyak orang berbelanja, bukan karena belanja per pesanan naik.
 
-## 7. PR (30–60 menit)
+## 7. Unggah bersama (di kelas)
 
-1. **Wajib:** selesaikan temuan 2, temuan 3, dan rekomendasi di file kerja, lalu lengkapi `README.md` repo `thelook-sql-analysis`.
-2. **Wajib:** unggah `sql/04_dates_case_cte.sql`. Pastikan `sql/01_basics.sql` sampai `sql/03_joins.sql` juga sudah ada.
-3. Latihan tambahan G1–G2 di file kerja (pendapatan per tahun, kelompok harga produk).
-4. *(Bonus, opsional)* **Tabel analisis**: satu query, satu baris per barang terjual, untuk yang lanjut ke modul Python. Notebook sesi 7 sudah berisi versi instruktur, jadi bagian ini tidak wajib.
+Bersama instruktur, di repo `thelook-sql-analysis`:
+
+1. Buka `README.md` → ikon pensil → tempel [template README SQL](../../template-portofolio/thelook-sql-analysis/README.md) → isi Ringkasan, 3 temuan, dan rekomendasi dari file kerja → **Commit changes**.
+2. Unggah `sql/04_dates_case_cte.sql`. Cek bahwa `sql/01_basics.sql` sampai `sql/03_joins.sql` juga sudah ada.
+
+Di akhir sesi, **portofolio modul SQL-mu selesai**.
+
+## 8. Latihan mandiri (opsional)
+
+Tidak wajib dan tidak dinilai. Untuk yang ingin berlatih lebih, kerjakan bagian **LATIHAN MANDIRI** di file kerja; jawabannya dibagikan instruktur setelah kelas.
+
+1. L1–L2 di file kerja: pendapatan per tahun, kelompok harga produk.
+2. *(Bonus)* **Tabel analisis**: satu query, satu baris per barang terjual. Notebook sesi 7 sudah berisi versi instruktur, jadi bagian ini tidak dibutuhkan untuk modul Python.
 
 <details>
 <summary>Spesifikasi kolom tabel analisis (bonus)</summary>

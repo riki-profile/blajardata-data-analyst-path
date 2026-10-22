@@ -18,13 +18,14 @@ Setelah sesi ini kamu bisa:
 
 | Waktu (WIB) | Bagian |
 | --- | --- |
-| 20.00–20.15 | Recap PR sesi 7 (eksplorasi `users`) |
-| 20.15–20.55 | **Bagian A**: membersihkan tabel `orders` |
-| 20.55–21.00 | Istirahat singkat |
-| 21.00–21.40 | **Bagian B**: prinsip grafik + 3 grafik (tren bulanan, kategori, umur) + menyimpan gambar |
-| 21.40–21.50 | Giliran kamu |
-| 21.50–21.58 | Tanya jawab |
-| 21.58–22.00 | Penutup dan PR |
+| 20.00–20.05 | Recap sesi 7 |
+| 20.05–20.45 | **Bagian A**: membersihkan tabel `orders` |
+| 20.45–20.50 | Istirahat singkat |
+| 20.50–21.30 | **Bagian B**: prinsip grafik + 3 grafik (tren bulanan, kategori, umur) + menyimpan gambar |
+| 21.30–21.40 | **Kerjakan bersama** |
+| 21.40–21.50 | **Unggah bersama**: notebook + 3 gambar |
+| 21.50–21.57 | Tanya jawab |
+| 21.57–22.00 | Penutup |
 
 ## Bagian A: checklist pembersihan
 
@@ -44,24 +45,32 @@ Setelah sesi ini kamu bisa:
 | --- | --- | --- |
 | Perubahan dari waktu ke waktu | Garis | Grafik 1: pendapatan bulanan |
 | Membandingkan kategori | Batang horizontal, diurutkan | Grafik 2: porsi pendapatan per kategori |
-| Sebaran angka | Histogram, boxplot | Grafik 3: umur pelanggan; PR: harga produk |
+| Sebaran angka | Histogram, boxplot | Grafik 3: umur pelanggan; latihan mandiri: harga produk |
 
 Hindari: diagram pie dengan banyak irisan, grafik 3D, dua sumbu Y dalam satu grafik, dan warna-warni tanpa makna.
 
 **Judul = kesimpulan.** Di notebook, judul grafik disusun dari angka yang dihitung (misalnya persen pertumbuhan), sehingga tetap benar walaupun datanya diperbarui. Tetap baca grafiknya sebelum memakai judul itu.
 
-## Giliran kamu (±10 menit)
+## Kerjakan bersama (±10 menit)
+
+Instruktur mengerjakannya langkah demi langkah di layar, dan kamu mengetik bersamaan di file kerjamu. Tidak perlu menebak jawabannya sendiri dulu.
 
 1. Grafik batang jumlah pesanan per status.
 2. Tren rata-rata lama pengiriman 12 bulan terakhir.
 
-## PR (30–60 menit)
+## Unggah bersama (di kelas)
 
-1. **Outlier harga** di tabel `products` dengan metode IQR dan boxplot. Tulis keputusanmu: dibuang, dibiarkan, atau dianalisis terpisah?
+Bersama instruktur, ke repo `thelook-python-analysis`:
+
+- `notebooks/08_cleaning_and_charts.ipynb`
+- 3 gambar grafik ke folder `images/` (buat foldernya dengan `images/README.md` kalau belum ada)
+
+## Latihan mandiri (opsional)
+
+Tidak wajib dan tidak dinilai. Untuk yang ingin berlatih lebih, kerjakan bagian **LATIHAN MANDIRI** di file kerja; jawabannya dibagikan instruktur setelah kelas.
+
+1. **Outlier harga** di tabel `products` dengan metode IQR dan boxplot.
 2. **Tiga grafik baru**, masing-masing dengan judul berupa kesimpulan dan satu kalimat insight.
-3. Unggah:
-   - `notebooks/08_cleaning_and_charts.ipynb`
-   - semua PNG ke folder `images/`
 
 ## Ringkasan
 

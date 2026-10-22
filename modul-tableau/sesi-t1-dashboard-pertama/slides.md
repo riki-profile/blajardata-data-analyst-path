@@ -72,10 +72,11 @@ Data, relationship, calculated field, kartu KPI, grafik
 | 10 | Apa itu dashboard; unduh 3 file CSV |
 | 20 | Memuat data, tipe data, relationship |
 | 35 | Calculated field, kartu KPI, 2 grafik, dashboard |
-| 65 | Giliran kamu |
-| 75 | Tanya jawab |
-| 90 | **Simpan ke Tableau Public bersama-sama** |
-| 97 | Penutup & PR |
+| 65 | **Kerjakan bersama**: judul + grafik ketiga |
+| 75 | **Simpan ke Tableau Public bersama-sama** |
+| 82 | **Unggah bersama**: repo `thelook-tableau-dashboard` |
+| 92 | Tanya jawab |
+| 98 | Penutup |
 
 ---
 
@@ -98,7 +99,7 @@ Satu halaman, dibaca dari atas ke bawah:
 | Atas | Judul berisi kesimpulan utama · filter tanggal & kategori |
 | Baris KPI | Pendapatan · Jumlah pesanan · AOV · Margin % |
 | Tengah | Tren pendapatan bulanan (garis) |
-| Bawah | Pendapatan per kategori · grafik tambahan (PR) |
+| Bawah | Pendapatan per kategori · pendapatan per negara (dibuat bersama) |
 
 Hari ini: KPI + 2 grafik. Sesi 2: filter, margin, desain.
 
@@ -175,11 +176,12 @@ produk (1) ───< penjualan >─── (1) pelanggan
 
 <!-- _class: lead -->
 
-# Giliran kamu · 10 menit
+# Kerjakan bersama · 10 menit
 
-Ubah judul kedua grafik menjadi **kalimat kesimpulan**
+1. Ubah judul kedua grafik menjadi **kalimat kesimpulan**
+2. Tambahkan **grafik ketiga**: pendapatan per negara (batang, diurutkan)
 
-Contoh: *"Pendapatan naik 9% dalam 12 bulan terakhir"*
+Instruktur memandu langkah demi langkah · kamu mengikuti bersamaan
 
 ---
 
@@ -195,14 +197,15 @@ Ketik `1` setelah tersimpan, lalu salin link dari browser
 
 ---
 
-## PR sesi 1
+## Unggah bersama & latihan mandiri
 
-1. Tambahkan **2 grafik lagi**: per negara, kelompok umur, traffic source, atau Men vs Women
-2. **Simpan lagi**: File → Save to Tableau Public
-3. Screenshot dashboard
-4. Buat repo **`thelook-tableau-dashboard`** (`PANDUAN_GITHUB.md`): unggah `images/dashboard_v1.png`, tulis link Tableau Public di README
+**Unggah bersama sekarang:** buat repo **`thelook-tableau-dashboard`** (`PANDUAN_GITHUB.md`)
+- Unggah screenshot `images/dashboard_v1.png`
+- Tulis link Tableau Public di `README.md`
 
 Dashboard hilang? Unduh **dashboard cadangan** dari link instruktur.
+
+**Latihan mandiri (opsional):** grafik lain (kelompok umur, traffic source, Men vs Women)
 
 ---
 

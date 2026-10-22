@@ -184,10 +184,10 @@ JOIN `bigquery-public-data.thelook_ecommerce.order_items` AS oi
 
 
 -- =====================================================================
--- GILIRAN KAMU (di kelas, ±10 menit)
+-- KERJAKAN BERSAMA (di kelas, dipandu instruktur)
 -- =====================================================================
 
--- G1. Pendapatan per department (Men/Women) untuk setiap negara.
+-- B1. Pendapatan per department (Men/Women) untuk setiap negara.
 --     Tampilkan 10 baris teratas.
 SELECT
   u.country,
@@ -204,7 +204,7 @@ ORDER BY pendapatan_usd DESC
 LIMIT 10;
 
 
--- G2. AOV per negara untuk pelanggan perempuan (gender = 'F') saja.
+-- B2. AOV per negara untuk pelanggan perempuan (gender = 'F') saja.
 SELECT
   u.country,
   ROUND(SUM(oi.sale_price) / COUNT(DISTINCT oi.order_id), 2) AS aov_usd,
@@ -219,10 +219,11 @@ ORDER BY jumlah_pesanan DESC;
 
 
 -- =====================================================================
--- PR SESI 3
+-- LATIHAN MANDIRI (OPSIONAL)
+-- Tidak wajib dan tidak dinilai. Jawabannya dibagikan instruktur setelah kelas.
 -- =====================================================================
 
--- PR1. Pendapatan per kelompok umur dan gender.
+-- L1. Pendapatan per kelompok umur dan gender.
 --      Kelompok umur per 10 tahun: FLOOR(u.age / 10) * 10 AS kelompok_umur
 --      Tampilkan: kelompok_umur, gender, pelanggan unik, pesanan unik,
 --      pendapatan. Urutkan berdasarkan kelompok_umur lalu gender.

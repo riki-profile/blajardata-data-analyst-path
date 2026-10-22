@@ -52,8 +52,8 @@ Contoh kombinasi: "Men di China", "Women di semua negara", "Women di United Stat
 | 14.40–14.55 | **Langkah 5–6: hitung ukuran dan matriks** | Notebook bagian 5–6 |
 | 14.55–15.10 | **Langkah 7–9: rekomendasi dan grafik** | Notebook bagian 7–9 |
 | 15.10–15.25 | **Langkah 10–11: tulis jawaban** | Tulis ulang draf jawaban dengan kata-katamu; 3–4 peserta membacakan hasilnya |
-| 15.25–15.35 | Unggah ke portofolio | Folder `my_question/` + gambar + bagian README di repo `thelook-python-analysis` |
-| 15.35–15.40 | Penutup | PR |
+| 15.25–15.35 | **Unggah bersama** | Folder `my_question/` + gambar + bagian **Studi kasus** di README repo `thelook-python-analysis` |
+| 15.35–15.40 | Penutup | |
 
 ## Hal baru di sesi ini
 
@@ -62,7 +62,7 @@ Contoh kombinasi: "Men di China", "Women di semua negara", "Women di United Stat
 - **Scatter plot dengan garis median**: cara klasik membagi data menjadi 4 kuadran.
 - **Aturan keputusan yang tertulis**: rekomendasi dipilih dengan aturan yang jelas, bukan selera, sehingga bisa diperiksa dan diulang orang lain.
 
-## Yang diunggah ke portofolio
+## Yang diunggah ke portofolio (bersama di kelas)
 
 Studi kasus masuk ke repo **`thelook-python-analysis`**, karena dikerjakan dengan SQL + Python.
 
@@ -72,10 +72,10 @@ Studi kasus masuk ke repo **`thelook-python-analysis`**, karena dikerjakan denga
 | `10_my_question.ipynb` (semua sel sudah dijalankan) | `my_question/10_my_question.ipynb` |
 | 2 grafik `12_...png` | `images/` |
 
-## PR (30–45 menit)
+Terakhir, isi bagian **Studi kasus** di README `thelook-python-analysis` (lihat [template README Python](../../template-portofolio/thelook-python-analysis/README.md)): pertanyaan, fokus, jawaban dengan kata-katamu sendiri, rekomendasi, dan grafik matriks prioritas.
 
-1. Pastikan bagian 11 notebook berisi jawaban dengan **kata-katamu sendiri**, bukan salinan draf.
-2. Isi bagian **Studi kasus** di README repo `thelook-python-analysis` (lihat [template README Python](../../template-portofolio/thelook-python-analysis/README.md)): pertanyaan, fokus, jawaban, rekomendasi, dan grafik matriks prioritas.
-3. *(Opsional, nilai tambah)* Jalankan ulang notebook dengan fokus lain (misalnya department yang satunya). Apakah rekomendasinya sama? Tulis satu kalimat perbandingannya.
+## Latihan mandiri (opsional)
+
+Tidak wajib dan tidak dinilai: jalankan ulang notebook dengan fokus lain (misalnya department yang satunya). Apakah rekomendasinya sama? Tulis satu kalimat perbandingannya di README.
 
 **Sesi berikutnya:** Selasa, 8 Desember 2026, 20.00 WIB. Merapikan dan menerbitkan portofolio (sesi terakhir!).

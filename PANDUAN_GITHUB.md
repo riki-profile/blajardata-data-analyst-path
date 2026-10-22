@@ -45,7 +45,7 @@ Buka file di GitHub → ikon **pensil** (Edit this file) → ubah → **Commit c
 
 Untuk mengganti file non-teks (gambar, notebook), unggah ulang file dengan **nama yang sama** di folder yang sama; GitHub akan menimpanya.
 
-> **Commit** = menyimpan perubahan beserta catatan apa yang diubah. Tulis pesan commit yang jelas, misalnya `Tambah PR sesi 2: top 10 brand`, bukan `update`.
+> **Commit** = menyimpan perubahan beserta catatan apa yang diubah. Tulis pesan commit yang jelas, misalnya `Tambah query agregasi sesi 2`, bukan `update`.
 
 ## 4. Menulis README
 
