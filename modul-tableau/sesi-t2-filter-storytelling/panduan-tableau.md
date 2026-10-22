@@ -1,8 +1,8 @@
-# Panduan Tableau Public · Sesi 11
+# Panduan Tableau Public · Modul Tableau Sesi 2
 
-Kembali ke [README sesi 11](README.md) · Panduan Power BI: [panduan-power-bi.md](panduan-power-bi.md)
+Kembali ke [README sesi 2](README.md)
 
-Buka dashboard sesi 10: **File → Open from Tableau Public**.
+Buka dashboard sesi 1: **File → Open from Tableau Public**.
 
 ## 1. Filter tanggal
 
@@ -48,7 +48,7 @@ Buat sheet `KPI Margin` seperti kartu KPI lainnya.
 
 ## 6. Simpan
 
-- **File → Save to Tableau Public** (menimpa versi sesi 10, link tetap sama).
+- **File → Save to Tableau Public** (menimpa versi sesi 1, link tetap sama).
 - Di halaman Tableau Public, klik **Edit Details** untuk menulis deskripsi singkat dashboard.
 - Screenshot → `images/dashboard_final.png`.
-- Tulis link di `dashboard/README.md` portofoliomu.
+- Tulis link di `README.md` repo `thelook-tableau-dashboard`.

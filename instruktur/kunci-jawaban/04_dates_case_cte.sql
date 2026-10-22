@@ -167,7 +167,8 @@ LIMIT 12;
 
 
 -- ---------------------------------------------------------------------
--- E. PEMBERSIHAN DASAR
+-- E. PEMBERSIHAN DASAR (di kelas hanya ditunjukkan sekilas, jalankan
+--    sendiri di rumah)
 -- ---------------------------------------------------------------------
 
 -- E1. Berapa nilai kosong (NULL) di tabel products?
@@ -212,31 +213,109 @@ FROM `bigquery-public-data.thelook_ecommerce.users`
 LIMIT 20;
 
 
--- ---------------------------------------------------------------------
--- F. KERANGKA TABEL ANALISIS (untuk PR)
--- Lengkapi bagian yang ditandai TODO. Lihat daftar kolom di README sesi 4.
--- ---------------------------------------------------------------------
+-- =====================================================================
+-- PROYEK SQL: KONDISI BISNIS THELOOK
+-- Tiga query di bawah menjawab tiga pertanyaan besar manajemen.
+-- Jalankan satu per satu, baca hasilnya, lalu tulis TEMUAN di bawah
+-- setiap query. Temuan ini masuk ke README repo thelook-sql-analysis.
+-- =====================================================================
 
--- WITH item_valid AS (
---   -- TODO: ambil kolom dari order_items, buang Cancelled/Returned
---   --       dan bulan berjalan
---   SELECT ...
---   FROM `bigquery-public-data.thelook_ecommerce.order_items`
---   WHERE ...
--- )
--- SELECT
---   i.id AS order_item_id,
---   ...
---   -- TODO: kolom produk (category, brand bersih, department, cost, margin)
---   -- TODO: kolom pelanggan (age, age_band dengan CASE WHEN, gender,
---   --       country, traffic_source)
--- FROM item_valid AS i
--- JOIN ... AS p ON ...
--- JOIN ... AS u ON ...;
+-- P1. Bagaimana kondisi bisnis kita?
+--     Pendapatan, pesanan, dan AOV 12 bulan terakhir vs 12 bulan sebelumnya
+WITH item AS (
+  SELECT
+    order_id,
+    sale_price,
+    CASE
+      WHEN DATE(created_at) >= DATE_SUB(DATE_TRUNC(CURRENT_DATE(), MONTH), INTERVAL 12 MONTH)
+        THEN '2. 12 bulan terakhir'
+      ELSE '1. 12 bulan sebelumnya'
+    END AS periode
+  FROM `bigquery-public-data.thelook_ecommerce.order_items`
+  WHERE status NOT IN ('Cancelled', 'Returned')
+    AND DATE(created_at) >= DATE_SUB(DATE_TRUNC(CURRENT_DATE(), MONTH), INTERVAL 24 MONTH)
+    AND DATE(created_at) < DATE_TRUNC(CURRENT_DATE(), MONTH)
+)
+SELECT
+  periode,
+  ROUND(SUM(sale_price), 0) AS pendapatan_usd,
+  COUNT(DISTINCT order_id) AS jumlah_pesanan,
+  ROUND(SUM(sale_price) / COUNT(DISTINCT order_id), 2) AS aov_usd
+FROM item
+GROUP BY periode
+ORDER BY periode;
+
+-- Temuan 1 (pakai angka: naik/turun berapa persen?):
+-- Contoh: Pendapatan 12 bulan terakhir naik [X]% (dari [A] menjadi [B] USD). (isi angka dari hasil query hari itu)
+-- Kenaikan datang dari jumlah pesanan, sedangkan AOV hampir sama, jadi bisnis
+-- tumbuh karena makin banyak orang berbelanja, bukan karena belanja per pesanan naik.
+
+
+-- P2. Di mana uang kita dihasilkan?
+--     Porsi pendapatan dan margin % per kategori, 12 bulan terakhir
+WITH per_kategori AS (
+  SELECT
+    p.category,
+    SUM(oi.sale_price) AS pendapatan,
+    SUM(oi.sale_price - p.cost) AS margin
+  FROM `bigquery-public-data.thelook_ecommerce.order_items` AS oi
+  JOIN `bigquery-public-data.thelook_ecommerce.products` AS p ON oi.product_id = p.id
+  WHERE oi.status NOT IN ('Cancelled', 'Returned')
+    AND DATE(oi.created_at) >= DATE_SUB(DATE_TRUNC(CURRENT_DATE(), MONTH), INTERVAL 12 MONTH)
+    AND DATE(oi.created_at) < DATE_TRUNC(CURRENT_DATE(), MONTH)
+  GROUP BY p.category
+)
+SELECT
+  category,
+  ROUND(pendapatan, 0) AS pendapatan_usd,
+  ROUND(100 * pendapatan / SUM(pendapatan) OVER (), 1) AS porsi_persen,
+  ROUND(100 * margin / pendapatan, 1) AS margin_persen
+FROM per_kategori
+ORDER BY pendapatan_usd DESC;
+
+-- Temuan 2 (kategori mana yang terbesar, dan apakah margin-nya juga tinggi?):
+-- Contoh: [Kategori A] dan [Kategori B] menyumbang [X]% pendapatan. Margin [Kategori A]
+-- [lebih tinggi/lebih rendah] dari rata-rata, jadi kategori terbesar [juga/belum tentu]
+-- yang paling menguntungkan. (cek urutan margin_persen di hasil P2)
+
+
+-- P3. Apakah pelanggan kembali berbelanja?
+--     Berapa persen pelanggan yang berbelanja 1 kali, 2 kali, 3 kali atau lebih
+WITH pesanan_per_pelanggan AS (
+  SELECT
+    user_id,
+    COUNT(*) AS jumlah_pesanan
+  FROM `bigquery-public-data.thelook_ecommerce.orders`
+  WHERE status NOT IN ('Cancelled', 'Returned')
+    AND DATE(created_at) < DATE_TRUNC(CURRENT_DATE(), MONTH)
+  GROUP BY user_id
+)
+SELECT
+  CASE
+    WHEN jumlah_pesanan = 1 THEN '1 kali'
+    WHEN jumlah_pesanan = 2 THEN '2 kali'
+    ELSE '3 kali atau lebih'
+  END AS frekuensi_belanja,
+  COUNT(*) AS jumlah_pelanggan,
+  ROUND(100 * COUNT(*) / SUM(COUNT(*)) OVER (), 1) AS persen
+FROM pesanan_per_pelanggan
+GROUP BY frekuensi_belanja
+ORDER BY frekuensi_belanja;
+
+-- Temuan 3 (berapa persen yang hanya belanja sekali? apa artinya?):
+-- Contoh: [X]% pelanggan hanya berbelanja sekali. Pertumbuhan sangat bergantung
+-- pada pelanggan baru, padahal mendatangkan pelanggan baru lebih mahal daripada
+-- membuat pelanggan lama kembali.
+
+
+-- Rekomendasi (1 tindakan konkret untuk manajemen, berdasarkan temuanmu):
+-- Contoh: Buat program pembelian kedua (voucher 30 hari setelah pesanan pertama),
+-- dimulai dari kategori dengan margin tertinggi, dan ukur dari kenaikan persentase
+-- pelanggan yang belanja 2 kali atau lebih.
 
 
 -- =====================================================================
--- GILIRAN KAMU (di kelas, ±10 menit)
+-- LATIHAN TAMBAHAN (PR)
 -- =====================================================================
 
 -- G1. Pendapatan per tahun, hanya untuk tahun yang sudah lengkap.
@@ -266,11 +345,31 @@ ORDER BY kelompok_harga;
 
 
 -- =====================================================================
--- PR SESI 4: TABEL ANALISIS
--- Tulis query lengkapmu di bawah (boleh menyalin dari bagian F lalu
--- melengkapinya). Query ini dipakai lagi di sesi 7.
+-- BONUS (OPSIONAL): TABEL ANALISIS
+-- Untuk yang lanjut ke modul Python. Notebook sesi 7 sudah berisi versi
+-- instruktur, jadi bagian ini tidak wajib. Lihat daftar kolom di README
+-- sesi 4, lalu lengkapi kerangka di bawah (bagian yang ditandai TODO).
 -- =====================================================================
--- Versi ini sama dengan query di notebook sesi 7-9.
+
+-- WITH item_valid AS (
+--   -- TODO: ambil kolom dari order_items, buang Cancelled/Returned
+--   --       dan bulan berjalan
+--   SELECT ...
+--   FROM `bigquery-public-data.thelook_ecommerce.order_items`
+--   WHERE ...
+-- )
+-- SELECT
+--   i.id AS order_item_id,
+--   ...
+--   -- TODO: kolom produk (category, brand bersih, department, cost, margin)
+--   -- TODO: kolom pelanggan (age, age_band dengan CASE WHEN, gender,
+--   --       country, traffic_source)
+-- FROM item_valid AS i
+-- JOIN ... AS p ON ...
+-- JOIN ... AS u ON ...;
+
+-- Query tabel analisis-mu:
+-- BONUS. Versi ini sama dengan query di notebook sesi 7-9.
 -- Cek jawaban peserta: (1) jumlah baris sama dengan versi ini, (2) ada CTE,
 -- (3) filter status dan bulan berjalan, (4) age_band lengkap tanpa celah.
 WITH item_valid AS (

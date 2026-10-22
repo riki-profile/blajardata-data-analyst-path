@@ -47,9 +47,23 @@ Selasa dan Kamis pukul **20.00 WIB**, Sabtu pukul **14.00 WIB**. Sesi 1 dan 8 (k
 | Jum, 6 Nov (H-4) | Pengingat: minta peserta mengirim screenshot hasil query uji ke grup |
 | Min, 8 Nov (H-2) | Cek siapa yang belum mengirim screenshot; hubungi pribadi |
 | Sel, 10 Nov, siang | Jalankan semua query sesi 1 dari awal (dataset diperbarui berkala). Kirim pengingat kelas |
-| Sebelum sesi 10 | Konfirmasi tools dashboard kelas (**Power BI** atau **Tableau**). Kirim pengingat instalasi pada Sabtu, 28 Nov (setelah sesi 9) |
+| Sab, 28 Nov (setelah sesi 9) | Pengingat instalasi Power BI + link [panduan Parallels](../PANDUAN_MAC_PARALLELS.md) untuk pengguna Mac (mulai Minggu, 29 Nov, supaya trial 14 hari cukup sampai akhir kursus) |
+| Sen, 30 Nov | Unggah 3 CSV + `cek_cepat.txt` ke Google Drive, bagikan link di grup (lihat runsheet sesi 10) |
 
-**Memilih Power BI atau Tableau:** tanyakan di sesi 1 (polling Zoom) berapa peserta yang memakai Mac. Kalau ada pengguna Mac, pilih **Tableau Public** untuk seluruh kelas, karena Power BI Desktop hanya jalan di Windows. Tableau juga memberi link publik yang praktis untuk portofolio. Panduan kedua tools tersedia di materi sesi 10–11, jadi peserta yang ingin memakai tools lain tetap bisa mengikuti.
+**Tools dashboard: Power BI.** Power BI Desktop hanya jalan di Windows; pengguna Mac memakai Windows 11 lewat **Parallels** (trial gratis 14 hari), dengan [panduan Parallels](../PANDUAN_MAC_PARALLELS.md). Di sesi 1, tanyakan lewat polling Zoom siapa yang memakai Mac, supaya kamu tahu siapa yang perlu dipantau sebelum sesi 10. Materi Tableau tersedia terpisah di [modul-tableau/](../modul-tableau/) kalau suatu saat dibuka kelas Tableau.
+
+## Kelas per modul
+
+Kursus dijual penuh atau per modul. Peserta per modul bergabung di kelas yang sama, hanya untuk sesi modulnya:
+
+| Modul | Sesi | Peserta baru bergabung di | Hal khusus untuk instruktur |
+| --- | --- | --- | --- |
+| SQL | 1–4 | Sesi 1 | Ditutup dengan Proyek SQL di sesi 4 (README `thelook-sql-analysis`) |
+| Python | 5–9 | Sesi 5 | Sambut peserta baru di recap sesi 5. Mereka butuh BigQuery + Project ID sebelum sesi 7. Ditutup dengan README `thelook-python-analysis` di sesi 9 |
+| Power BI | 10–11 | Sesi 10 | Sambut peserta baru di recap sesi 10. Data dibagikan via Google Drive. Ditutup dengan README `thelook-powerbi-dashboard` di sesi 11 |
+| Jalur penuh | 1–13 | Sesi 1 | Sesi 12 (studi kasus) dan 13 (publikasi, README profil) khusus jalur penuh |
+
+Peserta baru di awal modul membawa pertanyaan setup sendiri. Buka meeting 15 menit lebih awal di sesi 5 dan sesi 10, dan arahkan mereka ke [PERSIAPAN.md](../PERSIAPAN.md#mulai-dari-modul-python-atau-power-bi) sebelum kelas.
 
 ## Pengaturan Zoom
 
@@ -122,16 +136,16 @@ npx @marp-team/marp-cli@latest materi/sesi-01-dasar-sql/slides.md --pptx
 
 ## Penilaian
 
-Rubrik dari silabus, dengan panduan skor:
+Setiap modul dinilai dari repo portofolionya sendiri; jalur penuh memakai rubrik dari silabus. Bobot untuk peserta ada di [README utama](../README.md#portofolio-dan-penilaian). Panduan skor:
 
-| Kriteria | Bobot | Sangat baik | Cukup | Kurang |
-| --- | --- | --- | --- | --- |
-| File SQL | 20% | 4 file lengkap, benar, setiap query diberi komentar pertanyaan bisnisnya | Lengkap, sebagian komentar | File kurang, banyak error |
-| Notebook | 20% | 5 notebook dijalankan (output terlihat), pembersihan didokumentasikan, grafik berjudul kesimpulan | Lengkap, sebagian output/penjelasan hilang | Notebook kosong atau kurang |
-| Dashboard | 20% | KPI benar, filter berfungsi, headline + rekomendasi, rapi | Lengkap tanpa storytelling | KPI salah atau tidak ada filter |
-| README | 20% | 3 temuan dengan angka + 1 rekomendasi konkret, kata-kata sendiri | Temuan tanpa angka atau rekomendasi umum | Hanya daftar file |
-| Studi kasus | 10% | Fokus dipilih, semua sel dijalankan, jawaban + rekomendasi dengan kata-kata sendiri + keterbatasan | Draf otomatis disalin tanpa diubah | Tidak ada |
-| Kerapian | 10% | Struktur folder sesuai, nama file konsisten, semua link/gambar berfungsi | Ada 1–3 link rusak atau nama file acak | Berantakan |
+| Komponen | Sangat baik | Cukup | Kurang |
+| --- | --- | --- | --- |
+| File SQL | 4 file lengkap, benar, setiap query diberi komentar pertanyaan bisnisnya | Lengkap, sebagian komentar | File kurang, banyak error |
+| Notebook | 5 notebook dijalankan (output terlihat), pembersihan didokumentasikan, grafik berjudul kesimpulan | Lengkap, sebagian output/penjelasan hilang | Notebook kosong atau kurang |
+| Dashboard Power BI | KPI benar, filter berfungsi, headline + rekomendasi, rapi | Lengkap tanpa storytelling | KPI salah atau tidak ada filter |
+| README (per repo) | 3 temuan dengan angka + 1 rekomendasi konkret, kata-kata sendiri | Temuan tanpa angka atau rekomendasi umum | Hanya daftar file |
+| Studi kasus (jalur penuh) | Fokus dipilih, semua sel dijalankan, jawaban + rekomendasi dengan kata-kata sendiri + keterbatasan | Draf otomatis disalin tanpa diubah | Tidak ada |
+| Kerapian | Nama file konsisten, semua link/gambar berfungsi; jalur penuh: README profil menghubungkan ketiga repo | Ada 1–3 link rusak atau nama file acak | Berantakan |
 
 ## Template pesan
 

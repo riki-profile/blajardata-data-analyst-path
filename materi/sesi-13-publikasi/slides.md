@@ -66,8 +66,8 @@ Selasa, 8 Desember 2026 · 20.00–21.40 WIB · Sesi terakhir
 | --- | --- |
 | SQL | SELECT, WHERE, GROUP BY, JOIN, CASE WHEN, CTE |
 | Python | pandas, pembersihan data, grafik, statistik, RFM |
-| Dashboard | Relasi, measure, filter, storytelling |
-| Portofolio | Studi kasus lengkap dari pertanyaan sampai rekomendasi |
+| Power BI | Relasi, measure DAX, filter, storytelling |
+| Studi kasus | Analisis lengkap dari pertanyaan sampai rekomendasi |
 
 Hari ini: membuatnya **terlihat** oleh orang lain.
 
@@ -92,8 +92,8 @@ Dalam 30 detik mereka harus tahu:
 - Pertanyaan bisnis · data & metode
 - **3 temuan** dengan angka, kata-katamu sendiri
 - **1 rekomendasi** konkret
-- Screenshot dashboard **tampil** + link berfungsi
-- Bagian studi kasus + grafik matriks
+- Minimal satu gambar **tampil** di setiap README
+- Python: bagian studi kasus + grafik matriks
 - Keterbatasan (data sintetis)
 - Satu bahasa, konsisten
 
@@ -101,17 +101,17 @@ Dalam 30 detik mereka harus tahu:
 
 ## Checklist file & folder
 
-| Folder | Isi |
+| Repo | Isi |
 | --- | --- |
-| `sql/` | `01_...` sampai `04_...`, diberi komentar |
-| `notebooks/` | `05_...` sampai `09_...`, **semua sel sudah dijalankan** |
-| `dashboard/` | link Tableau / `.pbix` + PDF |
-| `my_question/` | `.sql` + `.ipynb` studi kasus |
-| `images/` | nama deskriptif, **tanpa spasi** |
+| `thelook-sql-analysis` | `sql/01_...` sampai `04_...`, diberi komentar |
+| `thelook-python-analysis` | `notebooks/05_...` sampai `09_...` (**sel sudah dijalankan**), `my_question/`, `images/` |
+| `thelook-powerbi-dashboard` | `dashboard/` PDF (+ `.pbix`), `images/dashboard_final.png` |
+
+Nama gambar deskriptif, **tanpa spasi**
 
 Hapus file sisa: `Untitled.ipynb`, `Salinan dari ...`
 
-**Uji akhir:** buka repo di **jendela incognito** dan di **HP**
+**Uji akhir:** buka ketiga repo di **jendela incognito** dan di **HP**
 
 ---
 
@@ -131,9 +131,9 @@ Link gambar rusak? Biasanya karena:
 
 ## Tertinggal? Prioritaskan sesuai bobot nilai
 
-1. **README** (20%): temuan 1 (sesi 9) & studi kasus (sesi 12) sudah ada
-2. **Dashboard** (20%): link/PDF + screenshot
-3. **Studi kasus** (10%): `my_question/`
+1. **README ketiga repo** (20%): temuan 1 SQL (sesi 4), temuan 1 Python (sesi 9), headline Power BI (sesi 11) sudah ditulis di kelas
+2. **Dashboard** (20%): PDF + screenshot
+3. **Studi kasus** (10%): `my_question/` di repo Python
 4. **SQL & notebook** (20% + 20%): unggah yang sudah dijalankan di kelas
 5. Gambar hilang? Notebook → **Runtime → Run all** → unduh lagi
 
@@ -141,14 +141,13 @@ Perbaikan sampai **Selasa, 15 Desember 2026**
 
 ---
 
-## Pin repository & rapikan profil
+## README profil: satu cerita, tiga repo
 
-1. Profil GitHub → **Customize your pins** → centang `thelook-analysis`
-2. Repo → ikon roda gigi **About**: deskripsi + topics
-   `data-analysis` `sql` `bigquery` `python` `pandas` `tableau` / `power-bi`
-3. **Edit profile**: foto, nama, bio
-   *"Aspiring Data Analyst | SQL · Python · Tableau"*, kota, link LinkedIn
-4. *(Opsional)* README profil: repo bernama **sama persis** dengan username-mu
+1. Repo baru bernama **sama persis** dengan username-mu → Public → Add README
+2. Tempel **template README profil** → isi link 3 repo + 1 temuan utama masing-masing
+3. Profil → **Customize your pins** → centang ketiga repo `thelook-...`
+4. Setiap repo → **About**: deskripsi + topics (`sql`, `python`, `power-bi`, ...)
+5. **Edit profile**: foto, bio *"Aspiring Data Analyst | SQL · Python · Power BI"*, LinkedIn
 
 ---
 
@@ -168,7 +167,7 @@ Sangat berguna untuk **wawancara kerja**. Siapa yang mau mencoba?
 ## (Opsional) Posting LinkedIn
 
 > Saya baru menyelesaikan proyek analisis data e-commerce dengan dataset publik TheLook (BigQuery).
-> **Pertanyaan:** ... · **Tools:** SQL, Python, Tableau/Power BI
+> **Pertanyaan:** ... · **Tools:** SQL, Python, Power BI
 > **Temuan utama:** ... · **Rekomendasi:** ...
 > Dashboard: [link] · Kode: [link GitHub]
 

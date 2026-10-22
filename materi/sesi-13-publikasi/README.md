@@ -1,4 +1,4 @@
-# Sesi 13 · Merapikan dan Menerbitkan Portofolio
+# Sesi 13 · Merapikan dan Menerbitkan Portofolio *(jalur penuh)*
 
 **Selasa, 8 Desember 2026 · 20.00–21.40 WIB** · Sesi terakhir
 
@@ -6,9 +6,9 @@
 
 Setelah sesi ini kamu bisa:
 
-1. Memeriksa portofolio dengan checklist, seperti yang dilakukan perekrut.
+1. Memeriksa ketiga repo portofolio dengan checklist, seperti yang dilakukan perekrut.
 2. Memperbaiki README, screenshot, link, dan nama file.
-3. Menyematkan (*pin*) repository di profil GitHub dan membuat profil yang meyakinkan.
+3. Membuat **README profil GitHub** yang menghubungkan ketiga repo, dan menyematkan (*pin*) ketiganya.
 4. Menceritakan proyekmu dalam 1 menit.
 
 ## Agenda
@@ -18,7 +18,7 @@ Setelah sesi ini kamu bisa:
 | 20.00–20.10 | Recap: hasil studi kasus |
 | 20.10–20.25 | "Mata perekrut": apa yang dilihat orang dalam 30 detik pertama di repo-mu |
 | 20.25–20.55 | Kerja: jalankan checklist, saling review berpasangan di *breakout room* |
-| 20.55–21.10 | Pin repository, profil GitHub, (opsional) posting LinkedIn |
+| 20.55–21.10 | README profil GitHub, pin 3 repo, (opsional) posting LinkedIn |
 | 21.10–21.30 | Presentasi 1 menit (sukarela) + tanya jawab |
 | 21.30–21.40 | Penutup kursus, langkah belajar berikutnya |
 
@@ -34,34 +34,36 @@ Perekrut atau *hiring manager* biasanya hanya membaca **README** dan melihat **g
 
 ## 2. Checklist portofolio
 
-### README
+Kamu punya **tiga repo**, satu per modul:
 
-- [ ] Judul jelas, misalnya "Analisis Penjualan & Pelanggan TheLook E-commerce"
+| Repo | Isi | README ditulis di |
+| --- | --- | --- |
+| `thelook-sql-analysis` | `sql/01_...` sampai `04_...` | Sesi 4 (Proyek SQL) |
+| `thelook-python-analysis` | `notebooks/05_...` sampai `09_...`, `images/`, `my_question/` | Sesi 9 + studi kasus sesi 12 |
+| `thelook-powerbi-dashboard` | `dashboard/` (`.pbix` + PDF), `images/` | Sesi 11 |
+
+### Setiap README
+
+- [ ] Judul jelas, sesuai isi repo (misalnya "Analisis Pelanggan TheLook dengan Python")
 - [ ] Ringkasan 2–3 kalimat di paling atas (konteks, pertanyaan, hasil utama)
-- [ ] Pertanyaan bisnis tertulis jelas
-- [ ] Data & metode: dataset, periode, definisi metrik, tools
-- [ ] **3 temuan** dengan angka, ditulis dengan kata-katamu sendiri
-- [ ] **1 rekomendasi** yang konkret
-- [ ] Screenshot dashboard tampil (bukan link rusak)
-- [ ] Link dashboard Tableau Public berfungsi, **atau** PDF Power BI tersedia
-- [ ] Bagian studi kasus: pertanyaan, fokus, jawaban dengan kata-katamu sendiri, grafik matriks prioritas
-- [ ] Daftar isi repo / struktur folder
+- [ ] Pertanyaan bisnis dan data & metode tertulis jelas
+- [ ] **Temuan** dengan angka, ditulis dengan kata-katamu sendiri, dan **1 rekomendasi** yang konkret
+- [ ] Minimal satu gambar tampil (grafik atau screenshot dashboard)
 - [ ] Keterbatasan (misalnya data sintetis)
-- [ ] Tidak ada typo yang mencolok; bahasa konsisten (pilih Indonesia **atau** Inggris)
+- [ ] Tidak ada typo yang mencolok; bahasa konsisten (pilih Indonesia **atau** Inggris) di ketiga repo
 
-### File dan folder
+### File per repo
 
-- [ ] `sql/`: `01_basics.sql` sampai `04_dates_case_cte.sql`, semuanya diberi komentar
-- [ ] `notebooks/`: `05_...` sampai `09_...`, **semua sel sudah dijalankan** sehingga hasilnya terlihat
-- [ ] `dashboard/`: link atau file + PDF
-- [ ] `my_question/`: `.sql` dan `.ipynb`
+- [ ] **SQL:** `sql/01_basics.sql` sampai `sql/04_dates_case_cte.sql`, semuanya diberi komentar; temuan Proyek SQL ada di README
+- [ ] **Python:** `notebooks/05_...` sampai `09_...` dengan **semua sel sudah dijalankan**; `my_question/` berisi `.sql` + `.ipynb` studi kasus; bagian **Studi kasus** di README
+- [ ] **Power BI:** `dashboard/thelook_dashboard.pdf` (dan `.pbix` jika di bawah 25 MB); `images/dashboard_final.png`
 - [ ] `images/`: nama file deskriptif (`01_pendapatan_bulanan.png`, bukan `Screenshot 2026-11-25 at 21.03.png`)
 - [ ] Tidak ada file sisa: `Untitled.ipynb`, `Salinan dari ...`, file kosong
 - [ ] `PROJECT_ID` di notebook diganti `"isi-project-id-kamu"` (opsional, lebih rapi)
 
 ### Uji akhir
 
-- [ ] Buka repo-mu di **jendela incognito**: semua gambar tampil, semua link berfungsi
+- [ ] Buka ketiga repo di **jendela incognito**: semua gambar tampil, semua link berfungsi
 - [ ] Buka di HP: README tetap mudah dibaca
 
 ## 3. Menampilkan gambar di README
@@ -79,13 +81,18 @@ Link ke file lain di repo:
 [Notebook analisis pelanggan](notebooks/09_customer_analysis.ipynb)
 ```
 
-## 4. Pin repository dan rapikan profil GitHub
+## 4. README profil, pin repository, dan rapikan profil GitHub
 
-1. Buka profil GitHub-mu (`github.com/username`).
-2. **Customize your pins** → centang `thelook-analysis` → **Save pins**.
-3. Isi **About** repo (ikon roda gigi di halaman repo, kanan atas): deskripsi singkat dan **topics**, misalnya `data-analysis`, `sql`, `bigquery`, `python`, `pandas`, `tableau` / `power-bi`.
-4. **Edit profile**: foto, nama lengkap, bio singkat ("Aspiring Data Analyst | SQL · Python · Tableau"), kota, link LinkedIn.
-5. *(Opsional)* README profil: buat repo dengan nama **sama persis** dengan username-mu. README-nya tampil di halaman profil.
+**README profil** menghubungkan ketiga repo menjadi satu cerita, dan tampil di halaman depan profilmu:
+
+1. Buat repository baru dengan nama **sama persis** dengan username-mu (misalnya `budisantoso/budisantoso`), **Public**, centang **Add a README file**.
+2. Edit `README.md` → tempel [template README profil](../../template-portofolio/profil-github/README.md) → isi tabel proyek dengan link ketiga repo dan satu kalimat temuan utama dari masing-masing.
+
+Lalu:
+
+3. Buka profil GitHub-mu (`github.com/username`) → **Customize your pins** → centang `thelook-sql-analysis`, `thelook-python-analysis`, `thelook-powerbi-dashboard` → **Save pins**.
+4. Di setiap repo, isi **About** (ikon roda gigi, kanan atas): deskripsi singkat dan **topics**, misalnya `data-analysis` + `sql`/`bigquery`, `python`/`pandas`, atau `power-bi`.
+5. **Edit profile**: foto, nama lengkap, bio singkat ("Aspiring Data Analyst | SQL · Python · Power BI"), kota, link LinkedIn.
 
 ## 5. Presentasi 1 menit
 
@@ -103,11 +110,11 @@ Contoh kerangka. Ubah dengan kata-katamu sendiri:
 > Saya baru menyelesaikan proyek analisis data e-commerce menggunakan dataset publik TheLook (BigQuery).
 >
 > 🔎 Pertanyaan: [pertanyaan bisnismu]
-> 🛠️ Tools: SQL (BigQuery), Python (pandas, matplotlib), [Tableau/Power BI]
+> 🛠️ Tools: SQL (BigQuery), Python (pandas, matplotlib), Power BI
 > 📊 Temuan utama: [1 temuan paling menarik, dengan angka]
 > 💡 Rekomendasi: [rekomendasimu]
 >
-> Dashboard: [link Tableau Public]
+> Dashboard: [link repo thelook-powerbi-dashboard]
 > Kode & analisis lengkap: [link GitHub]
 >
 > #DataAnalytics #SQL #Python #BigQuery

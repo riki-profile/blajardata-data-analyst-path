@@ -1,49 +1,51 @@
-# Runsheet Sesi 10 · Dashboard Pertama
+# Runsheet Sesi 10 · Dashboard Pertama di Power BI
 
 **Selasa, 1 Desember 2026 · 20.00–21.40 WIB** · Materi: [materi/sesi-10-dashboard-1](../materi/sesi-10-dashboard-1/)
 
+Sesi pertama **modul Power BI**. Yang hadir: peserta jalur penuh + peserta baru modul Power BI.
+
 ## Persiapan
 
-- [ ] Tools kelas sudah diputuskan (lihat [README instruktur](README.md#timeline-persiapan-sebelum-kelas)) dan diumumkan.
-- [ ] Jalankan `10_export_dashboard_data.ipynb`, simpan ketiga CSV, catat angka "Cek cepat".
+- [ ] **Senin, 30 November:** jalankan `10_export_dashboard_data.ipynb`, unggah ketiga CSV ke **satu folder Google Drive** (akses: *Anyone with the link*), dan tambahkan file teks `cek_cepat.txt` berisi angka "Cek cepat" (pendapatan, jumlah pesanan, AOV). Bagikan link folder di grup kelas **sebelum** sesi.
 - [ ] Buat dashboard lengkap sesi 10 sebagai cadangan, lalu mulai dari file kosong saat demo.
-- [ ] **Siapkan dashboard cadangan untuk peserta** (dibagikan setelah kelas, untuk yang dashboard-nya hilang):
-  - Tableau: publikasikan di Tableau Public, lalu di halaman dashboard aktifkan izin unduh workbook (**Settings → Allow access → Workbook downloads**). Peserta mengunduh `.twbx` lewat tombol **Download**, membukanya dengan **File → Open**, lalu menyimpannya ke akun Tableau Public mereka sendiri.
-  - Power BI: `thelook_dashboard_cadangan.pbix`. Data CSV ikut tersimpan di dalam file `.pbix`, jadi file ini langsung bisa dibuka.
-- [ ] **Power BI:** coba sekali di Windows berbahasa/berformat Indonesia untuk memastikan Langkah 0 (locale) cukup.
-- [ ] Siapkan ketiga CSV di Google Drive sebagai cadangan, untuk peserta yang notebook ekspornya gagal.
+- [ ] **Siapkan `thelook_dashboard_cadangan.pbix`** untuk peserta yang dashboard-nya hilang (dibagikan setelah kelas). Data CSV ikut tersimpan di dalam `.pbix`, jadi file ini langsung bisa dibuka.
+- [ ] Coba Power BI sekali di Windows berformat Indonesia untuk memastikan Langkah 0 (locale impor) cukup.
+- [ ] **Peserta Mac:** pastikan mereka sudah menjalankan [panduan Parallels](../PANDUAN_MAC_PARALLELS.md) termasuk **uji grafik tanggal** sebelum kelas (tanyakan di grup hari Minggu/Senin). Peserta yang uji grafik tanggalnya gagal: arahkan ke installer 32-bit di panduan.
+- [ ] Siapkan pesan sambutan untuk peserta baru modul Power BI.
 
 ## Runsheet
 
 | Waktu | Bagian | Poin utama |
 | --- | --- | --- |
-| 20.00 | Recap PR sesi 9 | 2 temuan terbaik |
-| 20.10 | Apa itu dashboard | Notebook = menemukan; dashboard = memantau dan membagikan. Tunjukkan sketsa layout di README |
-| 20.15 | Ekspor data | Semua peserta menjalankan notebook ekspor dan menyimpan 3 CSV dalam satu folder |
-| 20.20 | Muat data + relasi | Fakta vs dimensi; relasi = JOIN otomatis. **Power BI:** locale impor dulu! |
+| 20.00 | Recap & sambutan | Tutup modul Python singkat (1 README peserta). **Sambut peserta baru**: perkenalan di chat, tunjukkan KAMUS_DATA (tabel TheLook dan definisi pendapatan) |
+| 20.10 | Apa itu dashboard + unduh data | Notebook/query = menemukan; dashboard = memantau dan membagikan. Semua peserta mengunduh 3 CSV dari link Drive ke satu folder |
+| 20.20 | Muat data + relasi | Fakta vs dimensi; relasi = JOIN otomatis. **Locale impor dulu!** |
 | 20.35 | Measure + KPI | Pendapatan, Jumlah Pesanan (distinct!), AOV. **Cocokkan dengan "Cek cepat"**: ketik 1 kalau angkanya sama |
-| 20.45 | Grafik | Tren bulanan dan per kategori, membangun ulang grafik sesi 8 |
+| 20.45 | Grafik | Tren bulanan dan per kategori |
 | 21.00 | Judul | Ubah judul menjadi kesimpulan |
 | 21.05 | Giliran kamu | |
-| 21.15 | Tanya jawab | Sediakan waktu untuk berbagi layar masalah instalasi/data |
+| 21.15 | Tanya jawab | Sediakan waktu untuk berbagi layar masalah instalasi/data, terutama peserta Mac |
 | 21.30 | **Simpan bersama** | Demo menyimpan, semua peserta menyimpan. **Jangan tutup Zoom** sampai mayoritas mengetik 1. Ini satu-satunya ketergantungan keras antar sesi di kursus ini |
-| 21.37 | Penutup | PR: 2 grafik tambahan, simpan lagi, screenshot, unggah. Bagikan link/file dashboard cadangan di grup |
+| 21.37 | Penutup | PR: 2 grafik tambahan, simpan lagi, PDF, screenshot, buat repo `thelook-powerbi-dashboard` dan unggah. Bagikan file dashboard cadangan di grup |
 
 ## Poin penting
 
 - **Distinct count** untuk pesanan. Kesalahan paling umum: `Count of order_id` → angka barang, bukan pesanan.
 - Relasi satu arah (produk/pelanggan → penjualan). Kalau peserta menghubungkan `produk` ke `pelanggan`, angka menjadi aneh.
 - Cocokkan angka KPI dengan sumber lain. Kebiasaan ini mencegah dashboard yang salah sampai ke manajemen.
+- Peserta baru modul Power BI belum pernah memakai SQL/Python di kelas ini. Hindari rujukan "seperti di sesi 3/8" tanpa penjelasan singkat; cukup katakan "relasi = cara menggabungkan tabel".
 
 ## Masalah yang sering muncul
 
-Lihat tabel di [panduan Power BI](../materi/sesi-10-dashboard-1/panduan-power-bi.md#masalah-yang-sering-terjadi) dan [panduan Tableau](../materi/sesi-10-dashboard-1/panduan-tableau.md#masalah-yang-sering-terjadi). Tambahan:
+Lihat tabel di [panduan Power BI](../materi/sesi-10-dashboard-1/panduan-power-bi.md#masalah-yang-sering-terjadi). Tambahan:
 
 | Masalah | Solusi |
 | --- | --- |
-| Peserta Mac di kelas Power BI | Arahkan ke Tableau Public dengan panduan Tableau; bantu di sesi tanya jawab |
-| Power BI tidak bisa diinstall (laptop kantor) | Pakai Tableau Public, atau Power BI versi web (butuh akun kerja/sekolah) |
-| CSV gagal terunduh dari Colab | Bagikan CSV cadangan dari Google Drive |
+| Peserta Mac: Parallels belum terinstall | Minta menonton demo dulu dan menyelesaikan [panduan Parallels](../PANDUAN_MAC_PARALLELS.md) setelah kelas, lalu mengejar dengan rekaman + dashboard cadangan |
+| Peserta Mac: grafik tanggal kosong/gagal dimuat | Masalah Power BI 64-bit di Windows ARM. Install ulang versi 32-bit (`PBIDesktopSetup.exe`), lihat langkah 4 panduan Parallels |
+| Peserta Mac: lambat | Tutup aplikasi lain di Mac; di pengaturan Parallels, beri Windows lebih banyak RAM jika Mac punya 16 GB |
+| Power BI tidak bisa diinstall (laptop kantor) | Minta izin IT, atau pakai laptop pribadi. Power BI versi web butuh akun kerja/sekolah dan tidak dipakai di kelas |
+| Link Drive tidak bisa dibuka | Cek akses *Anyone with the link*; kirim ulang link |
 
 ## Untuk recap sesi 11
 

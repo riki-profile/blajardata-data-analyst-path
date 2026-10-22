@@ -3,7 +3,7 @@ marp: true
 theme: default
 paginate: true
 size: 16:9
-footer: "Sesi 10 · Dashboard Pertama"
+footer: "Sesi 10 · Dashboard Pertama di Power BI"
 style: |
   section {
     font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
@@ -41,11 +41,26 @@ style: |
 <!-- _class: lead -->
 <!-- _paginate: false -->
 
-# Sesi 10 · Dashboard Pertama
+# Sesi 10 · Dashboard Pertama di Power BI
 
-Data, relasi, measure, kartu KPI, grafik
+Data, relasi, measure DAX, kartu KPI, grafik
 
 Selasa, 1 Desember 2026 · 20.00–21.40 WIB
+
+---
+
+## Selamat datang, peserta modul Power BI!
+
+- Modul Power BI = **sesi 10 dan 11**
+- Hasil akhir: repo portofolio **`thelook-powerbi-dashboard`** berisi dashboard + README
+- Dataset: **TheLook**, toko pakaian online fiktif (lihat `KAMUS_DATA.md`)
+- Peran kita: analis yang membuat dashboard untuk manajemen
+
+| Ketik di chat | Artinya |
+| --- | --- |
+| `1` | Sudah berhasil |
+| `2` | Error / tertinggal |
+| `?` + pertanyaan | Ada pertanyaan |
 
 ---
 
@@ -53,22 +68,22 @@ Selasa, 1 Desember 2026 · 20.00–21.40 WIB
 
 | Waktu | Bagian |
 | --- | --- |
-| 20.00 | Recap PR sesi 9 (temuan) |
-| 20.10 | Apa itu dashboard; ekspor data |
+| 20.00 | Recap modul Python · sambutan peserta baru |
+| 20.10 | Apa itu dashboard; unduh 3 file CSV |
 | 20.20 | Memuat data, tipe data, relasi |
-| 20.35 | Measure, kartu KPI, 2 grafik |
+| 20.35 | Measure DAX, kartu KPI, 2 grafik |
 | 21.05 | Giliran kamu |
 | 21.15 | Tanya jawab |
 | 21.30 | **Simpan dashboard bersama-sama** |
 | 21.37 | Penutup & PR |
 
-Panduan: `panduan-power-bi.md` / `panduan-tableau.md`
+Panduan langkah demi langkah: `panduan-power-bi.md`
 
 ---
 
 ## Notebook vs dashboard
 
-| Notebook | Dashboard |
+| Notebook / query | Dashboard |
 | --- | --- |
 | Untuk **menemukan** jawaban | Untuk **memantau** dan **membagikan** jawaban |
 | Dibaca analis | Dibaca manajemen |
@@ -91,9 +106,9 @@ Hari ini: KPI + 2 grafik. Sesi 11: filter, margin, desain.
 
 ---
 
-## Langkah 0 · Ekspor data
+## Langkah 0 · Unduh data
 
-Jalankan `10_export_dashboard_data.ipynb` di Colab → **3 file CSV dalam 1 folder**
+Link Google Drive di grup kelas → unduh **3 file CSV ke 1 folder**
 
 | File | Satu baris = |
 | --- | --- |
@@ -103,11 +118,13 @@ Jalankan `10_export_dashboard_data.ipynb` di Colab → **3 file CSV dalam 1 fold
 
 Sudah tanpa Cancelled/Returned dan tanpa bulan berjalan.
 
-Catat angka **"Cek cepat"**: pendapatan, pesanan, AOV
+Buka juga `cek_cepat.txt`: angka pendapatan, pesanan, AOV untuk dicocokkan
+
+Pengguna Mac: lakukan semuanya **di dalam Windows** (Parallels)
 
 ---
 
-## Relasi = JOIN otomatis
+## Relasi = cara menggabungkan tabel
 
 ```
 produk (1) ───< penjualan >─── (1) pelanggan
@@ -118,34 +135,36 @@ produk (1) ───< penjualan >─── (1) pelanggan
 - Satu produk terjual berkali-kali → *one-to-many*
 - Hubungkan dimensi **ke tabel fakta**, bukan antar dimensi
 
-**Power BI:** atur dulu *Locale for import* = **English (United States)**!
+**Atur dulu** *Locale for import* = **English (United States)**!
 Kalau tidak, `49.99` bisa terbaca `4999`.
 
 ---
 
-## Measure utama
+## Measure utama (DAX)
 
-| Measure | Power BI (DAX) | Tableau |
-| --- | --- | --- |
-| Pendapatan | `SUM(penjualan[sale_price])` | `SUM([Sale Price])` |
-| Jumlah Pesanan | `DISTINCTCOUNT(penjualan[order_id])` | `COUNTD([Order Id])` |
-| AOV | `DIVIDE([Pendapatan], [Jumlah Pesanan])` | `SUM([Sale Price]) / COUNTD([Order Id])` |
+| Measure | DAX |
+| --- | --- |
+| Pendapatan | `SUM(penjualan[sale_price])` |
+| Jumlah Pesanan | `DISTINCTCOUNT(penjualan[order_id])` |
+| AOV | `DIVIDE([Pendapatan], [Jumlah Pesanan])` |
 
-Pesanan = **distinct count**, sama seperti `COUNT(DISTINCT)` di SQL
+Pesanan = **distinct count**: satu pesanan bisa berisi banyak barang
 
 **Cocokkan kartu KPI dengan "Cek cepat".** Ketik `1` kalau angkanya sama.
 
 ---
 
-## Dua grafik dari sesi 8
+## Dua grafik
 
-**Tren pendapatan bulanan** → grafik garis
-- Power BI: X = kolom `Bulan` (bukan Date Hierarchy)
-- Tableau: Order Date → **Month** continuous (pil hijau)
+**Tren pendapatan bulanan** → Line chart
+- X-axis = kolom `Bulan` (bukan Date Hierarchy)
+- Format X-axis: Type **Continuous**
 
-**Pendapatan per kategori** → batang horizontal, **urutkan menurun**
+**Pendapatan per kategori** → Clustered bar chart
+- **Sort descending** berdasarkan Pendapatan
+- Data labels: On
 
-Judul = **kesimpulan**, seperti di sesi 8
+Judul = **kesimpulan**, bukan nama grafik
 
 ---
 
@@ -153,10 +172,11 @@ Judul = **kesimpulan**, seperti di sesi 8
 
 | Masalah | Penyebab |
 | --- | --- |
-| Pendapatan 100× terlalu besar | Locale impor (Power BI) |
+| Pendapatan 100× terlalu besar | Locale impor |
 | Semua kategori angkanya sama | Relasi belum ada / salah |
 | "Count of order_id" terlalu besar | Pakai kolom, bukan measure distinct |
-| Tren hanya beberapa titik | Masih level tahun/kuartal |
+| Tren hanya 4 titik | Masih Date Hierarchy (kuartal) |
+| Mac: grafik tanggal kosong | Power BI 64-bit di Windows ARM → install versi 32-bit |
 
 ---
 
@@ -174,10 +194,9 @@ Contoh: *"Pendapatan naik 9% dalam 12 bulan terakhir"*
 
 # Simpan sekarang, bersama-sama
 
-**Tableau:** File → Save to Tableau Public As… → login → `TheLook Dashboard`
-(tidak bisa simpan ke laptop!)
+**File → Save as → `thelook_dashboard.pbix`**
 
-**Power BI:** File → Save as → `thelook_dashboard.pbix`
+di folder yang sama dengan 3 file CSV
 
 Ketik `1` setelah tersimpan. Sesi 11 melanjutkan dashboard ini.
 
@@ -186,9 +205,10 @@ Ketik `1` setelah tersimpan. Sesi 11 melanjutkan dashboard ini.
 ## PR sesi 10
 
 1. Tambahkan **2 grafik lagi**: per negara, kelompok umur, traffic source, atau Men vs Women
-2. **Simpan lagi** (Power BI: juga Export to PDF)
-3. Screenshot dashboard
-4. Unggah: `dashboard/README.md` (link Tableau) **atau** `.pbix` + PDF, dan `images/dashboard_v1.png`
+2. **Simpan lagi** (Ctrl + S) + **Export to PDF**
+3. Screenshot dashboard (Win + Shift + S)
+4. Buat repo **`thelook-powerbi-dashboard`** (`PANDUAN_GITHUB.md`), unggah:
+   `dashboard/thelook_dashboard.pbix` + PDF, `images/dashboard_v1.png`
 
 Dashboard hilang? Unduh **dashboard cadangan** dari grup kelas.
 
@@ -202,4 +222,4 @@ Dashboard hilang? Unduh **dashboard cadangan** dari grup kelas.
 - Selalu cocokkan KPI dengan sumber lain
 
 **Sesi berikutnya:** Kamis, 3 Desember 2026, 20.00 WIB
-Filter, margin, desain, dan storytelling
+Filter, margin, desain, dan storytelling + README Power BI

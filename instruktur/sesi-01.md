@@ -5,7 +5,7 @@
 ## Persiapan
 
 - [ ] Jalankan semua query `01_basics.sql`. Catat jumlah pesanan per status hari ini.
-- [ ] Siapkan polling Zoom: "Laptop yang kamu pakai: Windows / Mac / Linux / Chromebook" (untuk memilih Power BI vs Tableau).
+- [ ] Siapkan polling Zoom: "Laptop yang kamu pakai: Windows / Mac / Linux / Chromebook". Catat pengguna Mac: mereka perlu [panduan Parallels](../PANDUAN_MAC_PARALLELS.md) sebelum sesi 10.
 - [ ] Siapkan daftar peserta yang belum menyelesaikan PERSIAPAN; minta asisten/co-host membantu mereka di *breakout room* selama 15 menit pertama.
 
 ## Runsheet

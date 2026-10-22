@@ -10,7 +10,7 @@ Setelah sesi ini kamu bisa:
 
 1. Meringkas data dengan `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`.
 2. Mengelompokkan hasil dengan `GROUP BY` dan memfilter kelompok dengan `HAVING`.
-3. Membuat repository portofolio `thelook-analysis` di GitHub dan mengunggah file pertamamu.
+3. Membuat repository portofolio modul SQL, `thelook-sql-analysis`, di GitHub dan mengunggah file pertamamu.
 
 ## Agenda
 
@@ -81,13 +81,13 @@ Buka [`02_aggregation.sql`](02_aggregation.sql) dan jalankan bersama instruktur.
 
 ## 6. Demo GitHub: membuat repository portofolio
 
-Semua langkah lewat browser, tanpa command line.
+Semua langkah lewat browser, tanpa command line. Langkah yang sama ada di [PANDUAN_GITHUB.md](../../PANDUAN_GITHUB.md), yang dipakai lagi di awal modul Python dan Power BI.
 
 ### 6a. Membuat repository
 
 1. Login ke [github.com](https://github.com) → tombol **+** di kanan atas → **New repository**.
-2. **Repository name:** `thelook-analysis`
-3. **Description:** `Analisis data e-commerce TheLook dengan SQL (BigQuery), Python, dan dashboard`
+2. **Repository name:** `thelook-sql-analysis`
+3. **Description:** `Analisis kondisi bisnis e-commerce TheLook dengan SQL (BigQuery)`
 4. Pilih **Public** (portofolio harus bisa dilihat orang lain).
 5. Centang **Add a README file**.
 6. Klik **Create repository**.
@@ -115,17 +115,15 @@ Buka file di GitHub → ikon **pensil** (Edit this file) → ubah → **Commit c
 
 > **Commit** = menyimpan perubahan beserta catatan apa yang diubah. Tulis pesan commit yang jelas, misalnya `Tambah PR sesi 2: top 10 brand`, bukan `update`.
 
-Struktur akhir portofolio (kita isi bertahap):
+Struktur akhir repo SQL:
 
 ```
-thelook-analysis/
-├── README.md
-├── sql/            ← hari ini
-├── notebooks/      ← sesi 5–9
-├── dashboard/      ← sesi 10–11
-├── my_question/    ← sesi 12
-└── images/         ← sesi 8 dan seterusnya
+thelook-sql-analysis/
+├── README.md       ← diisi di sesi 4 (Proyek SQL)
+└── sql/            ← hari ini, sesi 3, dan sesi 4
 ```
+
+Setiap modul punya repo portofolionya sendiri: modul Python membuat `thelook-python-analysis` (sesi 5), modul Power BI membuat `thelook-powerbi-dashboard` (sesi 10).
 
 ## 7. Giliran kamu (±10 menit)
 
@@ -137,10 +135,10 @@ Di bagian **GILIRAN KAMU** di `02_aggregation.sql`:
 ## 8. PR (30–60 menit)
 
 1. **Top 10 brand berdasarkan pendapatan** (perkiraan, memakai `inventory_items`). Tampilkan juga jumlah barang terjual dan rata-rata harga per brand. Tulis satu kalimat temuan sebagai komentar.
-2. Pastikan repo `thelook-analysis` berisi:
+2. Pastikan repo `thelook-sql-analysis` berisi:
    - `sql/01_basics.sql` (lengkap dengan PR sesi 1)
    - `sql/02_aggregation.sql` (lengkap dengan PR sesi 2)
-3. Kirim link repo-mu ke grup kelas, contohnya `https://github.com/username/thelook-analysis`.
+3. Kirim link repo-mu ke grup kelas, contohnya `https://github.com/username/thelook-sql-analysis`.
 
 ## Ringkasan
 

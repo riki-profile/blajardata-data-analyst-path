@@ -3,7 +3,7 @@ marp: true
 theme: default
 paginate: true
 size: 16:9
-footer: "Sesi 11 · Filter, Margin, Desain & Storytelling"
+footer: "Sesi 11 · Filter, Margin, Desain & Storytelling (Power BI)"
 style: |
   section {
     font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
@@ -53,13 +53,14 @@ Kamis, 3 Desember 2026 · 20.00–21.40 WIB
 | --- | --- |
 | 20.00 | Recap PR sesi 10: grafik tambahanmu |
 | 20.10 | Filter tanggal & kategori |
-| 20.30 | Calculated field: margin & margin % |
+| 20.30 | Measure DAX: margin & margin % |
 | 20.45 | Desain & storytelling: sebelum vs sesudah |
 | 21.05 | Giliran kamu: headline |
-| 21.15 | Tanya jawab + pengenalan studi kasus sesi 12 |
+| 21.15 | README `thelook-powerbi-dashboard` |
+| 21.25 | Tanya jawab + studi kasus sesi 12 (jalur penuh) |
 | 21.35 | Penutup & PR |
 
-Dashboard sesi 10 hilang? Buka **dashboard cadangan** dari grup kelas.
+Dashboard sesi 10 hilang? Buka **`thelook_dashboard_cadangan.pbix`** dari grup kelas.
 
 ---
 
@@ -73,8 +74,8 @@ Dashboard sesi 10 hilang? Buka **dashboard cadangan** dari grup kelas.
 - Berlaku untuk **semua** visual di halaman
 - Diletakkan di **satu baris di atas**
 
-**Power BI:** Slicer (style *Between* / *Dropdown*)
-**Tableau:** Filters → Show Filter → *Apply to Worksheets → All Using This Data Source*
+**Power BI:** visual **Slicer**: style *Between* untuk tanggal, *Dropdown* untuk kategori
+Uji: pilih satu kategori → semua kartu & grafik harus berubah
 
 ---
 
@@ -82,10 +83,10 @@ Dashboard sesi 10 hilang? Buka **dashboard cadangan** dari grup kelas.
 
 **Margin** = pendapatan − biaya pokok · **Margin %** = margin ÷ pendapatan
 
-| | Power BI (DAX) | Tableau |
-| --- | --- | --- |
-| Margin | `SUM(penjualan[sale_price]) - SUM(penjualan[cost])` | `SUM([Sale Price]) - SUM([Cost])` |
-| Margin % | `DIVIDE([Margin], [Pendapatan])` | `(SUM([Sale Price]) - SUM([Cost])) / SUM([Sale Price])` |
+| Measure | DAX |
+| --- | --- |
+| Margin | `SUM(penjualan[sale_price]) - SUM(penjualan[cost])` |
+| Margin % | `DIVIDE([Margin], [Pendapatan])` |
 
 > Kategori dengan pendapatan terbesar, apakah margin %-nya juga terbesar?
 > Taruh Margin % di **tooltip** grafik kategori, lalu cek.
@@ -143,7 +144,22 @@ Letakkan di paling atas. Siapa yang mau membacakan?
 
 ---
 
-## Sesi 12: studi kasus terpandu
+## README `thelook-powerbi-dashboard`
+
+Template README Power BI → tempel di `README.md` repo-mu
+
+| Bagian | Isi |
+| --- | --- |
+| Ringkasan | **Headline** dashboard-mu + screenshot |
+| Pertanyaan bisnis | Apa yang dipantau manajemen |
+| Data & model | Fakta + dimensi, measure DAX |
+| Temuan & rekomendasi | Dari dashboard-mu sendiri |
+
+Hari ini: isi headline. Sisanya PR.
+
+---
+
+## Jalur penuh · sesi 12: studi kasus terpandu
 
 > Anggaran promosi terbatas, hanya untuk **satu kategori**. Kategori mana?
 
@@ -157,9 +173,9 @@ Siapkan login BigQuery & Colab.
 
 ## PR sesi 11
 
-1. **Selesaikan dashboard**: filter, kartu Margin %, headline, kotak rekomendasi → simpan + `images/dashboard_final.png`
-2. **Pilih fokus** studi kasus sesi 12
-3. **Draf README portofolio** dari template: Ringkasan, Pertanyaan bisnis, Data & metode, Dashboard, Temuan (dari sesi 9)
+1. **Selesaikan dashboard**: filter, kartu Margin %, headline, kotak rekomendasi → simpan + PDF + `images/dashboard_final.png`
+2. **Lengkapi README** `thelook-powerbi-dashboard` = hasil akhir modul Power BI
+3. *(Jalur penuh)* **Pilih fokus** studi kasus sesi 12
 
 ---
 
@@ -169,6 +185,7 @@ Siapkan login BigQuery & Colab.
 - Pendapatan besar belum tentu margin besar
 - Judul = kesimpulan · satu warna sorotan · uji 5 detik
 - Cerita: headline → bukti → rekomendasi
+- **Modul Power BI selesai!** Repo `thelook-powerbi-dashboard` = portofolio modul ini
 
-**Sesi berikutnya:** Sabtu, 5 Desember 2026, **14.00 WIB**
+**Sesi berikutnya (jalur penuh):** Sabtu, 5 Desember 2026, **14.00 WIB**
 Studi kasus terpandu: kategori mana yang diprioritaskan?

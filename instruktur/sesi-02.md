@@ -5,7 +5,7 @@
 ## Persiapan
 
 - [ ] Jalankan `02_aggregation.sql`. Catat top 3 kategori (C1) untuk dibandingkan di sesi 3.
-- [ ] Siapkan akun GitHub demo (boleh akunmu sendiri) dan **hapus** repo `thelook-analysis` lama kalau ada, supaya bisa didemokan dari nol.
+- [ ] Siapkan akun GitHub demo (boleh akunmu sendiri) dan **hapus** repo `thelook-sql-analysis` lama kalau ada, supaya bisa didemokan dari nol.
 - [ ] Ingatkan di grup sebelum kelas: login GitHub di browser sebelum 20.00.
 
 ## Runsheet
@@ -26,7 +26,7 @@
 
 - **Aturan emas GROUP BY**: setiap kolom di SELECT ada di GROUP BY atau dibungkus agregasi.
 - B3 memakai window function `SUM(COUNT(*)) OVER ()`. Cukup minta peserta menyalin polanya; window function di luar cakupan kursus.
-- GitHub: tekankan **Public**, nama repo **persis** `thelook-analysis`, dan pesan commit yang jelas.
+- GitHub: tekankan **Public**, nama repo **persis** `thelook-sql-analysis`. Jelaskan singkat bahwa setiap modul punya repo sendiri (Python di sesi 5, Power BI di sesi 10), dan pesan commit yang jelas.
 - Peserta yang lupa password GitHub atau belum verifikasi email: tangani di *breakout room* atau setelah kelas, jangan menahan seluruh kelas.
 
 ## Error yang sering muncul

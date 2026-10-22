@@ -99,11 +99,11 @@ Tutup langkah ini dengan kembali ke tebakan di awal sesi: "Siapa yang tebakannya
 
 ### 15.25 · Unggah ke portofolio (10 menit)
 
-Demo cepat: buat folder `my_question/` (Create new file `my_question/README.md`), unggah `.sql` dan `.ipynb`, unggah 2 gambar ke `images/`.
+Demo cepat di repo **`thelook-python-analysis`**: buat folder `my_question/` (Create new file `my_question/README.md`), unggah `.sql` dan `.ipynb`, unggah 2 gambar ke `images/`.
 
 ### 15.35 · Penutup
 
-PR: jawaban dengan kata-kata sendiri + bagian Studi kasus di README. Sesi 13 = review dan publikasi portofolio.
+PR: jawaban dengan kata-kata sendiri + bagian Studi kasus di README `thelook-python-analysis`. Sesi 13 = review dan publikasi portofolio.
 
 ## Kalau waktu kurang
 

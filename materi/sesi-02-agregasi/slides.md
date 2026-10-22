@@ -172,8 +172,8 @@ Demo bagian D
 ## Membuat repository
 
 1. github.com → **+** (kanan atas) → **New repository**
-2. Name: `thelook-analysis`
-3. Description: *Analisis data e-commerce TheLook dengan SQL, Python, dan dashboard*
+2. Name: `thelook-sql-analysis`
+3. Description: *Analisis kondisi bisnis e-commerce TheLook dengan SQL (BigQuery)*
 4. **Public** 
 5. Centang **Add a README file**
 6. **Create repository**
@@ -199,17 +199,19 @@ GitHub tidak bisa membuat folder kosong. Folder terbentuk saat file dibuat di da
 
 ---
 
-## Struktur portofolio
+## Satu modul, satu repo portofolio
 
 ```
-thelook-analysis/
-├── README.md
-├── sql/            ← hari ini
-├── notebooks/      ← sesi 5–9
-├── dashboard/      ← sesi 10–11
-├── my_question/    ← sesi 12
-└── images/         ← sesi 8 dst.
+thelook-sql-analysis/
+├── README.md       ← sesi 4 (Proyek SQL)
+└── sql/            ← hari ini, sesi 3, sesi 4
 ```
+
+| Modul | Repo | Dibuat di |
+| --- | --- | --- |
+| SQL | `thelook-sql-analysis` | hari ini |
+| Python | `thelook-python-analysis` | sesi 5 |
+| Power BI | `thelook-powerbi-dashboard` | sesi 10 |
 
 Mulai sekarang: **unggah file setiap selesai sesi.**
 
@@ -228,10 +230,10 @@ Mulai sekarang: **unggah file setiap selesai sesi.**
 ## PR sesi 2
 
 1. **Top 10 brand berdasarkan pendapatan** (perkiraan, `inventory_items`): brand, barang terjual, pendapatan, rata-rata harga + **1 kalimat temuan**
-2. Repo `thelook-analysis` berisi:
+2. Repo `thelook-sql-analysis` berisi:
    - `sql/01_basics.sql`
    - `sql/02_aggregation.sql`
-3. Kirim link repo ke grup: `https://github.com/username/thelook-analysis`
+3. Kirim link repo ke grup: `https://github.com/username/thelook-sql-analysis`
 
 ---
 

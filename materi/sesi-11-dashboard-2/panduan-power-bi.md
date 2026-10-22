@@ -1,6 +1,6 @@
 # Panduan Power BI Desktop · Sesi 11
 
-Kembali ke [README sesi 11](README.md) · Panduan Tableau: [panduan-tableau.md](panduan-tableau.md)
+Kembali ke [README sesi 11](README.md)
 
 Buka `thelook_dashboard.pbix` dari sesi 10.
 

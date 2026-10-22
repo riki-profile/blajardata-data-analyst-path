@@ -57,7 +57,8 @@ Sabtu, 28 November 2026 · 14.00–15.40 WIB
 | 14.40 | **C**: segmentasi RFM |
 | 15.05 | Giliran kamu |
 | 15.15 | Cara menulis temuan + **tulis temuan pertamamu** |
-| 15.25 | Tanya jawab |
+| 15.25 | README `thelook-python-analysis` |
+| 15.32 | Tanya jawab |
 | 15.37 | Penutup & PR |
 
 Notebook: `09_customer_analysis.ipynb`
@@ -187,12 +188,12 @@ Grafik: **% pelanggan vs % pendapatan** per segmen. Segmen kecil, pendapatan bes
 ## PR sesi 9
 
 - Temuan 1 sudah ditulis di kelas
-- Tulis **temuan 2 dan 3** dari sesi 7–9
-- Bahan README portofolio di sesi 11
+- Tulis **temuan 2 dan 3** dari sesi 7–9 + **1 rekomendasi**
+- Lengkapi **README `thelook-python-analysis`** (template README Python)
 
 Unggah `notebooks/09_customer_analysis.ipynb` + `images/04_segmen_rfm.png`
 
-**Install Power BI Desktop (Windows) atau Tableau Public sebelum sesi 10!**
+Jalur penuh: **install Power BI Desktop sebelum sesi 10** (Mac: panduan Parallels, mulai Minggu 29 Nov)
 
 ---
 
@@ -202,6 +203,6 @@ Unggah `notebooks/09_customer_analysis.ipynb` + `images/04_segmen_rfm.png`
 - `.mean()` pada True/False = proporsi
 - RFM: ribuan pelanggan → beberapa segmen yang bisa ditindaklanjuti
 - Temuan: apa → kenapa penting → bukti
-- **Modul Python selesai!**
+- **Modul Python selesai!** Repo `thelook-python-analysis` = portofolio modul ini
 
 **Sesi berikutnya:** Selasa, 1 Desember 2026, 20.00 WIB · Dashboard pertama

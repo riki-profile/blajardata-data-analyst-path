@@ -1,8 +1,8 @@
-# Panduan Tableau Public · Sesi 10
+# Panduan Tableau Public · Modul Tableau Sesi 1
 
-Kembali ke [README sesi 10](README.md) · Panduan Power BI: [panduan-power-bi.md](panduan-power-bi.md)
+Kembali ke [README sesi 1](README.md)
 
-Siapkan 3 file CSV (`penjualan.csv`, `produk.csv`, `pelanggan.csv`) dalam **satu folder**, misalnya `Documents/thelook-dashboard/`.
+Siapkan 3 file CSV (`penjualan.csv`, `produk.csv`, `pelanggan.csv`, dari link Google Drive di grup kelas) dalam **satu folder**, misalnya `Documents/thelook-dashboard/`.
 
 > Tableau Public hanya bisa menyimpan dashboard ke **web** (profil Tableau Public-mu), tidak ke laptop, dan semua yang disimpan bersifat **publik**. Ini tidak masalah, karena TheLook adalah data publik dan link publik itulah yang kita pasang di portofolio.
 
@@ -46,7 +46,7 @@ Atur format angka: di panel **Data**, klik kanan field → **Default Properties 
 2. Klik **Text** → **...** → atur ukuran huruf besar (misalnya 28, tebal), lalu tambahkan baris kecil "Pendapatan" di atas angkanya.
 3. Ganti nama sheet (klik kanan tab di bawah → **Rename**) menjadi `KPI Pendapatan`.
 4. Buat sheet baru (ikon di samping tab) untuk **Jumlah Pesanan** dan **AOV**.
-5. **Cocokkan angkanya** dengan bagian "Cek cepat" di notebook ekspor.
+5. **Cocokkan angkanya** dengan angka di `cek_cepat.txt` (folder Google Drive yang sama dengan CSV).
 
 ## Langkah 5. Grafik tren pendapatan bulanan
 

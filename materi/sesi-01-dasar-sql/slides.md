@@ -59,7 +59,7 @@ Selasa, 10 November 2026 · 20.00–22.00 WIB
 | --- | --- | --- |
 | SQL | BigQuery | 1–4 |
 | Python | Google Colab + pandas | 5–9 |
-| Dashboard | Power BI / Tableau | 10–11 |
+| Power BI | Power BI Desktop | 10–11 |
 | Portofolio | GitHub | 12–13 |
 
 ---

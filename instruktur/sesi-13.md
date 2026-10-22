@@ -4,7 +4,7 @@
 
 ## Persiapan
 
-- [ ] Buka repo semua peserta (dari link yang dikumpulkan di sesi 2). Catat 1 hal yang sudah bagus dan 1 hal yang perlu diperbaiki untuk setiap peserta. Bisa dikirim lewat chat pribadi selama sesi kerja.
+- [ ] Buka ketiga repo semua peserta jalur penuh (`thelook-sql-analysis`, `thelook-python-analysis`, `thelook-powerbi-dashboard`). Catat 1 hal yang sudah bagus dan 1 hal yang perlu diperbaiki untuk setiap peserta. Bisa dikirim lewat chat pribadi selama sesi kerja.
 - [ ] Siapkan pasangan review untuk *breakout room* (2 orang per ruang).
 - [ ] Siapkan formulir umpan balik kursus (Google Form), dan sertifikat jika ada.
 
@@ -34,9 +34,9 @@ Nilai portofolio dengan rubrik di [README instruktur](README.md#penilaian), seba
 
 Sesi 13 adalah tempat terakhir untuk mengejar. Arahkan peserta yang tertinggal ke **prioritas berdasarkan bobot nilai**, bukan ke kelengkapan:
 
-1. **README** (20%): ringkasan, 3 temuan, 1 rekomendasi, screenshot dashboard. Temuan 1 (sesi 9) dan studi kasus (sesi 12) sudah ditulis di kelas, jadi minimal ada 2 bahan.
-2. **Dashboard** (20%): link/PDF + screenshot.
-3. **Studi kasus** (10%): `my_question/` dari sesi 12.
+1. **README ketiga repo** (20%): temuan 1 SQL (sesi 4), temuan 1 Python (sesi 9), dan headline Power BI (sesi 11) sudah ditulis di kelas, jadi setiap README punya bahan awal.
+2. **Dashboard** (20%): PDF + screenshot di repo Power BI.
+3. **Studi kasus** (10%): `my_question/` di repo Python.
 4. **File SQL dan notebook** (20% + 20%): unggah file yang **sudah dijalankan di kelas**, walaupun bagian PR-nya kosong. Lebih baik ada dan sebagian, daripada tidak ada.
 5. **Gambar grafik yang hilang** (Colab menghapus file saat ditutup): jalankan ulang notebook sesi 8/9 dengan **Runtime → Run all**, lalu unduh lagi dari folder `images/`.
 

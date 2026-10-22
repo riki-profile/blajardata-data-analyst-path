@@ -1,4 +1,4 @@
-# Sesi 12 · Studi Kasus Terpandu: Kategori Mana yang Diprioritaskan?
+# Sesi 12 · Studi Kasus Terpandu: Kategori Mana yang Diprioritaskan? *(jalur penuh)*
 
 **Sabtu, 5 Desember 2026 · 14.00–15.40 WIB**
 
@@ -52,7 +52,7 @@ Contoh kombinasi: "Men di China", "Women di semua negara", "Women di United Stat
 | 14.40–14.55 | **Langkah 5–6: hitung ukuran dan matriks** | Notebook bagian 5–6 |
 | 14.55–15.10 | **Langkah 7–9: rekomendasi dan grafik** | Notebook bagian 7–9 |
 | 15.10–15.25 | **Langkah 10–11: tulis jawaban** | Tulis ulang draf jawaban dengan kata-katamu; 3–4 peserta membacakan hasilnya |
-| 15.25–15.35 | Unggah ke portofolio | Folder `my_question/` + gambar + bagian README |
+| 15.25–15.35 | Unggah ke portofolio | Folder `my_question/` + gambar + bagian README di repo `thelook-python-analysis` |
 | 15.35–15.40 | Penutup | PR |
 
 ## Hal baru di sesi ini
@@ -64,7 +64,9 @@ Contoh kombinasi: "Men di China", "Women di semua negara", "Women di United Stat
 
 ## Yang diunggah ke portofolio
 
-| File | Lokasi di repo |
+Studi kasus masuk ke repo **`thelook-python-analysis`**, karena dikerjakan dengan SQL + Python.
+
+| File | Lokasi di repo `thelook-python-analysis` |
 | --- | --- |
 | `10_my_question.sql` (sudah diganti fokusmu dan diisi jawaban singkat) | `my_question/10_my_question.sql` |
 | `10_my_question.ipynb` (semua sel sudah dijalankan) | `my_question/10_my_question.ipynb` |
@@ -73,7 +75,7 @@ Contoh kombinasi: "Men di China", "Women di semua negara", "Women di United Stat
 ## PR (30–45 menit)
 
 1. Pastikan bagian 11 notebook berisi jawaban dengan **kata-katamu sendiri**, bukan salinan draf.
-2. Isi bagian **Studi kasus** di README portofoliomu (lihat [template](../../template-portofolio/thelook-analysis/README.md)): pertanyaan, fokus, jawaban, rekomendasi, dan grafik matriks prioritas.
+2. Isi bagian **Studi kasus** di README repo `thelook-python-analysis` (lihat [template README Python](../../template-portofolio/thelook-python-analysis/README.md)): pertanyaan, fokus, jawaban, rekomendasi, dan grafik matriks prioritas.
 3. *(Opsional, nilai tambah)* Jalankan ulang notebook dengan fokus lain (misalnya department yang satunya). Apakah rekomendasinya sama? Tulis satu kalimat perbandingannya.
 
 **Sesi berikutnya:** Selasa, 8 Desember 2026, 20.00 WIB. Merapikan dan menerbitkan portofolio (sesi terakhir!).

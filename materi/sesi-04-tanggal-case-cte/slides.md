@@ -3,7 +3,7 @@ marp: true
 theme: default
 paginate: true
 size: 16:9
-footer: "Sesi 4 · Tanggal, CASE WHEN, CTE"
+footer: "Sesi 4 · Tanggal, CASE WHEN, CTE + Proyek SQL"
 style: |
   section {
     font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
@@ -41,7 +41,7 @@ style: |
 <!-- _class: lead -->
 <!-- _paginate: false -->
 
-# Sesi 4 · Tanggal, CASE WHEN, CTE & Pembersihan Dasar
+# Sesi 4 · Tanggal, CASE WHEN, CTE + Proyek SQL
 
 Selasa, 17 November 2026 · 20.00–21.40 WIB
 
@@ -52,12 +52,12 @@ Selasa, 17 November 2026 · 20.00–21.40 WIB
 | Waktu | Bagian |
 | --- | --- |
 | 20.00 | Recap PR sesi 3 (umur & gender) |
-| 20.15 | Fungsi tanggal & tren bulanan |
-| 20.35 | CASE WHEN & kelompok umur |
-| 20.50 | CTE & pembersihan dasar |
-| 21.05 | Giliran kamu |
-| 21.15 | PR "tabel analisis" + tanya jawab |
-| 21.35 | Penutup |
+| 20.10 | Fungsi tanggal & tren bulanan |
+| 20.25 | CASE WHEN & kelompok umur |
+| 20.37 | CTE (+ sekilas pembersihan) |
+| 20.50 | **Proyek SQL**: 3 query → 3 temuan → README |
+| 21.25 | Tanya jawab |
+| 21.37 | Penutup & PR |
 
 File kerja: `04_dates_case_cte.sql`
 
@@ -176,34 +176,67 @@ Beberapa CTE dipisahkan **koma**: `WITH a AS (...), b AS (...) SELECT ...`
 | Duplikat | `COUNT(*)` vs `COUNT(DISTINCT id)` | `DISTINCT` / perbaiki JOIN |
 | Bagi nol | | `SAFE_DIVIDE(a, b)` |
 
-Pembersihan lengkap → Python, sesi 8
+Di kelas hanya sekilas: jalankan bagian **E** sendiri di rumah. Pembersihan lengkap → Python, sesi 8
 
 ---
 
-<!-- _class: lead -->
+<!-- _class: section -->
 
-# Giliran kamu · 10 menit
+# Proyek SQL
 
-**G1.** Pendapatan per **tahun**, hanya tahun yang sudah lengkap
-
-**G2.** Produk `Murah` (< 25), `Sedang` (25–75), `Mahal` (> 75): berapa jumlahnya?
+Kondisi bisnis TheLook
 
 ---
 
-## PR: tabel analisis
+## Tiga pertanyaan manajemen, tiga query
 
-**Satu query**, satu baris per barang terjual. Dipakai lagi di sesi 7–9!
+| Query | Pertanyaan | Yang dihitung |
+| --- | --- | --- |
+| **P1** | Bagaimana kondisi bisnis kita? | Pendapatan, pesanan, AOV: 12 bulan terakhir vs sebelumnya |
+| **P2** | Di mana uang kita dihasilkan? | Porsi pendapatan & margin % per kategori |
+| **P3** | Apakah pelanggan kembali berbelanja? | % pelanggan yang belanja 1×, 2×, 3+× |
 
-| Kolom | Asal |
+Query sudah ada di bagian **PROYEK SQL** file kerja.
+Tugasmu = pekerjaan analis: **jalankan → baca hasil → tulis kesimpulan**
+
+Ketik `1` kalau P3 sudah keluar hasilnya
+
+---
+
+## Menulis temuan
+
+**Apa** (dengan angka) → **kenapa penting**
+
+> Pendapatan 12 bulan terakhir naik X% dibanding 12 bulan sebelumnya. Kenaikannya datang dari jumlah pesanan, sedangkan AOV hampir sama: bisnis tumbuh karena makin banyak orang berbelanja.
+
+Kita tulis **temuan 1 bersama-sama** sekarang. Lihat hasil P1:
+- Naik atau turun? Berapa persen?
+- Karena jumlah pesanan, atau karena AOV?
+
+---
+
+## README portofolio SQL
+
+Repo **`thelook-sql-analysis`** → edit `README.md` → tempel **template README SQL**
+
+| Bagian README | Isi |
 | --- | --- |
-| `order_item_id`, `order_id`, `user_id`, `product_id`, `status` | `order_items` |
-| `order_date`, `order_month` | dari `created_at` |
-| `sale_price`, `cost`, `margin` | `order_items`, `products` |
-| `category`, `brand`, `department` | `products` |
-| `age`, `age_band`, `gender`, `country`, `traffic_source` | `users` |
+| Ringkasan | 2–3 kalimat: apa yang dianalisis, hasil utama |
+| Pertanyaan bisnis | 3 pertanyaan manajemen |
+| Temuan | Temuan 1–3 dari P1–P3 |
+| Rekomendasi | 1 tindakan konkret |
+| File | Daftar `sql/01_...` sampai `sql/04_...` |
 
-Syarat: tanpa Cancelled/Returned, tanpa bulan berjalan, **minimal 1 CTE**.
-Kerangka: bagian **F** file kerja.
+Hari ini: Ringkasan + temuan 1. Sisanya PR.
+
+---
+
+## PR sesi 4
+
+1. **Wajib:** temuan 2, temuan 3, rekomendasi → README `thelook-sql-analysis` lengkap
+2. **Wajib:** unggah `sql/04_dates_case_cte.sql` (cek `01`–`03` juga sudah ada)
+3. Latihan G1–G2: pendapatan per tahun, kelompok harga produk
+4. *(Bonus)* **Tabel analisis** untuk yang lanjut ke modul Python
 
 ---
 
@@ -212,8 +245,8 @@ Kerangka: bagian **F** file kerja.
 - `DATE()`, `EXTRACT()`, `DATE_TRUNC()`, `DATE_DIFF()`; buang bulan berjalan
 - `CASE WHEN` membuat kategori; dicek dari atas ke bawah
 - CTE memecah query panjang menjadi langkah bernama
-- Cek NULL, teks tidak seragam, duplikat
-- **Modul SQL selesai!**
+- Proyek SQL: query → temuan → rekomendasi → README
+- **Modul SQL selesai!** Repo `thelook-sql-analysis` = portofolio modul ini
 
 **Sesi berikutnya:** Kamis, 19 November 2026, 20.00 WIB
 Dasar Python I di Google Colab

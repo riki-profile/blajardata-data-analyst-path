@@ -1,24 +1,23 @@
-# Sesi 11 · Filter, Calculated Field, Desain, dan Storytelling
+# Sesi 11 · Filter, Measure Margin, Desain, dan Storytelling di Power BI
 
 **Kamis, 3 Desember 2026 · 20.00–21.40 WIB**
 
 | File | Fungsi |
 | --- | --- |
 | [panduan-power-bi.md](panduan-power-bi.md) | Filter, margin, dan desain di Power BI |
-| [panduan-tableau.md](panduan-tableau.md) | Filter, margin, dan desain di Tableau |
-| [Template README portofolio](../../template-portofolio/thelook-analysis/README.md) | Untuk PR: draf README |
+| [Template README Power BI](../../template-portofolio/thelook-powerbi-dashboard/README.md) | README repo `thelook-powerbi-dashboard` |
 
-> **Tidak punya dashboard sesi 10?** Unduh dashboard cadangan dari grup kelas sebelum sesi dimulai. Tableau: buka file `.twbx` dengan **File → Open**. Power BI: buka `thelook_dashboard_cadangan.pbix`. Lalu ikuti sesi ini seperti biasa.
+> **Tidak punya dashboard sesi 10?** Unduh `thelook_dashboard_cadangan.pbix` dari grup kelas sebelum sesi dimulai, buka di Power BI Desktop, lalu ikuti sesi ini seperti biasa.
 
 ## Tujuan sesi
 
 Setelah sesi ini kamu bisa:
 
 1. Menambahkan filter tanggal dan kategori yang memengaruhi seluruh dashboard.
-2. Membuat calculated field **margin** dan **margin %**.
+2. Membuat measure **margin** dan **margin %** dengan DAX.
 3. Merapikan dashboard dengan prinsip desain: hierarki, keselarasan, satu warna sorotan.
 4. Mengubah dashboard menjadi **cerita satu halaman**: kesimpulan → bukti → rekomendasi.
-5. Membuat draf README portofolio.
+5. Menulis README repo `thelook-powerbi-dashboard`, hasil akhir modul Power BI.
 
 ## Agenda
 
@@ -26,10 +25,11 @@ Setelah sesi ini kamu bisa:
 | --- | --- |
 | 20.00–20.10 | Recap PR sesi 10: tunjukkan 2 grafik tambahanmu |
 | 20.10–20.30 | Demo: filter tanggal dan kategori |
-| 20.30–20.45 | Demo: calculated field margin dan margin % |
+| 20.30–20.45 | Demo: measure margin dan margin % |
 | 20.45–21.05 | Desain dan storytelling: sebelum vs sesudah |
 | 21.05–21.15 | Giliran kamu |
-| 21.15–21.35 | Tanya jawab + pengenalan studi kasus sesi 12 |
+| 21.15–21.25 | README `thelook-powerbi-dashboard`: tempel template, isi headline |
+| 21.25–21.35 | Tanya jawab + pengenalan studi kasus sesi 12 (jalur penuh) |
 | 21.35–21.40 | Penutup dan PR |
 
 ## 1. Filter
@@ -46,10 +46,10 @@ Filter harus memengaruhi **semua** grafik di halaman, dan diletakkan di **satu b
 
 **Margin** = pendapatan − biaya pokok. **Margin %** = margin ÷ pendapatan.
 
-| | Power BI (DAX) | Tableau |
-| --- | --- | --- |
-| Margin | `Margin = SUM(penjualan[sale_price]) - SUM(penjualan[cost])` | `SUM([Sale Price]) - SUM([Cost])` |
-| Margin % | `Margin % = DIVIDE([Margin], [Pendapatan])` | `(SUM([Sale Price]) - SUM([Cost])) / SUM([Sale Price])` |
+| Measure | DAX |
+| --- | --- |
+| Margin | `Margin = SUM(penjualan[sale_price]) - SUM(penjualan[cost])` |
+| Margin % | `Margin % = DIVIDE([Margin], [Pendapatan])` |
 
 Kenapa margin penting? Kategori dengan pendapatan terbesar belum tentu yang paling **menguntungkan**. Bandingkan urutan kategori berdasarkan pendapatan dengan urutan berdasarkan margin %.
 
@@ -80,9 +80,9 @@ Tulis **headline** dashboard-mu (satu kalimat kesimpulan) dan tempatkan di bagia
 ## 6. PR (30–60 menit)
 
 1. **Selesaikan dashboard:** filter tanggal dan kategori, kartu Margin %, headline, kotak rekomendasi.
-2. Simpan versi final (Tableau Public / `.pbix` + PDF) dan screenshot ke `images/dashboard_final.png`.
-3. **Pilih fokus untuk studi kasus sesi 12:** department `Women` atau `Men`, dan (opsional) satu negara. Baca sekilas [kasusnya](../sesi-12-studi-kasus/README.md#kasusnya).
-4. **Draf README portofolio:** salin [template README](../../template-portofolio/thelook-analysis/README.md) ke `README.md` repo `thelook-analysis`-mu, lalu isi bagian Ringkasan, Pertanyaan bisnis, Data & metode, dan Dashboard. Bagian Temuan boleh memakai draf PR sesi 9.
+2. Simpan versi final (`.pbix` + PDF) dan screenshot `images/dashboard_final.png`, lalu unggah ke repo `thelook-powerbi-dashboard`.
+3. **Lengkapi README** repo `thelook-powerbi-dashboard` dengan [template README Power BI](../../template-portofolio/thelook-powerbi-dashboard/README.md): headline, isi dashboard, temuan, dan rekomendasi. README ini adalah hasil akhir modul Power BI.
+4. *(Jalur penuh)* **Pilih fokus untuk studi kasus sesi 12:** department `Women` atau `Men`, dan (opsional) satu negara. Baca sekilas [kasusnya](../sesi-12-studi-kasus/README.md#kasusnya).
 
 ## Ringkasan
 
@@ -90,5 +90,6 @@ Tulis **headline** dashboard-mu (satu kalimat kesimpulan) dan tempatkan di bagia
 - Margin menunjukkan keuntungan; pendapatan besar belum tentu margin besar.
 - Judul berisi kesimpulan; satu warna sorotan; pesan utama terbaca dalam 5 detik.
 - Cerita satu halaman: headline → bukti → rekomendasi.
+- **Modul Power BI selesai.** Repo `thelook-powerbi-dashboard` dengan README-nya adalah portofolio modul ini.
 
-**Sesi berikutnya:** Sabtu, 5 Desember 2026, 14.00 WIB. Studi kasus terpandu: kategori mana yang diprioritaskan? **Siapkan login BigQuery dan Colab.**
+**Sesi berikutnya (jalur penuh):** Sabtu, 5 Desember 2026, 14.00 WIB. Studi kasus terpandu: kategori mana yang diprioritaskan? **Siapkan login BigQuery dan Colab.**

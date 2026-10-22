@@ -6,7 +6,7 @@
 
 - [ ] Jalankan notebook dari awal. Catat: repeat-purchase rate, ukuran tiap segmen RFM, porsi pendapatan Champions. Judul grafik C4 dibuat otomatis; cek kalimatnya.
 - [ ] Siapkan 1 contoh temuan yang baik dan 1 yang lemah untuk sesi tanya jawab.
-- [ ] Setelah kelas: kirim **pengingat instalasi Power BI / Tableau** untuk sesi 10.
+- [ ] Setelah kelas: kirim **pengingat instalasi Power BI** untuk sesi 10, termasuk link [panduan Parallels](../PANDUAN_MAC_PARALLELS.md) untuk pengguna Mac (mulai Minggu, 29 November).
 
 ## Runsheet
 
@@ -19,8 +19,9 @@
 | 14.50 | Bagian C3–C5 | Segmen = tindakan. Grafik porsi pelanggan vs pendapatan; `merge` = JOIN |
 | 15.05 | Giliran kamu | G1–G2 |
 | 15.15 | Menulis temuan 1 | Contoh temuan baik vs lemah (apa → kenapa penting → bukti). Lalu **5 menit**: semua peserta menulis temuan 1 di notebook (saran: repeat-purchase rate). Minta 2 orang membacakan |
-| 15.25 | Tanya jawab | |
-| 15.37 | Penutup | PR temuan 2–3; **install tools dashboard** |
+| 15.25 | README Python | Demo: repo `thelook-python-analysis` → README → tempel template Python → isi Ringkasan + temuan 1. Peserta mengikuti |
+| 15.32 | Tanya jawab | |
+| 15.37 | Penutup | PR: temuan 2–3 + rekomendasi + README lengkap. **Modul Python selesai.** Jalur penuh: install Power BI (Mac: Parallels, mulai Minggu) |
 
 ## Poin penting
 
@@ -52,4 +53,4 @@ print(f"{median_m['Champions'] / median_m['Pelanggan Baru']:.1f} kali lipat")
 
 ## Untuk recap sesi 10
 
-- Pilih 2 temuan peserta terbaik untuk dibacakan. Ingatkan bahwa temuan ini masuk README di sesi 11.
+- Pilih 2 README `thelook-python-analysis` terbaik untuk ditunjukkan sebentar (peserta modul Python sudah selesai; yang hadir di sesi 10 adalah jalur penuh dan peserta baru modul Power BI).

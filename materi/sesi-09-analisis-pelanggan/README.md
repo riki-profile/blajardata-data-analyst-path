@@ -23,7 +23,8 @@ Setelah sesi ini kamu bisa:
 | 14.40–15.05 | **Bagian C**: segmentasi RFM |
 | 15.05–15.15 | Giliran kamu |
 | 15.15–15.25 | Cara menulis temuan + **tulis temuan pertamamu** (di kelas) |
-| 15.25–15.37 | Tanya jawab |
+| 15.25–15.32 | README repo `thelook-python-analysis`: tempel template, isi temuan 1 |
+| 15.32–15.37 | Tanya jawab |
 | 15.37–15.40 | Penutup dan PR |
 
 ## Konsep kunci
@@ -62,7 +63,9 @@ Di akhir kelas kita menulis **temuan pertama** bersama-sama (5 menit). Temuan 2 
 2. **Kenapa penting**: dampaknya bagi bisnis.
 3. **Bukti**: grafik atau tabel di notebook-mu.
 
-Temuan ini menjadi bahan README portofolio di sesi 11. Unggah `notebooks/09_customer_analysis.ipynb` dan `images/04_segmen_rfm.png`.
+Lalu tulis ketiga temuan dan **1 rekomendasi** di `README.md` repo **`thelook-python-analysis`**, memakai [template README Python](../../template-portofolio/thelook-python-analysis/README.md). README ini adalah hasil akhir modul Python.
+
+Unggah juga `notebooks/09_customer_analysis.ipynb` dan `images/04_segmen_rfm.png`.
 
 ## Ringkasan
 
@@ -70,6 +73,7 @@ Temuan ini menjadi bahan README portofolio di sesi 11. Unggah `notebooks/09_cust
 - `.mean()` pada kolom True/False = proporsi.
 - RFM mengubah ribuan pelanggan menjadi beberapa segmen yang bisa ditindaklanjuti.
 - Temuan yang baik: apa → kenapa penting → bukti.
-- Modul Python selesai. **Install Power BI Desktop atau Tableau Public sebelum sesi 10.**
+- **Modul Python selesai.** Repo `thelook-python-analysis` dengan README-nya adalah portofolio modul ini.
+- Jalur penuh: **install Power BI Desktop sebelum sesi 10** (pengguna Mac: [panduan Parallels](../../PANDUAN_MAC_PARALLELS.md), mulai Minggu 29 November).
 
 **Sesi berikutnya:** Selasa, 1 Desember 2026, 20.00 WIB. Dashboard pertama.

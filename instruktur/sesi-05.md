@@ -12,14 +12,14 @@
 
 | Waktu | Bagian | Poin utama |
 | --- | --- | --- |
-| 20.00 | Recap PR sesi 4 | Tabel analisis; tutup modul SQL |
+| 20.00 | Recap Proyek SQL | Tampilkan 1 README `thelook-sql-analysis` peserta; tutup modul SQL. **Sambut peserta baru modul Python**: perkenalan singkat di chat, tunjukkan KAMUS_DATA |
 | 20.15 | Kenapa Python | Tabel SQL vs Python di README. "SQL untuk mengambil, Python untuk mengolah dan menyajikan" |
 | 20.20 | Tur Colab | Sel kode/teks, Shift+Enter, **Save a copy in Drive**, urutan menjalankan sel, Runtime → Run before. Semua peserta membuka notebook; "ketik 1" |
 | 20.25 | Demo 1–3 | print, variabel, tipe data, operasi, f-string. Tunjukkan `"59.90" * 2` yang menghasilkan teks berulang |
 | 20.40 | Demo 4 | List: indeks dari 0 (gambar kotak bernomor), slicing, fungsi bawaan |
 | 20.50 | Demo 5–6 | Dictionary; list of dict sebagai "tabel"; hubungkan dengan hasil query |
 | 21.00 | Giliran kamu | G1–G2 |
-| 21.05 | Menyimpan ke GitHub | Demo **cara 1** (unduh → buat folder `notebooks/` → unggah) |
+| 21.05 | Repo Python | Demo: buat repo `thelook-python-analysis` (PANDUAN_GITHUB), lalu **cara 1** (unduh → buat folder `notebooks/` → unggah). Peserta jalur penuh juga membuat repo baru ini |
 | 21.10 | Tanya jawab | |
 | 21.35 | Penutup | PR |
 

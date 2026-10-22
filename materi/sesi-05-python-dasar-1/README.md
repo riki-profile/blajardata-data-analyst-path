@@ -2,6 +2,8 @@
 
 **Kamis, 19 November 2026 · 20.00–21.40 WIB**
 
+> **Baru bergabung di modul Python?** Selamat datang! Pastikan langkah persiapan modul Python di [PERSIAPAN.md](../../PERSIAPAN.md#mulai-dari-modul-python-atau-power-bi) sudah selesai, dan baca [KAMUS_DATA.md](../../KAMUS_DATA.md) untuk mengenal dataset TheLook. Bagian recap di awal kelas membahas modul SQL; kamu cukup menyimak.
+
 Notebook: [`05_python_basics.ipynb`](05_python_basics.ipynb) · [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/riki-profile/blajardata-data-analyst-path/blob/main/materi/sesi-05-python-dasar-1/05_python_basics.ipynb)
 
 ## Tujuan sesi
@@ -12,16 +14,16 @@ Setelah sesi ini kamu bisa:
 2. Menyimpan data di variabel dan mengenali tipe data `int`, `float`, `str`, `bool`.
 3. Memakai **list** untuk kumpulan nilai dan **dictionary** untuk data berlabel.
 4. Menghitung total, rata-rata, nilai terbesar, dan nilai terkecil dari data pesanan.
-5. Menyimpan notebook dari Colab ke GitHub.
+5. Membuat repo portofolio modul Python, `thelook-python-analysis`, dan menyimpan notebook dari Colab ke sana.
 
 ## Agenda
 
 | Waktu (WIB) | Bagian |
 | --- | --- |
-| 20.00–20.15 | Recap PR sesi 4 (tabel analisis) dan penutupan modul SQL |
+| 20.00–20.15 | Recap Proyek SQL sesi 4, penutupan modul SQL, sambutan peserta baru modul Python |
 | 20.15–20.25 | Kenapa Python setelah SQL? Tur Google Colab |
 | 20.25–21.00 | Demo: variabel, tipe data, list, dictionary |
-| 21.00–21.10 | Giliran kamu + cara menyimpan notebook ke GitHub |
+| 21.00–21.10 | Giliran kamu + membuat repo `thelook-python-analysis` dan menyimpan notebook |
 | 21.10–21.35 | Tanya jawab |
 | 21.35–21.40 | Penutup dan PR |
 
@@ -78,7 +80,7 @@ Bagian 7 di notebook: membuat variabel produk dan menghitung ringkasan ongkir da
 
 Bagian 9 di notebook: 4 latihan list dan dictionary dengan data pesanan dan produk.
 
-Lalu buat folder `notebooks/` di repo portofoliomu dan unggah notebook sebagai `notebooks/05_python_basics.ipynb`. Langkah lengkapnya ada di bagian 8 notebook.
+Lalu buat repo **`thelook-python-analysis`** (langkahnya di [PANDUAN_GITHUB.md](../../PANDUAN_GITHUB.md)), buat folder `notebooks/`, dan unggah notebook sebagai `notebooks/05_python_basics.ipynb`. Langkah lengkapnya ada di bagian 8 notebook.
 
 ## Ringkasan
 

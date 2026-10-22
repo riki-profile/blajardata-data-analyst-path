@@ -53,10 +53,10 @@ Kamis, 19 November 2026 · 20.00–21.40 WIB
 
 | Waktu | Bagian |
 | --- | --- |
-| 20.00 | Recap PR sesi 4 & penutupan modul SQL |
+| 20.00 | Recap Proyek SQL & penutupan modul SQL · selamat datang peserta modul Python |
 | 20.15 | Kenapa Python? Tur Google Colab |
 | 20.25 | Demo: variabel, tipe data, list, dictionary |
-| 21.00 | Giliran kamu + menyimpan notebook ke GitHub |
+| 21.00 | Giliran kamu + repo `thelook-python-analysis` |
 | 21.10 | Tanya jawab |
 | 21.35 | Penutup & PR |
 
@@ -187,11 +187,11 @@ Menjumlahkan semua total satu per satu itu merepotkan → **loop** di sesi 6.
 
 ---
 
-## Menyimpan notebook ke GitHub
+## Repo baru: `thelook-python-analysis`
 
-1. Jalankan semua sel (supaya hasilnya ikut tersimpan)
-2. **File → Download → Download .ipynb**
-3. Repo `thelook-analysis` → **Add file → Create new file** → `notebooks/README.md` → commit (membuat folder)
+1. GitHub → **New repository** → `thelook-python-analysis` · Public · Add a README (lihat `PANDUAN_GITHUB.md`)
+2. Colab: jalankan semua sel → **File → Download → Download .ipynb**
+3. Repo → **Add file → Create new file** → `notebooks/README.md` → commit (membuat folder)
 4. Masuk folder `notebooks` → **Add file → Upload files** → seret `.ipynb`
 5. Nama file harus `05_python_basics.ipynb` (hapus "Salinan dari ...")
 

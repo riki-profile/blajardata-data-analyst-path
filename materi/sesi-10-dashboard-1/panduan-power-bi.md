@@ -1,8 +1,8 @@
 # Panduan Power BI Desktop · Sesi 10
 
-Kembali ke [README sesi 10](README.md) · Panduan Tableau: [panduan-tableau.md](panduan-tableau.md)
+Kembali ke [README sesi 10](README.md)
 
-Siapkan 3 file CSV (`penjualan.csv`, `produk.csv`, `pelanggan.csv`) dalam satu folder, misalnya `Documents\thelook-dashboard\`.
+Siapkan 3 file CSV (`penjualan.csv`, `produk.csv`, `pelanggan.csv`, dari link Google Drive di grup kelas) dalam satu folder, misalnya `Documents\thelook-dashboard\`.
 
 ## Langkah 0. Atur locale impor (penting untuk laptop berbahasa Indonesia)
 
@@ -71,7 +71,7 @@ Lalu di **Column tools**, ubah **Format** menjadi `mmm yyyy`.
 1. Klik area kosong di kanvas. Di panel **Visualizations**, pilih **Card**.
 2. Seret measure **Pendapatan** ke kotak **Fields**.
 3. Ulangi untuk **Jumlah Pesanan** dan **AOV**. Susun ketiga kartu berjajar di bagian atas.
-4. **Cocokkan angkanya** dengan bagian "Cek cepat" di notebook ekspor.
+4. **Cocokkan angkanya** dengan angka "Cek cepat" di folder Google Drive (atau di bagian "Cek cepat" notebook ekspor, kalau kamu membuat CSV sendiri).
 
 ## Langkah 5. Grafik tren pendapatan bulanan
 

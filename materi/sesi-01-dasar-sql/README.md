@@ -50,7 +50,7 @@ Di kursus ini:
 | Tanya | Kepala dan catatanmu | Setiap sesi |
 | Kumpulkan | SQL di BigQuery | 1–4 |
 | Bersihkan & analisis | Python + pandas di Colab | 5–9 |
-| Sajikan | Power BI / Tableau, README di GitHub | 10–13 |
+| Sajikan | Power BI, README di GitHub | 10–13 |
 
 ## 3. Kenalan dengan TheLook
 

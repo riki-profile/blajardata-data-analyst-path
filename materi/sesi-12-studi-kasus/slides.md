@@ -210,7 +210,7 @@ Jawaban yang baik:
 
 ---
 
-## Unggah ke portofolio
+## Unggah ke repo `thelook-python-analysis`
 
 | File | Lokasi |
 | --- | --- |
@@ -225,7 +225,7 @@ Buat folder: **Add file → Create new file** → `my_question/README.md`
 ## PR sesi 12
 
 1. Bagian 11 notebook: jawaban dengan **kata-katamu sendiri**
-2. Bagian **Studi kasus** di README portofolio: pertanyaan, fokus, jawaban, rekomendasi, grafik matriks
+2. Bagian **Studi kasus** di README `thelook-python-analysis`: pertanyaan, fokus, jawaban, rekomendasi, grafik matriks
 3. *(Opsional)* Jalankan ulang dengan fokus lain. Rekomendasinya sama?
 
 **Sesi berikutnya:** Selasa, 8 Desember 2026, 20.00 WIB
