@@ -23,7 +23,16 @@
 | 21.18 | Demo D | DISTINCT status → COUNT(*) per status satu per satu → "repot ya? sesi 2 kita pakai GROUP BY" |
 | 21.25 | **Kerjakan bersama** | B1–B2: tulis query di layar sambil bertanya "kolom apa? filter apa?", peserta mengetik bersamaan. Lalu simpan `01_basics.sql` di laptop bersama-sama (Notepad/TextEdit *Plain Text*) |
 | 21.40 | Tanya jawab | |
-| 21.55 | Penutup | 3 poin ringkasan; sebutkan latihan mandiri L1–L5 (opsional) |
+| 21.55 | Penutup | Jalankan **checklist hasil** di bawah. 3 poin ringkasan; sebutkan latihan mandiri L1–L5 (opsional) |
+
+## Checklist hasil (cek sebelum penutup)
+
+Jalankan **sebelum penutup** (2–3 menit): tampilkan daftar ini di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
+
+- [ ] BigQuery terbuka dengan project sandbox; semua query demo bagian A–D sudah dijalankan
+- [ ] B1 (5 dress termurah) dan B2 (jumlah pesanan Returned) terisi di file kerja dan hasilnya keluar
+- [ ] File tersimpan di laptop sebagai `01_basics.sql` (teks biasa, bukan `.txt` atau `.rtf`)
+- [ ] Peserta tahu sesi 2: login GitHub sebelum kelas
 
 ## Poin penting dan miskonsepsi
 

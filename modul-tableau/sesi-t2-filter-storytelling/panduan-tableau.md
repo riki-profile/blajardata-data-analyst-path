@@ -35,9 +35,21 @@ Buat sheet `KPI Margin` seperti kartu KPI lainnya.
 
 1. Buka dashboard → seret `KPI Margin` ke baris KPI.
 2. Filter otomatis muncul di kanan. Pindahkan ke **atas**: seret kartu filter ke area di samping judul. Gunakan objek **Horizontal** untuk menyusunnya sebaris.
-3. Ganti teks judul dengan **headline**.
-4. Tambahkan objek **Text** berisi "Rekomendasi: ...".
-5. Pilih semua kartu KPI → **Layout** → samakan lebar dan tinggi.
+3. Pilih semua kartu KPI → **Layout** → samakan lebar dan tinggi.
+
+Judul tetap deskriptif. Kesimpulan ditulis di dashboard Insight (bagian 4b).
+
+## 4b. Dashboard Insight
+
+1. **Duplikat sheet pendukung:** klik kanan tab `Tren Bulanan` → **Duplicate**, ganti nama `Insight Tren`. Lakukan juga untuk `Per Kategori` (→ `Insight Kategori`) dan satu sheet KPI.
+2. **Lepaskan filter interaktif dari sheet Insight:** di sheet Dashboard mana pun, klik kanan filter tanggal → **Apply to Worksheets → Selected Worksheets...** → hilangkan centang sheet `Insight ...` → **OK**. Ulangi untuk filter kategori.
+3. **Kunci periode di sheet Insight:** di setiap sheet `Insight ...`, seret **Order Date** ke **Filters** → **Range of dates** → isi periode 12 bulan terakhir yang lengkap → **OK**. Jangan tampilkan filternya.
+4. **Dashboard → New Dashboard** → ganti nama `Insight`. Seret sheet `Insight ...` ke kanvas.
+5. Objek **Text** di paling atas → tulis **headline**: kesimpulan + angka + periode. Judul sheet di dashboard ini boleh berupa kesimpulan, karena periodenya terkunci.
+6. Objek **Text** di bawah → "Rekomendasi: ..." (1–2 kalimat).
+7. Saat menyimpan ke Tableau Public, centang **Show sheets as tabs** supaya pembaca bisa berpindah antara Dashboard dan Insight.
+
+> Dashboard Insight seperti laporan: angkanya untuk periode tertentu. Kalau data diperbarui, ubah periodenya dan tulis ulang headline.
 
 ## 5. Rapikan desain
 
@@ -50,5 +62,5 @@ Buat sheet `KPI Margin` seperti kartu KPI lainnya.
 
 - **File → Save to Tableau Public** (menimpa versi sesi 1, link tetap sama).
 - Di halaman Tableau Public, klik **Edit Details** untuk menulis deskripsi singkat dashboard.
-- Screenshot → `images/dashboard_final.png`.
+- Screenshot kedua dashboard → `images/dashboard_final.png` dan `images/insight.png`.
 - Tulis link di `README.md` repo `thelook-tableau-dashboard`.

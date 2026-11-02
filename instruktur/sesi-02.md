@@ -20,7 +20,16 @@
 | 20.40 | **Kerjakan bersama** | B1–B2, dipandu langkah demi langkah |
 | 20.50 | **Unggah bersama** | Buat repo `thelook-sql-analysis` dari nol (6a), **Create new file** `sql/01_basics.sql` (6b), lalu unggah `02_aggregation.sql`. "Ketik 1 kalau kedua file sudah ada". Peserta menempel link repo di chat |
 | 21.15 | Tanya jawab | Banyak pertanyaan GitHub biasanya muncul di sini |
-| 21.35 | Penutup | Ringkasan; latihan mandiri L1 (top 10 brand, opsional) |
+| 21.35 | Penutup | Jalankan **checklist hasil** di bawah. Ringkasan; latihan mandiri L1 (top 10 brand, opsional) |
+
+## Checklist hasil (cek sebelum penutup)
+
+Jalankan **sebelum penutup** (2–3 menit): tampilkan daftar ini di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
+
+- [ ] B1–B2 terisi di `02_aggregation.sql`
+- [ ] Repo **`thelook-sql-analysis`** ada, **Public**, dengan `README.md`
+- [ ] Repo berisi `sql/01_basics.sql` dan `sql/02_aggregation.sql` (di dalam folder `sql`, bukan di root)
+- [ ] Link repo sudah ditempel di chat Zoom (simpan daftarnya untuk sesi 13)
 
 ## Poin penting
 

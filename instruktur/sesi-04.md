@@ -19,7 +19,16 @@
 | 20.40 | **Proyek SQL bersama** | Tunjukkan repo contohmu sebagai target. Semua menjalankan P1–P3 ("ketik 1 kalau P3 sudah keluar"). Untuk setiap query: bacakan hasil, ajukan pertanyaan pemandu (tabel di bawah), lalu tulis temuannya bersama. Tutup dengan rekomendasi bersama |
 | 21.00 | **Unggah bersama** | Repo `thelook-sql-analysis` → README → tempel template SQL → isi Ringkasan, 3 temuan, rekomendasi. Unggah `04_dates_case_cte.sql`. **Modul SQL selesai** |
 | 21.15 | Tanya jawab | |
-| 21.35 | Penutup | Ringkasan; latihan mandiri (L1–L2, bonus tabel analisis) opsional |
+| 21.35 | Penutup | Jalankan **checklist hasil** di bawah. Ringkasan; latihan mandiri (L1–L2, bonus tabel analisis) opsional |
+
+## Checklist hasil (cek sebelum penutup)
+
+Jalankan **sebelum penutup** (2–3 menit): tampilkan daftar ini di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
+
+- [ ] P1, P2, P3 sudah dijalankan; **temuan 1–3 + rekomendasi** tertulis di file kerja (dengan angka)
+- [ ] `README.md` repo `thelook-sql-analysis` berisi Ringkasan, 3 temuan, rekomendasi (bukan template kosong; tidak ada `<...>` tersisa)
+- [ ] `sql/04_dates_case_cte.sql` ada di repo; folder `sql/` berisi 4 file (`01` sampai `04`)
+- [ ] **Modul SQL selesai**: peserta modul SQL saja tahu repo ini adalah hasil akhirnya
 
 ## Poin penting
 

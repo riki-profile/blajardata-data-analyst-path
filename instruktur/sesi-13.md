@@ -18,7 +18,18 @@
 | 20.55 | README profil + pin | Demo: repo profil, tempel template, isi link 3 repo; pin; About + topics; edit profil. Peserta mengikuti |
 | 21.05 | LinkedIn (opsional) | Tunjukkan template |
 | 21.10 | Presentasi 1 menit | Sukarelawan, pakai struktur 4 bagian |
-| 21.30 | Penutup kursus | Ringkasan perjalanan 13 sesi; langkah berikutnya; formulir umpan balik; terima kasih |
+| 21.30 | Penutup kursus | Jalankan **checklist hasil** di bawah. Ringkasan perjalanan 13 sesi; langkah berikutnya; formulir umpan balik; terima kasih |
+
+## Checklist hasil (cek sebelum penutup)
+
+Jalankan **sebelum penutup** (2–3 menit): tampilkan daftar ini di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
+
+- [ ] Ketiga repo (`thelook-sql-analysis`, `thelook-python-analysis`, `thelook-powerbi-dashboard`) lolos checklist sesi 13
+- [ ] Ketiganya dibuka di jendela **incognito**: semua gambar tampil, semua link berfungsi
+- [ ] Repo **README profil** (nama = username) ada dan berisi link ketiga repo
+- [ ] Ketiga repo di-**pin** di profil; About + topics terisi
+- [ ] Formulir umpan balik kursus sudah dibagikan
+- [ ] Peserta tahu batas perbaikan: Selasa, 15 Desember 2026
 
 ## Poin penting
 

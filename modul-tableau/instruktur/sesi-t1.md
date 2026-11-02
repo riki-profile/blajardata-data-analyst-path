@@ -19,11 +19,21 @@ Materi: [sesi-t1-dashboard-pertama](../sesi-t1-dashboard-pertama/) · Durasi ±1
 | 35 | Calculated field + KPI | Pendapatan, Jumlah Pesanan (`COUNTD`!), AOV. **Cocokkan dengan `cek_cepat.txt`**: ketik 1 kalau sama |
 | 45 | Grafik | Tren bulanan (Month continuous, pil hijau); per kategori (sort descending) |
 | 55 | Dashboard | New Dashboard, ukuran, susun sheet, objek Text untuk judul |
-| 65 | **Kerjakan bersama** | Judul = kesimpulan; grafik ketiga (pendapatan per negara) langkah demi langkah |
+| 65 | **Kerjakan bersama** | Judul deskriptif (apa + satuan); ganti nama dashboard jadi `Dashboard`; grafik ketiga (pendapatan per negara). Jelaskan: filter mengubah angka, jadi kesimpulan ditaruh di dashboard Insight (sesi 2) |
 | 75 | **Simpan bersama** | Save to Tableau Public As... + screenshot. **Jangan lanjut** sampai mayoritas mengetik 1 |
 | 82 | **Unggah bersama** | Repo `thelook-tableau-dashboard`: screenshot + link di README |
 | 92 | Tanya jawab | Masalah instalasi/data dengan berbagi layar |
-| 98 | Penutup | Bagikan link dashboard cadangan; latihan mandiri (opsional) |
+| 98 | Penutup | Jalankan **checklist hasil** di bawah. Bagikan link dashboard cadangan; latihan mandiri (opsional) |
+
+## Checklist hasil (cek sebelum penutup)
+
+Jalankan **sebelum penutup** (2–3 menit): tampilkan daftar ini di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
+
+- [ ] 3 CSV dalam satu folder; relationship ke tabel `penjualan` benar
+- [ ] Kartu KPI (Pendapatan, Jumlah Pesanan, AOV) **sama** dengan `cek_cepat.txt`
+- [ ] 3 sheet grafik (tren bulanan, per kategori, per negara) dengan **judul deskriptif**; dashboard bernama `Dashboard`
+- [ ] Workbook tersimpan di **Tableau Public** dan link-nya sudah disalin
+- [ ] Repo **`thelook-tableau-dashboard`** berisi `images/dashboard_v1.png` dan link Tableau Public di `README.md`
 
 ## Poin penting
 

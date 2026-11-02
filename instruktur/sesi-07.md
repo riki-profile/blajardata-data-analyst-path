@@ -20,7 +20,16 @@
 | 21.00 | **Kerjakan bersama** | B1–B2, dipandu langkah demi langkah |
 | 21.10 | **Unggah bersama** | Ganti `PROJECT_ID` dengan placeholder, unduh, unggah `07_pandas_exploration.ipynb` |
 | 21.20 | Tanya jawab | |
-| 21.37 | Penutup | Ringkasan; latihan mandiri bagian 10 (opsional). Sesi 8 = **2 jam** |
+| 21.37 | Penutup | Jalankan **checklist hasil** di bawah. Ringkasan; latihan mandiri bagian 10 (opsional). Sesi 8 = **2 jam** |
+
+## Checklist hasil (cek sebelum penutup)
+
+Jalankan **sebelum penutup** (2–3 menit): tampilkan daftar ini di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
+
+- [ ] Koneksi Colab ke BigQuery berhasil (sel uji menampilkan "Terhubung ke BigQuery!")
+- [ ] Tabel analisis termuat; B1–B2 terisi dan dijalankan
+- [ ] `PROJECT_ID` diganti `"isi-project-id-kamu"` sebelum diunggah
+- [ ] `notebooks/07_pandas_exploration.ipynb` ada di repo
 
 ## Poin penting
 

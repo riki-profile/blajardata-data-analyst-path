@@ -16,7 +16,7 @@ Setelah sesi ini kamu bisa:
 1. Menambahkan filter tanggal dan kategori yang memengaruhi seluruh dashboard.
 2. Membuat measure **margin** dan **margin %** dengan DAX.
 3. Merapikan dashboard dengan prinsip desain: hierarki, keselarasan, satu warna sorotan.
-4. Mengubah dashboard menjadi **cerita satu halaman**: kesimpulan → bukti → rekomendasi.
+4. Membedakan **dashboard** (memantau) dan **halaman Insight** (melaporkan), lalu membuat halaman Insight: kesimpulan → bukti → rekomendasi.
 5. Menulis README repo `thelook-powerbi-dashboard`, hasil akhir modul Power BI.
 
 ## Agenda
@@ -26,8 +26,8 @@ Setelah sesi ini kamu bisa:
 | 20.00–20.05 | Recap sesi 10 |
 | 20.05–20.25 | Demo: filter tanggal dan kategori |
 | 20.25–20.40 | Demo: measure margin dan margin % |
-| 20.40–21.00 | Desain dan storytelling: sebelum vs sesudah |
-| 21.00–21.10 | **Kerjakan bersama**: headline + kotak rekomendasi |
+| 20.40–21.00 | Desain dashboard; dashboard vs laporan; membuat halaman **Insight** |
+| 21.00–21.10 | **Kerjakan bersama**: headline + rekomendasi di halaman Insight |
 | 21.10–21.25 | **Unggah bersama**: dashboard final + README `thelook-powerbi-dashboard` |
 | 21.25–21.35 | Tanya jawab + pengenalan studi kasus sesi 12 (jalur penuh) |
 | 21.35–21.40 | Penutup |
@@ -55,30 +55,45 @@ Kenapa margin penting? Kategori dengan pendapatan terbesar belum tentu yang pali
 
 ## 3. Prinsip desain dashboard
 
-1. **Hierarki: yang paling penting di kiri atas.** Mata membaca seperti huruf Z: judul dan kesimpulan → KPI → tren → rincian.
-2. **Judul halaman berisi kesimpulan**, bukan "Dashboard Penjualan". Contoh: "Pendapatan tumbuh 9%, didorong Outerwear dan Jeans; margin stabil di 52%".
+1. **Hierarki: yang paling penting di kiri atas.** Mata membaca seperti huruf Z: judul dan filter → KPI → tren → rincian.
+2. **Judul deskriptif**: apa yang diukur + satuan ("Pendapatan bulanan (USD)"). Angka di dashboard berubah mengikuti filter, jadi judulnya tidak boleh berisi kesimpulan yang bisa menjadi salah.
 3. **Satu warna utama, satu warna sorotan.** Warna lain hanya kalau punya arti.
 4. **Sejajarkan dan beri jarak yang sama.** Pakai grid; ukuran kartu KPI sama.
 5. **Buang yang tidak perlu:** garis bantu tebal, label sumbu ganda, legend untuk grafik satu warna, desimal berlebihan.
 6. **Satuan selalu jelas:** USD, %, jumlah pesanan.
-7. **5 detik:** orang yang baru melihat harus bisa menyebut pesan utamanya dalam 5 detik.
+7. **5 detik:** orang yang baru melihat harus langsung tahu apa yang dipantau dan di mana angkanya.
 
-## 4. Storytelling: dashboard satu halaman
+## 4. Dashboard vs halaman Insight
 
-Ubah dashboard dari "kumpulan grafik" menjadi **cerita**:
+Dashboard adalah **helicopter view**: pembaca memantau dan menjelajah sendiri dengan filter. Tapi manajemen juga butuh **kesimpulan** dari analis. Kesimpulan itu kita tulis di **halaman kedua** dalam file yang sama, bukan di atas dashboard.
+
+| | Halaman **Dashboard** | Halaman **Insight** |
+| --- | --- | --- |
+| Tujuan | Memantau, menjelajah dengan filter | Menyampaikan satu kesimpulan + rekomendasi |
+| Judul | Deskriptif: "Pendapatan bulanan (USD)" | Kesimpulan + angka + periode: "Pendapatan naik 9% (Nov 2025–Okt 2026)" |
+| Filter | Aktif, pembaca yang memilih | Dikunci ke periode yang disebut di headline |
+| Yang menyimpulkan | Pembaca | Analis (kamu) |
+| Diperbarui | Otomatis saat data baru | Ditulis ulang saat data baru (seperti laporan) |
+
+Isi halaman Insight:
 
 | Bagian | Isi | Contoh |
 | --- | --- | --- |
-| **Headline** | Kesimpulan utama, 1 kalimat | "Pendapatan tumbuh, tapi hanya sedikit pelanggan yang kembali berbelanja" |
-| **Bukti** | 3–4 visual yang mendukung headline | KPI, tren, kategori, segmen |
-| **So what?** | Kotak teks rekomendasi | "Fokus ke program pembelian kedua untuk pelanggan baru" |
+| **Headline** | Kesimpulan utama, 1 kalimat dengan angka **dan periodenya** | "Nov 2025–Okt 2026: pendapatan naik 9%, didorong Outerwear dan Jeans" |
+| **Bukti** | 2–3 visual yang mendukung headline | tren bulanan, kategori, margin % |
+| **So what?** | Kotak teks rekomendasi | "Prioritaskan promosi kategori bermargin tinggi" |
+
+Cara membuatnya ada di [panduan Power BI bagian 4](panduan-power-bi.md#4-halaman-insight): duplikat halaman Dashboard, hapus filter interaktifnya, kunci periodenya, lalu tambahkan headline dan rekomendasi.
+
+> Grafik di notebook sesi 8 memakai judul kesimpulan karena grafik itu juga **laporan**: angkanya tetap. Aturannya sama: **judul kesimpulan hanya untuk tampilan yang angkanya tidak berubah.**
 
 ## 5. Kerjakan bersama (±10 menit)
 
 Instruktur mengerjakannya langkah demi langkah di layar, dan kamu mengikuti di dashboard-mu:
 
-1. Tulis **headline** dashboard (satu kalimat kesimpulan dengan angka) dan tempatkan di bagian paling atas.
-2. Tambahkan **kotak rekomendasi** (1–2 kalimat) di bawah atau di samping grafik.
+1. Buat halaman **Insight** (duplikat halaman Dashboard, hapus slicer, kunci periode).
+2. Tulis **headline** di paling atas: satu kalimat kesimpulan dengan angka dan periodenya.
+3. Tambahkan **kotak rekomendasi** (1–2 kalimat).
 
 2–3 peserta membacakan headline-nya di Zoom.
 
@@ -86,9 +101,9 @@ Instruktur mengerjakannya langkah demi langkah di layar, dan kamu mengikuti di d
 
 Bersama instruktur, di repo `thelook-powerbi-dashboard`:
 
-1. **Ctrl + S**, lalu **File → Export → Export to PDF**. Unggah ulang `dashboard/thelook_dashboard.pbix` dan `dashboard/thelook_dashboard.pdf` (nama sama, menimpa versi sesi 10).
-2. Screenshot → unggah `images/dashboard_final.png`.
-3. `README.md` → tempel [template README Power BI](../../template-portofolio/thelook-powerbi-dashboard/README.md) → isi headline, isi dashboard, 2 temuan dari dashboard, dan rekomendasi → **Commit changes**.
+1. **Ctrl + S**, lalu **File → Export → Export to PDF** (PDF berisi kedua halaman). Unggah ulang `dashboard/thelook_dashboard.pbix` dan `dashboard/thelook_dashboard.pdf` (nama sama, menimpa versi sesi 10).
+2. Screenshot kedua halaman → unggah `images/dashboard_final.png` (halaman Dashboard) dan `images/insight.png` (halaman Insight).
+3. `README.md` → tempel [template README Power BI](../../template-portofolio/thelook-powerbi-dashboard/README.md) → isi headline dari halaman Insight, isi dashboard, 2 temuan, dan rekomendasi → **Commit changes**.
 
 Di akhir sesi, **portofolio modul Power BI-mu selesai**.
 
@@ -96,14 +111,14 @@ Di akhir sesi, **portofolio modul Power BI-mu selesai**.
 
 ## 7. Latihan mandiri (opsional)
 
-Tidak wajib dan tidak dinilai. Rapikan desain lebih jauh (tema warna, perataan, tooltip), atau tambahkan halaman kedua untuk analisis pelanggan (kelompok umur, traffic source).
+Tidak wajib dan tidak dinilai. Rapikan desain lebih jauh (tema warna, perataan, tooltip), atau tambahkan halaman ketiga untuk analisis pelanggan (kelompok umur, traffic source).
 
 ## Ringkasan
 
 - Filter di satu baris atas, berlaku untuk semua visual.
 - Margin menunjukkan keuntungan; pendapatan besar belum tentu margin besar.
-- Judul berisi kesimpulan; satu warna sorotan; pesan utama terbaca dalam 5 detik.
-- Cerita satu halaman: headline → bukti → rekomendasi.
+- Halaman Dashboard: judul deskriptif, filter aktif, satu warna sorotan.
+- Halaman Insight: headline (kesimpulan + angka + periode) → bukti → rekomendasi, dengan periode terkunci.
 - **Modul Power BI selesai.** Repo `thelook-powerbi-dashboard` dengan README-nya adalah portofolio modul ini.
 
 **Sesi berikutnya (jalur penuh):** Sabtu, 5 Desember 2026, 14.00 WIB. Studi kasus terpandu: kategori mana yang diprioritaskan? **Siapkan login BigQuery dan Colab.**

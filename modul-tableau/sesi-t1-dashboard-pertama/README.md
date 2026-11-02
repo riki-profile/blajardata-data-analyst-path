@@ -27,7 +27,7 @@ Setelah sesi ini kamu bisa:
 | 10–20 | Apa itu dashboard; unduh 3 file CSV |
 | 20–35 | Demo: memuat data, tipe data, relationship |
 | 35–65 | Demo: calculated field, kartu KPI, grafik tren bulanan, grafik kategori, dashboard |
-| 65–75 | **Kerjakan bersama**: judul kesimpulan + grafik ketiga |
+| 65–75 | **Kerjakan bersama**: judul deskriptif + grafik ketiga |
 | 75–82 | **Simpan ke Tableau Public bersama-sama** (wajib, di kelas) |
 | 82–92 | **Unggah bersama**: repo `thelook-tableau-dashboard` |
 | 92–98 | Tanya jawab |
@@ -41,7 +41,7 @@ Dashboard yang kita bangun di sesi 1–2, dibaca dari atas ke bawah:
 
 | Posisi | Isi |
 | --- | --- |
-| Atas | Judul berisi kesimpulan utama · filter tanggal dan kategori |
+| Atas | Judul dashboard ("TheLook: Ringkasan Penjualan") · filter tanggal dan kategori |
 | Baris KPI | Pendapatan · Jumlah pesanan · AOV · Margin % |
 | Tengah | Tren pendapatan bulanan (garis) |
 | Bawah | Pendapatan per kategori (batang horizontal) · pendapatan per negara (dibuat bersama) |
@@ -81,8 +81,11 @@ Ikuti [panduan Tableau Public](panduan-tableau.md) langkah demi langkah bersama 
 
 Instruktur mengerjakannya langkah demi langkah di layar, dan kamu mengikuti di Tableau-mu:
 
-1. Ubah judul kedua grafik menjadi **kalimat kesimpulan**. Contoh: "Pendapatan naik 9% dalam 12 bulan terakhir".
-2. Tambahkan **grafik ketiga**: pendapatan per negara (batang horizontal, diurutkan), lalu masukkan ke dashboard.
+1. Beri setiap sheet **judul deskriptif**: apa yang diukur + satuan. Contoh: "Pendapatan bulanan (USD)".
+
+> **Kenapa bukan judul kesimpulan?** Dashboard dipakai untuk **memantau**: angkanya berubah mengikuti filter dan data baru, jadi judul seperti "Pendapatan naik 9%" bisa langsung salah. Kesimpulan ditulis di dashboard kedua, **Insight**, di sesi 2.
+
+2. Tambahkan **grafik ketiga**: pendapatan per negara (batang horizontal, diurutkan, judul deskriptif), lalu masukkan ke dashboard.
 
 ## 6. Simpan ke Tableau Public bersama (di kelas, sebelum Zoom ditutup)
 

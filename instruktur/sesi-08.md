@@ -24,7 +24,16 @@
 | 21.30 | **Kerjakan bersama** | B1–B2, dipandu langkah demi langkah |
 | 21.40 | **Unggah bersama** | Notebook ke `notebooks/`, 3 gambar ke `images/` (buat foldernya dengan `images/README.md`) |
 | 21.50 | Tanya jawab | |
-| 21.57 | Penutup | Ringkasan; latihan mandiri L1–L2 (opsional) |
+| 21.57 | Penutup | Jalankan **checklist hasil** di bawah. Ringkasan; latihan mandiri L1–L2 (opsional) |
+
+## Checklist hasil (cek sebelum penutup)
+
+Jalankan **sebelum penutup** (2–3 menit): tampilkan daftar ini di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
+
+- [ ] Bagian A (pembersihan) dan B (3 grafik) sudah dijalankan; B1–B2 terisi
+- [ ] `notebooks/08_cleaning_and_charts.ipynb` ada di repo
+- [ ] Folder `images/` berisi `01_pendapatan_bulanan.png`, `02_porsi_kategori.png`, `03_sebaran_umur.png`
+- [ ] Gambar terbuka saat diklik di GitHub (bukan file 0 KB)
 
 ## Poin penting
 

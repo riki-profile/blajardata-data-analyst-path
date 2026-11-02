@@ -39,10 +39,19 @@ Tambahkan **Card** untuk Margin % di samping kartu KPI lain.
 
 **Latihan:** di grafik per kategori, tambahkan **Margin %** ke **Tooltips**. Arahkan mouse ke batang: kategori dengan pendapatan terbesar, apakah margin %-nya juga terbesar?
 
-## 4. Headline dan rekomendasi
+## 4. Halaman Insight
 
-1. **Insert → Text box** di bagian atas → tulis headline (huruf besar, tebal).
-2. **Insert → Text box** di bawah/samping → "Rekomendasi: ..." (1–2 kalimat).
+Halaman Dashboard tetap seperti sekarang (judul deskriptif, filter aktif). Kesimpulan ditulis di halaman kedua.
+
+1. Klik kanan tab **Dashboard** di bawah → **Duplicate page**. Klik dua kali tab baru → ganti nama menjadi `Insight`.
+2. Di halaman Insight, **hapus kedua slicer** (pilih → Delete). Hapus juga visual yang tidak mendukung kesimpulanmu; sisakan 2–3 visual.
+3. **Kunci periodenya:** panel **Filters** → **Filters on this page** → seret `order_date` ke sana → **Filter type: Advanced filtering** → *is on or after* tanggal awal periode, **And** *is before* awal bulan berikutnya setelah data terakhir. Contoh: on or after `1/11/2025` and before `1/11/2026`.
+4. Kalau angka di halaman Insight ikut berubah saat slicer di halaman Dashboard dipakai: **View → Sync slicers** → hilangkan centang halaman Insight.
+5. **Insert → Text box** di bagian atas → tulis **headline**: kesimpulan + angka + periode, huruf besar dan tebal. Ambil angkanya dari kartu KPI di halaman ini.
+6. Ganti judul setiap grafik di halaman ini menjadi kalimat kesimpulan (boleh, karena periodenya terkunci).
+7. **Insert → Text box** di bawah/samping → "Rekomendasi: ..." (1–2 kalimat).
+
+> Halaman Insight seperti laporan: angkanya untuk periode tertentu. Kalau data diperbarui, ubah periode filter dan tulis ulang headline-nya.
 
 ## 5. Rapikan desain
 
@@ -56,8 +65,8 @@ Tambahkan **Card** untuk Margin % di samping kartu KPI lain.
 
 - **File → Save** (`thelook_dashboard.pbix`).
 - **File → Export → Export to PDF** → `thelook_dashboard.pdf`.
-- Screenshot → `dashboard_final.png`.
+- Screenshot kedua halaman → `dashboard_final.png` (Dashboard) dan `insight.png` (Insight).
 
-Unggah ke portofolio: `dashboard/thelook_dashboard.pbix`, `dashboard/thelook_dashboard.pdf`, `images/dashboard_final.png`.
+Unggah ke portofolio: `dashboard/thelook_dashboard.pbix`, `dashboard/thelook_dashboard.pdf`, `images/dashboard_final.png`, `images/insight.png`.
 
 > File `.pbix` di atas 25 MB tidak bisa diunggah lewat browser GitHub. Kalau terlalu besar, unggah PDF dan screenshot saja, lalu tulis di `dashboard/README.md` bahwa file `.pbix` tersedia atas permintaan.

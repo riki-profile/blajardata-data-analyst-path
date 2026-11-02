@@ -89,8 +89,9 @@ Lalu di **Column tools**, ubah **Format** menjadi `mmm yyyy`.
 
 ## Langkah 7. Judul dan rapikan
 
-1. Untuk setiap grafik: **Format visual → General → Title → Text**. Tulis kesimpulan, bukan sekadar nama grafik.
+1. Untuk setiap grafik: **Format visual → General → Title → Text**. Tulis **judul deskriptif**: apa yang diukur + satuan, misalnya "Pendapatan bulanan (USD)". Jangan menulis kesimpulan ("naik 9%") di halaman ini, karena angkanya berubah saat filter dipakai.
 2. Tambahkan judul halaman: **Insert → Text box** → "TheLook: Ringkasan Penjualan".
+3. Ganti nama halaman: klik dua kali tab **Page 1** di bawah → `Dashboard`.
 3. Pakai satu warna untuk semua batang/garis: **Format visual → Visual → Bars/Lines → Colors**.
 
 ## Langkah 8. Simpan (dilakukan bersama di akhir kelas)

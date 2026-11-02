@@ -72,7 +72,7 @@ Data, relationship, calculated field, kartu KPI, grafik
 | 10 | Apa itu dashboard; unduh 3 file CSV |
 | 20 | Memuat data, tipe data, relationship |
 | 35 | Calculated field, kartu KPI, 2 grafik, dashboard |
-| 65 | **Kerjakan bersama**: judul + grafik ketiga |
+| 65 | **Kerjakan bersama**: judul deskriptif + grafik ketiga |
 | 75 | **Simpan ke Tableau Public bersama-sama** |
 | 82 | **Unggah bersama**: repo `thelook-tableau-dashboard` |
 | 92 | Tanya jawab |
@@ -96,7 +96,7 @@ Satu halaman, dibaca dari atas ke bawah:
 
 | Posisi | Isi |
 | --- | --- |
-| Atas | Judul berisi kesimpulan utama · filter tanggal & kategori |
+| Atas | Judul dashboard · filter tanggal & kategori |
 | Baris KPI | Pendapatan · Jumlah pesanan · AOV · Margin % |
 | Tengah | Tren pendapatan bulanan (garis) |
 | Bawah | Pendapatan per kategori · pendapatan per negara (dibuat bersama) |
@@ -162,6 +162,18 @@ produk (1) ───< penjualan >─── (1) pelanggan
 
 ---
 
+## Kenapa judul dashboard bukan kesimpulan?
+
+| Grafik laporan | Dashboard |
+| --- | --- |
+| Angkanya **tetap** | Angka **berubah** mengikuti filter & data baru |
+| Judul = kesimpulan: "Pendapatan naik 9%" | Judul = apa yang diukur: "Pendapatan bulanan (USD)" |
+| Analis yang menyimpulkan | Pembaca yang memantau & menjelajah |
+
+Kesimpulan tetap penting: kita tulis di dashboard **Insight** di sesi 2.
+
+---
+
 ## Masalah yang sering terjadi
 
 | Masalah | Penyebab |
@@ -178,7 +190,7 @@ produk (1) ───< penjualan >─── (1) pelanggan
 
 # Kerjakan bersama · 10 menit
 
-1. Ubah judul kedua grafik menjadi **kalimat kesimpulan**
+1. **Judul deskriptif** untuk setiap sheet (apa + satuan); ganti nama dashboard jadi `Dashboard`
 2. Tambahkan **grafik ketiga**: pendapatan per negara (batang, diurutkan)
 
 Instruktur memandu langkah demi langkah · kamu mengikuti bersamaan

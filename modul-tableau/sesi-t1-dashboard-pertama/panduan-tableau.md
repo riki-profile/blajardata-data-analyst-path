@@ -68,7 +68,8 @@ Atur format angka: di panel **Data**, klik kanan field → **Default Properties 
 2. Di panel kiri, **Size**: pilih **Fixed size**, 1200 × 900, atau **Automatic**.
 3. Seret ketiga sheet KPI ke bagian atas, `Tren Bulanan` di tengah, `Per Kategori` di bawah.
 4. Seret objek **Text** (panel kiri bawah, **Objects**) ke paling atas untuk judul: "TheLook: Ringkasan Penjualan".
-5. Ganti judul setiap sheet menjadi kalimat kesimpulan: klik dua kali judul sheet → ketik.
+5. Beri setiap sheet **judul deskriptif** (apa yang diukur + satuan, misalnya "Pendapatan bulanan (USD)"): klik dua kali judul sheet → ketik. Jangan menulis kesimpulan di dashboard ini, karena angkanya berubah mengikuti filter.
+6. Ganti nama dashboard: klik kanan tab **Dashboard 1** → **Rename** → `Dashboard`.
 
 ## Langkah 8. Simpan ke Tableau Public (dilakukan bersama di akhir kelas)
 

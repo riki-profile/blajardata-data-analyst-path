@@ -21,7 +21,17 @@
 | 20.55 | **Kerjakan bersama** | B1–B2, dipandu langkah demi langkah |
 | 21.05 | **Unggah bersama** | Buat repo `thelook-python-analysis` (PANDUAN_GITHUB), lalu **cara 1** (unduh → buat folder `notebooks/` → unggah). Peserta jalur penuh juga membuat repo baru ini |
 | 21.20 | Tanya jawab | |
-| 21.37 | Penutup | Ringkasan; latihan mandiri bagian 9 notebook (opsional) |
+| 21.37 | Penutup | Jalankan **checklist hasil** di bawah. Ringkasan; latihan mandiri bagian 9 notebook (opsional) |
+
+## Checklist hasil (cek sebelum penutup)
+
+Jalankan **sebelum penutup** (2–3 menit): tampilkan daftar ini di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
+
+- [ ] Notebook tersimpan di Drive peserta (**Save a copy in Drive**), bukan hanya dibuka dari link
+- [ ] B1–B2 terisi dan sel sudah dijalankan
+- [ ] Repo **`thelook-python-analysis`** ada, **Public**, dengan `README.md`
+- [ ] `notebooks/05_python_basics.ipynb` ada di repo, dan hasil sel terlihat saat dibuka di GitHub
+- [ ] Peserta baru modul Python: tahu harus menyiapkan BigQuery + **Project ID** sebelum sesi 7
 
 ## Poin penting
 

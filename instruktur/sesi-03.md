@@ -21,7 +21,15 @@
 | 14.55 | **Kerjakan bersama** | B1–B2: bangun query JOIN tiga tabel langkah demi langkah, peserta mengetik bersamaan |
 | 15.10 | **Unggah bersama** | `03_joins.sql` ke folder `sql` repo `thelook-sql-analysis` |
 | 15.20 | Tanya jawab | |
-| 15.37 | Penutup | Ringkasan; latihan mandiri L1 (umur × gender, opsional) |
+| 15.37 | Penutup | Jalankan **checklist hasil** di bawah. Ringkasan; latihan mandiri L1 (umur × gender, opsional) |
+
+## Checklist hasil (cek sebelum penutup)
+
+Jalankan **sebelum penutup** (2–3 menit): tampilkan daftar ini di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
+
+- [ ] B1–B2 terisi di `03_joins.sql` dan hasilnya keluar
+- [ ] `sql/03_joins.sql` ada di repo `thelook-sql-analysis`
+- [ ] Repo sekarang berisi 3 file di folder `sql/`
 
 ## Poin penting
 

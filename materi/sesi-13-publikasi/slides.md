@@ -105,7 +105,7 @@ Dalam 30 detik mereka harus tahu:
 | --- | --- |
 | `thelook-sql-analysis` | `sql/01_...` sampai `04_...`, diberi komentar |
 | `thelook-python-analysis` | `notebooks/05_...` sampai `09_...` (**sel sudah dijalankan**), `my_question/`, `images/` |
-| `thelook-powerbi-dashboard` | `dashboard/` PDF (+ `.pbix`), `images/dashboard_final.png` |
+| `thelook-powerbi-dashboard` | `dashboard/` PDF 2 halaman (+ `.pbix`), `images/dashboard_final.png` + `insight.png` |
 
 Nama gambar deskriptif, **tanpa spasi**
 

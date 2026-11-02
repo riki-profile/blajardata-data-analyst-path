@@ -30,7 +30,7 @@ Setelah sesi ini kamu bisa:
 | 20.10–20.20 | Apa itu dashboard; unduh 3 file CSV |
 | 20.20–20.35 | Demo: memuat data, mengecek tipe data, membuat relasi |
 | 20.35–21.05 | Demo: measure, kartu KPI, grafik tren bulanan, grafik kategori |
-| 21.05–21.15 | **Kerjakan bersama**: judul kesimpulan + grafik ketiga (pendapatan per negara) |
+| 21.05–21.15 | **Kerjakan bersama**: judul deskriptif + grafik ketiga (pendapatan per negara) |
 | 21.15–21.22 | **Simpan bersama**: `.pbix`, PDF, screenshot |
 | 21.22–21.32 | **Unggah bersama**: buat repo `thelook-powerbi-dashboard`, unggah file |
 | 21.32–21.38 | Tanya jawab |
@@ -40,11 +40,11 @@ Setelah sesi ini kamu bisa:
 
 Dashboard adalah **satu halaman** yang menjawab pertanyaan rutin dengan cepat, seperti "bagaimana penjualan bulan ini?", dan bisa dijelajahi sendiri oleh pembacanya lewat filter. Notebook atau query cocok untuk **menemukan** jawaban; dashboard cocok untuk **memantau** dan **membagikan** jawaban itu.
 
-Dashboard yang kita bangun di sesi 10–11, dibaca dari atas ke bawah:
+Dashboard yang kita bangun di sesi 10–11 (halaman **Dashboard**), dibaca dari atas ke bawah:
 
 | Posisi | Isi |
 | --- | --- |
-| Atas | Judul berisi kesimpulan utama · filter tanggal dan kategori |
+| Atas | Judul halaman ("TheLook: Ringkasan Penjualan") · filter tanggal dan kategori |
 | Baris KPI | Pendapatan · Jumlah pesanan · AOV · Margin % |
 | Tengah | Tren pendapatan bulanan (garis) |
 | Bawah | Pendapatan per kategori (batang horizontal) · pendapatan per negara (dibuat bersama) |
@@ -90,8 +90,10 @@ Ikuti [panduan Power BI Desktop](panduan-power-bi.md) langkah demi langkah bersa
 
 Instruktur mengerjakannya langkah demi langkah di layar, dan kamu mengikuti di Power BI-mu:
 
-1. Ubah judul kedua grafik menjadi **kalimat kesimpulan**. Contoh: "Pendapatan naik 9% dalam 12 bulan terakhir".
-2. Tambahkan **grafik ketiga**: pendapatan per negara (batang horizontal, diurutkan), dengan judul berupa kesimpulan.
+1. Beri setiap grafik **judul deskriptif**: apa yang diukur + satuannya. Contoh: "Pendapatan bulanan (USD)", "Pendapatan per kategori (USD)".
+2. Tambahkan **grafik ketiga**: pendapatan per negara (batang horizontal, diurutkan), juga dengan judul deskriptif.
+
+> **Kenapa bukan judul kesimpulan seperti di sesi 8?** Grafik di notebook sesi 8 adalah **laporan**: angkanya tetap, jadi judulnya boleh berupa kesimpulan. Dashboard dipakai untuk **memantau**: pembaca mengubah filter dan data diperbarui, sehingga judul seperti "Pendapatan naik 9%" bisa langsung salah. Di dashboard, judul menjelaskan **apa yang diukur**; kesimpulan ditulis di halaman **Insight** di sesi 11.
 
 ## 6. Simpan bersama (di kelas, sebelum Zoom ditutup)
 

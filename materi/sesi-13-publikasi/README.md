@@ -56,7 +56,7 @@ Kamu punya **tiga repo**, satu per modul:
 
 - [ ] **SQL:** `sql/01_basics.sql` sampai `sql/04_dates_case_cte.sql`, semuanya diberi komentar; temuan Proyek SQL ada di README
 - [ ] **Python:** `notebooks/05_...` sampai `09_...` dengan **semua sel sudah dijalankan**; `my_question/` berisi `.sql` + `.ipynb` studi kasus; bagian **Studi kasus** di README
-- [ ] **Power BI:** `dashboard/thelook_dashboard.pdf` (dan `.pbix` jika di bawah 25 MB); `images/dashboard_final.png`
+- [ ] **Power BI:** `dashboard/thelook_dashboard.pdf` berisi **2 halaman** (Dashboard + Insight), `.pbix` jika di bawah 25 MB; `images/dashboard_final.png` dan `images/insight.png`; headline di README sama dengan halaman Insight dan menyebut periodenya
 - [ ] `images/`: nama file deskriptif (`01_pendapatan_bulanan.png`, bukan `Screenshot 2026-11-25 at 21.03.png`)
 - [ ] Tidak ada file sisa: `Untitled.ipynb`, `Salinan dari ...`, file kosong
 - [ ] `PROJECT_ID` di notebook diganti `"isi-project-id-kamu"` (opsional, lebih rapi)

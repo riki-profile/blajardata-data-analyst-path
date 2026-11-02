@@ -16,7 +16,7 @@ Setelah sesi ini kamu bisa:
 1. Menambahkan filter tanggal dan kategori yang memengaruhi seluruh dashboard.
 2. Membuat calculated field **margin** dan **margin %**.
 3. Merapikan dashboard dengan prinsip desain: hierarki, keselarasan, satu warna sorotan.
-4. Mengubah dashboard menjadi **cerita satu halaman**: kesimpulan → bukti → rekomendasi.
+4. Membedakan **dashboard** (memantau) dan **dashboard Insight** (melaporkan), lalu membuat Insight: kesimpulan → bukti → rekomendasi.
 5. Menulis README repo `thelook-tableau-dashboard`, hasil akhir modul Tableau.
 
 ## Agenda
@@ -26,8 +26,8 @@ Setelah sesi ini kamu bisa:
 | 0–5 | Recap sesi 1 |
 | 5–25 | Demo: filter tanggal dan kategori |
 | 25–40 | Demo: calculated field margin dan margin % |
-| 40–60 | Desain dan storytelling: sebelum vs sesudah |
-| 60–70 | **Kerjakan bersama**: headline + kotak rekomendasi |
+| 40–60 | Desain dashboard; dashboard vs laporan; membuat dashboard **Insight** |
+| 60–70 | **Kerjakan bersama**: headline + rekomendasi di dashboard Insight |
 | 70–85 | **Unggah bersama**: dashboard final + README `thelook-tableau-dashboard` |
 | 85–95 | Tanya jawab |
 | 95–100 | Penutup |
@@ -54,36 +54,42 @@ Kategori dengan pendapatan terbesar belum tentu yang paling **menguntungkan**. T
 
 ## 3. Prinsip desain dashboard
 
-1. **Hierarki: yang paling penting di kiri atas.** Judul dan kesimpulan → KPI → tren → rincian.
-2. **Judul halaman berisi kesimpulan**, bukan "Dashboard Penjualan".
+1. **Hierarki: yang paling penting di kiri atas.** Judul dan filter → KPI → tren → rincian.
+2. **Judul deskriptif**: apa yang diukur + satuan. Angka berubah mengikuti filter, jadi judul tidak boleh berisi kesimpulan.
 3. **Satu warna utama, satu warna sorotan.**
 4. **Sejajarkan dan beri jarak yang sama**; ukuran kartu KPI sama.
 5. **Buang yang tidak perlu:** garis grid tebal, legend untuk grafik satu warna, desimal berlebihan.
 6. **Satuan selalu jelas:** USD, %, jumlah pesanan.
-7. **5 detik:** pesan utama harus terbaca dalam 5 detik.
+7. **5 detik:** langsung jelas apa yang dipantau dan di mana angkanya.
 
-## 4. Storytelling: dashboard satu halaman
+## 4. Dashboard vs dashboard Insight
 
-| Bagian | Isi | Contoh |
+Dashboard adalah **helicopter view** untuk memantau dan menjelajah. Kesimpulan analis ditulis di **dashboard kedua** dalam workbook yang sama, bukan di atas dashboard.
+
+| | **Dashboard** | **Insight** |
 | --- | --- | --- |
-| **Headline** | Kesimpulan utama, 1 kalimat | "Pendapatan tumbuh 9%, didorong Outerwear dan Jeans" |
-| **Bukti** | 3–4 visual yang mendukung headline | KPI, tren, kategori |
-| **So what?** | Objek Text berisi rekomendasi | "Prioritaskan promosi kategori bermargin tinggi" |
+| Tujuan | Memantau, menjelajah dengan filter | Menyampaikan satu kesimpulan + rekomendasi |
+| Judul | Deskriptif: "Pendapatan bulanan (USD)" | Kesimpulan + angka + periode |
+| Filter | Aktif, pembaca yang memilih | Periode dikunci |
+| Yang menyimpulkan | Pembaca | Analis (kamu) |
+
+Isi dashboard Insight: **headline** (kesimpulan + angka + periode, misalnya "Nov 2025–Okt 2026: pendapatan naik 9%, didorong Outerwear dan Jeans"), **2–3 sheet** pendukung, dan **objek Text** berisi rekomendasi. Cara membuatnya ada di [panduan Tableau bagian 4b](panduan-tableau.md#4b-dashboard-insight).
 
 ## 5. Kerjakan bersama (±10 menit)
 
 Instruktur mengerjakannya langkah demi langkah di layar, dan kamu mengikuti di dashboard-mu:
 
-1. Tulis **headline** (satu kalimat kesimpulan dengan angka) dan letakkan di paling atas.
-2. Tambahkan objek **Text** berisi rekomendasi (1–2 kalimat).
+1. Buat dashboard **Insight** (duplikat sheet, kunci periode, susun dashboard baru).
+2. Tulis **headline**: kesimpulan + angka + periode, di paling atas.
+3. Tambahkan objek **Text** berisi rekomendasi (1–2 kalimat).
 
 ## 6. Unggah bersama (di kelas)
 
 Bersama instruktur:
 
 1. **File → Save to Tableau Public** (link tetap sama). Di halaman Tableau Public-mu: **Edit Details** → tulis deskripsi singkat.
-2. Screenshot → unggah `images/dashboard_final.png` ke repo `thelook-tableau-dashboard`.
-3. `README.md` → tempel [template README Tableau](../template-portofolio/README.md) → isi headline, link dashboard, isi dashboard, temuan, rekomendasi.
+2. Screenshot kedua dashboard → unggah `images/dashboard_final.png` dan `images/insight.png` ke repo `thelook-tableau-dashboard`.
+3. `README.md` → tempel [template README Tableau](../template-portofolio/README.md) → isi headline dari dashboard Insight, link Tableau Public, isi dashboard, temuan, rekomendasi.
 
 Di akhir sesi, **portofolio modul Tableau-mu selesai**.
 
@@ -95,6 +101,6 @@ Tidak wajib dan tidak dinilai: rapikan desain lebih jauh (font, warna, perataan)
 
 - Filter di satu baris atas, berlaku untuk semua sheet.
 - Pendapatan besar belum tentu margin besar.
-- Judul berisi kesimpulan; satu warna sorotan; pesan utama terbaca dalam 5 detik.
-- Cerita satu halaman: headline → bukti → rekomendasi.
+- Dashboard: judul deskriptif, filter aktif, satu warna sorotan.
+- Insight: headline (kesimpulan + angka + periode) → bukti → rekomendasi, dengan periode terkunci.
 - **Modul Tableau selesai.** Link Tableau Public + repo `thelook-tableau-dashboard` adalah portofolionya.

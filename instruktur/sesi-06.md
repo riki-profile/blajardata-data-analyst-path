@@ -19,7 +19,15 @@
 | 14.55 | **Kerjakan bersama** | B1–B2, dipandu langkah demi langkah |
 | 15.10 | **Unggah bersama** | `06_functions.ipynb` ke `notebooks/` repo `thelook-python-analysis` |
 | 15.20 | Tanya jawab | Bahas bagian 6 (cara membaca error) jika belum |
-| 15.37 | Penutup | Ringkasan; latihan mandiri bagian 8 (opsional). **Siapkan Project ID untuk sesi 7** |
+| 15.37 | Penutup | Jalankan **checklist hasil** di bawah. Ringkasan; latihan mandiri bagian 8 (opsional). **Siapkan Project ID untuk sesi 7** |
+
+## Checklist hasil (cek sebelum penutup)
+
+Jalankan **sebelum penutup** (2–3 menit): tampilkan daftar ini di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
+
+- [ ] B1–B2 terisi dan sel sudah dijalankan
+- [ ] `notebooks/06_functions.ipynb` ada di repo `thelook-python-analysis`
+- [ ] **Project ID** BigQuery sudah dicatat untuk sesi 7
 
 ## Poin penting
 

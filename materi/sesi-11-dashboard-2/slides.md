@@ -54,8 +54,8 @@ Kamis, 3 Desember 2026 · 20.00–21.40 WIB
 | 20.00 | Recap sesi 10 |
 | 20.05 | Filter tanggal & kategori |
 | 20.25 | Measure DAX: margin & margin % |
-| 20.40 | Desain & storytelling: sebelum vs sesudah |
-| 21.00 | **Kerjakan bersama**: headline + rekomendasi |
+| 20.40 | Desain dashboard; dashboard vs halaman **Insight** |
+| 21.00 | **Kerjakan bersama**: halaman Insight (headline + rekomendasi) |
 | 21.10 | **Unggah bersama**: dashboard final + README |
 | 21.25 | Tanya jawab + studi kasus sesi 12 (jalur penuh) |
 | 21.35 | Penutup |
@@ -95,42 +95,55 @@ Uji: pilih satu kategori → semua kartu & grafik harus berubah
 
 <!-- _class: section -->
 
-# Desain & storytelling
+# Desain & halaman Insight
 
 ---
 
 ## 7 prinsip desain dashboard
 
 1. **Yang terpenting di kiri atas**: judul → KPI → tren → rincian
-2. **Judul halaman = kesimpulan**, bukan "Dashboard Penjualan"
+2. **Judul deskriptif**: apa yang diukur + satuan (angka berubah mengikuti filter)
 3. **Satu warna utama + satu warna sorotan**
 4. **Sejajar, jarak sama**, ukuran kartu KPI sama
 5. **Buang yang tidak perlu**: grid tebal, legend satu warna, desimal berlebih
 6. **Satuan selalu jelas**: USD, %, pesanan
-7. **Uji 5 detik**: pesan utama terbaca dalam 5 detik?
+7. **Uji 5 detik**: langsung jelas apa yang dipantau?
 
 ---
 
-## Headline: lemah vs kuat
+## Dashboard vs halaman Insight
+
+| | **Dashboard** | **Insight** |
+| --- | --- | --- |
+| Tujuan | Memantau, menjelajah | Satu kesimpulan + rekomendasi |
+| Judul | Deskriptif | Kesimpulan + angka + periode |
+| Filter | Aktif | Periode dikunci |
+| Yang menyimpulkan | Pembaca | Analis |
+
+Dua halaman dalam **file yang sama**. Coba: ubah filter kategori → headline "naik 9%" langsung tidak cocok lagi. Itu sebabnya kesimpulan tidak ditaruh di dashboard.
+
+---
+
+## Membuat halaman Insight
+
+1. Klik kanan tab **Dashboard** → **Duplicate page** → ganti nama `Insight`
+2. Hapus **slicer**; sisakan 2–3 visual yang mendukung kesimpulan
+3. **Filters on this page** → `order_date` → Advanced: periode 12 bulan terakhir yang lengkap
+4. **Text box** headline: kesimpulan + angka + **periode**
+5. **Text box** rekomendasi (1–2 kalimat)
+
+Angka berubah saat slicer di Dashboard dipakai? **View → Sync slicers** → hilangkan centang Insight
+
+---
+
+## Headline Insight: lemah vs kuat
 
 | Lemah | Kuat |
 | --- | --- |
-| "Dashboard Penjualan TheLook" | "Pendapatan tumbuh 9%, didorong Outerwear dan Jeans; margin stabil di 52%" |
-| "Ringkasan 2025" | "Pendapatan naik, tapi hanya sedikit pelanggan yang kembali berbelanja" |
+| "Insight Penjualan" | "Nov 2025–Okt 2026: pendapatan naik 9%, didorong Outerwear dan Jeans" |
+| "Pendapatan naik" | "Margin Outerwear 55%, tertinggi dari 5 kategori teratas" |
 
-Headline yang kuat berisi **kesimpulan + angka**
-
----
-
-## Cerita satu halaman
-
-| Bagian | Isi |
-| --- | --- |
-| **Headline** | Kesimpulan utama, 1 kalimat |
-| **Bukti** | 3–4 visual yang mendukung headline |
-| **So what?** | Kotak teks rekomendasi |
-
-Dari **kumpulan grafik** menjadi **cerita**: kesimpulan → bukti → rekomendasi
+Headline yang kuat berisi **kesimpulan + angka + periode**
 
 ---
 
@@ -138,8 +151,9 @@ Dari **kumpulan grafik** menjadi **cerita**: kesimpulan → bukti → rekomendas
 
 # Kerjakan bersama · 10 menit
 
-1. Tulis **headline**: satu kalimat kesimpulan dengan angka, di paling atas
-2. Tambahkan **kotak rekomendasi** (1–2 kalimat)
+1. Buat halaman **Insight**: duplikat, hapus slicer, kunci periode
+2. Tulis **headline**: kesimpulan + angka + periode
+3. Tambahkan **kotak rekomendasi** (1–2 kalimat)
 
 Siapa yang mau membacakan headline-nya?
 
@@ -153,7 +167,7 @@ Template README Power BI → tempel di `README.md` repo-mu
 
 | Bagian | Isi |
 | --- | --- |
-| Ringkasan | **Headline** dashboard-mu + screenshot |
+| Ringkasan | **Headline** dari halaman Insight + screenshot kedua halaman |
 | Pertanyaan bisnis | Apa yang dipantau manajemen |
 | Data & model | Fakta + dimensi, measure DAX |
 | Temuan & rekomendasi | Dari dashboard-mu sendiri |
@@ -177,13 +191,13 @@ Siapkan login BigQuery & Colab.
 ## Unggah bersama & latihan mandiri
 
 Di repo `thelook-powerbi-dashboard`:
-1. Ctrl + S → Export to PDF → unggah ulang `.pbix` + PDF
-2. Screenshot → `images/dashboard_final.png`
+1. Ctrl + S → Export to PDF (2 halaman) → unggah ulang `.pbix` + PDF
+2. Screenshot → `images/dashboard_final.png` + `images/insight.png`
 3. README lengkap: headline, isi dashboard, 2 temuan, rekomendasi
 
 **Portofolio modul Power BI selesai!** · Jalur penuh: pilih fokus studi kasus sesi 12
 
-**Latihan mandiri (opsional):** tidak wajib, tidak dinilai; jawaban dibagikan setelah kelas: rapikan desain, atau halaman kedua untuk analisis pelanggan
+**Latihan mandiri (opsional):** tidak wajib, tidak dinilai; jawaban dibagikan setelah kelas: rapikan desain, atau halaman ketiga untuk analisis pelanggan
 
 ---
 
@@ -191,8 +205,8 @@ Di repo `thelook-powerbi-dashboard`:
 
 - Filter di satu baris atas, berlaku untuk semua visual
 - Pendapatan besar belum tentu margin besar
-- Judul = kesimpulan · satu warna sorotan · uji 5 detik
-- Cerita: headline → bukti → rekomendasi
+- Dashboard: judul deskriptif, filter aktif, satu warna sorotan
+- Insight: headline (kesimpulan + angka + periode) → bukti → rekomendasi
 - **Modul Power BI selesai!** Repo `thelook-powerbi-dashboard` = portofolio modul ini
 
 **Sesi berikutnya (jalur penuh):** Sabtu, 5 Desember 2026, **14.00 WIB**

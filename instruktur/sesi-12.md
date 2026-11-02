@@ -103,7 +103,17 @@ Unggah bersama di repo **`thelook-python-analysis`**: buat folder `my_question/`
 
 ### 15.35 · Penutup
 
-Pastikan sebelum menutup: jawaban dengan kata-kata sendiri (langkah 10–11) dan bagian Studi kasus di README `thelook-python-analysis` sudah terisi. Latihan mandiri (opsional): jalankan ulang dengan fokus lain. Sesi 13 = merapikan dan menerbitkan portofolio.
+Jalankan **checklist hasil** di bawah. Latihan mandiri (opsional): jalankan ulang dengan fokus lain. Sesi 13 = merapikan dan menerbitkan portofolio.
+
+## Checklist hasil (cek sebelum penutup)
+
+Jalankan **sebelum penutup** (2–3 menit): tampilkan daftar ini di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
+
+- [ ] Fokus (department + opsional negara) dipakai di `10_my_question.sql` **dan** di notebook
+- [ ] Semua sel notebook sudah dijalankan; 2 grafik tersimpan
+- [ ] Bagian 11 notebook berisi jawaban dengan kata-kata sendiri (bukan salinan draf)
+- [ ] Repo `thelook-python-analysis` berisi `my_question/10_my_question.sql`, `my_question/10_my_question.ipynb`, dan 2 gambar `12_...png` di `images/`
+- [ ] Bagian **Studi kasus** di README `thelook-python-analysis` terisi, dengan grafik matriks tampil
 
 ## Kalau waktu kurang
 

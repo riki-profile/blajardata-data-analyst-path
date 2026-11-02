@@ -20,7 +20,17 @@
 | 15.00 | **3 temuan + rekomendasi bersama** | Contoh temuan baik vs lemah (apa → kenapa penting → bukti). Lalu untuk setiap temuan: tunjukkan angkanya, tanya "apa artinya bagi bisnis?", tulis bersama. Urutan: repeat rate → Champions → median vs rata-rata. Tutup dengan rekomendasi |
 | 15.15 | **Unggah bersama** | Repo `thelook-python-analysis` → README → tempel template Python → isi Ringkasan, 3 temuan, rekomendasi. Unggah notebook + `04_segmen_rfm.png`. **Modul Python selesai** |
 | 15.30 | Tanya jawab | |
-| 15.37 | Penutup | Jalur penuh: install Power BI sebelum sesi 10 (Mac: Parallels, mulai Minggu) |
+| 15.37 | Penutup | Jalankan **checklist hasil** di bawah. Jalur penuh: install Power BI sebelum sesi 10 (Mac: Parallels, mulai Minggu) |
+
+## Checklist hasil (cek sebelum penutup)
+
+Jalankan **sebelum penutup** (2–3 menit): tampilkan daftar ini di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
+
+- [ ] B1–B2 terisi; **3 temuan + rekomendasi** tertulis di notebook (dengan angka)
+- [ ] `README.md` repo `thelook-python-analysis` berisi Ringkasan, 3 temuan, rekomendasi (tidak ada `<...>` tersisa)
+- [ ] `notebooks/09_customer_analysis.ipynb` dan `images/04_segmen_rfm.png` ada di repo
+- [ ] Repo berisi 5 notebook (`05` sampai `09`) dan 4 gambar
+- [ ] **Modul Python selesai**. Jalur penuh: tahu harus install Power BI sebelum sesi 10 (Mac: Parallels, mulai Minggu)
 
 ## Poin penting
 

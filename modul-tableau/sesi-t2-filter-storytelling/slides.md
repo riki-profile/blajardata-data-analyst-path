@@ -54,8 +54,8 @@ Filter, margin, desain & storytelling
 | 0 | Recap sesi 1 |
 | 5 | Filter tanggal & kategori |
 | 25 | Calculated field: margin & margin % |
-| 40 | Desain & storytelling: sebelum vs sesudah |
-| 60 | **Kerjakan bersama**: headline + rekomendasi |
+| 40 | Desain dashboard; dashboard vs **Insight** |
+| 60 | **Kerjakan bersama**: dashboard Insight (headline + rekomendasi) |
 | 70 | **Unggah bersama**: dashboard final + README |
 | 85 | Tanya jawab |
 | 95 | Penutup |
@@ -95,42 +95,43 @@ Uji: pilih satu kategori → semua sheet harus berubah
 
 <!-- _class: section -->
 
-# Desain & storytelling
+# Desain & dashboard Insight
 
 ---
 
 ## 7 prinsip desain dashboard
 
 1. **Yang terpenting di kiri atas**: judul → KPI → tren → rincian
-2. **Judul halaman = kesimpulan**, bukan "Dashboard Penjualan"
+2. **Judul deskriptif**: apa yang diukur + satuan (angka berubah mengikuti filter)
 3. **Satu warna utama + satu warna sorotan**
 4. **Sejajar, jarak sama**, ukuran kartu KPI sama
 5. **Buang yang tidak perlu**: grid tebal, legend satu warna, desimal berlebih
 6. **Satuan selalu jelas**: USD, %, pesanan
-7. **Uji 5 detik**: pesan utama terbaca dalam 5 detik?
+7. **Uji 5 detik**: langsung jelas apa yang dipantau?
 
 ---
 
-## Headline: lemah vs kuat
+## Dashboard vs dashboard Insight
 
-| Lemah | Kuat |
-| --- | --- |
-| "Dashboard Penjualan TheLook" | "Pendapatan tumbuh 9%, didorong Outerwear dan Jeans; margin stabil di 52%" |
-| "Ringkasan 2025" | "Pendapatan naik, tapi hanya sedikit pelanggan yang kembali berbelanja" |
+| | **Dashboard** | **Insight** |
+| --- | --- | --- |
+| Tujuan | Memantau, menjelajah | Satu kesimpulan + rekomendasi |
+| Judul | Deskriptif | Kesimpulan + angka + periode |
+| Filter | Aktif | Periode dikunci |
+| Yang menyimpulkan | Pembaca | Analis |
 
-Headline yang kuat berisi **kesimpulan + angka**
+Dua dashboard dalam **workbook yang sama**, tampil sebagai dua tab di Tableau Public
 
 ---
 
-## Cerita satu halaman
+## Membuat dashboard Insight
 
-| Bagian | Isi |
-| --- | --- |
-| **Headline** | Kesimpulan utama, 1 kalimat |
-| **Bukti** | 3–4 visual yang mendukung headline |
-| **So what?** | Objek Text berisi rekomendasi |
-
-Dari **kumpulan grafik** menjadi **cerita**: kesimpulan → bukti → rekomendasi
+1. **Duplicate** sheet pendukung → beri nama `Insight ...`
+2. Filter interaktif → **Apply to Worksheets → Selected Worksheets**: lepaskan sheet Insight
+3. Di sheet Insight: **Order Date** → Range of dates: 12 bulan terakhir yang lengkap
+4. **New Dashboard** → `Insight` → susun sheet Insight
+5. **Text**: headline (kesimpulan + angka + **periode**) dan rekomendasi
+6. Save to Tableau Public dengan **Show sheets as tabs**
 
 ---
 
@@ -138,8 +139,9 @@ Dari **kumpulan grafik** menjadi **cerita**: kesimpulan → bukti → rekomendas
 
 # Kerjakan bersama · 10 menit
 
-1. Tulis **headline**: satu kalimat kesimpulan dengan angka, di paling atas
-2. Tambahkan objek **Text** berisi rekomendasi
+1. Buat dashboard **Insight** (duplikat sheet, kunci periode)
+2. Tulis **headline**: kesimpulan + angka + periode, di paling atas
+3. Tambahkan objek **Text** berisi rekomendasi
 
 Siapa yang mau membacakan headline-nya?
 
@@ -151,7 +153,7 @@ Template README Tableau → tempel di `README.md` repo-mu
 
 | Bagian | Isi |
 | --- | --- |
-| Ringkasan | **Headline** + **link Tableau Public** + screenshot |
+| Ringkasan | **Headline** dari Insight + **link Tableau Public** + screenshot kedua dashboard |
 | Pertanyaan bisnis | Apa yang dipantau manajemen |
 | Data & model | Fakta + dimensi, calculated field |
 | Temuan & rekomendasi | Dari dashboard-mu sendiri |
@@ -163,7 +165,7 @@ Diisi **bersama di kelas** hari ini.
 ## Unggah bersama & latihan mandiri
 
 1. Save to Tableau Public → **Edit Details**: deskripsi singkat
-2. Screenshot `images/dashboard_final.png` → repo
+2. Screenshot `images/dashboard_final.png` + `images/insight.png` → repo
 3. **README lengkap** `thelook-tableau-dashboard`
 
 **Portofolio modul Tableau selesai!**
@@ -176,6 +178,6 @@ Diisi **bersama di kelas** hari ini.
 
 - Filter di satu baris atas, berlaku untuk semua sheet
 - Pendapatan besar belum tentu margin besar
-- Judul = kesimpulan · satu warna sorotan · uji 5 detik
-- Cerita: headline → bukti → rekomendasi
+- Dashboard: judul deskriptif, filter aktif, satu warna sorotan
+- Insight: headline (kesimpulan + angka + periode) → bukti → rekomendasi
 - **Modul Tableau selesai!** Link Tableau Public + repo = portofolio modul ini

@@ -3,7 +3,7 @@
 <!--
 CARA MEMAKAI TEMPLATE INI
 - Ganti semua teks dalam <...> dengan isimu sendiri, lalu hapus komentar ini.
-- Diisi bersama di kelas sesi T2. Headline dan rekomendasi sama dengan yang ada di dashboard-mu.
+- Diisi bersama di kelas sesi T2. Headline dan rekomendasi sama dengan yang ada di dashboard Insight.
 - Tulis dengan kata-katamu sendiri, dan pilih satu bahasa (Indonesia atau Inggris).
 -->
 
@@ -11,11 +11,13 @@ CARA MEMAKAI TEMPLATE INI
 
 ## Ringkasan
 
-<Headline dashboard-mu, satu kalimat dengan angka. Contoh: "Pendapatan tumbuh X%, didorong Outerwear dan Jeans; margin stabil di Y%.">
+<Headline dari dashboard Insight: kesimpulan + angka + periode. Contoh: "Nov 2025–Okt 2026: pendapatan tumbuh X%, didorong Outerwear dan Jeans; margin stabil di Y%.">
 
-**Dashboard interaktif:** <link Tableau Public>
+**Dashboard interaktif:** <link Tableau Public> (dua tab: **Dashboard** untuk memantau, **Insight** untuk kesimpulan)
 
-![Dashboard TheLook](images/dashboard_final.png)
+![Dashboard](images/dashboard_final.png)
+
+![Insight](images/insight.png)
 
 ## Pertanyaan bisnis
 
@@ -40,7 +42,7 @@ Dashboard ini membantu manajemen TheLook memantau:
 - Tren pendapatan bulanan
 - Pendapatan per kategori (dengan margin % di tooltip)
 - <grafik tambahanmu>
-- Kotak rekomendasi
+- Dashboard Insight: headline, 2–3 sheet pendukung, kotak rekomendasi
 
 ## Temuan & rekomendasi
 

@@ -72,7 +72,7 @@ Selasa, 1 Desember 2026 · 20.00–21.40 WIB
 | 20.10 | Apa itu dashboard; unduh 3 file CSV |
 | 20.20 | Memuat data, tipe data, relasi |
 | 20.35 | Measure DAX, kartu KPI, 2 grafik |
-| 21.05 | **Kerjakan bersama**: judul + grafik ketiga |
+| 21.05 | **Kerjakan bersama**: judul deskriptif + grafik ketiga |
 | 21.15 | **Simpan bersama**: `.pbix`, PDF, screenshot |
 | 21.22 | **Unggah bersama**: repo `thelook-powerbi-dashboard` |
 | 21.32 | Tanya jawab |
@@ -98,7 +98,7 @@ Satu halaman, dibaca dari atas ke bawah:
 
 | Posisi | Isi |
 | --- | --- |
-| Atas | Judul berisi kesimpulan utama · filter tanggal & kategori |
+| Atas | Judul halaman · filter tanggal & kategori |
 | Baris KPI | Pendapatan · Jumlah pesanan · AOV · Margin % |
 | Tengah | Tren pendapatan bulanan (garis) |
 | Bawah | Pendapatan per kategori · pendapatan per negara (dibuat bersama) |
@@ -165,7 +165,19 @@ Pesanan = **distinct count**: satu pesanan bisa berisi banyak barang
 - **Sort descending** berdasarkan Pendapatan
 - Data labels: On
 
-Judul = **kesimpulan**, bukan nama grafik
+Judul = **apa yang diukur + satuan**: "Pendapatan bulanan (USD)"
+
+---
+
+## Kenapa judul dashboard bukan kesimpulan?
+
+| Grafik laporan (sesi 8) | Dashboard (hari ini) |
+| --- | --- |
+| Angkanya **tetap** | Angka **berubah** mengikuti filter & data baru |
+| Judul = kesimpulan: "Pendapatan naik 9%" | Judul = apa yang diukur: "Pendapatan bulanan (USD)" |
+| Analis yang menyimpulkan | Pembaca yang memantau & menjelajah |
+
+Kesimpulan tetap penting: kita tulis di halaman **Insight** di sesi 11.
 
 ---
 
@@ -185,7 +197,7 @@ Judul = **kesimpulan**, bukan nama grafik
 
 # Kerjakan bersama · 10 menit
 
-1. Ubah judul kedua grafik menjadi **kalimat kesimpulan**
+1. Judul **deskriptif** untuk setiap grafik + ganti nama halaman jadi `Dashboard`
 2. Tambahkan **grafik ketiga**: pendapatan per negara (batang, diurutkan)
 
 Instruktur memandu langkah demi langkah · kamu mengetik bersamaan
