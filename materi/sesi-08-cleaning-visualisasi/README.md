@@ -72,6 +72,15 @@ Tidak wajib dan tidak dinilai. Untuk yang ingin berlatih lebih, kerjakan bagian 
 1. **Outlier harga** di tabel `products` dengan metode IQR dan boxplot.
 2. **Tiga grafik baru**, masing-masing dengan judul berupa kesimpulan dan satu kalimat insight.
 
+## Checklist hasil (dicek bersama sebelum kelas ditutup)
+
+Sebelum kelas ditutup, instruktur membacakan daftar ini satu per satu. Ketik `1` di chat kalau sudah, `2` kalau belum; yang belum akan dibantu. Kalau kamu absen, pakai daftar ini untuk mengecek hasilmu setelah menonton rekaman.
+
+- [ ] Bagian A (pembersihan) dan B (3 grafik) sudah dijalankan; B1–B2 terisi
+- [ ] `notebooks/08_cleaning_and_charts.ipynb` ada di repo
+- [ ] Folder `images/` berisi `01_pendapatan_bulanan.png`, `02_porsi_kategori.png`, `03_sebaran_umur.png`
+- [ ] Gambar terbuka saat diklik di GitHub (bukan file 0 KB)
+
 ## Ringkasan
 
 - Data kosong tidak selalu salah. Pahami dulu kenapa kosong sebelum mengisi atau membuang.

@@ -24,7 +24,7 @@
 
 ## Checklist hasil (cek sebelum penutup)
 
-Jalankan **sebelum penutup** (2–3 menit): tampilkan daftar ini di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
+Jalankan **sebelum penutup** (2–3 menit). Daftar yang sama ada di README sesi peserta (bagian *Checklist hasil*), jadi kamu bisa langsung menampilkan halaman README itu di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
 
 - [ ] Halaman **Dashboard**: slicer tanggal + kategori mengubah semua visual; kartu Margin % ada; judul deskriptif
 - [ ] Halaman **Insight**: tanpa slicer, periode terkunci, headline berisi **kesimpulan + angka + periode**, 2–3 visual, kotak rekomendasi

@@ -161,6 +161,15 @@ Syarat: tanpa `Cancelled`/`Returned`, tanpa bulan berjalan, minimal satu CTE. Ke
 
 </details>
 
+## Checklist hasil (dicek bersama sebelum kelas ditutup)
+
+Sebelum kelas ditutup, instruktur membacakan daftar ini satu per satu. Ketik `1` di chat kalau sudah, `2` kalau belum; yang belum akan dibantu. Kalau kamu absen, pakai daftar ini untuk mengecek hasilmu setelah menonton rekaman.
+
+- [ ] P1, P2, P3 sudah dijalankan; **temuan 1–3 + rekomendasi** tertulis di file kerja (dengan angka)
+- [ ] `README.md` repo `thelook-sql-analysis` berisi Ringkasan, 3 temuan, rekomendasi (bukan template kosong; tidak ada `<...>` tersisa)
+- [ ] `sql/04_dates_case_cte.sql` ada di repo; folder `sql/` berisi 4 file (`01` sampai `04`)
+- [ ] **Modul SQL selesai**: repo ini adalah portofolio modul SQL-mu
+
 ## Ringkasan
 
 - `DATE()`, `EXTRACT()`, `DATE_TRUNC()`, `DATE_DIFF()` untuk mengolah waktu. Buang bulan berjalan saat membuat tren.

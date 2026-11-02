@@ -121,6 +121,17 @@ Contoh kerangka. Ubah dengan kata-katamu sendiri:
 
 Lampirkan screenshot dashboard. Postingan dengan gambar jauh lebih banyak dilihat.
 
+## Checklist hasil (dicek bersama sebelum kelas ditutup)
+
+Sebelum kelas ditutup, instruktur membacakan daftar ini satu per satu. Ketik `1` di chat kalau sudah, `2` kalau belum; yang belum akan dibantu. Kalau kamu absen, pakai daftar ini untuk mengecek hasilmu setelah menonton rekaman.
+
+- [ ] Ketiga repo (`thelook-sql-analysis`, `thelook-python-analysis`, `thelook-powerbi-dashboard`) lolos checklist sesi 13
+- [ ] Ketiganya dibuka di jendela **incognito**: semua gambar tampil, semua link berfungsi
+- [ ] Repo **README profil** (nama = username) ada dan berisi link ketiga repo
+- [ ] Ketiga repo di-**pin** di profil; About + topics terisi
+- [ ] Formulir umpan balik kursus sudah kamu isi
+- [ ] Batas perbaikan portofolio sudah kamu catat: Selasa, 15 Desember 2026
+
 ## 7. Setelah kursus: langkah berikutnya
 
 - **Ulangi dengan dataset lain.** Portofolio dengan 2–3 proyek berbeda jauh lebih kuat. Ide: dataset publik lain di BigQuery (`bigquery-public-data`), Kaggle, atau data terbuka pemerintah ([data.go.id](https://data.go.id), [bps.go.id](https://www.bps.go.id)).

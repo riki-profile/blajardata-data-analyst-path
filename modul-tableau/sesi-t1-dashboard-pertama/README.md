@@ -105,6 +105,16 @@ Bersama instruktur: buat repo **`thelook-tableau-dashboard`** ([PANDUAN_GITHUB.m
 
 Tidak wajib dan tidak dinilai: tambahkan grafik lain, misalnya per kelompok umur, per traffic source, atau Men vs Women, lalu simpan lagi ke Tableau Public.
 
+## Checklist hasil (dicek bersama sebelum kelas ditutup)
+
+Sebelum kelas ditutup, instruktur membacakan daftar ini satu per satu. Ketik `1` di chat kalau sudah, `2` kalau belum; yang belum akan dibantu. Kalau kamu absen, pakai daftar ini untuk mengecek hasilmu setelah menonton rekaman.
+
+- [ ] 3 CSV dalam satu folder; relationship ke tabel `penjualan` benar
+- [ ] Kartu KPI (Pendapatan, Jumlah Pesanan, AOV) **sama** dengan `cek_cepat.txt`
+- [ ] 3 sheet grafik (tren bulanan, per kategori, per negara) dengan **judul deskriptif**; dashboard bernama `Dashboard`
+- [ ] Workbook tersimpan di **Tableau Public** dan link-nya sudah disalin
+- [ ] Repo **`thelook-tableau-dashboard`** berisi `images/dashboard_v1.png` dan link Tableau Public di `README.md`
+
 ## Ringkasan
 
 - Dashboard = satu halaman untuk memantau dan membagikan jawaban.

@@ -86,6 +86,14 @@ Bersama instruktur: Colab → **File → Download .ipynb** → repo `thelook-pyt
 
 Tidak wajib dan tidak dinilai. Untuk yang ingin berlatih lebih, kerjakan bagian **LATIHAN MANDIRI** di file kerja; jawabannya dibagikan instruktur setelah kelas. Bagian 8 di notebook: 4 latihan function (kelompok umur, persen margin, pendapatan per negara, label dengan batas yang bisa diatur).
 
+## Checklist hasil (dicek bersama sebelum kelas ditutup)
+
+Sebelum kelas ditutup, instruktur membacakan daftar ini satu per satu. Ketik `1` di chat kalau sudah, `2` kalau belum; yang belum akan dibantu. Kalau kamu absen, pakai daftar ini untuk mengecek hasilmu setelah menonton rekaman.
+
+- [ ] B1–B2 terisi dan sel sudah dijalankan
+- [ ] `notebooks/06_functions.ipynb` ada di repo `thelook-python-analysis`
+- [ ] **Project ID** BigQuery sudah dicatat untuk sesi 7
+
 ## Ringkasan
 
 - `if/elif/else` dicek dari atas ke bawah, persis seperti `CASE WHEN`.

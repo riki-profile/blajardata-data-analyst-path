@@ -27,7 +27,7 @@
 
 ## Checklist hasil (cek sebelum penutup)
 
-Jalankan **sebelum penutup** (2–3 menit): tampilkan daftar ini di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
+Jalankan **sebelum penutup** (2–3 menit). Daftar yang sama ada di README sesi peserta (bagian *Checklist hasil*), jadi kamu bisa langsung menampilkan halaman README itu di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
 
 - [ ] BigQuery terbuka dengan project sandbox; semua query demo bagian A–D sudah dijalankan
 - [ ] B1 (5 dress termurah) dan B2 (jumlah pesanan Returned) terisi di file kerja dan hasilnya keluar

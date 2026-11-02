@@ -102,6 +102,14 @@ Tidak wajib dan tidak dinilai. Untuk yang ingin berlatih lebih, kerjakan bagian 
 
 - **Pendapatan per kelompok umur dan gender.** Kelompok umur per 10 tahun: `FLOOR(u.age / 10) * 10` (umur 23 → 20, umur 37 → 30). Tampilkan kelompok umur, gender, pelanggan unik, pesanan unik, dan pendapatan, plus 2 kalimat temuan.
 
+## Checklist hasil (dicek bersama sebelum kelas ditutup)
+
+Sebelum kelas ditutup, instruktur membacakan daftar ini satu per satu. Ketik `1` di chat kalau sudah, `2` kalau belum; yang belum akan dibantu. Kalau kamu absen, pakai daftar ini untuk mengecek hasilmu setelah menonton rekaman.
+
+- [ ] B1–B2 terisi di `03_joins.sql` dan hasilnya keluar
+- [ ] `sql/03_joins.sql` ada di repo `thelook-sql-analysis`
+- [ ] Repo sekarang berisi 3 file di folder `sql/`
+
 ## Ringkasan
 
 - Tabel dihubungkan dengan key; `ON` menyebutkan pasangan key-nya.

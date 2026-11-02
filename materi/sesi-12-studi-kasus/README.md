@@ -74,6 +74,16 @@ Studi kasus masuk ke repo **`thelook-python-analysis`**, karena dikerjakan denga
 
 Terakhir, isi bagian **Studi kasus** di README `thelook-python-analysis` (lihat [template README Python](../../template-portofolio/thelook-python-analysis/README.md)): pertanyaan, fokus, jawaban dengan kata-katamu sendiri, rekomendasi, dan grafik matriks prioritas.
 
+## Checklist hasil (dicek bersama sebelum kelas ditutup)
+
+Sebelum kelas ditutup, instruktur membacakan daftar ini satu per satu. Ketik `1` di chat kalau sudah, `2` kalau belum; yang belum akan dibantu. Kalau kamu absen, pakai daftar ini untuk mengecek hasilmu setelah menonton rekaman.
+
+- [ ] Fokus (department + opsional negara) dipakai di `10_my_question.sql` **dan** di notebook
+- [ ] Semua sel notebook sudah dijalankan; 2 grafik tersimpan
+- [ ] Bagian 11 notebook berisi jawaban dengan kata-kata sendiri (bukan salinan draf)
+- [ ] Repo `thelook-python-analysis` berisi `my_question/10_my_question.sql`, `my_question/10_my_question.ipynb`, dan 2 gambar `12_...png` di `images/`
+- [ ] Bagian **Studi kasus** di README `thelook-python-analysis` terisi, dengan grafik matriks tampil
+
 ## Latihan mandiri (opsional)
 
 Tidak wajib dan tidak dinilai: jalankan ulang notebook dengan fokus lain (misalnya department yang satunya). Apakah rekomendasinya sama? Tulis satu kalimat perbandingannya di README.

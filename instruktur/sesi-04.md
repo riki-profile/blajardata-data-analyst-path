@@ -23,7 +23,7 @@
 
 ## Checklist hasil (cek sebelum penutup)
 
-Jalankan **sebelum penutup** (2–3 menit): tampilkan daftar ini di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
+Jalankan **sebelum penutup** (2–3 menit). Daftar yang sama ada di README sesi peserta (bagian *Checklist hasil*), jadi kamu bisa langsung menampilkan halaman README itu di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
 
 - [ ] P1, P2, P3 sudah dijalankan; **temuan 1–3 + rekomendasi** tertulis di file kerja (dengan angka)
 - [ ] `README.md` repo `thelook-sql-analysis` berisi Ringkasan, 3 temuan, rekomendasi (bukan template kosong; tidak ada `<...>` tersisa)

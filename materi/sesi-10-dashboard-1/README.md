@@ -118,6 +118,16 @@ Bersama instruktur: buat repo **`thelook-powerbi-dashboard`** ([PANDUAN_GITHUB.m
 
 Tidak wajib dan tidak dinilai. Tambahkan grafik lain ke dashboard, misalnya pendapatan per kelompok umur, per traffic source, atau Men vs Women.
 
+## Checklist hasil (dicek bersama sebelum kelas ditutup)
+
+Sebelum kelas ditutup, instruktur membacakan daftar ini satu per satu. Ketik `1` di chat kalau sudah, `2` kalau belum; yang belum akan dibantu. Kalau kamu absen, pakai daftar ini untuk mengecek hasilmu setelah menonton rekaman.
+
+- [ ] 3 CSV terunduh dalam satu folder; relasi `produk`–`penjualan` dan `pelanggan`–`penjualan` benar
+- [ ] Kartu KPI (Pendapatan, Jumlah Pesanan, AOV) **sama** dengan `cek_cepat.txt`
+- [ ] 3 grafik (tren bulanan, per kategori, per negara) dengan **judul deskriptif**; halaman bernama `Dashboard`
+- [ ] `thelook_dashboard.pbix` tersimpan di laptop
+- [ ] Repo **`thelook-powerbi-dashboard`** berisi `dashboard/thelook_dashboard.pbix`, `dashboard/thelook_dashboard.pdf`, `images/dashboard_v1.png`
+
 ## Ringkasan
 
 - Dashboard = satu halaman untuk memantau dan membagikan jawaban.

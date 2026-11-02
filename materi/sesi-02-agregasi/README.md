@@ -147,6 +147,15 @@ Tidak wajib dan tidak dinilai. Untuk yang ingin berlatih lebih, kerjakan bagian 
 
 - **Top 10 brand berdasarkan pendapatan** (perkiraan, memakai `inventory_items`): jumlah barang terjual, pendapatan, dan rata-rata harga per brand, plus satu kalimat temuan.
 
+## Checklist hasil (dicek bersama sebelum kelas ditutup)
+
+Sebelum kelas ditutup, instruktur membacakan daftar ini satu per satu. Ketik `1` di chat kalau sudah, `2` kalau belum; yang belum akan dibantu. Kalau kamu absen, pakai daftar ini untuk mengecek hasilmu setelah menonton rekaman.
+
+- [ ] B1–B2 terisi di `02_aggregation.sql`
+- [ ] Repo **`thelook-sql-analysis`** ada, **Public**, dengan `README.md`
+- [ ] Repo berisi `sql/01_basics.sql` dan `sql/02_aggregation.sql` (di dalam folder `sql`, bukan di root)
+- [ ] Link repo-mu sudah ditempel di chat Zoom
+
 ## Ringkasan
 
 - Agregasi mengubah banyak baris menjadi satu angka; `GROUP BY` melakukannya per kelompok.

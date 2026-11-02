@@ -113,6 +113,17 @@ Di akhir sesi, **portofolio modul Power BI-mu selesai**.
 
 Tidak wajib dan tidak dinilai. Rapikan desain lebih jauh (tema warna, perataan, tooltip), atau tambahkan halaman ketiga untuk analisis pelanggan (kelompok umur, traffic source).
 
+## Checklist hasil (dicek bersama sebelum kelas ditutup)
+
+Sebelum kelas ditutup, instruktur membacakan daftar ini satu per satu. Ketik `1` di chat kalau sudah, `2` kalau belum; yang belum akan dibantu. Kalau kamu absen, pakai daftar ini untuk mengecek hasilmu setelah menonton rekaman.
+
+- [ ] Halaman **Dashboard**: slicer tanggal + kategori mengubah semua visual; kartu Margin % ada; judul deskriptif
+- [ ] Halaman **Insight**: tanpa slicer, periode terkunci, headline berisi **kesimpulan + angka + periode**, 2–3 visual, kotak rekomendasi
+- [ ] Uji: ubah slicer di halaman Dashboard → angka di halaman Insight **tidak** berubah
+- [ ] Repo berisi `.pbix` + PDF **2 halaman** terbaru, `images/dashboard_final.png`, `images/insight.png`
+- [ ] `README.md` repo `thelook-powerbi-dashboard` lengkap; headline sama dengan halaman Insight
+- [ ] **Modul Power BI selesai**. Jalur penuh: fokus studi kasus sesi 12 sudah dipilih
+
 ## Ringkasan
 
 - Filter di satu baris atas, berlaku untuk semua visual.

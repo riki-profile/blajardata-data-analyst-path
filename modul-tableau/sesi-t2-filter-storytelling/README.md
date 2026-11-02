@@ -97,6 +97,16 @@ Di akhir sesi, **portofolio modul Tableau-mu selesai**.
 
 Tidak wajib dan tidak dinilai: rapikan desain lebih jauh (font, warna, perataan), atau buat dashboard kedua untuk analisis pelanggan.
 
+## Checklist hasil (dicek bersama sebelum kelas ditutup)
+
+Sebelum kelas ditutup, instruktur membacakan daftar ini satu per satu. Ketik `1` di chat kalau sudah, `2` kalau belum; yang belum akan dibantu. Kalau kamu absen, pakai daftar ini untuk mengecek hasilmu setelah menonton rekaman.
+
+- [ ] Dashboard: filter tanggal + kategori berlaku untuk semua sheet Dashboard; kartu Margin % ada; judul deskriptif
+- [ ] Dashboard **Insight**: periode terkunci, headline berisi **kesimpulan + angka + periode**, 2–3 sheet, kotak rekomendasi
+- [ ] Uji: ubah filter di Dashboard → angka di Insight **tidak** berubah
+- [ ] Tersimpan di Tableau Public dengan **Show sheets as tabs**; Edit Details terisi; link terbuka di jendela incognito
+- [ ] Repo berisi `images/dashboard_final.png` dan `images/insight.png`; `README.md` lengkap, headline sama dengan dashboard Insight
+
 ## Ringkasan
 
 - Filter di satu baris atas, berlaku untuk semua sheet.

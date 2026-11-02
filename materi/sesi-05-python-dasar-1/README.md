@@ -85,6 +85,16 @@ Bersama instruktur: buat repo **`thelook-python-analysis`** (langkahnya di [PAND
 
 Tidak wajib dan tidak dinilai. Untuk yang ingin berlatih lebih, kerjakan bagian **LATIHAN MANDIRI** di file kerja; jawabannya dibagikan instruktur setelah kelas. Bagian 9 di notebook: 4 latihan list dan dictionary.
 
+## Checklist hasil (dicek bersama sebelum kelas ditutup)
+
+Sebelum kelas ditutup, instruktur membacakan daftar ini satu per satu. Ketik `1` di chat kalau sudah, `2` kalau belum; yang belum akan dibantu. Kalau kamu absen, pakai daftar ini untuk mengecek hasilmu setelah menonton rekaman.
+
+- [ ] Notebook tersimpan di Drive-mu (**Save a copy in Drive**), bukan hanya dibuka dari link
+- [ ] B1–B2 terisi dan sel sudah dijalankan
+- [ ] Repo **`thelook-python-analysis`** ada, **Public**, dengan `README.md`
+- [ ] `notebooks/05_python_basics.ipynb` ada di repo, dan hasil sel terlihat saat dibuka di GitHub
+- [ ] Peserta baru modul Python: siapkan BigQuery + **Project ID** sebelum sesi 7
+
 ## Ringkasan
 
 - Variabel menyimpan nilai; `=` artinya "simpan ke".

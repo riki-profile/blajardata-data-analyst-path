@@ -28,7 +28,7 @@
 
 ## Checklist hasil (cek sebelum penutup)
 
-Jalankan **sebelum penutup** (2–3 menit): tampilkan daftar ini di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
+Jalankan **sebelum penutup** (2–3 menit). Daftar yang sama ada di README sesi peserta (bagian *Checklist hasil*), jadi kamu bisa langsung menampilkan halaman README itu di layar, bacakan satu per satu, peserta mengetik `1` di chat kalau sudah. Yang belum: bantu sebentar, atau catat namanya untuk dibantu setelah kelas.
 
 - [ ] Bagian A (pembersihan) dan B (3 grafik) sudah dijalankan; B1–B2 terisi
 - [ ] `notebooks/08_cleaning_and_charts.ipynb` ada di repo

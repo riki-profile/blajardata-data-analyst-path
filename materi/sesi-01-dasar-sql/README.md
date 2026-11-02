@@ -158,6 +158,15 @@ Tidak wajib dan tidak dinilai. Untuk yang ingin berlatih lebih, kerjakan bagian 
 1. **Lima query filter**, masing-masing dengan komentar: pertanyaan apa yang dijawab.
 2. **Lima pertanyaan bisnis** untuk TheLook, ditulis sebagai komentar di bagian bawah file.
 
+## Checklist hasil (dicek bersama sebelum kelas ditutup)
+
+Sebelum kelas ditutup, instruktur membacakan daftar ini satu per satu. Ketik `1` di chat kalau sudah, `2` kalau belum; yang belum akan dibantu. Kalau kamu absen, pakai daftar ini untuk mengecek hasilmu setelah menonton rekaman.
+
+- [ ] BigQuery terbuka dengan project sandbox; semua query demo bagian A–D sudah dijalankan
+- [ ] B1 (5 dress termurah) dan B2 (jumlah pesanan Returned) terisi di file kerja dan hasilnya keluar
+- [ ] File tersimpan di laptop sebagai `01_basics.sql` (teks biasa, bukan `.txt` atau `.rtf`)
+- [ ] Kamu ingat: login GitHub sebelum sesi 2
+
 ## Ringkasan
 
 - Analisis data dimulai dari **pertanyaan bisnis**, bukan dari data.

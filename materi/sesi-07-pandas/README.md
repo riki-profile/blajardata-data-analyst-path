@@ -77,6 +77,15 @@ Bersama instruktur: ganti `PROJECT_ID` dengan teks `"isi-project-id-kamu"` (supa
 
 Tidak wajib dan tidak dinilai. Untuk yang ingin berlatih lebih, kerjakan bagian **LATIHAN MANDIRI** di file kerja; jawabannya dibagikan instruktur setelah kelas. Bagian 10 di notebook: muat tabel `users` dan jawab 5 pertanyaan eksplorasi.
 
+## Checklist hasil (dicek bersama sebelum kelas ditutup)
+
+Sebelum kelas ditutup, instruktur membacakan daftar ini satu per satu. Ketik `1` di chat kalau sudah, `2` kalau belum; yang belum akan dibantu. Kalau kamu absen, pakai daftar ini untuk mengecek hasilmu setelah menonton rekaman.
+
+- [ ] Koneksi Colab ke BigQuery berhasil (sel uji menampilkan "Terhubung ke BigQuery!")
+- [ ] Tabel analisis termuat; B1–B2 terisi dan dijalankan
+- [ ] `PROJECT_ID` diganti `"isi-project-id-kamu"` sebelum diunggah
+- [ ] `notebooks/07_pandas_exploration.ipynb` ada di repo
+
 ## Ringkasan
 
 - SQL mengambil data dari BigQuery, pandas mengolahnya di Colab.

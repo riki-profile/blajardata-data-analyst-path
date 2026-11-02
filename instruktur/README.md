@@ -127,7 +127,7 @@ npx @marp-team/marp-cli@latest materi/sesi-01-dasar-sql/slides.md --pptx
 | Kerjakan bersama | 10–15 menit | Pakai file kunci sebagai contekan. Bacakan soalnya, tanya di chat "kolom/fungsi apa yang kita perlukan?", beri 20–30 detik, lalu **ketik jawabannya di layar** pelan-pelan sementara peserta mengikuti. "Ketik 1 kalau hasilnya sama" |
 | Unggah bersama | ±10 menit | Demo unggah file sesi itu ke repo portofolio; tunggu sampai mayoritas mengetik 1. Jangan dipotong walaupun waktu sempit: potong tanya jawab |
 | Tanya jawab | 10–20 menit | Kalau tidak ada pertanyaan, tanyakan balik: "Bagian mana yang paling membingungkan hari ini?" |
-| Penutup | ±5 menit | Jalankan **checklist hasil** di runsheet sesi itu (apa yang harus sudah dimiliki setiap peserta), lalu ringkasan 3 poin, latihan mandiri (opsional), tanggal sesi berikutnya |
+| Penutup | ±5 menit | Jalankan **checklist hasil** di runsheet sesi itu (apa yang harus sudah dimiliki setiap peserta; daftar yang sama ada di README peserta), lalu ringkasan 3 poin, latihan mandiri (opsional), tanggal sesi berikutnya |
 
 ## Sebelum setiap sesi
 

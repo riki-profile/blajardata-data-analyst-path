@@ -80,6 +80,16 @@ Di akhir sesi, **portofolio modul Python-mu selesai**.
 
 Tidak wajib dan tidak dinilai: tambahkan analisis pendukung di sel terakhir notebook, misalnya repeat-purchase rate per `traffic_source` atau per kelompok umur.
 
+## Checklist hasil (dicek bersama sebelum kelas ditutup)
+
+Sebelum kelas ditutup, instruktur membacakan daftar ini satu per satu. Ketik `1` di chat kalau sudah, `2` kalau belum; yang belum akan dibantu. Kalau kamu absen, pakai daftar ini untuk mengecek hasilmu setelah menonton rekaman.
+
+- [ ] B1–B2 terisi; **3 temuan + rekomendasi** tertulis di notebook (dengan angka)
+- [ ] `README.md` repo `thelook-python-analysis` berisi Ringkasan, 3 temuan, rekomendasi (tidak ada `<...>` tersisa)
+- [ ] `notebooks/09_customer_analysis.ipynb` dan `images/04_segmen_rfm.png` ada di repo
+- [ ] Repo berisi 5 notebook (`05` sampai `09`) dan 4 gambar
+- [ ] **Modul Python selesai**. Jalur penuh: install Power BI sebelum sesi 10 (Mac: Parallels, mulai Minggu)
+
 ## Ringkasan
 
 - Untuk data yang miring, median lebih mewakili "pelanggan tipikal" daripada rata-rata.
